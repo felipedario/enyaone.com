@@ -1,0 +1,80 @@
+/* Copyright 2008 Felipe Dário (http://flipdarius.googlepages.com) */
+
+img{border:none;}
+
+body{
+font-size:100%;
+line-height:1.2em; 
+background: #fff;
+color:#000;
+font-family: serif;}
+
+a{
+text-decoration:underline;
+color:#808080;}
+
+#logo a:link,#logo a:hover,#logo a:visited,#logo a:active{}
+
+#other-sites, #menu, form, #search, #sidebar, .btt, #mel, #video-p, #video-s{
+display:none;}
+
+h1{
+display:none;}
+
+h1 a{
+color:#000 !important;}
+
+#footer{
+font-size:.8em;}
+
+td,th{
+border-bottom:1px solid #808080;}
+
+th{
+background:#f5f5f5;}
+
+h4{
+border-bottom:1px solid #808080;
+background:#f5f5f5;}
+
+table{
+clear:both;
+table-layout:fixed;}
+
+#home-news .date{
+font-weight:bold;}
+
+
+/* ads */
+
+#ad1, .ad2, .buy, .ms2, .gad3, #ad250, scipt, frame, ifrane{
+display:none;}
+
+div{
+float:none !important;
+height:auto !important;
+width:auto !important;}
+
+a:link:after,a:visited:after,a:hover:after,a:active:after {
+content: " <" attr(href) "> ";
+color: #808080;
+font-style: italic;
+font-weight: normal;}
+
+a[href^="e"]:after, a[href^="a"]:after , a[href^="g"]:after{
+content: " <http://www.enyalyrics.googlepages.com/"attr(href)"> ";}
+
+a[href^="mailto"]:after {
+content: "";}
+
+
+
+h2:after, #footer:before{
+color:#808080;
+display:block !important;
+margin-bottom:1em;
+font-style:italic;
+font-weight:bold;
+content: " Brought to you for free by www.EnyaLyrics.googlepages.com ";}
+
+
