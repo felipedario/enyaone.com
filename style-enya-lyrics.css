@@ -34,6 +34,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 }
 
+.desc{
+	font-size: 1.25em;
+}
+
+
 	.ads-2016 {
 		margin: 1em 0 2em;
 	}
@@ -822,7 +827,26 @@ grid-row-gap: 0px;
 }
 
 
+.float-left{
+	float: left;
+	margin: 0 20px 20px 0;
+}
 
+.width-33{
+	width: 33%;
+}
+
+.rounded{
+	border-radius: 15px;
+}
+
+@media screen and (max-width: 800px) {
+
+.width-33{
+	width: 50%;
+}
+
+}
 
 
 /* responsivo */
@@ -836,8 +860,27 @@ grid-row-gap: 0px;
 
 	}
 
+	@media screen and (min-width: 801px) {
+
+		.mobile{
+			display: none;
+		}
+
+		.desktop{
+			display: block;
+		}
+	}	
+
 
 @media screen and (max-width: 800px) {
+
+	.desktop{
+		display: none;
+	}
+
+	.mobile{
+		display: block;
+	}
 
 	.discography td{
 		display:block; 
