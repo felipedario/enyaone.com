@@ -470,6 +470,7 @@ h5 {
 }
 
 blockquote{
+	border-radius: 10px;
 	margin: 1em 0;
 	padding: 15px 30px;
 	text-align: center;
