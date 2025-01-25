@@ -20,6 +20,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	display: block;
 }
 
+.right-amazon-album-link{
+	float: right; 
+	margin: 0 0 10px 30px;
+}
+
 @media screen and (max-width: 600px) {
 	.new-amazon-album-link{
 		display: block;
@@ -1051,7 +1056,7 @@ grid-row-gap: 0px;
 	}
 	
 	
-	#menu ul li:nth-child(3), #menu ul li:nth-child(5), #menu ul li:nth-child(6), #menu li ul {
+	#menu ul li:nth-child(3), #menu ul li:nth-child(4), #menu li ul {
 		display: none;
 	}
 
