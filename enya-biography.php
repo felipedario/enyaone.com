@@ -1,87 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>   
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-K7NW25M');</script>
-	<!-- End Google Tag Manager -->
-
-<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type" /><meta charset="utf-8">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="style-enya-lyrics.css" />
-<title>Enya biography, net worth, husband and personal life | Enya One</title>
-
-<link rel="canonical" href="https://www.enyaone.com/enya-biography.html">
-
-<meta name="description" content="All info on Enya's life: what's her net worth? Does she lives in a castle? Is Enya married? Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!" />
-
-</head>
+<?php $pageTitle = "Enya biography, net worth, husband and personal life | Enya One"; include 'head.php'; ?>
 <body>
 
 <a href="#main" class="sr">Jump to content</a>
 <div id="wrap">
-	<header>
-		<div id="logo"><a href="index.html" title="Enya Lyrics main page">Enya One: Enya songs, albums, biography, lyrics, and more!</a></div>
-		
-		<div id="menu">
-			<ul>
-				<!-- <li><a href="new-enya-album-2025.html" class="new-album-link">New album!</a></li> -->	
-
-				<li class="drop"><a href="enya-songs-albums.html" title="Albums and lyrics list" id="sm">Songs, Albums  &amp; Lyrics
-					</a>
-					
-					<ul>
-						<li><a href="enya-album.html"><em>Enya</em>, 1987</a></li>
-						<li><a href="watermark.html"><em>Watermark</em>, 1988</a></li>
-						<li><a href="shepherd-moons.html"><em>Shepherd
-							Moons</em>, 1991</a></li>
-						<li><a href="the-celts.html"><em>The Celts</em>, 1992</a></li>
-						<li><a href="the-memory-of-trees.html"><em>The
-							Memory of Trees</em>, 1995</a></li>
-						<li><a href="paint-the-sky-with-stars.html"><em>Paint
-							The Sky With Stars</em>, 1997</a></li>
-						<li><a href="a-day-without-rain.html"><em>A
-							Day Without Rain</em>, 2000</a></li>
-						<li><a href="enya-amarantine.html"><em>Amarantine</em>, 2005</a></li>
-						<li><a href="and-winter-came.html"><em>And Winter Came</em>, 2008</a></li>
-						<li><a href="very-best-enya.html"><em>The Very Best of Enya</em>, 2009</a></li>
-						<li><a href="enya-dark-sky-island.html"><em>Dark Sky Island</em>, 2015</a></li>
-						<li><a href="enya-other.html">Other songs by Enya</a></li>
-						<li><a href="all-enya-songs.html">List of all songs</a></li>
-					</ul>
-				</li>
-				<li><a href="enya-biography.html" title="Enya biography">Biography</a></li>
-
-				<li><a href="new-age-music.html" title="New Age music">Artists like Enya</a></li>
-
-				<li><a href="enya-video.html" title="EnyaTube Enya videos">Videos</a></li>
-				
-				<li><a href="sitemap.html" title="More about Enya">More <span>about Enya: sitemap</span></a></li>
-			</ul>
-		</div>
-		
-		<div id="search">
-			<fieldset>
-				<legend>
-					<label for="text">Search Enya One</label>
-				</legend>
-				
-				<form action="https://www.google.com" id="cse-search-box">
-					<input type="hidden" name="cx" value="partner-pub-6820018585261081:4173396540" />
-					
-					<input type="hidden" name="ie" value="UTF-8" />
-					
-					<input type="text" name="q"  placeholder="Search" class="field" />
-					
-					<input type="submit" name="sa" value="Search" class="button" />
-				</form>
-			</fieldset>
-		</div>
-	</header>
+	<?php include 'header.php'; ?>
 	
 
 <div id="content">
@@ -180,16 +102,16 @@ style and other projects</a></li>
 
 <h4>What is Enya's musical genre? What's her type of music?</h4>
 
-<p>Numerous critics and reviewers classify Enya's albums as <a href="new-age-music.html">new age music</a> and she has won four Grammy Awards in the category. However, Enya does not classify her music as part of the genre. When asked what genre she would classify her music, her reply was "Enya". </p>
+<p>Numerous critics and reviewers classify Enya's albums as <a href="new-age-music.php">new age music</a> and she has won four Grammy Awards in the category. However, Enya does not classify her music as part of the genre. When asked what genre she would classify her music, her reply was "Enya". </p>
 	
-<p><a href="roma-ryan-nicky.html">Nicky Ryan</a> commented on the new age comments: "Initially it was fine, but it's really not new age. Enya plays a whole lot of instruments, not just keyboards. Her melodies are strong and she sings a lot. So I can't see a comparison."</p>
+<p><a href="roma-ryan-nicky.php">Nicky Ryan</a> commented on the new age comments: "Initially it was fine, but it's really not new age. Enya plays a whole lot of instruments, not just keyboards. Her melodies are strong and she sings a lot. So I can't see a comparison."</p>
 
-<a href="new-age-music.html">Learn more about New Age, Celtic, ambient and ethereal music: artists like Enya</a>
+<a href="new-age-music.php">Learn more about New Age, Celtic, ambient and ethereal music: artists like Enya</a>
 
 
 <h4>Does Enya do shows or concert tours? Are there any planned appearances on TV, signing sessions...</h4>
 
-<p>Despite promoting her albums and making a few TV appearances, Enya hasn't toured since her days with Clannad in the 1980s. While she's hinted at touring in interviews, fans likely won't see a live Enya experience anytime soon. Enya does make appearances on TV and radio: <a href="enya-live-video.html">check this live performances compilation</a>.</p>
+<p>Despite promoting her albums and making a few TV appearances, Enya hasn't toured since her days with Clannad in the 1980s. While she's hinted at touring in interviews, fans likely won't see a live Enya experience anytime soon. Enya does make appearances on TV and radio: <a href="enya-live-video.php">check this live performances compilation</a>.</p>
 
 <h4>Is Enya a religious person?</h4>
 
@@ -211,7 +133,7 @@ style and other projects</a></li>
 	
 <h3>Enya's biography</h3>
 
-<p>Enya's musical journey began in Gweedore, County Donegal, Ireland. Immersed in the rich cultural heritage of this Irish-speaking region, she was born into a musical family. This environment fostered her talent, and in 1980, she joined her family's band, <a href="enya-clannad.html">Clannad</a>. With Clannad, she showcased her skills on keyboards and provided backing vocals. However, by 1982, Enya decided to forge her own path as a solo artist. Partnering with Clannad's manager and producer, Nicky Ryan, and enlisting the lyrical talents of his wife, Roma Ryan, Enya embarked on a successful solo career.</p>
+<p>Enya's musical journey began in Gweedore, County Donegal, Ireland. Immersed in the rich cultural heritage of this Irish-speaking region, she was born into a musical family. This environment fostered her talent, and in 1980, she joined her family's band, <a href="enya-clannad.php">Clannad</a>. With Clannad, she showcased her skills on keyboards and provided backing vocals. However, by 1982, Enya decided to forge her own path as a solo artist. Partnering with Clannad's manager and producer, Nicky Ryan, and enlisting the lyrical talents of his wife, Roma Ryan, Enya embarked on a successful solo career.</p>
 	
 
 <p>Over four years, Enya developed a signature style using layered vocals and keyboards. Her music seamlessly blended new age, Celtic, classical, and folk influences, creating a unique and captivating sound. This artistic exploration extended to language, with Enya recording songs in ten languages.</p>
@@ -224,12 +146,12 @@ style and other projects</a></li>
 	</blockquote>
 
 
-<p>Enya's first projects as a solo artist included soundtrack work for <a href="enya-other.html"><em>The Frog Prince</em></a> (1984) and the 1987 BBC documentary series <a href="the-celts.html"><em>The Celts</em></a>, which was released as her debut album, <a href="the-celts.html"><em>Enya</em></a> (1987). She signed with Warner Music UK, which granted her artistic freedom and minimal interference from the label. The commercial and critical success of <a href="watermark.html"><em>Watermark</em></a> (1988) propelled her to worldwide fame, helped by the international top-10 hit single "Orinoco Flow". This was followed by the multi-million selling albums <a href="shepherd-moons.html"><em>Shepherd Moons</em></a> (1991), <a href="the-memory-of-trees.html"><em>The Memory of Trees</em></a> (1995) and <a href="a-day-without-rain.html"><em>A Day Without Rain</em></a> (2000). Sales of the latter and its lead single, "Only Time", surged in the United States following its use in the media coverage of the September 11 attacks. Following <a href="enya-amarantine.html"><em>Amarantine</em></a> (2005) and <a href="and-winter-came.html"><em>And Winter Came...</em></a> (2008), Enya took an extended break from music; she returned in 2012 and released <a href="enya-dark-sky-island.html"><em>Dark Sky Island</em></a> (2015). </p>
+<p>Enya's first projects as a solo artist included soundtrack work for <a href="enya-other.php"><em>The Frog Prince</em></a> (1984) and the 1987 BBC documentary series <a href="the-celts.php"><em>The Celts</em></a>, which was released as her debut album, <a href="the-celts.php"><em>Enya</em></a> (1987). She signed with Warner Music UK, which granted her artistic freedom and minimal interference from the label. The commercial and critical success of <a href="watermark.php"><em>Watermark</em></a> (1988) propelled her to worldwide fame, helped by the international top-10 hit single "Orinoco Flow". This was followed by the multi-million selling albums <a href="shepherd-moons.php"><em>Shepherd Moons</em></a> (1991), <a href="the-memory-of-trees.php"><em>The Memory of Trees</em></a> (1995) and <a href="a-day-without-rain.php"><em>A Day Without Rain</em></a> (2000). Sales of the latter and its lead single, "Only Time", surged in the United States following its use in the media coverage of the September 11 attacks. Following <a href="enya-amarantine.php"><em>Amarantine</em></a> (2005) and <a href="and-winter-came.php"><em>And Winter Came...</em></a> (2008), Enya took an extended break from music; she returned in 2012 and released <a href="enya-dark-sky-island.php"><em>Dark Sky Island</em></a> (2015). </p>
 
 
 
-<p><strong>Enya is known for her privacy and has never undertaken a concert tour.</strong> She is Ireland's bestselling solo artist overall, and bestselling act behind U2, with a discography that has sold 26.5 million certified albums in the United States and an estimated 80 million records worldwide, making her one of the bestselling music artists of all time. <a href="a-day-without-rain.html"><em>A Day Without Rain</em></a> (2000) remains the bestselling new-age album, with an estimated 16 million copies sold worldwide. Enya has won awards including seven World Music Awards, four Grammy Awards for Best New Age Album, and an Ivor Novello Award. She was nominated for an Academy Award and a Golden Globe Award for "<a href="
-the-lord-of-the-rings.html">May It Be</a>", written for <em>The Lord of the Rings: The Fellowship of the Ring</em> (2001). </p>
+<p><strong>Enya is known for her privacy and has never undertaken a concert tour.</strong> She is Ireland's bestselling solo artist overall, and bestselling act behind U2, with a discography that has sold 26.5 million certified albums in the United States and an estimated 80 million records worldwide, making her one of the bestselling music artists of all time. <a href="a-day-without-rain.php"><em>A Day Without Rain</em></a> (2000) remains the bestselling new-age album, with an estimated 16 million copies sold worldwide. Enya has won awards including seven World Music Awards, four Grammy Awards for Best New Age Album, and an Ivor Novello Award. She was nominated for an Academy Award and a Golden Globe Award for "<a href="
+the-lord-of-the-rings.php">May It Be</a>", written for <em>The Lord of the Rings: The Fellowship of the Ring</em> (2001). </p>
 
 <p><a rel="nofollow" target="_blank" href="https://amzn.to/38qoPzQ">Download or stream Enya songs</a></p>
 
@@ -261,7 +183,7 @@ upbringing and Clannad</h3>
 <p>Eithne Patricia N&iacute; Bhraon&aacute;in was born in
 Gweedore, County Donegal, in Ireland in 1961
 to a
-musical family, the fifth of nine children. Enya's musical path was practically preordained. Her grandparents performed in a band throughout Ireland, laying the groundwork for her artistic heritage. Her father led his own band, the Slieve Foy Band, before venturing into the hospitality industry with a pub. Music remained a constant, as Enya's mother actively played and even went on to teach music at the Gweedore Comprehensive School. The artistic influence didn't stop there – several of Enya's siblings formed their own band, An Clann As Dobhar, in 1968.  This rich musical environment undoubtedly nurtured Enya's talent and passion for music. They renamed the band <a href="enya-clannad.html">Clannad</a>, which means
+musical family, the fifth of nine children. Enya's musical path was practically preordained. Her grandparents performed in a band throughout Ireland, laying the groundwork for her artistic heritage. Her father led his own band, the Slieve Foy Band, before venturing into the hospitality industry with a pub. Music remained a constant, as Enya's mother actively played and even went on to teach music at the Gweedore Comprehensive School. The artistic influence didn't stop there – several of Enya's siblings formed their own band, An Clann As Dobhar, in 1968.  This rich musical environment undoubtedly nurtured Enya's talent and passion for music. They renamed the band <a href="enya-clannad.php">Clannad</a>, which means
 "family", in the 1970s.</p>
 
 
@@ -286,14 +208,14 @@ although she was never officially a member of the group. Enya struck out on her 
 <div style="float: left; width: 345px; margin:10px 30px 1em 0;">
 <a href="1390.jpg"><img src="iwt.jpg" alt=""  /></a>
 <p style="font-size: 0.9em; margin-bottom: 0;">
-<em>Enya in <a href="video-i-want-tomorrow.html">music video for "I Want Tomorrow"</a>, from the soundtrack of</em>&nbsp;&nbsp;<a href="the-celts-documentary.html">The Celts <em>documentary</a>.</em></p>
+<em>Enya in <a href="video-i-want-tomorrow.php">music video for "I Want Tomorrow"</a>, from the soundtrack of</em>&nbsp;&nbsp;<a href="the-celts-documentary.php">The Celts <em>documentary</a>.</em></p>
 </div>
 
 
 
 
 <p>Enya recorded two solo instrumental songs called "An Ghaoth
-&Oacute;n Ghrian" ("The Solar Wind") and <a href="watermark.html#Miss_Claire_Remembers">"Miss Clare Remembers"</a>
+&Oacute;n Ghrian" ("The Solar Wind") and <a href="watermark.php#Miss_Claire_Remembers">"Miss Clare Remembers"</a>
 that
 were released on the 1983 demo tape <em>Touch Travel</em>. She
 was first credited as
@@ -317,9 +239,9 @@ on the song "Never Get Old".</p>
 
 <p>Enya was contracted to provide music for the soundtrack of the
 1986
-<a href="the-celts-documentary.html">BBC television documentary <em>The Celts</em></a>. The music
+<a href="the-celts-documentary.php">BBC television documentary <em>The Celts</em></a>. The music
 she produced was
-featured on her first solo album, <a href="enya-album.html"><em>Enya</em> (1987)</a>,
+featured on her first solo album, <a href="enya-album.php"><em>Enya</em> (1987)</a>,
 but it attracted little
 attention at the time.</p>
 
@@ -328,7 +250,7 @@ breakthrough</h3>
 
 <p>Enya achieved a breakthrough in her career in 1988 with the
 album
-<a href="watermark.html"><em>Watermark</em></a>, which featured the hit song <a href="watermark.html#Orinoco_Flow">"Orinoco Flow" (sometimes known
+<a href="watermark.php"><em>Watermark</em></a>, which featured the hit song <a href="watermark.php#Orinoco_Flow">"Orinoco Flow" (sometimes known
 as "Sail Away")</a>. "Orinoco Flow" topped the charts in the United
 Kingdom, and the album sold eight million copies.</p>
 
@@ -340,46 +262,46 @@ Kingdom, and the album sold eight million copies.</p>
 </blockquote>
 
 <p>Three years later, she followed with another hit album,
-<a href="shepherd-moons.html"><em>Shepherd
+<a href="shepherd-moons.php"><em>Shepherd
 Moons</em></a>, which sold ten million copies and earned Enya her
 first Grammy
-Award. The songs <a href="watermark.html#On_Your_Shore">"On Your Shore"</a> and <a href="watermark.html#Exile">"Exile"</a> (from <em>Watermark</em>)
+Award. The songs <a href="watermark.php#On_Your_Shore">"On Your Shore"</a> and <a href="watermark.php#Exile">"Exile"</a> (from <em>Watermark</em>)
 and
-<a href="the-celts.html#Epona">"Epona"</a> (from <em>Enya</em>) were featured in the 1991
-film <em>L.A. Story</em>. <a href="shepherd-moons.html#Ebud%E6">"Ebudae"</a>
+<a href="the-celts.php#Epona">"Epona"</a> (from <em>Enya</em>) were featured in the 1991
+film <em>L.A. Story</em>. <a href="shepherd-moons.php#Ebud%E6">"Ebudae"</a>
 was also featured on the soundtrack to the Robin Williams film <em>Toys</em>,
-while the 1990 film <em>Green Card</em> had <a href="watermark.html#River">"River"</a>,
-<a href="watermark.html#Watermark">"Watermark"</a>, and <a href="watermark.html#Storms_In_Africa">"Storms In
-Africa"</a>. <a href="enya-other.html#Book_Of_Days_English_Lyric">"Book Of Days"</a> was featured prominently in the movie <em>Far
+while the 1990 film <em>Green Card</em> had <a href="watermark.php#River">"River"</a>,
+<a href="watermark.php#Watermark">"Watermark"</a>, and <a href="watermark.php#Storms_In_Africa">"Storms In
+Africa"</a>. <a href="enya-other.php#Book_Of_Days_English_Lyric">"Book Of Days"</a> was featured prominently in the movie <em>Far
 and
 Away</em>, featuring Nicole Kidman and Tom Cruise.</p>
 
 <p>In 1992 a remastered version of the <em>Enya</em>
 album was released, called
-<a href="the-celts.html"><em>The
-Celts</em></a> and including a longer, modified version of <a href="the-celts.html#Portrait_Out_Of_The_Blue">"Portrait
+<a href="the-celts.php"><em>The
+Celts</em></a> and including a longer, modified version of <a href="the-celts.php#Portrait_Out_Of_The_Blue">"Portrait
 (Out of the
 Blue)"</a>. Four years after <em>Shepherd Moons</em>, she
 released the
-Grammy-winning <a href="the-memory-of-trees.html"><em>The Memory of Trees</em> (1995)</a>.</p>
+Grammy-winning <a href="the-memory-of-trees.php"><em>The Memory of Trees</em> (1995)</a>.</p>
 
-<p>In 1997, Enya released her greatest hits collection, <a href="paint-the-sky-with-stars.html"><em>Paint
+<p>In 1997, Enya released her greatest hits collection, <a href="paint-the-sky-with-stars.php"><em>Paint
 The
 Sky
 With Stars: The Best of Enya</em></a>, which featured two new songs:
-<a href="paint-the-sky-with-stars.html#Paint_the_Sky_with_Stars">"Paint the
-Sky With Stars"</a> and <a href="paint-the-sky-with-stars.html#Only_If...">"Only If..."</a>.</p>
+<a href="paint-the-sky-with-stars.php#Paint_the_Sky_with_Stars">"Paint the
+Sky With Stars"</a> and <a href="paint-the-sky-with-stars.php#Only_If...">"Only If..."</a>.</p>
 
 <h3><a name="Return_and_A_Day_Without_Rain"></a>Return
 and&nbsp;<em>A Day Without Rain</em></h3>
 
 
-<p>Following a five-year break, she released the Grammy winning <a href="a-day-without-rain.html"><em>A
+<p>Following a five-year break, she released the Grammy winning <a href="a-day-without-rain.php"><em>A
 Day
 Without Rain</em></a> in 2000. The album is Enya's most successful to
 date,
 peaking at #2 on the US Billboard Album charts. After the September 11,
-2001 attacks, her song <a href="a-day-without-rain.html#Only_Time">"Only Time"</a> (from <em>A Day Without Rain</em>)
+2001 attacks, her song <a href="a-day-without-rain.php#Only_Time">"Only Time"</a> (from <em>A Day Without Rain</em>)
 was used
 as a backdrop in many radio and TV reports about the attacks. She
 initially frowned upon this use, especially when many bootlegged
@@ -387,7 +309,7 @@ versions of "Only Time" mixed with sound effects from the attack began
 to appear.</p>
 
 
-<p>"Only Time" surged in popularity after 9/11, with Enya even releasing a charity version. However, some fans found this association unwelcome. For example, during a 2002 CNN appearance, images of war clashed with her performance of "<a href="enya-other.html#May_It_Be">May It Be</a>", a song with little war connection, featured in <a href="the-lord-of-the-rings.html"><em>The
+<p>"Only Time" surged in popularity after 9/11, with Enya even releasing a charity version. However, some fans found this association unwelcome. For example, during a 2002 CNN appearance, images of war clashed with her performance of "<a href="enya-other.php#May_It_Be">May It Be</a>", a song with little war connection, featured in <a href="the-lord-of-the-rings.php"><em>The
 	Lord Of The Ring: The Fellowship Of The Ring</em></a> movie
 	soundtrack. This highlights the complex relationship between music and its interpretation.</p>
 
@@ -402,7 +324,7 @@ to appear.</p>
 composing
 music, therefore fans have had to wait as long as five years between
 albums. In September 2004, a new song, set to words from a Japanese
-poem Roma Ryan had written and called <a href="enya-amarantine.html#Sumiregusa_Wild_Violet">"Sumiregusa" ("Wild Violet")</a> was
+poem Roma Ryan had written and called <a href="enya-amarantine.php#Sumiregusa_Wild_Violet">"Sumiregusa" ("Wild Violet")</a> was
 unveiled in Japan as part of an advertising campaign for Panasonic. In
 announcing the new recording, Warner Music Japan stated that Enya's
 next album was scheduled for release in
@@ -412,7 +334,7 @@ immediately forthcoming.</p>
 
 <h3><a name="1998"></a>1998&ndash;2007: A Day Without Rain and Amarantine</h3>
 
-<p>In November of 2005, a new album, entitled <a href="enya-amarantine.html"><em>Amarantine</em></a>,
+<p>In November of 2005, a new album, entitled <a href="enya-amarantine.php"><em>Amarantine</em></a>,
 was
 released. It won the Grammy Award for Best New Age Album for 2007. In
 the following year, Enya released several Christmas-themed CDs with
@@ -440,20 +362,20 @@ NBC television network and the Target department store chain.</p>
 <p>In later November two new editions of <em>Amarantine</em>
 were
 released. In
-North America, it was reissued as <a href="enya-other.html"><em>Amarantine - Special
+North America, it was reissued as <a href="enya-other.php"><em>Amarantine - Special
 Christmas
 Edition</em></a> with a second disc containing the four new Christmas
 songs
 previously issued on <em>Sounds of the Season</em>. The UK
 received a deluxe version of this release
-(<a href="enya-other.html"><em>Amarantine - The UK Special Edition</em></a>) which also
+(<a href="enya-other.php"><em>Amarantine - The UK Special Edition</em></a>) which also
 included three
 postcards and a copy of Roma Ryan's book <em>Water Shows the
 Hidden Heart</em>
 which is referenced on the original album. Canadian fans could choose
-from the <a href="enya-other.html"><em>Special Christmas Edition of Amarantine</em></a>,
+from the <a href="enya-other.php"><em>Special Christmas Edition of Amarantine</em></a>,
 or an EP entitled
-<a href="enya-other.html"><em>Christmas Secrets</em></a> which only contained the four
+<a href="enya-other.php"><em>Christmas Secrets</em></a> which only contained the four
 new songs.</p>
 
 <div style="float: right; width: 187px; margin:0 0 1em 30px;">
@@ -478,7 +400,7 @@ new songs.</p>
 <div style="float: right; width: 279px; margin:10px 0 0 30px;">
 	<a href="amarantine04.jpg"  rel="nofollow" target="_blank"><img src="el-enya.jpg" alt="" title="Show bigger image" /></a>
 	<p style="font-size: 0.9em; margin-bottom: 0;">
-	<em>Enya in a promotional photo for the</em> <a href="enya-amarantine.html">Amarantine</a> <em>album</em> (<a href="amarantine04.jpg" rel="nofollow" target="_blank">Show bigger image</a>).</p>
+	<em>Enya in a promotional photo for the</em> <a href="enya-amarantine.php">Amarantine</a> <em>album</em> (<a href="amarantine04.jpg" rel="nofollow" target="_blank">Show bigger image</a>).</p>
 	</div>
 
 <p>Enya continued to write music with a winter and Christmas theme for her seventh studio album, <em>And Winter Came...</em>. Initially she intended to make an album of seasonal songs and hymns set for a release in late 2007, but decided to produce a winter-themed album instead. The track "My! My! Time Flies!", a tribute to the late Irish guitarist Jimmy Faulkner, incorporates a guitar solo performed by Pat Farrell, the first use of a guitar on an Enya album since "I Want Tomorrow" from Enya. Upon its release in November 2008, <em>And Winter Came...</em> reached No. 6 in the UK and No. 8 in the US[45] and sold almost 3.5 million copies worldwide by 2011.[74]</p>
@@ -505,20 +427,20 @@ style and other projects</h3>
 	<em>Enya</em>
 </blockquote>
 
-<p>On her 2005 album, <a href="enya-amarantine.html"><em>Amarantine</em></a>, Enya
+<p>On her 2005 album, <a href="enya-amarantine.php"><em>Amarantine</em></a>, Enya
 sings in Japanese and
 Loxian,
 a language invented by Roma Ryan. A number of Enya's songs are sung
 entirely in Irish or Latin, while most of her songs are sung in
 English. Enya has also sung songs written entirely or partially in
 Welsh, Spanish, French and even languages created by J. R. R. Tolkien.
-Enya has performed songs relating to <a href="the-lord-of-the-rings.html">J. R. R. Tolkien's <em>The
+Enya has performed songs relating to <a href="the-lord-of-the-rings.php">J. R. R. Tolkien's <em>The
 Lord of the
 Rings</em></a>, including 1991's "Lothl&oacute;rien"
 (instrumental), 2001's
-<a href="enya-other.html#May_It_Be">May
-It Be"</a>, and <a href="enya-other.html#An%EDron">"An&iacute;ron"</a>, the last two which she composed appearing on the
-soundtrack of Peter Jackson's movie <a href="the-lord-of-the-rings.html"><em>The Lord of the Rings:
+<a href="enya-other.php#May_It_Be">May
+It Be"</a>, and <a href="enya-other.php#An%EDron">"An&iacute;ron"</a>, the last two which she composed appearing on the
+soundtrack of Peter Jackson's movie <a href="the-lord-of-the-rings.php"><em>The Lord of the Rings:
 The
 Fellowship of the Ring</em></a>.</p>
 
@@ -532,7 +454,7 @@ day, and would consider it to be a great challenge.</p>
 
 <ul>
 <li><strong>Movies:</strong> old black &amp; white (<em>Rebecca</em> by Hitchcock)</li>
-<li><strong>Book:</strong> <a href="the-lord-of-the-rings.html"><em>The Lord of the Rings</em></a> by J.R.R. Tolkien (her favourite
+<li><strong>Book:</strong> <a href="the-lord-of-the-rings.php"><em>The Lord of the Rings</em></a> by J.R.R. Tolkien (her favourite
 character is Frodo)</li>
 <li><strong>Music:</strong> classical (Rachmaninoff, Debussy)<br />
 <em>"I was asked the question 'What was the first single you ever bought?'
@@ -574,13 +496,13 @@ artwork, reading, painting.</li>
 <p>Enya has won four Grammy Awards for <em>Best New Age Album</em> to date:</p>
 
 <ol>
-<li>Grammy Awards of 1993, <em>Best New Age Album</em> for <a href="shepherd-moons.html"><em>Shepherd Moons</em></a></li>
-<li>Grammy Awards of 1997, <em>Best New Age Album</em> for <a href="the-memory-of-trees.html"><em>The Memory of Trees</em></a></li>
-<li>Grammy Awards of 2002, <em>Best New Age Album</em> for <a href="a-day-without-rain.html"><em>A Day Without Rain</em></a></li>
-<li>Grammy Awards of 2007, <em>Best New Age Album</em> for <a href="enya-amarantine.html"><em>Amarantine</em></a></li>
+<li>Grammy Awards of 1993, <em>Best New Age Album</em> for <a href="shepherd-moons.php"><em>Shepherd Moons</em></a></li>
+<li>Grammy Awards of 1997, <em>Best New Age Album</em> for <a href="the-memory-of-trees.php"><em>The Memory of Trees</em></a></li>
+<li>Grammy Awards of 2002, <em>Best New Age Album</em> for <a href="a-day-without-rain.php"><em>A Day Without Rain</em></a></li>
+<li>Grammy Awards of 2007, <em>Best New Age Album</em> for <a href="enya-amarantine.php"><em>Amarantine</em></a></li>
 </ol>
 
-<p>Also, <a href="enya-other.html#May_It_Be">"May It Be"</a>, for <a href="the-lord-of-the-rings.html"><em>The Lord Of The Rings - The Fellowship Of The Ring</em></a>, was nominated for an Academy Award for Best Song at the 2002 ceremonies, but it lost to Randy Newman's "If I Didn't Have You" from <em>Monsters, Inc</em>.</p>
+<p>Also, <a href="enya-other.php#May_It_Be">"May It Be"</a>, for <a href="the-lord-of-the-rings.php"><em>The Lord Of The Rings - The Fellowship Of The Ring</em></a>, was nominated for an Academy Award for Best Song at the 2002 ceremonies, but it lost to Randy Newman's "If I Didn't Have You" from <em>Monsters, Inc</em>.</p>
 
 <p>She also won many other awards, like:</p>
 
@@ -594,9 +516,9 @@ artwork, reading, painting.</li>
 <h3><a name="faq2"></a>More Frequently Asked Question</h3>
 
 <div style="float: right; width: 320px; margin: 10px 0 20px 30px;">
-<a href="video-amarantine.html"><img src="amarantine12.jpg" alt="" /></a>
+<a href="video-amarantine.php"><img src="amarantine12.jpg" alt="" /></a>
 <p style="font-size: 0.9em; margin-bottom: 0;">
-<em>Enya in her 2005 <a href="video-amarantine.html">music video "Amarantine"</a></em>.</p>
+<em>Enya in her 2005 <a href="video-amarantine.php">music video "Amarantine"</a></em>.</p>
 </div>
 
 
@@ -610,10 +532,10 @@ artwork, reading, painting.</li>
 
 <h4>Who are Roma and Nicky Ryan?</h4>
 
-<p><a href="roma-ryan-nicky.html">Nicky and Roma</a> are a married couple that have managed Enya's career since the beginning of her solo career. Nicky is the producer/arranger/manager and Roma is the lyricist. Nicky Ryan had previously managed <a href="enya-clannad.html">Clannad</a>.</p>
+<p><a href="roma-ryan-nicky.php">Nicky and Roma</a> are a married couple that have managed Enya's career since the beginning of her solo career. Nicky is the producer/arranger/manager and Roma is the lyricist. Nicky Ryan had previously managed <a href="enya-clannad.php">Clannad</a>.</p>
 
 <h4>Who is Clannad and what relationship do they have with Enya?</h4>
-<p><a href="enya-clannad.html">Clannad</a> is a popular Irish family band consisting of Enya's twin uncles, Patrick Duggan and Noel Duggan, her brother, Ciaran Brennan, and her sister, Moya Brennan. Her brother, Paul Brennan, left the band in 1989 or 1990 to pursue another musical career.</p>
+<p><a href="enya-clannad.php">Clannad</a> is a popular Irish family band consisting of Enya's twin uncles, Patrick Duggan and Noel Duggan, her brother, Ciaran Brennan, and her sister, Moya Brennan. Her brother, Paul Brennan, left the band in 1989 or 1990 to pursue another musical career.</p>
 
 <h4>Who is Moya Brennan and what relationship does she have with Enya?</h4>
 <p>Moya is Enya's older sister. Like Enya, she also has a solo career, but is still involved with Clannad these days.</p>
@@ -649,11 +571,11 @@ Ireland</p>
 
 <h4>Is all the music on Enya's albums composed only by her?</h4>
 
-<p>Yes, most of it. Enya did only 5 arrangements of traditional songs. <a href="shepherd-moons.html#Marble_Halls">"Marble Halls"</a> is originally a piece from Balfe's opera <em>The Bohemian Girl</em>. <a href="shepherd-moons.html#How_Can_I_Keep_From_Singing">"How Can I Keep from Singing?"</a> is a traditional Shaker's hymn, and <a href="enya-other.html#Oiche_Chiun">"Oiche Chiun"</a> (Silent Night), <a href="enya-other.html#Adeste_Fideles">"Adeste, Fideles"</a> and <a href="enya-other.html#We_Wish_You_A_Merry_Christmas">"We Wish You A Merry Christmas"</a> are Christmas carols.</p>
+<p>Yes, most of it. Enya did only 5 arrangements of traditional songs. <a href="shepherd-moons.php#Marble_Halls">"Marble Halls"</a> is originally a piece from Balfe's opera <em>The Bohemian Girl</em>. <a href="shepherd-moons.php#How_Can_I_Keep_From_Singing">"How Can I Keep from Singing?"</a> is a traditional Shaker's hymn, and <a href="enya-other.php#Oiche_Chiun">"Oiche Chiun"</a> (Silent Night), <a href="enya-other.php#Adeste_Fideles">"Adeste, Fideles"</a> and <a href="enya-other.php#We_Wish_You_A_Merry_Christmas">"We Wish You A Merry Christmas"</a> are Christmas carols.</p>
 
 <h4>Some of Enya's songs are not in English, what language are they?</h4>
 
-<p>Enya sings in Gaelic (her native tongue), English, Latin, Spanish, Japanese, Welsh, French, as well as Quenya and Sindarin, two languages invented by J.R.R. Tolkien. In her most recent album <a href="enya-amarantine.html"><em>Amarantine</em></a>, Enya uses a fictional language called Loxian.</p>
+<p>Enya sings in Gaelic (her native tongue), English, Latin, Spanish, Japanese, Welsh, French, as well as Quenya and Sindarin, two languages invented by J.R.R. Tolkien. In her most recent album <a href="enya-amarantine.php"><em>Amarantine</em></a>, Enya uses a fictional language called Loxian.</p>
 
 <ul>
 <li><strong>Irish Gaelic</strong>: "March of the Celts", "The Celts", "Aldebaran", "Deireadh An Tuath", "Triad (St. Patrick)", "Storms In Africa", "The Longships", "Na Laetha Geal M'oige", "Oiche Chiun", "Ebudae", "Book of Days", "Smaointe", "Athair Ar Neamh", "'S Fagaim Mo Bhaile", "As Baile", "Deora Ar Mo Chroi"</li>
@@ -677,11 +599,11 @@ Roma Ryan has written a book called <em>Water Shows the Hidden Heart</em> about 
 
 <h4>Was that Enya I heard? Is this song really an Enya song?</h4>
 
-<p>Enya Lyrics lists every song that Enya has written, sung, or performed; look under the <a href="all-enya-songs.html">complete list of Enya songs</a>. Be aware that several illegal sites and P2Ps networks offer songs which often wrongly attribute songs to Enya. For example, "Now We Are Free", "Gladiator Theme", "Harry's Game", and "Love Song" are often wrongly listed as Enya's music.</p>
+<p>Enya Lyrics lists every song that Enya has written, sung, or performed; look under the <a href="all-enya-songs.php">complete list of Enya songs</a>. Be aware that several illegal sites and P2Ps networks offer songs which often wrongly attribute songs to Enya. For example, "Now We Are Free", "Gladiator Theme", "Harry's Game", and "Love Song" are often wrongly listed as Enya's music.</p>
 
 <h4>How many records has she sold?</h4>
 
-<p>Enya has sold more than 70 million albums worldwide. Her best selling album to date is <a href="a-day-without-rain.html"><em>A Day Without Rain</em></a> which has sold more than 12 million copies. The latest release <a href="enya-amarantine.html"><em>Amarantine</em></a> sold over 4 million discs in its first year of sale.</p>
+<p>Enya has sold more than 70 million albums worldwide. Her best selling album to date is <a href="a-day-without-rain.php"><em>A Day Without Rain</em></a> which has sold more than 12 million copies. The latest release <a href="enya-amarantine.php"><em>Amarantine</em></a> sold over 4 million discs in its first year of sale.</p>
 
 <h4>On what occasions did Enya perform? Was it a live performance or lip-synced?</h4>
 
@@ -734,7 +656,7 @@ Roma Ryan has written a book called <em>Water Shows the Hidden Heart</em> about 
 
 <li>"Wild Child" - San Remo Festival - March 2001 (Live)</li>
 
-<li><a href="video-wild-child.html">"Wild Child" - Japanese Performance - Date Unknown (Live)</a></li>
+<li><a href="video-wild-child.php">"Wild Child" - Japanese Performance - Date Unknown (Live)</a></li>
 
 <li>"May It Be" - Larry King Live - 23 January 2002 (Live)</li>
 
@@ -774,17 +696,17 @@ Roma Ryan has written a book called <em>Water Shows the Hidden Heart</em> about 
 		
 		<h3>Featured albums</h3>
 
-		<h4><strong><a href="a-day-without-rain.html">A Day Without Rain</a></em></strong>, 2000</h4>
+		<h4><strong><a href="a-day-without-rain.php">A Day Without Rain</a></em></strong>, 2000</h4>
 		
-		<div><a href="a-day-without-rain.html">
+		<div><a href="a-day-without-rain.php">
 			<img src="enya-2023-adwr.jpg" alt="A Day Without Rain album picture" /></a>
 			
 			<p>Through extensive use in various forms of media, "Only Time" became an anthem of resilience and hope after  the tragic events of the September 11 attacks. </p>
 		</div>
 	
-		<h4><strong><a href="the-memory-of-trees.html">The Memory of Trees</a></em></strong>, 1995</h4>
+		<h4><strong><a href="the-memory-of-trees.php">The Memory of Trees</a></em></strong>, 1995</h4>
 		
-		<div><a href="the-memory-of-trees.html">
+		<div><a href="the-memory-of-trees.php">
 			<img src="enya-2023-tmot.jpg" alt="A Day Without Rain album picture" /></a>
 			
 			<p>This album won Enya's first Grammy Award for Best New Age Album. &ldquo;With the destruction of the world&rsquo;s rainforests it may turn out to be that the memory of trees is nothing more than that for us&mdash;a memory.&rdquo;</p>
@@ -796,60 +718,8 @@ Roma Ryan has written a book called <em>Water Shows the Hidden Heart</em> about 
 
 </div>
 
-<div id="mel19">
-	<h2>Browse Enya One</h2>
-
-	<h3>Enya albums and songs lyrics</h3>
-	
-	<ul>
-		<li><a href="enya-album.html"><em>Enya</em><span>, 1987</span></a></li>
-		<li><a href="watermark.html"><em>Watermark</em><span>, 1988</span></a></li>
-		<li><a href="shepherd-moons.html"><em>Shepherd
-			Moons</em><span>, 1991</span></a></li>
-		<li><a href="the-celts.html"><em>The Celts</em><span>, 1992</span></a></li>
-		<li><a href="the-memory-of-trees.html"><em>The
-			Memory of Trees</em><span>, 1995</span></a></li>
-		<li><a href="paint-the-sky-with-stars.html"><em>Paint
-			The Sky With Stars - The Best of Enya</em><span>, 1997</span></a></li>
-		<li><a href="a-day-without-rain.html"><em>A Day Without Rain</em><span>, 2001</span></a></li>
-		<li><a href="enya-amarantine.html"><em>Amarantine</em><span>, 2005</span></a></li>
-		<li><a href="and-winter-came.html"><em>And Winter Came...</em><span>, 2008</span></a></li>
-		<li><a href="enya-dark-sky-island.html"></span><em>Dark Sky Island</em><span>, 2015</span></a></li>
-		<li><a href="enya-other.html">Other songs<span>, including <em>Sounds of the Season/Christmas Secrets</em></span></a></li>
-		<li><a href="all-enya-songs.html">Complete list<span>: listen for free and download all Enya songs</span></a></li>
-		<li><a href="enya-songs-albums.html">Enya Songs &amp; Albums<span>, including soundtracks and other works</span></a></li>
-	</ul>
-	
-	<h3>About Enya</h3>
-	
-	<ul>
-		<li><a href="enya-biography.html">Enya biography, trivia and FAQ</a></li>
-		<li><a href="roma-ryan-nicky.html">Roma <span>(Enya's lyricist) and</span> Nicky Ryan <span>(her producer)</span></a></li>
-		<li><a href="new-age-music.html">Artists like Enya<span>: New Age, Celtic, ambient and ethereal music</span></a></li>
-
-		<li><a href="enya-quotes.html">Quotes<span> by and about Enya</span></a></li>
-		
-		<li><a href="the-lord-of-the-rings.html"><em>The Lord of the Rings</em><span>, Enya's favorite book</span></a></li>
-		<li><a href="enya-clannad.html">Clannad<span>, Enya's family band</span></a></li>
-		<li><a href="the-celts-documentary.html"><span>BBC's</span> <em>The Celts</em> documentary</a></li>
-	</ul>
-	
-	
-	
-	<h3>Even more</h3>
-	
-	<ul>
-		<li><a href="sitemap.html">Sitemap<span>: more about Enya</span></a></li>
-		<li><a href="enya-video.html">EnyaTube<span>: all Enya videos</span></a></li>
-		<li><a href="https://amzn.to/2ZIw9PC"  target="_blank" rel="noopener nofollow">Enya MP3<span> and more products</span></a></li>
-		<li><a href="enya-links.html"><span>Pinned</span> Enya links</a></li>
-	</ul>
-</div>
-<footer>
-	<p><strong><a href="index.html">Enya One</a></strong>, 2007&ndash;<script> document.write(new Date().getFullYear());</script> &middot; <a href="sitemap.html#aboutus">About us</a> &middot; <a href="pp.html">Privacy Policy</a> &middot; <a href="sitemap.html#contact">Contact us</a> &middot; <a href="http://felipedario.com/">Design and web development by Felipe D&aacute;rio</a>.</p>
-	
-	<p>Lyrics, videos, images and the Enya logo TM &amp; &copy; Enya/Warner Music. As Amazon Associates, we earn a small comission from qualifying purchases.</p>
-</footer>
+<?php include 'secondary_nav.php'; ?>
+<?php include 'footer.php'; ?>
 
 </div>
 

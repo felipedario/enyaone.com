@@ -24,42 +24,42 @@
 <div id="wrap">
 
 	<header>
-		<div id="logo"><a href="index.html" title="Enya Lyrics main page">Enya One: Enya songs, albums, biography, lyrics, and more!</a></div>
+		<div id="logo"><a href="index.php" title="Enya Lyrics main page">Enya One: Enya songs, albums, biography, lyrics, and more!</a></div>
 		
 		<div id="menu">
 			<ul>
-				<!-- <li><a href="new-enya-album-2025.html" class="new-album-link">New album!</a></li> -->	
+				<!-- <li><a href="new-enya-album-2025.php" class="new-album-link">New album!</a></li> -->	
 
-				<li class="drop"><a href="enya-songs-albums.html" title="Albums and lyrics list" id="sm">Songs, Albums  &amp; Lyrics
+				<li class="drop"><a href="enya-songs-albums.php" title="Albums and lyrics list" id="sm">Songs, Albums  &amp; Lyrics
 					</a>
 					
 					<ul>
-						<li><a href="enya-album.html"><em>Enya</em>, 1987</a></li>
-						<li><a href="watermark.html"><em>Watermark</em>, 1988</a></li>
-						<li><a href="shepherd-moons.html"><em>Shepherd
+						<li><a href="enya-album.php"><em>Enya</em>, 1987</a></li>
+						<li><a href="watermark.php"><em>Watermark</em>, 1988</a></li>
+						<li><a href="shepherd-moons.php"><em>Shepherd
 							Moons</em>, 1991</a></li>
-						<li><a href="the-celts.html"><em>The Celts</em>, 1992</a></li>
-						<li><a href="the-memory-of-trees.html"><em>The
+						<li><a href="the-celts.php"><em>The Celts</em>, 1992</a></li>
+						<li><a href="the-memory-of-trees.php"><em>The
 							Memory of Trees</em>, 1995</a></li>
-						<li><a href="paint-the-sky-with-stars.html"><em>Paint
+						<li><a href="paint-the-sky-with-stars.php"><em>Paint
 							The Sky With Stars</em>, 1997</a></li>
-						<li><a href="a-day-without-rain.html"><em>A
+						<li><a href="a-day-without-rain.php"><em>A
 							Day Without Rain</em>, 2000</a></li>
-						<li><a href="enya-amarantine.html"><em>Amarantine</em>, 2005</a></li>
-						<li><a href="and-winter-came.html"><em>And Winter Came</em>, 2008</a></li>
-						<li><a href="very-best-enya.html"><em>The Very Best of Enya</em>, 2009</a></li>
-						<li><a href="enya-dark-sky-island.html"><em>Dark Sky Island</em>, 2015</a></li>
-						<li><a href="enya-other.html">Other songs by Enya</a></li>
-						<li><a href="all-enya-songs.html">List of all songs</a></li>
+						<li><a href="enya-amarantine.php"><em>Amarantine</em>, 2005</a></li>
+						<li><a href="and-winter-came.php"><em>And Winter Came</em>, 2008</a></li>
+						<li><a href="very-best-enya.php"><em>The Very Best of Enya</em>, 2009</a></li>
+						<li><a href="enya-dark-sky-island.php"><em>Dark Sky Island</em>, 2015</a></li>
+						<li><a href="enya-other.php">Other songs by Enya</a></li>
+						<li><a href="all-enya-songs.php">List of all songs</a></li>
 					</ul>
 				</li>
-				<li><a href="enya-biography.html" title="Enya biography">Biography</a></li>
+				<li><a href="enya-biography.php" title="Enya biography">Biography</a></li>
 
-				<li><a href="new-age-music.html" title="New Age music">Artists like Enya</a></li>
+				<li><a href="new-age-music.php" title="New Age music">Artists like Enya</a></li>
 
-				<li><a href="enya-video.html" title="EnyaTube Enya videos">Videos</a></li>
+				<li><a href="enya-video.php" title="EnyaTube Enya videos">Videos</a></li>
 				
-				<li><a href="sitemap.html" title="More about Enya">More <span>about Enya: sitemap</span></a></li>
+				<li><a href="sitemap.php" title="More about Enya">More <span>about Enya: sitemap</span></a></li>
 			</ul>
 		</div>
 		
@@ -194,10 +194,10 @@ Bhaile</a></li>
 Of Days (English lyrics)</h4>
 
 <div id="video-s"><a href="enya-video.html"><strong>EnyaTube</strong></a>
-has a <a href="video-book-of-days.html">video of "Book Of
+has a <a href="video-book-of-days.php">video of "Book Of
 Days"</a>.</div>
 
-from <a href="enya-songs-albums.html#farandaway"><em>Far And Away</em> film soundtrack</a><br /><br />
+from <a href="enya-songs-albums.php#farandaway"><em>Far And Away</em> film soundtrack</a><br /><br />
 
 <em>Roma Ryan</em><br />
 
@@ -1172,10 +1172,10 @@ I may not awaken <br />
 
 <div id="video-s">
 <a href="enya-video.html"><strong>EnyaTube</strong></a>
-has a <a href="video-may-it-be.html">video of "May It Be"</a>.</div>
+has a <a href="video-may-it-be.php">video of "May It Be"</a>.</div>
 
 
-<p>From the soundtrack of <a href="the-lord-of-the-rings.html"><em>The Lord of the
+<p>From the soundtrack of <a href="the-lord-of-the-rings.php"><em>The Lord of the
 Rings: The Fellowship of the Ring</em></a>.</p>
 <em>Roma Ryan</em><br />
 
@@ -1273,7 +1273,7 @@ A promise lives within you now<br />
 <h4><a name="Aniron"></a>An&iacute;ron lyrics</h4>
 
 
-<p>From the soundtrack of <a href="the-lord-of-the-rings.html"><em>The Lord of the
+<p>From the soundtrack of <a href="the-lord-of-the-rings.php"><em>The Lord of the
 Rings: The Fellowship of the Ring</em></a>. The lyrics in italics are not included in the version feaured on the soundrack.</p>
 
 

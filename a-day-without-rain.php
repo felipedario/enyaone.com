@@ -30,42 +30,42 @@
 	
 	<div id="wrap">
 		<header>
-			<div id="logo"><a href="index.html" title="Enya Lyrics main page">Enya One: Enya songs, albums, biography, lyrics, and more!</a></div>
+			<div id="logo"><a href="index.php" title="Enya Lyrics main page">Enya One: Enya songs, albums, biography, lyrics, and more!</a></div>
 			
 			<div id="menu">
 				<ul>
-					<!-- <li><a href="new-enya-album-2025.html" class="new-album-link">New album!</a></li> -->	
+					<!-- <li><a href="new-enya-album-2025.php" class="new-album-link">New album!</a></li> -->	
 
-					<li class="drop"><a href="enya-songs-albums.html" title="Albums and lyrics list" id="sm">Songs, Albums  &amp; Lyrics
+					<li class="drop"><a href="enya-songs-albums.php" title="Albums and lyrics list" id="sm">Songs, Albums  &amp; Lyrics
 						</a>
 						
 						<ul>
-							<li><a href="enya-album.html"><em>Enya</em>, 1987</a></li>
-							<li><a href="watermark.html"><em>Watermark</em>, 1988</a></li>
-							<li><a href="shepherd-moons.html"><em>Shepherd
+							<li><a href="enya-album.php"><em>Enya</em>, 1987</a></li>
+							<li><a href="watermark.php"><em>Watermark</em>, 1988</a></li>
+							<li><a href="shepherd-moons.php"><em>Shepherd
 								Moons</em>, 1991</a></li>
-							<li><a href="the-celts.html"><em>The Celts</em>, 1992</a></li>
-							<li><a href="the-memory-of-trees.html"><em>The
+							<li><a href="the-celts.php"><em>The Celts</em>, 1992</a></li>
+							<li><a href="the-memory-of-trees.php"><em>The
 								Memory of Trees</em>, 1995</a></li>
-							<li><a href="paint-the-sky-with-stars.html"><em>Paint
+							<li><a href="paint-the-sky-with-stars.php"><em>Paint
 								The Sky With Stars</em>, 1997</a></li>
-							<li><a href="a-day-without-rain.html"><em>A
+							<li><a href="a-day-without-rain.php"><em>A
 								Day Without Rain</em>, 2000</a></li>
-							<li><a href="enya-amarantine.html"><em>Amarantine</em>, 2005</a></li>
-							<li><a href="and-winter-came.html"><em>And Winter Came</em>, 2008</a></li>
-							<li><a href="very-best-enya.html"><em>The Very Best of Enya</em>, 2009</a></li>
-							<li><a href="enya-dark-sky-island.html"><em>Dark Sky Island</em>, 2015</a></li>
-							<li><a href="enya-other.html">Other songs by Enya</a></li>
-							<li><a href="all-enya-songs.html">List of all songs</a></li>
+							<li><a href="enya-amarantine.php"><em>Amarantine</em>, 2005</a></li>
+							<li><a href="and-winter-came.php"><em>And Winter Came</em>, 2008</a></li>
+							<li><a href="very-best-enya.php"><em>The Very Best of Enya</em>, 2009</a></li>
+							<li><a href="enya-dark-sky-island.php"><em>Dark Sky Island</em>, 2015</a></li>
+							<li><a href="enya-other.php">Other songs by Enya</a></li>
+							<li><a href="all-enya-songs.php">List of all songs</a></li>
 						</ul>
 					</li>
-					<li><a href="enya-biography.html" title="Enya biography">Biography</a></li>
+					<li><a href="enya-biography.php" title="Enya biography">Biography</a></li>
 
-					<li><a href="new-age-music.html" title="New Age music">Artists like Enya</a></li>
+					<li><a href="new-age-music.php" title="New Age music">Artists like Enya</a></li>
 
-					<li><a href="enya-video.html" title="EnyaTube Enya videos">Videos</a></li>
+					<li><a href="enya-video.php" title="EnyaTube Enya videos">Videos</a></li>
 					
-					<li><a href="sitemap.html" title="More about Enya">More <span>about Enya: sitemap</span></a></li>
+					<li><a href="sitemap.php" title="More about Enya">More <span>about Enya: sitemap</span></a></li>
 				</ul>
 			</div>
 			
@@ -96,7 +96,7 @@
 					    <span property="name">Home</span></a> 
 					  <meta property="position" content="1">
 					  &rsaquo;</li>
-				<li property="itemListElement" typeof="ListItem"><a href="enya-songs-albums.html" 
+				<li property="itemListElement" typeof="ListItem"><a href="enya-songs-albums.php" 
 					property="item" typeof="WebPage">
 					    <span property="name">Enya Songs &amp; Albums</span></a>  &rsaquo;
 					  <meta property="position" content="2"></li>
@@ -119,7 +119,7 @@
 					
 					<p><a href="https://amzn.to/498nslX" rel="nofollow" target="_blank">Stream or download Enya songs</a></p>
 					
-				<p> Following a promotional tour in support of her compilation album Paint the Sky with Stars (1997), Enya took a short break before she resumed writing and recording a new album in 1998 with her usual recording partners, <a href="roma-ryan-nicky.html">producer and arranger Nicky Ryan and his wife, lyricist Roma Ryan</a>. In a musical departure from her previous albums, Enya incorporates a string section which was not a conscious decision.</p>
+				<p> Following a promotional tour in support of her compilation album Paint the Sky with Stars (1997), Enya took a short break before she resumed writing and recording a new album in 1998 with her usual recording partners, <a href="roma-ryan-nicky.php">producer and arranger Nicky Ryan and his wife, lyricist Roma Ryan</a>. In a musical departure from her previous albums, Enya incorporates a string section which was not a conscious decision.</p>
 				
 				<p>Three versions of <em>A Day Without Rain</em> were released. In most
 					countries, the album includes "The First of Autumn." The U.S. version
@@ -135,7 +135,7 @@
 					<em>Enya, Barnes &amp; Noble, 2000</em>
 				</blockquote>
 				
-				<p>Recording took place at Aigle Studio in the Ryans' home in Killiney, County Dublin. Enya felt the need to work at a more leisurely pace for <em>A Day Without Rain</em>. than working on her previous studio album, <em><a href="the-memory-of-trees.html">The Memory of Trees (1995)</a></em>, making a conscious effort to record for five days a week instead of seven, and take the weekends off. The reduction in her work schedule made her feel happier as a result.</p>
+				<p>Recording took place at Aigle Studio in the Ryans' home in Killiney, County Dublin. Enya felt the need to work at a more leisurely pace for <em>A Day Without Rain</em>. than working on her previous studio album, <em><a href="the-memory-of-trees.php">The Memory of Trees (1995)</a></em>, making a conscious effort to record for five days a week instead of seven, and take the weekends off. The reduction in her work schedule made her feel happier as a result.</p>
 				
 				<p>Enya produced <em>A Day Without Rain</em> in a similar way to her previous albums. She first spends time alone developing melodies and outlines of songs on the piano. These would then be presented to the Ryans; "I'm quite anxious at this point", she said, "because it really is an act of laying your soul bare". While Roma starts to write lyrics to the melodies, Enya and Nicky will work in the studio to develop them into completed arrangements. Working without a deadline from her record label or a set timeline, Enya felt the project was complete after two years, feeling it was time to "step out of the studio ... time for it to have its life out in the world".</p>
 				
@@ -170,11 +170,11 @@
 				<h3><a name="videos"></a>Videos</h3>
 				
 				<ul>
-					<li><a href="video-wild-child.html">"Wild Child"</a></li>
-					<li><a href="video-only-time.html">"Only Time"</a></li>
+					<li><a href="video-wild-child.php">"Wild Child"</a></li>
+					<li><a href="video-only-time.php">"Only Time"</a></li>
 				</ul>
 				
-				<p><a href="enya-video.html">More videos in <strong>EnyaTube</strong> &raquo;</a></p>
+				<p><a href="enya-video.php">More videos in <strong>EnyaTube</strong> &raquo;</a></p>
 				
 				<h3><a name="complyrics"></a>Lyrics</h3>
 				
@@ -1354,36 +1354,36 @@
 			<h3>Enya albums and songs lyrics</h3>
 			
 			<ul>
-				<li><a href="enya-album.html"><em>Enya</em><span>, 1987</span></a></li>
-				<li><a href="watermark.html"><em>Watermark</em><span>, 1988</span></a></li>
-				<li><a href="shepherd-moons.html"><em>Shepherd
+				<li><a href="enya-album.php"><em>Enya</em><span>, 1987</span></a></li>
+				<li><a href="watermark.php"><em>Watermark</em><span>, 1988</span></a></li>
+				<li><a href="shepherd-moons.php"><em>Shepherd
 					Moons</em><span>, 1991</span></a></li>
-				<li><a href="the-celts.html"><em>The Celts</em><span>, 1992</span></a></li>
-				<li><a href="the-memory-of-trees.html"><em>The
+				<li><a href="the-celts.php"><em>The Celts</em><span>, 1992</span></a></li>
+				<li><a href="the-memory-of-trees.php"><em>The
 					Memory of Trees</em><span>, 1995</span></a></li>
-				<li><a href="paint-the-sky-with-stars.html"><em>Paint
+				<li><a href="paint-the-sky-with-stars.php"><em>Paint
 					The Sky With Stars - The Best of Enya</em><span>, 1997</span></a></li>
-				<li><a href="a-day-without-rain.html"><em>A Day Without Rain</em><span>, 2001</span></a></li>
-				<li><a href="enya-amarantine.html"><em>Amarantine</em><span>, 2005</span></a></li>
-				<li><a href="and-winter-came.html"><em>And Winter Came...</em><span>, 2008</span></a></li>
-				<li><a href="enya-dark-sky-island.html"></span><em>Dark Sky Island</em><span>, 2015</span></a></li>
-				<li><a href="enya-other.html">Other songs<span>, including <em>Sounds of the Season/Christmas Secrets</em></span></a></li>
-				<li><a href="all-enya-songs.html">Complete list<span>: listen for free and download all Enya songs</span></a></li>
-				<li><a href="enya-songs-albums.html">Enya Songs &amp; Albums<span>, including soundtracks and other works</span></a></li>
+				<li><a href="a-day-without-rain.php"><em>A Day Without Rain</em><span>, 2001</span></a></li>
+				<li><a href="enya-amarantine.php"><em>Amarantine</em><span>, 2005</span></a></li>
+				<li><a href="and-winter-came.php"><em>And Winter Came...</em><span>, 2008</span></a></li>
+				<li><a href="enya-dark-sky-island.php"></span><em>Dark Sky Island</em><span>, 2015</span></a></li>
+				<li><a href="enya-other.php">Other songs<span>, including <em>Sounds of the Season/Christmas Secrets</em></span></a></li>
+				<li><a href="all-enya-songs.php">Complete list<span>: listen for free and download all Enya songs</span></a></li>
+				<li><a href="enya-songs-albums.php">Enya Songs &amp; Albums<span>, including soundtracks and other works</span></a></li>
 			</ul>
 			
 			<h3>About Enya</h3>
 			
 			<ul>
-				<li><a href="enya-biography.html">Enya biography, trivia and FAQ</a></li>
-				<li><a href="roma-ryan-nicky.html">Roma <span>(Enya's lyricist) and</span> Nicky Ryan <span>(her producer)</span></a></li>
-				<li><a href="new-age-music.html">Artists like Enya<span>: New Age, Celtic, ambient and ethereal music</span></a></li>
+				<li><a href="enya-biography.php">Enya biography, trivia and FAQ</a></li>
+				<li><a href="roma-ryan-nicky.php">Roma <span>(Enya's lyricist) and</span> Nicky Ryan <span>(her producer)</span></a></li>
+				<li><a href="new-age-music.php">Artists like Enya<span>: New Age, Celtic, ambient and ethereal music</span></a></li>
 
-				<li><a href="enya-quotes.html">Quotes<span> by and about Enya</span></a></li>
+				<li><a href="enya-quotes.php">Quotes<span> by and about Enya</span></a></li>
 				
-				<li><a href="the-lord-of-the-rings.html"><em>The Lord of the Rings</em><span>, Enya's favorite book</span></a></li>
-				<li><a href="enya-clannad.html">Clannad<span>, Enya's family band</span></a></li>
-				<li><a href="the-celts-documentary.html"><span>BBC's</span> <em>The Celts</em> documentary</a></li>
+				<li><a href="the-lord-of-the-rings.php"><em>The Lord of the Rings</em><span>, Enya's favorite book</span></a></li>
+				<li><a href="enya-clannad.php">Clannad<span>, Enya's family band</span></a></li>
+				<li><a href="the-celts-documentary.php"><span>BBC's</span> <em>The Celts</em> documentary</a></li>
 			</ul>
 			
 			
@@ -1391,15 +1391,15 @@
 			<h3>Even more</h3>
 			
 			<ul>
-				<li><a href="sitemap.html">Sitemap<span>: more about Enya</span></a></li>
-				<li><a href="enya-video.html">EnyaTube<span>: all Enya videos</span></a></li>
+				<li><a href="sitemap.php">Sitemap<span>: more about Enya</span></a></li>
+				<li><a href="enya-video.php">EnyaTube<span>: all Enya videos</span></a></li>
 				<li><a href="https://amzn.to/2ZIw9PC"  target="_blank" rel="noopener nofollow">Enya MP3<span> and more products</span></a></li>
-				<li><a href="enya-links.html"><span>Pinned</span> Enya links</a></li>
+				<li><a href="enya-links.php"><span>Pinned</span> Enya links</a></li>
 			</ul>
 		</div>
 		
 		<footer>
-			<p><strong><a href="index.html">Enya One</a></strong>, 2007&ndash;<script> document.write(new Date().getFullYear());</script> &middot; <a href="sitemap.html#aboutus">About us</a> &middot; <a href="pp.html">Privacy Policy</a> &middot; <a href="sitemap.html#contact">Contact us</a> &middot; <a href="http://felipedario.com/">Design and web development by Felipe D&aacute;rio</a>.</p>
+			<p><strong><a href="index.php">Enya One</a></strong>, 2007&ndash;<script> document.write(new Date().getFullYear());</script> &middot; <a href="sitemap.php#aboutus">About us</a> &middot; <a href="pp.php">Privacy Policy</a> &middot; <a href="sitemap.php#contact">Contact us</a> &middot; <a href="http://felipedario.com/">Design and web development by Felipe D&aacute;rio</a>.</p>
 			
 			<p>Lyrics, videos, images and the Enya logo TM &amp; &copy; Enya/Warner Music. As Amazon Associates, we earn a small comission from qualifying purchases.</p>
 		</footer>

@@ -98,7 +98,7 @@
 				<a class="new-amazon-album-link" href="https://amzn.to/3SU09Xt" rel="nofollow" target="_blank">
 					<img  src="vbe.jpg" alt="All Enya songs: Complete list for listening and download" /></a>
 				
-				<p><strong>Dive into Enya's complete discography</strong>: Explore all her albums, renowned for their captivating melodies and insightful lyrics that have enthralled listeners worldwide.  Our <a href="all-enya-songs.html">comprehensive song list</a> helps you find any track effortlessly, guiding you seamlessly through Enya's musical journey.</p>
+				<p><strong>Dive into Enya's complete discography</strong>: Explore all her albums, renowned for their captivating melodies and insightful lyrics that have enthralled listeners worldwide.  Our <a href="all-enya-songs.php">comprehensive song list</a> helps you find any track effortlessly, guiding you seamlessly through Enya's musical journey.</p>
 
 				<h3>
 					Enya's music extends beyond albums
@@ -115,28 +115,28 @@
 					<p>Links to the song lyrics, if available.</p>
 					
 					<ol style="margin-left:20px;">
-						<li>&ldquo;<a href="a-day-without-rain.html#Only_Time">Only Time</a>&rdquo;</li>
-						<li>&ldquo;<a href="watermark.html#Orinoco_Flow">Orinoco Flow (Sail Away)</a>&rdquo;</li>
+						<li>&ldquo;<a href="a-day-without-rain.php#Only_Time">Only Time</a>&rdquo;</li>
+						<li>&ldquo;<a href="watermark.php#Orinoco_Flow">Orinoco Flow (Sail Away)</a>&rdquo;</li>
 
-						<li>&ldquo;<a href="shepherd-moons.html#Caribbean_Blue">Caribbean Blue</a>&rdquo;</li>
-						<li>&ldquo;<a href="enya-other.html#May_It_Be">May It Be</a>&rdquo;</li>
+						<li>&ldquo;<a href="shepherd-moons.php#Caribbean_Blue">Caribbean Blue</a>&rdquo;</li>
+						<li>&ldquo;<a href="enya-other.php#May_It_Be">May It Be</a>&rdquo;</li>
 
-						<li>&ldquo;<a href="enya-dark-sky-island.html#Echoes_In_Rain">Echoes In Rain</a>&rdquo;</li>
-						<li>&ldquo;<a href="a-day-without-rain.html#Wild_Child">Wild Child</a>&rdquo;</li>
+						<li>&ldquo;<a href="enya-dark-sky-island.php#Echoes_In_Rain">Echoes In Rain</a>&rdquo;</li>
+						<li>&ldquo;<a href="a-day-without-rain.php#Wild_Child">Wild Child</a>&rdquo;</li>
 
-						<li>&ldquo;<a href="paint-the-sky-with-stars.html#Anywhere_Is">Anywhere Is</a>&rdquo;</li>
-						<li>&ldquo;<a href="enya-other.html#Aniron">An&iacute;ron</a>&rdquo;</li>
+						<li>&ldquo;<a href="paint-the-sky-with-stars.php#Anywhere_Is">Anywhere Is</a>&rdquo;</li>
+						<li>&ldquo;<a href="enya-other.php#Aniron">An&iacute;ron</a>&rdquo;</li>
 
-						<li>&ldquo;<a href="and-winter-came.html#TWR">Trains and Winter Rains</a>&rdquo;</li>
-						<li>&ldquo;<a href="enya-amarantine.html#Amarantine">Amarantine</a>&rdquo;</li>
+						<li>&ldquo;<a href="and-winter-came.php#TWR">Trains and Winter Rains</a>&rdquo;</li>
+						<li>&ldquo;<a href="enya-amarantine.php#Amarantine">Amarantine</a>&rdquo;</li>
 
-						<li>&ldquo;<a href="watermark.html">Boadicea</a>&rdquo; (Instrumental)</li>
-						<li>&ldquo;<a href="enya-dark-sky-island.html#The_Humming">The Humming</a>&rdquo;</li>
+						<li>&ldquo;<a href="watermark.php">Boadicea</a>&rdquo; (Instrumental)</li>
+						<li>&ldquo;<a href="enya-dark-sky-island.php#The_Humming">The Humming</a>&rdquo;</li>
 
-						<li>&ldquo;<a href="enya-dark-sky-island.html#So_I_Could_Find_My_Way">So I Could Find My Way</a>&rdquo;</li>
-						<li>&ldquo;<a href="a-day-without-rain.html#One_By_One">One by One</a>&rdquo;</li>
+						<li>&ldquo;<a href="enya-dark-sky-island.php#So_I_Could_Find_My_Way">So I Could Find My Way</a>&rdquo;</li>
+						<li>&ldquo;<a href="a-day-without-rain.php#One_By_One">One by One</a>&rdquo;</li>
 
-						<li>&ldquo;<a href="shepherd-moons.html#Book_Of_Days">Book of Days</a>&rdquo;</li>
+						<li>&ldquo;<a href="shepherd-moons.php#Book_Of_Days">Book of Days</a>&rdquo;</li>
 
 
 					</ol>
@@ -163,172 +163,172 @@
 						</tr>
 						
 						<tr>
-							<td class="cover"><a href="enya-dark-sky-island.html">
+							<td class="cover"><a href="enya-dark-sky-island.php">
 							<img  src="dsi.jpg" alt="Dark Sky Island album cover" /></a></td>
 							
 							<td class="desc">
-								<h4><a href="enya-dark-sky-island.html"><strong>Dark Sky Island</strong>, 2015</a></h4>
+								<h4><a href="enya-dark-sky-island.php"><strong>Dark Sky Island</strong>, 2015</a></h4>
 								
-								<p><a href="http://amzn.to/1gqSdan" rel="nofollow" target="_blank">Download or stream album</a>, <a href="enya-dark-sky-island.html">Lyrics</a></p>
+								<p><a href="http://amzn.to/1gqSdan" rel="nofollow" target="_blank">Download or stream album</a>, <a href="enya-dark-sky-island.php">Lyrics</a></p>
 								
 								<p>Peak position on Billboard 200: <strong>#8</strong></p>
 							</td>
 						</tr>
 						
 						<tr>
-							<td class="cover"><a href="very-best-enya.html">
+							<td class="cover"><a href="very-best-enya.php">
 							<img  src="vbe.jpg" alt="The Very Best of Enya album cover" /></a></td>
 							
 							<td class="desc">
-								<h4><a href="very-best-enya.html"><strong>The Very Best of Enya</strong>, 2009</a></h4>
+								<h4><a href="very-best-enya.php"><strong>The Very Best of Enya</strong>, 2009</a></h4>
 								
-								<p><a href="https://www.amazon.com/dp/B002RV01QI?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as4&creativeASIN=B002RV01QI&adid=18HACXWRC02P3LQLM" rel="nofollow" target="_blank">Download or stream album</a>, <a href="very-best-enya.html#lyrics">Lyrics</a></p>
+								<p><a href="https://www.amazon.com/dp/B002RV01QI?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as4&creativeASIN=B002RV01QI&adid=18HACXWRC02P3LQLM" rel="nofollow" target="_blank">Download or stream album</a>, <a href="very-best-enya.php#lyrics">Lyrics</a></p>
 								
 								<p>Peak position on Billboard 200: <strong>#55</strong></p>
 							</td>
 						</tr>
 						
 						<tr>
-							<td class="cover"><a href="and-winter-came.html">
+							<td class="cover"><a href="and-winter-came.php">
 							<img  src="awc.jpg" alt="And Winter Came album cover" /></a></td>
 							
 							<td class="desc">
-								<h4><a href="and-winter-came.html"><strong>And Winter Came</strong>, 2008</a></h4>
+								<h4><a href="and-winter-came.php"><strong>And Winter Came</strong>, 2008</a></h4>
 								
-								<p><a href="http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2F2008-Release-Enya%2Fdp%2FB001EI5CA0&tag=enylyrallenys-20&linkCode=ur2&camp=1789&creative=9325" rel="nofollow" target="_blank">Download or stream album</a>, <a href="and-winter-came.html#charts">Charts</a>, <a href="and-winter-came.html#lyrics">Lyrics</a>, <a href="and-winter-came.html#videos">Videos</a></p>
+								<p><a href="http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2F2008-Release-Enya%2Fdp%2FB001EI5CA0&tag=enylyrallenys-20&linkCode=ur2&camp=1789&creative=9325" rel="nofollow" target="_blank">Download or stream album</a>, <a href="and-winter-came.php#charts">Charts</a>, <a href="and-winter-came.php#lyrics">Lyrics</a>, <a href="and-winter-came.php#videos">Videos</a></p>
 								
 								<p>Peak position on Billboard 200: <strong>#8</strong></p>
 								
-								<p class="dfeat">Featured songs: <a href="and-winter-came.html#TWR">"Trains and Winter Rains"</a>, <a href="and-winter-came.html#MMTF">"My! My! Time Flies"</a></p>
+								<p class="dfeat">Featured songs: <a href="and-winter-came.php#TWR">"Trains and Winter Rains"</a>, <a href="and-winter-came.php#MMTF">"My! My! Time Flies"</a></p>
 							</td>
 						</tr>
 						
 						<tr>
-							<td class="cover"><a href="enya-amarantine.html">
+							<td class="cover"><a href="enya-amarantine.php">
 							<img  src="am.jpg" alt="Amarantine album cover" /></a></td>
 							
 							<td class="desc">
-								<h4><a href="enya-amarantine.html"><strong>Amarantine</strong>, 2005</a></h4>
+								<h4><a href="enya-amarantine.php"><strong>Amarantine</strong>, 2005</a></h4>
 								
-								<p><a href="http://www.amazon.com/dp/B000B8QEYC?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B000B8QEYC&adid=0T22G038EXV55WN3WXCD&" rel="nofollow" target="_blank">Download or stream album</a>, <a href="enya-amarantine.html#charts">Charts</a>, <a href="enya-amarantine.html#lyrics">Lyrics</a>, <a href="enya-amarantine.html#videos">Videos</a></p>
+								<p><a href="http://www.amazon.com/dp/B000B8QEYC?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B000B8QEYC&adid=0T22G038EXV55WN3WXCD&" rel="nofollow" target="_blank">Download or stream album</a>, <a href="enya-amarantine.php#charts">Charts</a>, <a href="enya-amarantine.php#lyrics">Lyrics</a>, <a href="enya-amarantine.php#videos">Videos</a></p>
 								
 								<p>Peak position on Billboard 200: <strong>#6</strong></p>
 								
-								<p class="dfeat">Featured songs: <a href="enya-amarantine.html#Amarantine">"Amarantine"</a>, <a href="enya-amarantine.html#Its_in_the_rain">"It's In The Rain"</a></p>
+								<p class="dfeat">Featured songs: <a href="enya-amarantine.php#Amarantine">"Amarantine"</a>, <a href="enya-amarantine.php#Its_in_the_rain">"It's In The Rain"</a></p>
 							</td>
 						</tr>
 						
 						<tr>
-							<td class="cover"><a href="a-day-without-rain.html">
+							<td class="cover"><a href="a-day-without-rain.php">
 							<img  src="adwr.jpg" alt="A Day Without Rain album cover" /></a></td>
 							
 							<td class="desc">
-								<h4><a href="a-day-without-rain.html"><strong>A Day Without Rain</strong>, 2000</a></h4>
+								<h4><a href="a-day-without-rain.php"><strong>A Day Without Rain</strong>, 2000</a></h4>
 								
-								<p><a href="http://www.amazon.com/dp/B000050XEI?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B000050XEI&adid=0DKYBKQMQZNYWMH7TKEX&" rel="nofollow" target="_blank">Download or stream album</a>, <a href="a-day-without-rain.html#charts">Charts</a>, <a href="a-day-without-rain.html#lyrics">Lyrics</a>, <a href="a-day-without-rain.html#videos">Videos</a></p>
+								<p><a href="http://www.amazon.com/dp/B000050XEI?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B000050XEI&adid=0DKYBKQMQZNYWMH7TKEX&" rel="nofollow" target="_blank">Download or stream album</a>, <a href="a-day-without-rain.php#charts">Charts</a>, <a href="a-day-without-rain.php#lyrics">Lyrics</a>, <a href="a-day-without-rain.php#videos">Videos</a></p>
 								
 								<p>Peak position on Billboard 200: <strong>#2</strong></p>
 								
-								<p class="dfeat">Featured: <a href="a-day-without-rain.html#Wild_Child">"Wild Child"</a>, <a href="a-day-without-rain.html#Only_Time">"Only Time"</a></p>
+								<p class="dfeat">Featured: <a href="a-day-without-rain.php#Wild_Child">"Wild Child"</a>, <a href="a-day-without-rain.php#Only_Time">"Only Time"</a></p>
 							</td>
 						</tr>
 						
 						<tr>
-							<td class="cover"><a href="paint-the-sky-with-stars.html">
+							<td class="cover"><a href="paint-the-sky-with-stars.php">
 							<img  src="ptsws.jpg" alt="Paint The Sky With Stars album cover" /></a></td>
 							
 							<td class="desc">
-								<h4><a href="paint-the-sky-with-stars.html"><strong>Paint The Sky With Stars</strong>, 1997</a></h4>
+								<h4><a href="paint-the-sky-with-stars.php"><strong>Paint The Sky With Stars</strong>, 1997</a></h4>
 								
-								<p><a href="http://www.amazon.com/dp/B000002NJH?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B000002NJH&adid=1T06S4ZCRFGRMX41CAYF&" rel="nofollow" target="_blank">Download or stream album</a>, <a href="paint-the-sky-with-stars.html#lyrics">Lyrics</a>, <a href="paint-the-sky-with-stars.html#videos">Videos</a></p>
+								<p><a href="http://www.amazon.com/dp/B000002NJH?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B000002NJH&adid=1T06S4ZCRFGRMX41CAYF&" rel="nofollow" target="_blank">Download or stream album</a>, <a href="paint-the-sky-with-stars.php#lyrics">Lyrics</a>, <a href="paint-the-sky-with-stars.php#videos">Videos</a></p>
 								
 								<p>Peak position on Billboard 200: <strong>#30</strong></p>
 								
-								<p class="dfeat">Featured song: <a href="paint-the-sky-with-stars.html#Paint_the_Sky_with_Stars">"Paint The Sky With Stars"</a></p>
+								<p class="dfeat">Featured song: <a href="paint-the-sky-with-stars.php#Paint_the_Sky_with_Stars">"Paint The Sky With Stars"</a></p>
 							</td>
 						</tr>
 						
 						<tr>
-							<td class="cover"><a href="the-memory-of-trees.html">
+							<td class="cover"><a href="the-memory-of-trees.php">
 							<img  src="tmot.jpg" alt="The Memory Of Trees album cover" /></a></td>
 							
 							<td class="desc">
-								<h4><a href="the-memory-of-trees.html"><strong>The Memory of Trees</strong>, 1995</a></h4>
+								<h4><a href="the-memory-of-trees.php"><strong>The Memory of Trees</strong>, 1995</a></h4>
 								
-								<p><a href="http://www.amazon.com/dp/B000002N3N?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B000002N3N&adid=0V47HAWVS9WJZNS82G6C&" rel="nofollow" target="_blank">Download or stream album</a>, <a href="the-memory-of-trees.html#charts">Charts</a>, <a href="the-memory-of-trees.html#lyrics">Lyrics</a>, <a href="the-memory-of-trees.html#videos">Videos</a></p>
+								<p><a href="http://www.amazon.com/dp/B000002N3N?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B000002N3N&adid=0V47HAWVS9WJZNS82G6C&" rel="nofollow" target="_blank">Download or stream album</a>, <a href="the-memory-of-trees.php#charts">Charts</a>, <a href="the-memory-of-trees.php#lyrics">Lyrics</a>, <a href="the-memory-of-trees.php#videos">Videos</a></p>
 								
 								<p>Peak position on Billboard 200: <strong>#9</strong></p>
 								
-								<p class="dfeat">Featured song: <a href="the-memory-of-trees.html#On_My_Way_Home">"On My Way Home"</a></p>
+								<p class="dfeat">Featured song: <a href="the-memory-of-trees.php#On_My_Way_Home">"On My Way Home"</a></p>
 							</td>
 						</tr>
 						
 						<tr>
-							<td class="cover"><a href="the-celts.html">
+							<td class="cover"><a href="the-celts.php">
 							<img  src="tc.jpg" alt="The Celts album cover" /></a></td>
 							
 							<td class="desc">
-								<h4><a href="the-celts.html"><strong>The Celts</strong>, 1992</a></h4>
+								<h4><a href="the-celts.php"><strong>The Celts</strong>, 1992</a></h4>
 								
-								<p>Re-released version of <a href="enya-album.html"> <em>Enya</em>, 1987</a>
+								<p>Re-released version of <a href="enya-album.php"> <em>Enya</em>, 1987</a>
 								
 								<p>
-								<p><a href="http://www.amazon.com/dp/B000002MSM?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B000002MSM&adid=1PCEQY6YPMNKZSAPP6Z4&" rel="nofollow" target="_blank">Download or stream album</a>, <a href="the-celts.html#charts">Charts</a>, <a href="the-celts.html#lyrics">Lyrics</a>, <a href="the-celts.html#videos">Videos</a></p>
+								<p><a href="http://www.amazon.com/dp/B000002MSM?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B000002MSM&adid=1PCEQY6YPMNKZSAPP6Z4&" rel="nofollow" target="_blank">Download or stream album</a>, <a href="the-celts.php#charts">Charts</a>, <a href="the-celts.php#lyrics">Lyrics</a>, <a href="the-celts.php#videos">Videos</a></p>
 								
-								<p class="dfeat">Featured songs: <a href="the-celts.html#The_Celts">"The Celts"</a>, <a href="the-celts.html#I_Want_Tomorrow">"I Want Tomorrow"</a></p>
+								<p class="dfeat">Featured songs: <a href="the-celts.php#The_Celts">"The Celts"</a>, <a href="the-celts.php#I_Want_Tomorrow">"I Want Tomorrow"</a></p>
 							</td>
 						</tr>
 						
 						<tr>
-							<td class="cover"><a href="shepherd-moons.html">
+							<td class="cover"><a href="shepherd-moons.php">
 							<img  src="sm.jpg" alt="Shepherd Moons album cover" /></a></td>
 							
 							<td class="desc">
-								<h4><a href="shepherd-moons.html"><strong>Shepherd Moons</strong>, 1991</a></h4>
+								<h4><a href="shepherd-moons.php"><strong>Shepherd Moons</strong>, 1991</a></h4>
 								
-								<p><a href="http://www.amazon.com/dp/B000002LRT?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B000002LRT&adid=15XFJV8ZQE8WN5XSVGNP&" rel="nofollow" target="_blank">Download or stream album</a>, <a href="shepherd-moons.html#charts">Charts</a>, <a href="shepherd-moons.html#lyrics">Lyrics</a>, <a href="shepherd-moons.html#videos">Videos</a></p>
+								<p><a href="http://www.amazon.com/dp/B000002LRT?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B000002LRT&adid=15XFJV8ZQE8WN5XSVGNP&" rel="nofollow" target="_blank">Download or stream album</a>, <a href="shepherd-moons.php#charts">Charts</a>, <a href="shepherd-moons.php#lyrics">Lyrics</a>, <a href="shepherd-moons.php#videos">Videos</a></p>
 								
 								<p>Peak position on Billboard 200: <strong>#17</strong></p>
 								
-								<p class="dfeat">Featured song: <a href="shepherd-moons.html#Caribbean_Blue">"Caribbean Blue"</a></p>
+								<p class="dfeat">Featured song: <a href="shepherd-moons.php#Caribbean_Blue">"Caribbean Blue"</a></p>
 							</td>
 						</tr>
 						
 						<tr>
-							<td class="cover"><a href="watermark.html">
+							<td class="cover"><a href="watermark.php">
 							<img  src="wm.jpg" alt="Watermark album cover" /></a></td>
 							
 							<td class="desc">
-								<h4><a href="watermark.html"><strong>Watermark</strong>, 1988</a></h4>
+								<h4><a href="watermark.php"><strong>Watermark</strong>, 1988</a></h4>
 								
-								<p><a href="http://www.amazon.com/dp/B000002LRR?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B000002LRR&adid=1CT1XMQE517HCRXY377G&" rel="nofollow" target="_blank">Download or stream album</a>, <a href="watermark.html#lyrics">Lyrics</a>, <a href="watermark.html#videos">Videos</a></p>
+								<p><a href="http://www.amazon.com/dp/B000002LRR?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B000002LRR&adid=1CT1XMQE517HCRXY377G&" rel="nofollow" target="_blank">Download or stream album</a>, <a href="watermark.php#lyrics">Lyrics</a>, <a href="watermark.php#videos">Videos</a></p>
 								
 								<p>Peak position on Billboard 200: <strong>#25</strong></p>
 								
-								<p class="dfeat">Featured songs: <a href="watermark.html#Storms_In_Africa">"Storms In Africa"</a>, <a href="watermark.html#Orinoco_Flow">"Orinoco Flow"</a></p>
+								<p class="dfeat">Featured songs: <a href="watermark.php#Storms_In_Africa">"Storms In Africa"</a>, <a href="watermark.php#Orinoco_Flow">"Orinoco Flow"</a></p>
 							</td>
 						</tr>
 						
 						<tr>
-							<td class="cover"><a href="enya-album.html">
+							<td class="cover"><a href="enya-album.php">
 							<img  src="ea.jpg" alt="Enya album cover" /></a></td>
 							
 							<td class="desc">
-								<h4><a href="enya-album.html"><strong>Enya</strong>, 1987</a></h4>
+								<h4><a href="enya-album.php"><strong>Enya</strong>, 1987</a></h4>
 								
-								<p>Later re-released as <a href="the-celts.html"> <em>The Celts</em>, 1992</a>
+								<p>Later re-released as <a href="the-celts.php"> <em>The Celts</em>, 1992</a>
 								
 						<p></td>
 						</tr>
 						
 						<tr>
-							<td class="cover"><a href="enya-other.html">
+							<td class="cover"><a href="enya-other.php">
 							<img  src="other.JPG" alt="Other Enya lyrics" /></a></td>
 							
 							<td class="desc">
-								<h4><a href="enya-other.html"></a>Other songs &amp; singles</a></h4>
+								<h4><a href="enya-other.php"></a>Other songs &amp; singles</a></h4>
 								
-								<p class="dfeat">Featured songs: <a href="enya-other.html#Adeste_Fideles">"Adeste, Fideles"</a>, <a href="enya-other.html#May_It_Be">"May It Be"</a></p>
+								<p class="dfeat">Featured songs: <a href="enya-other.php#Adeste_Fideles">"Adeste, Fideles"</a>, <a href="enya-other.php#May_It_Be">"May It Be"</a></p>
 							</td>
 						</tr>
 					</tbody>
@@ -336,13 +336,13 @@
 
 				<h3>About the Enya discography</h3>
 				
-				<p><a href="enya-biography.html">Enya</a> has released eight studio albums, three compilation albums, twenty-one singles and a number of other appearances. Enya achieved a breakthrough in her career in 1988 with the album <em><a href="watermark.html">Watermark</a></em>, containing the hit song "Orinoco Flow" which topped the charts in the United Kingdom. Three years later, <em><a href="shepherd-moons.html">Shepherd Moons</a></em> followed. In 1992, a re-mastered version of the 1987  <em>Enya</em> album was released as <em><a href="the-celts.html">The Celts</a></em>. Four years after <em>Shepherd Moons</em>, she released <em><a href="the-memory-of-trees.html">The Memory of Trees</a></em> (1995), another top five success in both the UK, as well as her first top 10 album in the US. Singles released from the album were "Anywhere Is" and "On My Way Home".</p>
+				<p><a href="enya-biography.php">Enya</a> has released eight studio albums, three compilation albums, twenty-one singles and a number of other appearances. Enya achieved a breakthrough in her career in 1988 with the album <em><a href="watermark.php">Watermark</a></em>, containing the hit song "Orinoco Flow" which topped the charts in the United Kingdom. Three years later, <em><a href="shepherd-moons.php">Shepherd Moons</a></em> followed. In 1992, a re-mastered version of the 1987  <em>Enya</em> album was released as <em><a href="the-celts.php">The Celts</a></em>. Four years after <em>Shepherd Moons</em>, she released <em><a href="the-memory-of-trees.php">The Memory of Trees</a></em> (1995), another top five success in both the UK, as well as her first top 10 album in the US. Singles released from the album were "Anywhere Is" and "On My Way Home".</p>
 				
-				<p>In 1997, Enya released her greatest hits collection, <em><a href="paint-the-sky-with-stars.html">Paint the Sky with Stars: The Best of Enya</a></em>, again a top five album in the UK, which featured two new songs: "Paint the Sky with Stars" and "Only If...". Following a five-year break, Enya released the album <em><a href="a-day-without-rain.html">A Day Without Rain</a></em> in 2000. The album is Enya's most successful to date, peaking at No. 2 on the US  <em>Billboard</em> 200</a> albums chart. The first single, "Only Time" peaked at No. 10 on the US Hot 100.</p>
+				<p>In 1997, Enya released her greatest hits collection, <em><a href="paint-the-sky-with-stars.php">Paint the Sky with Stars: The Best of Enya</a></em>, again a top five album in the UK, which featured two new songs: "Paint the Sky with Stars" and "Only If...". Following a five-year break, Enya released the album <em><a href="a-day-without-rain.php">A Day Without Rain</a></em> in 2000. The album is Enya's most successful to date, peaking at No. 2 on the US  <em>Billboard</em> 200</a> albums chart. The first single, "Only Time" peaked at No. 10 on the US Hot 100.</p>
 				
-				<p>In 2001, Enya recorded "<a href="enya-other.html">May It Be</a>", which featured in the first installment of <em><a href="the-lord-of-the-rings.html">The Lord of the Rings</a></em> film series, <em>The Fellowship of the Ring</em>. In November 2005, a new album, entitled <em><a href="enya-amarantine.html">Amarantine</a></em>, was released. It reached the Top 10 in both the UK and the US. In 2006, Enya released several Christmas-themed CDs with newly recorded material. On 10 October 2006, <a href="enya-other.html"><em>Sounds of the Season with Enya</em></a>, containing six songs, was released only in the United States. In November 2008, <em><a href="and-winter-came.html">And Winter Came...</a></em> was released. The album is a Christmas- and Winter-themed album and was another sizable hit, reaching the top 10 in many countries, an unusual accomplishment for a seasonal album. Following the release of <em>And Winter Came...</em>, Enya released her second compilation, <em><a href="very-best-enya.html">The Very Best of Enya</a></em> in November 2009 and took an extended break from writing and recording.</p>
+				<p>In 2001, Enya recorded "<a href="enya-other.php">May It Be</a>", which featured in the first installment of <em><a href="the-lord-of-the-rings.php">The Lord of the Rings</a></em> film series, <em>The Fellowship of the Ring</em>. In November 2005, a new album, entitled <em><a href="enya-amarantine.php">Amarantine</a></em>, was released. It reached the Top 10 in both the UK and the US. In 2006, Enya released several Christmas-themed CDs with newly recorded material. On 10 October 2006, <a href="enya-other.php"><em>Sounds of the Season with Enya</em></a>, containing six songs, was released only in the United States. In November 2008, <em><a href="and-winter-came.php">And Winter Came...</a></em> was released. The album is a Christmas- and Winter-themed album and was another sizable hit, reaching the top 10 in many countries, an unusual accomplishment for a seasonal album. Following the release of <em>And Winter Came...</em>, Enya released her second compilation, <em><a href="very-best-enya.php">The Very Best of Enya</a></em> in November 2009 and took an extended break from writing and recording.</p>
 				
-				<p>After a hiatus, Enya returned to the studio in 2012, pouring her creative energy into the production of her highly anticipated album, <em><a href="enya-dark-sky-island.html">Dark Sky Island</a></em>. The culmination of her dedication and artistic vision came to fruition when the album was released in November 2015. Garnering praise from critics, Dark Sky Island resonated with audiences around the globe, solidifying Enya's status as a musical powerhouse. The album's commercial success was undeniable, securing a spot within the top ten charts in an impressive sixteen countries worldwide.</p>
+				<p>After a hiatus, Enya returned to the studio in 2012, pouring her creative energy into the production of her highly anticipated album, <em><a href="enya-dark-sky-island.php">Dark Sky Island</a></em>. The culmination of her dedication and artistic vision came to fruition when the album was released in November 2015. Garnering praise from critics, Dark Sky Island resonated with audiences around the globe, solidifying Enya's status as a musical powerhouse. The album's commercial success was undeniable, securing a spot within the top ten charts in an impressive sixteen countries worldwide.</p>
 				
 				<p>She has sold over 26.5 million albums in the United States alone according to Nielsen Soundscan, making her one of the  best-selling artists in the country. She has won four Grammy Award and placed five consecutive albums at top ten on the US <em>Billboard</em> 200. Enya has achieved worldwide record sales of more than 80 million, making her one of the best-selling music artists of all time.</p>
 				
@@ -357,25 +357,25 @@
 					<tbody>
 						<tr>
 							<td class="cover">
-								<a href="enya-other.html#frogprince"><img  src="05_A01a.jpg" alt="The Frog Prince French Lessons sountrack album cover" /></a>
+								<a href="enya-other.php#frogprince"><img  src="05_A01a.jpg" alt="The Frog Prince French Lessons sountrack album cover" /></a>
 							</td>
 							
 							<td class="desc"><a name="frogprince"></a>
 								
-								<h4><a href="enya-other.html#frogprince"><strong>The Frog Prince</strong>, 1985</a></h4>
+								<h4><a href="enya-other.php#frogprince"><strong>The Frog Prince</strong>, 1985</a></h4>
 								
-								<p>The film  <em>The Frog Prince</em> (released as  <em>The French Lesson</em> in the USA) has most soundtrack songs composed by Enya, but only two are performed by her, neither of which is used in the film. They are "<a  href="enya-other.html#The_Frog_Prince">The Frog Prince</a>" and "<a  href="enya-other.html#Dreams">Dreams</a>".</p>
+								<p>The film  <em>The Frog Prince</em> (released as  <em>The French Lesson</em> in the USA) has most soundtrack songs composed by Enya, but only two are performed by her, neither of which is used in the film. They are "<a  href="enya-other.php#The_Frog_Prince">The Frog Prince</a>" and "<a  href="enya-other.php#Dreams">Dreams</a>".</p>
 							</td>
 						</tr>
 						
 						<tr>
-							<td class="cover"><a href="the-celts-documentary.html">
+							<td class="cover"><a href="the-celts-documentary.php">
 							<img  src="tcdvd.jpg" alt="The Celts DVD cover" /></a></td>
 							
 							<td class="desc">
-								<h4><strong><a href="the-celts-documentary.html">The Celts</a></strong>, 1987</h4>
+								<h4><strong><a href="the-celts-documentary.php">The Celts</a></strong>, 1987</h4>
 								
-								<p>It is a documentary produced by the BBC, with all soundtrack composed by Enya. An album with songs from the series' was released as <a href="enya-album.html">Enya</a>, later remastered and reissued as <a href="the-celts.html">The Celts</a>. The series was <a href="http://www.amazon.com/dp/B0000WN10E?tag=enylyrallenys-20&amp;camp=0&amp;creative=0&amp;linkCode=as1&amp;creativeASIN=B0000WN10E&amp;adid=0SZED06FETQ0ZM78A5FX&amp;" rel="nofollow" target="_blank">released on DVD</a>.</p>
+								<p>It is a documentary produced by the BBC, with all soundtrack composed by Enya. An album with songs from the series' was released as <a href="enya-album.php">Enya</a>, later remastered and reissued as <a href="the-celts.php">The Celts</a>. The series was <a href="http://www.amazon.com/dp/B0000WN10E?tag=enylyrallenys-20&amp;camp=0&amp;creative=0&amp;linkCode=as1&amp;creativeASIN=B0000WN10E&amp;adid=0SZED06FETQ0ZM78A5FX&amp;" rel="nofollow" target="_blank">released on DVD</a>.</p>
 								</p>
 							</td>
 						</tr>
@@ -389,7 +389,7 @@
 								
 								<h4><strong>Far And Away</strong>, 1992</h4>
 								
-								<p>The song "<a href="enya-other.html#Book_Of_Days_English_Lyric">Book of Days</a>" was rewritten with a English-Gaelic lyric instead of the <a href="shepherd-moons.html#Book_Of_Days">original Gaelic</a>, and used at the beginning of the film credits.</p>
+								<p>The song "<a href="enya-other.php#Book_Of_Days_English_Lyric">Book of Days</a>" was rewritten with a English-Gaelic lyric instead of the <a href="shepherd-moons.php#Book_Of_Days">original Gaelic</a>, and used at the beginning of the film credits.</p>
 								
 								<p><a href="http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2FFar-Away-Original-Picture-Soundtrack%2Fdp%2FB000002OL9%3Fie%3DUTF8%26s%3Dmusic%26qid%3D1207923777%26sr%3D1-1&tag=enylyrallenys-20&linkCode=ur2&camp=1789&creative=9325" rel="nofollow" target="_blank">Soundtrack CD</a> and <a href="http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2FFar-Away-Tom-Cruise%2Fdp%2F0783226810%3Fie%3DUTF8%26s%3Ddvd%26qid%3D1207923626%26sr%3D1-1&tag=enylyrallenys-20&linkCode=ur2&camp=1789&creative=9325" rel="nofollow" target="_blank">film DVD</a> available on Amazon.com</p>
 							</td>
@@ -404,7 +404,7 @@
 								
 								<h4><strong>Toys</strong>, 1992</h4>
 								
-								<p>A remix of "<a href="shepherd-moons.html#Ebud%E6">Ebud&aelig;</a>", slightly shorter than the album version, was used in the film. It lacks only the brief three second prelude. The instrumental was also changed, with the addition of a small but distinctive percussion and bell part.</p>
+								<p>A remix of "<a href="shepherd-moons.php#Ebud%E6">Ebud&aelig;</a>", slightly shorter than the album version, was used in the film. It lacks only the brief three second prelude. The instrumental was also changed, with the addition of a small but distinctive percussion and bell part.</p>
 								
 								<p><a
 									href="http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2FToys-Original-Motion-Picture-Soundtrack%2Fdp%2FB000000OT8%3Fie%3DUTF8%26s%3Dmusic%26qid%3D1207923804%26sr%3D1-1&tag=enylyrallenys-20&linkCode=ur2&camp=1789&creative=9325" rel="nofollow" target="_blank">Soundtrack CD</a> and <a
@@ -420,7 +420,7 @@
 							<td class="desc">
 								<h4><strong>Themes From Calmi Cuori Appassionati</strong>, 2001</h4>
 								
-								<p>Portions of seven Enya tracks appear in the Japanese film  <em>Reisei To Jyonetsu No Aida (Calmi Cuori Appassionati)</em> ("Between Calmness and Passion" in English). "<a href="a-day-without-rain.html#Wild_Child">Wild Child</a>" is used enterely in the closing credits</a>". The soundtrack has 14 Enya songs.</p>
+								<p>Portions of seven Enya tracks appear in the Japanese film  <em>Reisei To Jyonetsu No Aida (Calmi Cuori Appassionati)</em> ("Between Calmness and Passion" in English). "<a href="a-day-without-rain.php#Wild_Child">Wild Child</a>" is used enterely in the closing credits</a>". The soundtrack has 14 Enya songs.</p>
 							</td>
 						</tr>
 						
@@ -432,7 +432,7 @@
 							<td class="desc">
 								<h4><strong>The Lord of the Rings: The Fellowship of the Ring</strong>, 2001/2002</h4>
 								
-								<p>The film soundtrack includes two pieces written and performed by Enya: "<a href="enya-other.html#May_It_Be">May It Be</a>", sung in  English and Quenya, and "<a href="enya-other.html#An%EDron">An&iacute;ron </a>", sung in Sindarin. Sindarin and Quenya are fictional languages of the novels. <a href="the-lord-of-the-rings.html">Click here for more about  <em>The Lord Of The Rings</em></a>.</p>
+								<p>The film soundtrack includes two pieces written and performed by Enya: "<a href="enya-other.php#May_It_Be">May It Be</a>", sung in  English and Quenya, and "<a href="enya-other.php#An%EDron">An&iacute;ron </a>", sung in Sindarin. Sindarin and Quenya are fictional languages of the novels. <a href="the-lord-of-the-rings.php">Click here for more about  <em>The Lord Of The Rings</em></a>.</p>
 								
 								<p><a
 									href="http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2FLord-Rings-Fellowship-Ring%2Fdp%2FB00005QZWI%3Fie%3DUTF8%26s%3Dmusic%26qid%3D1207924058%26sr%3D1-1&tag=enylyrallenys-20&linkCode=ur2&camp=1789&creative=9325" rel="nofollow" target="_blank">Soundtrack CD</a> and <a
@@ -457,11 +457,11 @@
 				
 				<h3><a name="eotherwork"></a>Early work and other appearances by Enya</h3>
 				
-				<p>Enya's musical journey began with her family band, <a href="enya-clannad.html">Clannad</a> (Irish folk/new age/rock).  Beyond her solo career, she also lent her voice to other artists' songs (see list below).  These collaborations showcase Enya's unique talent blending with other creative visions. </p>
+				<p>Enya's musical journey began with her family band, <a href="enya-clannad.php">Clannad</a> (Irish folk/new age/rock).  Beyond her solo career, she also lent her voice to other artists' songs (see list below).  These collaborations showcase Enya's unique talent blending with other creative visions. </p>
 				
 				<ul>
 					<li><strong>1983:  <em>Ceol Aduaidh</em> album by Mair&eacute;ad N&iacute; Mhaonaigh and Frankie Kennedy.</strong> Enya plays the synthesizer on the song "An C&aacute;r Bog D&eacute;il".</li>
-					<li><strong>1984:  <em>Touch Travel</em> album by various artists.</strong> A cassette which included two instrumental tracks by Enya (credited under her real name Eithne N� Bhraon�in): "An Ghaoth &Oacute;n Ghrian" (2:04) and "Miss Clare Remembers" (2:02), a demo version of its namesake on later <a href="watermark.html"> <em>Watermark</em></a>. Both songs were produced by <a href="roma-ryan-nicky.html">Nicky Ryan</a>.</li>
+					<li><strong>1984:  <em>Touch Travel</em> album by various artists.</strong> A cassette which included two instrumental tracks by Enya (credited under her real name Eithne N� Bhraon�in): "An Ghaoth &Oacute;n Ghrian" (2:04) and "Miss Clare Remembers" (2:02), a demo version of its namesake on later <a href="watermark.php"> <em>Watermark</em></a>. Both songs were produced by <a href="roma-ryan-nicky.php">Nicky Ryan</a>.</li>
 					<li><strong>1985:  <em>Ordinary Man</em> album by Christy Moore.</strong> Enya does backup vocals on tracks "Sweet Music Roll On", "The Diamondtina Drover" and "Quiet Desperation"</li>
 					<li><strong>1987:  <em>The Lion And the Cobra</em> album by Sin&eacute;ad O'Connor.</strong> Enya reads the Psalms 91:11-13, in Irish Gaelic, on the track "Never Get Old".</li>
 					<li><strong>1991:  <em>The Driver</em> album by Terry Reid.</strong> Enya does  backup vocals on track "The Whole of the Moon".</li>
@@ -470,7 +470,7 @@
 				
 				<h3>Even more...</h3>
 				
-				<p>For soundtracks, b-sides, alternate versions and  <em>Sounds of the Season/Christmas Secrets</em> songs, see <a href="enya-other.html">Other songs by Enya</a>. For a complete list of songs, check <a href="all-enya-songs.html">All Enya songs</a>.</p>
+				<p>For soundtracks, b-sides, alternate versions and  <em>Sounds of the Season/Christmas Secrets</em> songs, see <a href="enya-other.php">Other songs by Enya</a>. For a complete list of songs, check <a href="all-enya-songs.php">All Enya songs</a>.</p>
 			</div>
 			
 			<div id="sidebar">
@@ -480,17 +480,17 @@
 				
 				<h3>Featured albums</h3>
 
-				<h4><strong><a href="a-day-without-rain.html">A Day Without Rain</a></em></strong>, 2000</h4>
+				<h4><strong><a href="a-day-without-rain.php">A Day Without Rain</a></em></strong>, 2000</h4>
 				
-				<div><a href="a-day-without-rain.html">
+				<div><a href="a-day-without-rain.php">
 					<img src="enya-2023-adwr.jpg" alt="A Day Without Rain album picture" /></a>
 					
 					<p>Through extensive use in various forms of media, "Only Time" became an anthem of resilience and hope after  the tragic events of the September 11 attacks. </p>
 				</div>
 
-				<h4><strong><a href="the-memory-of-trees.html">The Memory of Trees</a></em></strong>, 1995</h4>
+				<h4><strong><a href="the-memory-of-trees.php">The Memory of Trees</a></em></strong>, 1995</h4>
 				
-				<div><a href="the-memory-of-trees.html">
+				<div><a href="the-memory-of-trees.php">
 					<img src="enya-2023-tmot.jpg" alt="A Day Without Rain album picture" /></a>
 					
 					<p>This album won Enya's first Grammy Award for Best New Age Album. &ldquo;With the destruction of the world&rsquo;s rainforests it may turn out to be that the memory of trees is nothing more than that for us&mdash;a memory.&rdquo;</p>
