@@ -27,7 +27,7 @@
 		
 		<div id="menu">
 			<ul>
-				<!-- <li><a href="new-enya-album-2025.php" class="new-album-link">New album!</a></li> -->	
+				<!-- <li><a href="new-enya-album-2025.php" class="new-album-link">New album!</a></li> -->
 
 				<li class="drop"><a href="enya-songs-albums.php" title="Albums and lyrics list" id="sm">Songs, Albums  &amp; Lyrics
 					</a>

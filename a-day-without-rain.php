@@ -34,7 +34,7 @@
 			
 			<div id="menu">
 				<ul>
-					<!-- <li><a href="new-enya-album-2025.php" class="new-album-link">New album!</a></li> -->	
+					<!-- <li><a href="new-enya-album-2025.php" class="new-album-link">New album!</a></li> -->
 
 					<li class="drop"><a href="enya-songs-albums.php" title="Albums and lyrics list" id="sm">Songs, Albums  &amp; Lyrics
 						</a>
@@ -96,7 +96,7 @@
 					    <span property="name">Home</span></a> 
 					  <meta property="position" content="1">
 					  &rsaquo;</li>
-				<li property="itemListElement" typeof="ListItem"><a href="enya-songs-albums.php" 
+				<li property="itemListElement" typeof="ListItem"><a href="enya-songs-albums.php"
 					property="item" typeof="WebPage">
 					    <span property="name">Enya Songs &amp; Albums</span></a>  &rsaquo;
 					  <meta property="position" content="2"></li>

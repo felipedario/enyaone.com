@@ -8,12 +8,12 @@
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-K7NW25M');</script>
 	<!-- End Google Tag Manager -->
-	
+
 <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type" /><meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Our recommended links | Enya fan sites</title>
-  
+
   <meta name="description" content="More Enya official and fan site links. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!" />
   <meta content="Felipe D&aacute;rio (http://flipdarius.googlepages.com)" name="author" />
 
@@ -27,14 +27,14 @@
 
 	<header>
 		<div id="logo"><a href="index.php" title="Enya Lyrics main page">Enya One: Enya songs, albums, biography, lyrics, and more!</a></div>
-		
+
 		<div id="menu">
 			<ul>
-				<!-- <li><a href="new-enya-album-2025.php" class="new-album-link">New album!</a></li> -->	
+				<!-- <li><a href="new-enya-album-2025.php" class="new-album-link">New album!</a></li> -->
 
 				<li class="drop"><a href="enya-songs-albums.php" title="Albums and lyrics list" id="sm">Songs, Albums  &amp; Lyrics
 					</a>
-					
+
 					<ul>
 						<li><a href="enya-album.php"><em>Enya</em>, 1987</a></li>
 						<li><a href="watermark.php"><em>Watermark</em>, 1988</a></li>
@@ -60,24 +60,24 @@
 				<li><a href="new-age-music.php" title="New Age music">Artists like Enya</a></li>
 
 				<li><a href="enya-video.php" title="EnyaTube Enya videos">Videos</a></li>
-				
+
 				<li><a href="sitemap.php" title="More about Enya">More <span>about Enya: sitemap</span></a></li>
 			</ul>
 		</div>
-		
+
 		<div id="search">
 			<fieldset>
 				<legend>
 					<label for="text">Search Enya One</label>
 				</legend>
-				
+
 				<form action="https://www.google.com" id="cse-search-box">
 					<input type="hidden" name="cx" value="partner-pub-6820018585261081:4173396540" />
-					
+
 					<input type="hidden" name="ie" value="UTF-8" />
-					
+
 					<input type="text" name="q"  placeholder="Search" class="field" />
-					
+
 					<input type="submit" name="sa" value="Search" class="button" />
 				</form>
 			</fieldset>
@@ -122,7 +122,7 @@ profile in Amazon.com</a>, with big savings in Enya products.</span></li>
 	<h2>Browse Enya One</h2>
 
 	<h3>Enya albums and songs lyrics</h3>
-	
+
 	<ul>
 		<li><a href="enya-album.php"><em>Enya</em><span>, 1987</span></a></li>
 		<li><a href="watermark.php"><em>Watermark</em><span>, 1988</span></a></li>
@@ -141,25 +141,25 @@ profile in Amazon.com</a>, with big savings in Enya products.</span></li>
 		<li><a href="all-enya-songs.php">Complete list<span>: listen for free and download all Enya songs</span></a></li>
 		<li><a href="enya-songs-albums.php">Enya Songs &amp; Albums<span>, including soundtracks and other works</span></a></li>
 	</ul>
-	
+
 	<h3>About Enya</h3>
-	
+
 	<ul>
 		<li><a href="enya-biography.php">Enya biography, trivia and FAQ</a></li>
 		<li><a href="roma-ryan-nicky.php">Roma <span>(Enya's lyricist) and</span> Nicky Ryan <span>(her producer)</span></a></li>
 		<li><a href="new-age-music.php">Artists like Enya<span>: New Age, Celtic, ambient and ethereal music</span></a></li>
 
 		<li><a href="enya-quotes.php">Quotes<span> by and about Enya</span></a></li>
-		
+
 		<li><a href="the-lord-of-the-rings.php"><em>The Lord of the Rings</em><span>, Enya's favorite book</span></a></li>
 		<li><a href="enya-clannad.php">Clannad<span>, Enya's family band</span></a></li>
 		<li><a href="the-celts-documentary.php"><span>BBC's</span> <em>The Celts</em> documentary</a></li>
 	</ul>
-	
-	
-	
+
+
+
 	<h3>Even more</h3>
-	
+
 	<ul>
 		<li><a href="sitemap.php">Sitemap<span>: more about Enya</span></a></li>
 		<li><a href="enya-video.php">EnyaTube<span>: all Enya videos</span></a></li>
@@ -170,7 +170,7 @@ profile in Amazon.com</a>, with big savings in Enya products.</span></li>
 
 <footer>
 	<p><strong><a href="index.php">Enya One</a></strong>, 2007-2023. <a href="sitemap.php#aboutus">About us</a> &middot; <a href="pp.php">Privacy Policy</a> &middot; <a href="mailto:orangax@gmail.com&amp;subject=Enya%20Lyrics%20feedback">Contact us</a> &middot; <a href="http://felipedario.com/">Design and web development by Felipe D&aacute;rio</a>.</p>
-	
+
 	<p>Lyrics, videos, images and the Enya logo &trade; &amp; &copy; Enya/Aigle Studios/Warner Music. As an Amazon Associate I earn from qualifying purchases.</p>
 </footer>
 

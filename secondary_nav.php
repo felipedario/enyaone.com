@@ -2,7 +2,7 @@
 	<h2>Browse Enya One</h2>
 
 	<h3>Enya albums and songs lyrics</h3>
-	
+
 	<ul>
 		<li><a href="enya-album.php"><em>Enya</em><span>, 1987</span></a></li>
 		<li><a href="watermark.php"><em>Watermark</em><span>, 1988</span></a></li>
@@ -21,25 +21,25 @@
 		<li><a href="all-enya-songs.php">Complete list<span>: listen for free and download all Enya songs</span></a></li>
 		<li><a href="enya-songs-albums.php">Enya Songs &amp; Albums<span>, including soundtracks and other works</span></a></li>
 	</ul>
-	
+
 	<h3>About Enya</h3>
-	
+
 	<ul>
 		<li><a href="enya-biography.php">Enya biography, trivia and FAQ</a></li>
 		<li><a href="roma-ryan-nicky.php">Roma <span>(Enya's lyricist) and</span> Nicky Ryan <span>(her producer)</span></a></li>
 		<li><a href="new-age-music.php">Artists like Enya<span>: New Age, Celtic, ambient and ethereal music</span></a></li>
 
 		<li><a href="enya-quotes.php">Quotes<span> by and about Enya</span></a></li>
-		
+
 		<li><a href="the-lord-of-the-rings.php"><em>The Lord of the Rings</em><span>, Enya's favorite book</span></a></li>
 		<li><a href="enya-clannad.php">Clannad<span>, Enya's family band</span></a></li>
 		<li><a href="the-celts-documentary.php"><span>BBC's</span> <em>The Celts</em> documentary</a></li>
 	</ul>
-	
-	
-	
+
+
+
 	<h3>Even more</h3>
-	
+
 	<ul>
 		<li><a href="sitemap.php">Sitemap<span>: more about Enya</span></a></li>
 		<li><a href="enya-video.php">EnyaTube<span>: all Enya videos</span></a></li>

@@ -22,14 +22,14 @@
 
 	<header>
 		<div id="logo"><a href="index.php" title="Enya Lyrics main page">Enya One: Enya songs, albums, biography, lyrics, and more!</a></div>
-		
+
 		<div id="menu">
 			<ul>
-				<!-- <li><a href="new-enya-album-2025.php" class="new-album-link">New album!</a></li> -->	
+				<!-- <li><a href="new-enya-album-2025.php" class="new-album-link">New album!</a></li> -->
 
 				<li class="drop"><a href="enya-songs-albums.php" title="Albums and lyrics list" id="sm">Songs, Albums  &amp; Lyrics
 					</a>
-					
+
 					<ul>
 						<li><a href="enya-album.php"><em>Enya</em>, 1987</a></li>
 						<li><a href="watermark.php"><em>Watermark</em>, 1988</a></li>
@@ -55,30 +55,30 @@
 				<li><a href="new-age-music.php" title="New Age music">Artists like Enya</a></li>
 
 				<li><a href="enya-video.php" title="EnyaTube Enya videos">Videos</a></li>
-				
+
 				<li><a href="sitemap.php" title="More about Enya">More <span>about Enya: sitemap</span></a></li>
 			</ul>
 		</div>
-		
+
 		<div id="search">
 			<fieldset>
 				<legend>
 					<label for="text">Search Enya One</label>
 				</legend>
-				
+
 				<form action="https://www.google.com" id="cse-search-box">
 					<input type="hidden" name="cx" value="partner-pub-6820018585261081:4173396540" />
-					
+
 					<input type="hidden" name="ie" value="UTF-8" />
-					
+
 					<input type="text" name="q"  placeholder="Search" class="field" />
-					
+
 					<input type="submit" name="sa" value="Search" class="button" />
 				</form>
 			</fieldset>
 		</div>
 	</header>
-	
+
 
 <div id="content">
 
@@ -211,7 +211,7 @@
 <h4><a href="a-day-without-rain.php">A Day Without Rain</a>, 2000</h4>
 </td>
 </tr>
-    
+
 <tr>
 <td class="shot">
 <a href="video-wild-child.php"><img style="border: 0px solid ; width: 150px; height: 100px;" alt=""src="vwch.jpg" /></a>
@@ -422,26 +422,26 @@
 </div>
 
 <div id="sidebar">
-	
+
 	<p><strong>Looking for downloads?</strong> <a href="http://amzn.to/1N3fScO" rel="nofollow" target="_blank">Get all Enya MP3 downloads</a> on Amazon now!</p>
-	
+
 	<h3>Featured Album</h3>
-				
+
 				<div><a href="and-winter-came.php">
 					<img src="awc.jpg" alt="And Winter Came... album cover" /></a>
-					
+
 					<p><strong><em><a href="and-winter-came.php">And Winter Came...</a></em></strong>
-						
+
 					<br />Released in 2008, this album primarily have a Christmas or winter theme. It  charted in the UK at #6 on November 16 of that year.</p>
 				</div>
-				
+
 				<h3>Featured Video</h3>
-				
+
 				<div><a  href="video-orinoco-flow-sail-away.php">
 					<img src="vof2.jpg" alt="Orinoco Flow music video still" /></a>
-					
+
 					<p><strong><em><a href="video-orinoco-flow-sail-away.php">"Orinoco Flow (Sail Away)", remastered in 4K</a></em></strong>
-						
+
 						<br />Released in October 1988, this is the promo video for Enya <a href="watermark.php#Orinoco_Flow">"Orinoco Flow"</a>, from the album <a href="watermark.php"><em>Watermark</em></a>.
 					</p>
 				</div>
@@ -455,7 +455,7 @@
 	<h2>Browse Enya One</h2>
 
 	<h3>Enya albums and songs lyrics</h3>
-	
+
 	<ul>
 		<li><a href="enya-album.php"><em>Enya</em><span>, 1987</span></a></li>
 		<li><a href="watermark.php"><em>Watermark</em><span>, 1988</span></a></li>
@@ -474,25 +474,25 @@
 		<li><a href="all-enya-songs.php">Complete list<span>: listen for free and download all Enya songs</span></a></li>
 		<li><a href="enya-songs-albums.php">Enya Songs &amp; Albums<span>, including soundtracks and other works</span></a></li>
 	</ul>
-	
+
 	<h3>About Enya</h3>
-	
+
 	<ul>
 		<li><a href="enya-biography.php">Enya biography, trivia and FAQ</a></li>
 		<li><a href="roma-ryan-nicky.php">Roma <span>(Enya's lyricist) and</span> Nicky Ryan <span>(her producer)</span></a></li>
 		<li><a href="new-age-music.php">Artists like Enya<span>: New Age, Celtic, ambient and ethereal music</span></a></li>
 
 		<li><a href="enya-quotes.php">Quotes<span> by and about Enya</span></a></li>
-		
+
 		<li><a href="the-lord-of-the-rings.php"><em>The Lord of the Rings</em><span>, Enya's favorite book</span></a></li>
 		<li><a href="enya-clannad.php">Clannad<span>, Enya's family band</span></a></li>
 		<li><a href="the-celts-documentary.php"><span>BBC's</span> <em>The Celts</em> documentary</a></li>
 	</ul>
-	
-	
-	
+
+
+
 	<h3>Even more</h3>
-	
+
 	<ul>
 		<li><a href="sitemap.php">Sitemap<span>: more about Enya</span></a></li>
 		<li><a href="enya-video.php">EnyaTube<span>: all Enya videos</span></a></li>
@@ -503,7 +503,7 @@
 
 <footer>
 	<p><strong><a href="index.php">Enya One</a></strong>, 2007&ndash;<script> document.write(new Date().getFullYear());</script> &middot; <a href="sitemap.php#aboutus">About us</a> &middot; <a href="pp.php">Privacy Policy</a> &middot; <a href="sitemap.php#contact">Contact us</a> &middot; <a href="http://felipedario.com/">Design and web development by Felipe D&aacute;rio</a>.</p>
-	
+
 	<p>Lyrics, videos, images and the Enya logo TM &amp; &copy; Enya/Warner Music. As Amazon Associates, we earn a small comission from qualifying purchases.</p>
 </footer>
 
