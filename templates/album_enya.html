@@ -1,0 +1,128 @@
+{% extends "base.html" %}
+
+{% block title %}"Enya", 1987, the first Enya album | Lyrics, downloads, info{% endblock %}
+
+{% block meta_description %}All info, lyrics and MP3 downloads for Enya's debut album 'Enya', 1987, later re-released as 'The Celts'. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!{% endblock %}
+
+{% block main_content %}
+<ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
+    <li property="itemListElement" typeof="ListItem"><a href="{{ url_for('index') }}" property="item" typeof="WebPage">
+            <span property="name">Home</span>
+          </a>
+          <meta property="position" content="1"></li>
+    <li property="itemListElement" typeof="ListItem"><a href="{{ url_for('songs_albums') }}"
+        property="item" typeof="WebPage">
+            <span property="name">Enya Songs &amp; Albums</span></a>  &rsaquo;
+          <meta property="position" content="2"></li>
+    <li property="itemListElement" typeof="ListItem">
+        <strong property="name">Enya</strong>
+        <meta property="position" content="3"></li>
+</ol>
+
+<h1>Enya (1987)</h1>
+
+<a class="new-amazon-album-link" href="https://amzn.to/3UBLYaD" rel="nofollow" target="_blank">
+	<img src="{{ url_for('static', filename='images/ea.jpg') }}" alt="The Celts (1992) album cover" /> {# Improved alt text #}
+</a>
+
+<p><strong><em>Enya</em></strong> is the first album by Enya, released in 1987. It features music
+written and recorded for the soundtrack of the 1986 documentary
+television series by BBC, <a href="{{ url_for('the_celts_documentary') }}"><em>The Celts</em></a>. It was reissued and remastered in 1992 as <strong><em><a href="{{ url_for('album_the_celts') }}">The Celts</a></em></strong>.</p>
+
+<p><a href="https://amzn.to/3UBLYaD" rel="nofollow" target="_blank">Stream or download Enya songs</a></p>
+
+<p>Recorded in 1986, it was not released until 1987, when the series was
+first broadcast. The album was first released in the UK by the BBC on
+their own label, and later issued in North America by Atlantic Records.</p>
+
+<p>Two versions of this album were released. The original BBC Records release had a cover with a white border, as illustrated. Later reissued on Atlantic Records with a black-bordered cover. The contents of both versions are identical.</p>
+
+<p>The original release was distributed by Atlantic Records. When reissued by Warner Music under the title <em>The Celts</em>, the original-release track entitled "Portrait" was replaced with a nearly identical (but longer and played with different instrumentation) song entitled "Portrait (Out of the Blue)". The original version <em>Enya</em> is no longer manufactured.</p>
+
+<p>The album contains only a portion of the music Enya composed for the TV series. In 2005, a previously unreleased track from these sessions, a "Spaghetti Western Theme" done in the style of Hugo Montenegro, was released on the CD-single for "Amarantine", in memory of one of the producers of the TV series.</p>
+
+<p>The Fugees sampled "Boadicea" from this album for their song "Ready or Not" on 1996's <em>The Score</em>. Enya had prepared to sue the group for copyright infringement because they had not asked for permission and did not give her credit. After learning that The Fugees were not gangsta rappers, Enya declined to follow through with the suit, but stickers were then placed on <em>The Score</em> giving Enya credit for her work.</p>
+
+<p>Mario Winans also sampled "Boadicea" for the melody of the song "I Don't Wanna Know" (2004). Producer P. Diddy reportedly personally contacted Enya for permission and gave her 60 percent of the royalties. She also received name billing ("Mario Winans featuring Enya and P. Diddy") for the song, which turned out to be a hit, putting her name #2 on the "Hot R&B/Hip-Hop Singles & Tracks" chart in 2004. The song was also sampled on the answer-back song "You Should Really Know" by The Pirates featuring Shola Ama, Naila Boss & Ishani which peaked at #8 on the UK Singles Chart. "Boadicea" was also sampled by Nina Sky for their hype single "Time To Go" featuring Angie Martinez, from the mixtape presented by Cipha Sounds. Actually, they more sampled "Ready or Not", as it does feature lyrics from that song as well.</p>
+
+<p>Music from the Celts soundtrack would later be reused for the soundtrack of the video production <em>The Memory of Earth</em>, produced by David Bickley.</p>
+
+<p>The song "Boadicea" was also on the <em>Sleepwalkers</em> (1992) soundtrack.</p>
+
+<p><strong>Single</strong>: <a href="#I_Want_Tomorrow">"I Want Tomorrow"</a></p> {# TODO: This anchor likely refers to a section on this page or the_celts.html page. Will need to verify. #}
+
+<p><strong><a href="{{ url_for('album_the_celts') }}#lyrics">Lyrics</a>, <a href="{{ url_for('album_the_celts') }}#videos">videos list</a> and <a href="{{ url_for('album_the_celts') }}#linearnotes">linear notes</a> in <em><a href="{{ url_for('album_the_celts') }}">The Celts</a></em> album page</strong>.</p>
+
+<h3><a name="charts"></a>Charts</h3>
+<table style="width: 100%;" class="wikitable" border="0" cellpadding="0" cellspacing="0">
+    <tbody>
+        <tr>
+            <th>Year</th>
+            <th>Chart</th>
+            <th>Position</th>
+        </tr>
+        <tr>
+            <td>1990</td>
+            <td>Top New Age Albums (US)</td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td>1992</td>
+            <td>Official Album Chart (UK)</td>
+            <td>10</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3><a name="credits"></a>Credits</h3>
+<p>Guest musicians:</p>
+<ul>
+    <li><em>I Want Tomorrow</em>: electric guitar by <strong>Arty McGlynn</strong></li>
+    <li><em>The Sun In The Stream</em>: uillean pipes by <strong>Liam O'Flionn</strong></li>
+    <li><em>To Go Beyond II</em>: violin by <strong>Patrick Halling</strong></li>
+</ul>
+
+<p>All music composed by <strong>Enya</strong> and Published by <strong>Aigle Music</strong>.</p>
+
+<p>Words for "I Want Tomorrow" and "Dan y Dwr" written by <strong>Roma Ryan</strong>; words for "The Celts", "March of the Celts", "Aldebaran" and "Deireadh an Tuath" written by <strong>Enya and Roma Ryan</strong>. Words to "St. Patrick" are traditional.</p>
+
+<p>This is a selection of the music heard in the BBC-TV Series "THE CELTS".<br>
+<strong>Enya</strong>: Vocals, Piano, Juno 60, DX7, Emulator II and Kurtzweil</p>
+
+<p>Music arranged by <strong>Enya and Nicky Ryan</strong>.<br>
+Engineered by <strong>Nigel Read</strong>.<br>
+Recorded at <strong>BBC Enterprises Studio Woodlands</strong>, London, and <strong>Aigle Studios</strong>, Dublin.</p>
+
+<p>Produced by <strong>Nicky Ryan</strong><br>
+Executive Producer: <strong>Bruce Talbot</strong><br>
+("Aldebaran" is dedicated to Ridley Scott)</p>
+
+<p>Sleeve Design and Art Direction: <strong>Mario Moscardini</strong><br>
+Photography: <strong>Martyn J. Adleman</strong><br>
+Re-Mastered by <strong>Sam Feldman</strong> at Atlantic Studios, NYC</p>
+
+<em><strong>Acknowledgements</strong></em>
+<p>"ENYA and AIGLE MUSIC would like to thank:<br>
+Julian Mitchell-Dawson<br>
+Gordon Menzies<br>
+Lance England<br>
+Those Nervous Animals<br>
+Na Casaidigh<br>
+Noel Bridgeman<br>
+Nollaig Casey<br>
+Tony McHugh<br>
+Pat Coleman<br>
+and especially Mr. lan Donald<br>
+and Opel/General Motors for their generosity and assistance.</p>
+
+<p>"A Very special thanks to:<br>
+Bruce Talbot and Humphrey Walwyn<br>
+David Richardson and Tony McAuley</p>
+
+<p>"It is impossible for us to include all those we would like to thank. We would, however, like to take this opportunity to express our gratitude to the staff of BBC Enterprises involved in this project for their encouragement and hospitality."</p>
+{% endblock %}
+
+{% block sidebar_content %}
+<a id="albumcover" href="https://amzn.to/3UBLYaD" rel="nofollow" target="_blank"><img  title="Audio, images and low prices at Amazon" src="{{ url_for('static', filename='images/ea.jpg') }}" alt="Enya - Enya (1987) album cover" /></a>
+<div class="buy"><a href="https://amzn.to/3UBLYaD" rel="nofollow" target="_blank">Stream or download Enya songs</a></div>
+{% endblock %}

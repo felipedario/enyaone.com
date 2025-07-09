@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-K7NW25M');</script>
+    <!-- End Google Tag Manager -->
+
+    <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type" />
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style-enya-lyrics.css') }}" />
+
+    <title>{% block title %}Enya One{% endblock %}</title>
+
+    <meta name="description" content="{% block meta_description %}Enya Lyrics is a tribute to singer Enya featuring all her song lyrics, downloads, Only Time info, albums information, videos, biography and more!{% endblock %}" />
+    <link rel="canonical" href="{{ request.url_root.rstrip('/') }}{{ url_for(request.endpoint, **request.view_args) if request.endpoint else '' }}">
+
+    {% block extra_meta %}{% endblock %}
+
+    <meta content="Felipe Dario (http://felipedario.com)" name="author" />
+</head>
+<body>
+    <a href="#main" class="sr">Jump to content</a>
+
+    <div id="wrap">
+        {% include "_header.html" %}
+
+        <div id="content">
+            {% block content_wrapper %}
+            <div id="main">
+                {% block main_content %}{% endblock %}
+            </div>
+
+            <div id="sidebar">
+                {% block sidebar_content %}{% endblock %}
+            </div>
+
+            <div class="c"></div>
+            {% endblock %}
+        </div>
+
+        {% include "_browse_enya_one.html" %}
+
+        {% include "_footer.html" %}
+    </div>
+</body>
+</html>

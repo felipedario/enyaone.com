@@ -1,0 +1,47 @@
+<header>
+    <div id="logo"><a href="{{ url_for('index') }}" title="Enya Lyrics main page">Enya One: Enya songs, albums, biography, lyrics, and more!</a></div>
+
+    <div id="menu">
+        <ul>
+            <!-- <li><a href="new-enya-album-2025.html" class="new-album-link">New album!</a></li> -->
+
+            <li class="drop"><a href="{{ url_for('songs_albums') }}" title="Albums and lyrics list" id="sm">Songs, Albums  &amp; Lyrics
+                </a>
+
+                <ul>
+                    <li><a href="{{ url_for('album_enya') }}"><em>Enya</em>, 1987</a></li>
+                    <li><a href="{{ url_for('album_watermark') }}"><em>Watermark</em>, 1988</a></li>
+                    <li><a href="{{ url_for('album_shepherd_moons') }}"><em>Shepherd Moons</em>, 1991</a></li>
+                    <li><a href="{{ url_for('album_the_celts') }}"><em>The Celts</em>, 1992</a></li>
+                    <li><a href="{{ url_for('album_the_memory_of_trees') }}"><em>The Memory of Trees</em>, 1995</a></li>
+                    <li><a href="{{ url_for('album_paint_the_sky_with_stars') }}"><em>Paint The Sky With Stars</em>, 1997</a></li>
+                    <li><a href="{{ url_for('album_a_day_without_rain') }}"><em>A Day Without Rain</em>, 2000</a></li>
+                    <li><a href="{{ url_for('album_amarantine') }}"><em>Amarantine</em>, 2005</a></li>
+                    <li><a href="{{ url_for('album_and_winter_came') }}"><em>And Winter Came</em>, 2008</a></li>
+                    <li><a href="{{ url_for('album_very_best_enya') }}"><em>The Very Best of Enya</em>, 2009</a></li>
+                    <li><a href="{{ url_for('album_dark_sky_island') }}"><em>Dark Sky Island</em>, 2015</a></li>
+                    <li><a href="{{ url_for('other_songs') }}">Other songs by Enya</a></li>
+                    <li><a href="{{ url_for('all_songs') }}">List of all songs</a></li>
+                </ul>
+            </li>
+            <li><a href="{{ url_for('biography') }}" title="Enya biography">Biography</a></li>
+            <li><a href="{{ url_for('new_age_music') }}" title="New Age music">Artists like Enya</a></li>
+            <li><a href="{{ url_for('videos') }}" title="EnyaTube Enya videos">Videos</a></li>
+            <li><a href="{{ url_for('sitemap') }}" title="More about Enya">More <span>about Enya: sitemap</span></a></li>
+        </ul>
+    </div>
+
+    <div id="search">
+        <fieldset>
+            <legend>
+                <label for="text">Search Enya One</label>
+            </legend>
+            <form action="https://www.google.com" id="cse-search-box">
+                <input type="hidden" name="cx" value="partner-pub-6820018585261081:4173396540" />
+                <input type="hidden" name="ie" value="UTF-8" />
+                <input type="text" name="q"  placeholder="Search" class="field" />
+                <input type="submit" name="sa" value="Search" class="button" />
+            </form>
+        </fieldset>
+    </div>
+</header>
