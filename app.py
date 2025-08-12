@@ -10,8 +10,7 @@ def index():
 
 @app.route('/enya-songs-albums.html')
 def songs_albums():
-    # TODO: Create and render songs_albums.html
-    return "Page: Enya Songs & Albums (TODO)"
+    return render_template('enya-songs-albums.html')
 
 @app.route('/enya-album.html')
 def album_enya():
@@ -31,48 +30,39 @@ def album_the_celts():
 
 @app.route('/the-memory-of-trees.html')
 def album_the_memory_of_trees():
-    # TODO: Create and render the-memory-of-trees.html
-    return "Page: Album - The Memory of Trees (TODO)"
+    return render_template('the-memory-of-trees.html')
 
 @app.route('/paint-the-sky-with-stars.html')
 def album_paint_the_sky_with_stars():
-    # TODO: Create and render paint-the-sky-with-stars.html
-    return "Page: Album - Paint The Sky With Stars (TODO)"
+    return render_template('paint-the-sky-with-stars.html')
 
 @app.route('/a-day-without-rain.html')
 def album_a_day_without_rain():
-    # TODO: Create and render a-day-without-rain.html
-    return "Page: Album - A Day Without Rain (TODO)"
+    return render_template('a-day-without-rain.html')
 
 @app.route('/enya-amarantine.html')
 def album_amarantine():
-    # TODO: Create and render enya-amarantine.html
-    return "Page: Album - Amarantine (TODO)"
+    return render_template('enya-amarantine.html')
 
 @app.route('/and-winter-came.html')
 def album_and_winter_came():
-    # TODO: Create and render and-winter-came.html
-    return "Page: Album - And Winter Came (TODO)"
+    return render_template('and-winter-came.html')
 
 @app.route('/very-best-enya.html')
 def album_very_best_enya():
-    # TODO: Create and render very-best-enya.html
-    return "Page: Album - The Very Best of Enya (TODO)"
+    return render_template('very-best-enya.html')
 
 @app.route('/enya-dark-sky-island.html')
 def album_dark_sky_island():
-    # TODO: Create and render enya-dark-sky-island.html
-    return "Page: Album - Dark Sky Island (TODO)"
+    return render_template('enya-dark-sky-island.html')
 
 @app.route('/enya-other.html')
 def other_songs():
-    # TODO: Create and render enya-other.html
-    return "Page: Other Songs (TODO)"
+    return render_template('enya-other.html')
 
 @app.route('/all-enya-songs.html')
 def all_songs():
-    # TODO: Create and render all-enya-songs.html
-    return "Page: All Enya Songs (TODO)"
+    return render_template('all-enya-songs.html')
 
 @app.route('/enya-biography.html')
 def biography():
@@ -80,43 +70,35 @@ def biography():
 
 @app.route('/new-age-music.html')
 def new_age_music():
-    # TODO: Create and render new-age-music.html
-    return "Page: New Age Music (TODO)"
+    return render_template('new-age-music.html')
 
 @app.route('/enya-video.html')
 def videos():
-    # TODO: Create and render enya-video.html
-    return "Page: Videos (TODO)"
+    return render_template('enya-video.html')
 
 @app.route('/sitemap.html')
 def sitemap():
-    # TODO: Create and render sitemap.html
-    return "Page: Sitemap (TODO)"
+    return render_template('sitemap.html')
 
 @app.route('/roma-ryan-nicky.html')
 def roma_ryan_nicky():
-    # TODO: Create and render roma-ryan-nicky.html
-    return "Page: Roma Ryan & Nicky Ryan (TODO)"
+    return render_template('roma-ryan-nicky.html')
 
 @app.route('/enya-quotes.html')
 def enya_quotes():
-    # TODO: Create and render enya-quotes.html
-    return "Page: Enya Quotes (TODO)"
+    return render_template('enya-quotes.html')
 
 @app.route('/the-lord-of-the-rings.html')
 def the_lord_of_the_rings():
-    # TODO: Create and render the-lord-of-the-rings.html
-    return "Page: The Lord of the Rings (TODO)"
+    return render_template('the-lord-of-the-rings.html')
 
 @app.route('/enya-clannad.html')
 def enya_clannad():
-    # TODO: Create and render enya-clannad.html
-    return "Page: Enya & Clannad (TODO)"
+    return render_template('enya-clannad.html')
 
 @app.route('/the-celts-documentary.html')
 def the_celts_documentary():
-    # TODO: Create and render the-celts-documentary.html
-    return "Page: The Celts Documentary (TODO)"
+    return render_template('the-celts-documentary.html')
 
 @app.route('/enya-links.html')
 def links():
@@ -124,8 +106,7 @@ def links():
 
 @app.route('/pp.html')
 def pp():
-    # TODO: Create and render pp.html (Privacy Policy)
-    return "Page: Privacy Policy (TODO)"
+    return render_template('pp.html')
 
 if __name__ == '__main__':
     app.run(debug=True)

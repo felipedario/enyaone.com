@@ -1,0 +1,373 @@
+{% extends "base.html" %}
+
+{% block title %}Enya music videos, live performances | Enya Lyrics, MP3 downloads{% endblock %}
+
+{% block meta_description %}EnyaTube is your Enya videos resource. Watch her official music videos collection and live performances!{% endblock %}
+
+{% block main_content %}
+<body class="video-home">
+<div id="main">
+
+<h1>Enya Videos</h1>
+
+<h3>Enya live performances</h3>
+
+<table class="entry" cellspacing="0">
+<tbody>
+<tr>
+<td class="shot">
+<a href="{{ url_for('enya_live_christmas') }}"><img style="width: 150px; height: 100px;" alt=""src="{{ url_for('static', filename='enya-live-xmas.jpg') }}" /></a>
+</td>
+<td class="desc">
+<p class="vtitle"><a href="{{ url_for('enya_live_christmas') }}">Christmas Carols from Cork (December 2016)</a></p>
+</td>
+</tr>
+<tr>
+<td class="shot">
+<a href="{{ url_for('enya_live_video') }}"><img style="width: 150px; height: 100px;" alt=""src="{{ url_for('static', filename='enya-live.jpg') }}" /></a>
+</td>
+<td class="desc">
+<p class="vtitle"><a href="{{ url_for('enya_live_video') }}">All Enya live performances</a></p>
+</td>
+</tr>
+</tbody></table>
+
+<h3><a name="music_videos"></a>Music videos</h3>
+
+<table class="entry" cellspacing="0">
+<tbody>
+
+<tr>
+<td colspan="2" rowspan="1">
+<h4><a href="{{ url_for('album_dark_sky_island') }}">Dark Sky Island</a>, 2015</h4>
+</td>
+</tr>
+
+<tr>
+<td class="shot">
+<a href="{{ url_for('video_the_humming') }}"><img style="width: 150px; height: 100px;" alt=""src="{{ url_for('static', filename='ththumb.jpg') }}" /></a>
+</td>
+<td class="desc">
+<p class="vtitle"><a href="{{ url_for('video_the_humming') }}">The Humming (Lyric Video), 2015</a></p>
+<p class="vdirect"></p>
+<p class="vtemp">4:14</p>
+</td>
+</tr>
+
+<tr>
+<td class="shot">
+<a href="{{ url_for('video_even_in_the_shadows') }}"><img style="width: 150px; height: 100px;" alt=""src="{{ url_for('static', filename='eitsthumb.jpg') }}" /></a>
+</td>
+<td class="desc">
+<p class="vtitle"><a href="{{ url_for('video_even_in_the_shadows') }}">Even In The Shadows, 2015</a></p>
+<p class="vdirect"></p>
+<p class="vtemp">3:45</p>
+</td>
+</tr>
+
+<tr>
+<td class="shot">
+<a href="{{ url_for('video_so_i_could_find_my_way') }}"><img style="width: 150px; height: 100px;" alt=""src="{{ url_for('static', filename='sicfmwthumb.jpg') }}" /></a>
+</td>
+<td class="desc">
+<p class="vtitle"><a href="{{ url_for('video_so_i_could_find_my_way') }}">So I Could Find My Way, 2015</a></p>
+<p class="vdirect"></p>
+<p class="vtemp">4:26</p>
+</td>
+</tr>
+
+<tr>
+<td class="shot">
+<a href="{{ url_for('video_echoes_rain') }}"><img style="width: 150px; height: 100px;" alt=""src="{{ url_for('static', filename='mqdefault.jpg') }}" /></a>
+</td>
+<td class="desc">
+<p class="vtitle"><a href="{{ url_for('video_echoes_rain') }}">Echoes In Rain (Lyric Video), 2015</a></p>
+<p class="vdirect"></p>
+<p class="vtemp">3:35</p>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" rowspan="1">
+<h4><a href="{{ url_for('album_amarantine') }}">Amarantine</a>, 2005</h4>
+</td>
+</tr>
+
+<tr>
+<td class="shot">
+<a href="{{ url_for('video_its_in_the_rain') }}"><img style="width: 150px; height: 100px;" alt=""src="{{ url_for('static', filename='vrain.jpg') }}" /></a>
+</td>
+<td class="desc">
+<p class="vtitle"><a href="{{ url_for('video_its_in_the_rain') }}">It's In The Rain, 2006</a></p>
+<p class="vdirect">Directed by Tim Royes</p>
+<p class="vtemp">3:45</p>
+</td>
+</tr>
+
+<tr>
+<td class="shot">
+<a href="{{ url_for('video_amarantine') }}"><img style="border: 0px solid ; width: 150px; height: 100px;" alt=""src="{{ url_for('static', filename='vamarantine.jpg') }}" /></a>
+</td>
+<td class="desc">
+<p class="vtitle"><a href="{{ url_for('video_amarantine') }}">Amarantine, 2005</a></p>
+<p class="vdirect">Directed by Tim Royes</p>
+<p class="vtemp">3:05</p>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" rowspan="1">
+<h4><a href="{{ url_for('other_songs') }}">The Lord of the Rings Soundtrack</a>, 2001</h4>
+</td>
+</tr>
+<tr>
+<td class="shot">
+<a href="{{ url_for('video_may_it_be') }}"><img style="width: 150px; height: 100px;" alt=""src="{{ url_for('static', filename='vmib.jpg') }}" /></a>
+</td>
+<td class="desc">
+<p class="vtitle"><a href="{{ url_for('video_may_it_be') }}">May It Be, 2002</a></p>
+<p class="vdirect">Directed by&nbsp;Peter Nydrle</p>
+<p class="vtemp">3:32</p>
+</td>
+</tr>
+<tr>
+<td colspan="2" rowspan="1">
+<h4><a href="{{ url_for('album_a_day_without_rain') }}">A Day Without Rain</a>, 2000</h4>
+</td>
+</tr>
+
+<tr>
+<td class="shot">
+<a href="{{ url_for('video_wild_child') }}"><img style="border: 0px solid ; width: 150px; height: 100px;" alt=""src="{{ url_for('static', filename='vwch.jpg') }}" /></a>
+</td>
+<td class="desc">
+<p class="vtitle"><a href="{{ url_for('video_wild_child') }}">Wild Child, 2001</a></p>
+<p class="vdirect">Directed by Graham Fink</p>
+<p class="vtemp">3:30</p>
+</td>
+</tr>
+<tr>
+<td class="shot">
+<a href="{{ url_for('video_only_time') }}"><img style="width: 150px; height: 100px;" alt=""src="{{ url_for('static', filename='vot.jpg') }}" /></a>
+</td>
+<td class="desc">
+<p class="vtitle"><a href="{{ url_for('video_only_time') }}">Only Time, 2000</a></p>
+<p class="vdirect">Directed by&nbsp;Graham Fink</p>
+<p class="vtemp">3:37</p>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" rowspan="1">
+<h4><a name="below-ad-one"></a><a href="{{ url_for('album_paint_the_sky_with_stars') }}">Paint The Sky With Stars</a>, 1997</h4>
+</td>
+</tr>
+
+<tr>
+<td class="shot">
+<a href="{{ url_for('video_only_if') }}"><img style="width: 150px; height: 100px;" alt=""src="{{ url_for('static', filename='voi.jpg') }}" /></a>
+</td>
+<td class="desc">
+<p class="vtitle"><a href="{{ url_for('video_only_if') }}">Only If..., 1997</a></p>
+<p class="vdirect">Directed by&nbsp;Dan Nathan</p>
+<p class="vtemp">3:15</p>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" rowspan="1">
+<h4><a href="{{ url_for('album_the_memory_of_trees') }}">The Memory Of Trees</a>, 1995</h4>
+</td>
+</tr>
+
+<tr>
+<td class="shot">
+<a href="{{ url_for('video_on_my_way_home') }}"><img style="border: 0px solid ; width: 150px; height: 100px;" alt=""src="{{ url_for('static', filename='vomwh.jpg') }}" /></a>
+</td>
+<td class="desc">
+<p class="vtitle"><a href="{{ url_for('video_on_my_way_home') }}">On My Way Home,&nbsp; 1996</a></p>
+<p class="vdirect">Directed by&nbsp;Rob Dickins</p>
+<p class="vtemp">4:25</p>
+</td>
+</tr>
+
+<tr>
+<td class="shot">
+<a href="{{ url_for('video_anywhere_is') }}"><img style="border: 0px solid ; width: 150px; height: 100px;" alt=""src="{{ url_for('static', filename='vai.jpg') }}" /></a>
+</td>
+<td class="desc">
+<p class="vtitle"><a href="{{ url_for('video_anywhere_is') }}">Anywhere Is, 1995</a></p>
+<p class="vdirect">Directed by&nbsp;David Scheinmann</p>
+<p class="vtemp">3:46</p>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" rowspan="1">
+<h4><a href="{{ url_for('album_the_celts') }}">The Celts</a>, 1992</h4>
+</td>
+</tr>
+
+<tr>
+<td class="shot">
+<a href="{{ url_for('video_the_celts') }}"><img style="width: 150px; height: 100px;" alt=""src="{{ url_for('static', filename='vtc.jpg') }}" /></a>
+</td>
+<td class="desc">
+<p class="vtitle"><a href="{{ url_for('video_the_celts') }}">The Celts, 1993</a></p>
+<p class="vdirect">Directed by&nbsp;Michael Geoghegan</p>
+<p class="vtemp">3:05</p>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" rowspan="1">
+<h4><a href="{{ url_for('album_shepherd_moons') }}">shepherd Moons</a>, 1991</h4>
+</td>
+</tr>
+
+<tr>
+<td class="shot">
+<a href="{{ url_for('video_book_of_days') }}"><img style="border: 0px solid ; width: 150px; height: 100px;" alt=""src="{{ url_for('static', filename='vbod.jpg') }}" /></a>
+</td>
+<td class="desc">
+<p class="vtitle"><a href="{{ url_for('video_book_of_days') }}">Book Of Days, 1992</a></p>
+<p class="vdirect">Directed by&nbsp;Michael Geoghegan</p>
+<p class="vtemp">2:52</p>
+</td>
+</tr>
+
+<tr>
+
+<td class="shot">
+<a href="{{ url_for('video_how_can_i_keep_from_singing') }}"><img src="{{ url_for('static', filename='vhcikfs.jpg') }}" alt="" style="width: 150px; height: 100px;" /></a>
+</td>
+<td class="desc">
+<p class="vtitle"><a href="{{ url_for('video_how_can_i_keep_from_singing') }}">How Can I Keep From Singing?, 1991</a></p>
+<p class="vdirect">Produced by&nbsp;Entertainment Productions</p>
+<p class="vtemp">3:06</p>
+</td>
+</tr>
+<tr>
+
+<td class="shot">
+<a href="{{ url_for('video_caribbean_blue') }}"><img style="border: 0px solid ; width: 150px; height: 100px;" alt=""src="{{ url_for('static', filename='vcb.jpg') }}" /></a>
+</td>
+<td class="desc">
+<p class="vtitle"><a href="{{ url_for('video_caribbean_blue') }}">Caribbean Blue, 1991</a></p>
+<p class="vdirect">Directed by&nbsp;Michael Geoghegan</p>
+<p class="vtemp">3:01</p>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" rowspan="1">
+<h4><a name="below-ad-two"></a><a href="{{ url_for('album_watermark') }}">Watermark</a>, 1988</h4>
+</td>
+</tr>
+<tr>
+
+<td class="shot">
+<a href="{{ url_for('video_exile') }}"><img style="width: 150px; height: 100px;" alt=""src="{{ url_for('static', filename='ve.jpg') }}" /></a>
+</td>
+
+<td class="desc">
+<p class="vtitle"><a href="{{ url_for('video_exile') }}">Exile, 1991</a></p>
+<p class="vdirect">Directed by&nbsp;Michael Geoghegan</p>
+<p class="vtemp">3:40</p>
+</td>
+</tr>
+
+<tr>
+<td class="shot">
+<a href="{{ url_for('video_storms_in_africa_english') }}"><img style="width: 150px; height: 100px;" alt=""src="{{ url_for('static', filename='vsia.jpg') }}" /></a>
+</td>
+<td class="desc">
+<p class="vtitle"><a href="{{ url_for('video_storms_in_africa_english') }}">Storms In Africa, 1989</a></p>
+<p class="vdirect">Directed by&nbsp;Michael Geoghegan</p>
+<p class="vtemp">3:01</p>
+</td>
+</tr>
+
+<tr>
+<td class="shot">
+<a href="{{ url_for('video_evening_falls') }}"><img style="border: 0px solid ; width: 150px; height: 100px;" alt=""src="{{ url_for('static', filename='vef.jpg') }}" /></a>
+</td>
+<td class="desc">
+<p class="vtitle"><a href="{{ url_for('video_evening_falls') }}">Evening Falls..., 1988</a></p>
+<p class="vdirect">Directed by&nbsp;Michael Geoghegan</p>
+<p class="vtemp">3:47</p>
+</td>
+</tr>
+
+<tr>
+<td class="shot">
+<a href="{{ url_for('video_orinoco_flow_sail_away') }}"><img style="width: 150px; height: 100px;" alt=""src="{{ url_for('static', filename='vof.jpg') }}" /></a>
+</td>
+<td class="desc">
+<p class="vtitle"><a href="{{ url_for('video_orinoco_flow_sail_away') }}">Orinoco Flow (Sail Away), 1988</a></p>
+<p class="vdirect">Directed by&nbsp;Michael Geoghegan</p>
+<p class="vtemp">3:43</p>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" rowspan="1">
+<h4><a href="{{ url_for('album_enya') }}">Enya</a>, 1987</h4>
+</td>
+</tr>
+
+<tr>
+<td class="shot">
+<a href="{{ url_for('video_i_want_tomorrow') }}"><img style="border: 0px solid ; width: 150px; height: 100px;" alt=""src="{{ url_for('static', filename='viwt.jpg') }}" /></a>
+</td>
+<td class="desc">
+<p class="vtitle"><a href="{{ url_for('video_i_want_tomorrow') }}">I Want Tomorrow, 1987</a></p>
+<p class="vdirect">Directed by&nbsp;David Richardson</p>
+<p class="vtemp">3:54</p>
+</td>
+</tr>
+
+<tr>
+<td class="shot">
+<a href="{{ url_for('video_aldebaran') }}"><img style="width: 150px; height: 100px;" alt=""src="{{ url_for('static', filename='vald.jpg') }}" /></a>
+</td>
+<td class="desc">
+<p class="vtitle"><a href="{{ url_for('video_aldebaran') }}">Aldebaran, 1987</a></p>
+<p class="vdirect">Directed by&nbsp;David Richardson</p>
+<p class="vtemp">3:05</p>
+</td>
+</tr>
+
+</tbody>
+</table>
+
+
+
+</div>
+</body>
+{% endblock %}
+
+{% block sidebar_content %}
+<p><strong>Looking for downloads?</strong> <a href="http://amzn.to/1N3fScO" rel="nofollow" target="_blank">Get all Enya MP3 downloads</a> on Amazon now!</p>
+
+<h3>Featured Album</h3>
+
+<div><a href="{{ url_for('album_and_winter_came') }}">
+    <img src="{{ url_for('static', filename='awc.jpg') }}" alt="And Winter Came... album cover" /></a>
+
+    <p><strong><em><a href="{{ url_for('album_and_winter_came') }}">And Winter Came...</a></em></strong>
+
+        <br />Released in 2008, this album primarily have a Christmas or winter theme. It  charted in the UK at #6 on November 16 of that year.</p>
+</div>
+
+<h3>Featured Video</h3>
+
+<div><a  href="{{ url_for('video_orinoco_flow_sail_away') }}">
+    <img src="{{ url_for('static', filename='vof2.jpg') }}" alt="Orinoco Flow music video still" /></a>
+
+    <p><strong><em><a href="{{ url_for('video_orinoco_flow_sail_away') }}">"Orinoco Flow (Sail Away)", remastered in 4K</a></em></strong>
+
+        <br />Released in October 1988, this is the promo video for Enya <a href="{{ url_for('album_watermark') }}#Orinoco_Flow">"Orinoco Flow"</a>, from the album <a href="{{ url_for('album_watermark') }}"><em>Watermark</em></a>.
+    </p>
+</div>
+{% endblock %}

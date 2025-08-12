@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block title %}Roma and Nicky Ryan, Enya's lyricist and producer biographies{% endblock %}
+
+{% block meta_description %}Meet Roma and Nicky Ryan. Enya One is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!{% endblock %}
+
+{% block main_content %}
+<h1>Roma and Nicky Ryan</h1>
+
+<div style="margin: 0 0 1em 30px; float: right; width: 250px;">
+	<img src="{{ url_for('static', filename='enya_hello_07.jpg') }}" alt="" />
+	<p style="font-size: 0.9em; margin-bottom: 0;">
+	<em>Roma Ryan, Enya and Nicky Ryan.</em></p></div>
+
+
+<p>The Enya Creative Trio: At the heart of Enya's music lies a powerful partnership. <a href="{{ url_for('biography') }}">Enya</a>, the mastermind behind the music and vocals, collaborates with <strong>Nicky Ryan</strong>, the visionary producer who brings her sound to life.  <strong>Roma Ryan</strong>, the talented lyricist, crafts evocative words in multiple languages, adding another layer to Enya's artistic legacy.</p>
+
+
+<div class="c"></div>
+
+<blockquote>
+	<p>
+		Enya is more than just me. It's also Nicky, who arranges my melodies, and his wife Roma, who writes the lyrics. They believed in my music from day one
+	</p>
+	<em>Enya</em>
+</blockquote>
+
+
+<p>This formidable trio has forged a remarkable partnership that spans over four decades, with their collaboration taking root at the inception of Enya's career in 1982. Together, they have nurtured Enya's creative vision, shaping her distinctive sound and garnering worldwide acclaim.</p>
+
+
+
+
+
+
+<p>Roma Shane Ryan (born 20 January 1950 in Belfast) is a Northern Irish writer, poet, and lyricist, currently living in Artane, Ireland. Nicholas Dominick Ryan (born 1949) is an Irish music producer, recording engineer, and manager. Born and raised in Dublin, Nicky Ryan gained initial recognition in the 1970s and 1980s for his work with several artists including Gary Moore, Planxty, Christy Moore and <a href="{{ url_for('enya_clannad') }}">Clannad</a>.</p>
+
+
+<p>In 1982, Enya struck out on her own, leaving Clannad with the Ryans. Nicky Ryan became her producer and arranger, while Roma Ryan crafted the lyrics for Enya's music.  For two years, Enya lived with the Ryans, honing her skills and recording demos.  This creative partnership solidified in 1983, with the formation of their music company, Aigle Music, and their home recording studio, Aigle Studio.  A key turning point came from Nicky's idea of layering Enya's vocals, creating the signature sound that continues to enchant fans today.</p>
+
+
+<p>Roma is the primary lyricist for Enya. Her lyrics have won Grammy awards; the song <a href="{{ url_for('other_songs') }}#May_It_Be">"May It Be"</a> for the <a href="{{ url_for('the_lord_of_the_rings') }}"><em>The Lord of the Rings</em> film <em>The Fellowship of the Ring</em></a> was nominated for an Oscar.</p>
+<p>Her lyrics can be heard in films such as <em>The Frog Prince</em> (1984), <em>Green Card</em> (1990), <em>L.A. Story</em> (1991), <em>Toys</em> (1992), <em>Cry, the Beloved Country</em> (1995), and <em>Reisei to j&ocirc;netsu no aida</em> (2001), all of which feature Enya's music.</p>
+
+<p>In 2005, Roma created a new language known as Loxian, inspired by J.R.R. Tolkien's Elvish language, for Enya's album <a href="{{ url_for('album_amarantine') }}"><em>Amarantine</em></a>. She wrote a book describing Loxian, called <em>Water Shows the Hidden Heart</em>.</p>
+
+<p>Roma and Nicky have two daughters, Ebony and Persia, who also contributed with artwork and layout to Enya's 2005 release.</p>
+{% endblock %}
+
+{% block sidebar_content %}
+<a id="albumcover" target="_blank" href="https://www.amazon.com/Enya/e/B000APUOQK?ref=sr_ntt_srch_lnk_2&amp;qid=1641169744&amp;sr=1-2&_encoding=UTF8&tag=enylyrallenys-20&linkCode=ur2&linkId=d541620b701d12b789cae68caf79229e&camp=1789&creative=9325"><img src="{{ url_for('static', filename='ern.jpg') }}" alt="Download MP3 or stream Enya songs in Amazon.com" /></a>
+
+<p>Nicky Ryan, Enya and Roma Ryan</p>
+
+
+<h3>Featured albums</h3>
+
+<h4><strong><a href="{{ url_for('album_a_day_without_rain') }}">A Day Without Rain</a></em></strong>, 2000</h4>
+
+<div><a href="{{ url_for('album_a_day_without_rain') }}">
+    <img src="{{ url_for('static', filename='enya-2023-adwr.jpg') }}" alt="A Day Without Rain album picture" /></a>
+
+    <p>Through extensive use in various forms of media, "Only Time" became an anthem of resilience and hope after  the tragic events of the September 11 attacks. </p>
+</div>
+
+<h4><strong><a href="{{ url_for('album_the_memory_of_trees') }}">The Memory of Trees</a></em></strong>, 1995</h4>
+
+<div><a href="{{ url_for('album_the_memory_of_trees') }}">
+    <img src="{{ url_for('static', filename='enya-2023-tmot.jpg') }}" alt="A Day Without Rain album picture" /></a>
+
+    <p>This album won Enya's first Grammy Award for Best New Age Album. &ldquo;With the destruction of the world&rsquo;s rainforests it may turn out to be that the memory of trees is nothing more than that for us&mdash;a memory.&rdquo;</p>
+</div>
+{% endblock %}

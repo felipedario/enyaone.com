@@ -1,0 +1,912 @@
+{% extends "base.html" %}
+
+{% block title %}All Enya songs: full list of Enya's albums, lyrics and downloads{% endblock %}
+
+{% block meta_description %}This is a complete list of Enya songs with easy lyrics and MP3 download links. Enya One is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, albums, news, videos, quotes, biography and more!{% endblock %}
+
+{% block main_content %}
+<ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
+	<li property="itemListElement" typeof="ListItem"><a href="{{ url_for('index') }}" property="item" typeof="WebPage">
+			<span property="name">Home</span></a>
+		  <meta property="position" content="1"> &rsaquo; </li>
+	<li property="itemListElement" typeof="ListItem"><a href="{{ url_for('songs_albums') }}"
+		property="item" typeof="WebPage">
+			<span property="name">Enya Songs &amp; Albums</span></a> &rsaquo;
+		  <meta property="position" content="2"></li>
+	<li property="itemListElement" typeof="ListItem">
+		<strong property="name">All Enya songs</strong>
+		<meta property="position" content="3"></li>
+	</ol>
+
+
+
+			<div id="main" class="all-songs">
+				<h1>All Enya songs: full list of Enya's albums</h1>
+
+				<a target="_blank" href="https://amzn.to/3SU09Xt"><img src="{{ url_for('static', filename='enya-2023-aes.jpg') }}" alt="Stream or download Enya songs"  class="float-left width-33 rounded" /></a>
+
+
+				<p><strong>Dive Deeper into Enya's Music</strong>: This comprehensive resource is your one-stop shop for exploring Enya's entire discography.  Songs are organized alphabetically, making it easy to find familiar favorites or unearth hidden treasures.  </p>
+
+					<p>But it goes beyond a simple list! Delve into the lyrics of each track, gaining a richer understanding of Enya's creative vision.  Click through to the corresponding album for even deeper context within the broader musical landscape. This resource encompasses both standalone singles and soundtrack contributions, offering a complete journey for casual listeners and devoted fans alike.</p>
+
+				<p> If a song doesn't lead to an album, it was released as a <a href="{{ url_for('other_songs') }}">single, soundtrack, EP, compilation...</a></p>
+
+				<br />
+				<br />
+				<h3>Listen to and download Enya songs:</h3>
+
+				<p><strong>Stream Enya on Amazon Music Unlimited!</strong> Enjoy most of her music, including <a href="https://amzn.to/2XXm6bM" rel="nofollow" target="_blank"><em>The Very Best of Enya</em>, free during your trial</a>. <a href="https://amzn.to/2ArAeBc" rel="nofollow" target="_blank">Download the MP3</a> for offline listening, or <a href="https://amzn.to/2UEqoT5" rel="nofollow" target="_blank">grab the CD</a> for a physical copy.</p>
+
+				<h3>Enya's Music: Beyond Lyrics</h3>
+
+				<p>Some of Enya's songs feature wordless vocals or instrumental melodies. This isn't a mistake! Enya uses invented languages to create a unique atmosphere, letting the music's beauty shine. So, embrace these enchanting soundscapes – they're meant to evoke emotions, not tell a story.</p>
+
+				<p>Also: check the <strong><a href="{{ url_for('songs_albums') }}">full Enya album list</a></strong>.</p>
+
+				<h3>Is this really an Enya song?</h3>
+
+				<p>Songs like "Harry's Game" (<a href="{{ url_for('enya_clannad') }}">Clannad</a>) and "Adiemus" (Karl Jenkins) are sometimes credited to Enya. Similarly, her voice might be misheard in soundtracks like <em>Gladiator</em> or <em>Titanic</em>. It's important to clarify Enya's absence in these specific works. While her music is unique, appreciating other artists is key!<a href="{{ url_for('other_songs') }}#wrong">See this list of songs wrongly attributed to Enya</a>.</p>
+
+
+				<br /><br />
+
+				<h2>Songs and albums list</h2>
+
+				<table class="wikitable sortable" border="0" cellpadding="0" cellspacing="0" id="all-songs">
+					<tbody>
+						<tr>
+							<th>Song title</th>
+
+							<th>Found on...</th>
+						</tr>
+
+						<tr>
+							<td>A Day Without Rain</td>
+
+							<td><a href="{{ url_for('album_a_day_without_rain') }}" title="A Day Without Rain">A Day Without Rain</a> &middot; <a href="https://amzn.to/35c2GB5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>A Moment Lost</td>
+
+							<td><a href="{{ url_for('album_amarantine') }}" title="Amarantine (album)">Amarantine</a>  &middot; <a href="https://amzn.to/35c2GB5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Adeste Fideles</td>
+
+							<td>Christmas Secrets, It's In The Rain, Amarantine (Christmas edition) &middot; <a href="https://amzn.to/2rHPt0G" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Afer Ventus</td>
+
+							<td><a href="{{ url_for('album_shepherd_moons') }}" title="Shepherd Moons">Shepherd Moons</a>   &middot; <a href="https://amzn.to/2S9g2HJ" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Aldebaran</td>
+
+							<td><a href="{{ url_for('album_the_celts') }}" title="The Celts (album)">The Celts</a>, Storms In Africa &middot; <a href="https://amzn.to/2EBbc2R" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Amarantine</td>
+
+							<td><a href="{{ url_for('album_amarantine') }}" title="Amarantine (album)">Amarantine</a> &middot; <a href="https://amzn.to/38tsQBm" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Amarantine (Single Version)</td>
+
+							<td>Amarantine Pt 2 &middot; <a href="https://amzn.to/38tsQBm" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Amid The Falling Snow</td>
+
+							<td><a href="{{ url_for('album_amarantine') }}" title="Amarantine (album)">Amarantine</a> &middot; <a href="https://amzn.to/38tsQBm" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>An Ghaoth &#211;n Ghrian</td>
+
+							<td>Touch Travel</td>
+						</tr>
+
+						<tr>
+							<td>And Winter Came</td>
+
+							<td><a href="{{ url_for('album_and_winter_came') }}" title="And Winter Came...">And Winter Came...</a> &middot; <a href="https://amzn.to/2ECHE4N" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Angeles</td>
+
+							<td><a href="{{ url_for('album_shepherd_moons') }}" title="Shepherd Moons">Shepherd Moons</a>, Book of Days &middot; <a href="https://amzn.to/2S9g2HJ" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>An&#237;ron (Theme For Aragon And Arwen)</td>
+
+							<td>The Lord of the Rings: The Fellowship of the Ring (Soundtrack) &middot; <a href="https://amzn.to/2R1SirL" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Anywhere Is</td>
+
+							<td><a href="{{ url_for('album_the_memory_of_trees') }}" title="The Memory of Trees">The Memory of Trees</a>, <a href="{{ url_for('album_paint_the_sky_with_stars') }}" title="Paint the Sky with Stars">Paint the Sky with Stars</a>   &middot; <a href="https://amzn.to/2CkxDa5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>As Baile</td>
+
+							<td>Christmas Ep, Book of Days</td>
+						</tr>
+
+						<tr>
+							<td>Astra Et Luna</td>
+
+							<td><a href="{{ url_for('album_dark_sky_island') }}#Astra_et_Luna">Dark Sky Island</a>   &middot; <a href="https://amzn.to/2Bvgadk" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Athair Ar Neamh</td>
+
+							<td><a href="{{ url_for('album_the_memory_of_trees') }}" title="The Memory of Trees">The Memory of Trees</a>  &middot; <a href="https://amzn.to/2CkxDa5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Bard Dance</td>
+
+							<td><a href="{{ url_for('album_the_celts') }}" title="The Celts (album)">The Celts</a>     &middot; <a href="https://amzn.to/2EBbc2R" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Boadicea</td>
+
+							<td><a href="{{ url_for('album_the_celts') }}" title="The Celts (album)">The Celts</a>, <a href="{{ url_for('album_paint_the_sky_with_stars') }}" title="Paint the Sky with Stars">Paint the Sky with Stars</a>     &middot; <a href="https://amzn.to/2EBbc2R" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Book Of Days</td>
+
+							<td><a href="{{ url_for('album_shepherd_moons') }}" title="Shepherd Moons">Shepherd Moons</a>, Book of Days, <a href="{{ url_for('album_paint_the_sky_with_stars') }}" title="Paint the Sky with Stars">Paint the Sky with Stars</a>   &middot; <a href="https://amzn.to/2S9g2HJ" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Caribbean Blue</td>
+
+							<td><a href="{{ url_for('album_shepherd_moons') }}" title="Shepherd Moons">Shepherd Moons</a>, Book of Days, <a href="{{ url_for('album_paint_the_sky_with_stars') }}" title="Paint the Sky with Stars">Paint the Sky with Stars</a>   &middot; <a href="https://amzn.to/2S9g2HJ" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Celts [The Celts]</td>
+
+							<td><a href="{{ url_for('album_the_celts') }}" title="The Celts (album)">The Celts</a>, Christmas Ep, <a href="{{ url_for('album_paint_the_sky_with_stars') }}" title="Paint the Sky with Stars">Paint the Sky with Stars</a>, Storms In Africa &middot; <a href="https://amzn.to/2EBbc2R" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>China Roses</td>
+
+							<td><a href="{{ url_for('album_the_memory_of_trees') }}" title="The Memory of Trees">The Memory of Trees</a>, <a href="{{ url_for('album_paint_the_sky_with_stars') }}" title="Paint the Sky with Stars">Paint the Sky with Stars</a>  &middot; <a href="https://amzn.to/2CkxDa5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Christmas Secrets</td>
+
+							<td>Christmas Secrets  &middot; <a href="https://amzn.to/2rHPt0G" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Comb of the Winds</td>
+
+							<td>Amarantine Pt 2</td>
+						</tr>
+
+						<tr>
+							<td>Cursum Perticio</td>
+
+							<td><a href="{{ url_for('album_watermark') }}" title="Watermark (album)">Watermark</a>  &middot; <a href="https://amzn.to/2ECklZ5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Dan Y Dwr</td>
+
+							<td><a href="{{ url_for('album_the_celts') }}" title="The Celts (album)">The Celts</a> &middot; <a href="https://amzn.to/2EBbc2R" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Dark Sky Island</td>
+
+							<td><a href="{{ url_for('album_dark_sky_island') }}#Dark_Sky_Island">Dark Sky Island</a>   &middot; <a href="https://amzn.to/2Bvgadk" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Deireadh An Tuath</td>
+
+							<td><a href="{{ url_for('album_the_celts') }}" title="The Celts (album)">The Celts</a> &middot; <a href="https://amzn.to/2EBbc2R" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Deora Ar Mo Chro&#237;</td>
+
+							<td><a href="{{ url_for('album_a_day_without_rain') }}" title="A Day Without Rain">A Day Without Rain</a> &middot; <a href="https://amzn.to/35c2GB5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Diamonds On The Water</td>
+
+							<td><a href="{{ url_for('album_dark_sky_island') }}#Diamonds_on_the_Water">Dark Sky Island</a>   &middot; <a href="https://amzn.to/2Bvgadk" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Dreams</td>
+
+							<td>The Frog Prince: Original Movie Soundtrack</td>
+						</tr>
+
+						<tr>
+							<td>Dreams Are More Precious</td>
+
+							<td><a href="{{ url_for('album_and_winter_came') }}" title="And Winter Came...">And Winter Came...</a> &middot; <a href="https://amzn.to/2ECHE4N" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Drifting</td>
+
+							<td><a href="{{ url_for('album_amarantine') }}" title="Amarantine (album)">Amarantine</a>, It's In The Rain  &middot; <a href="https://amzn.to/38tsQBm" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Ebudae</td>
+
+							<td><a href="{{ url_for('album_shepherd_moons') }}" title="Shepherd Moons">Shepherd Moons</a>, Christmas Ep, <a href="{{ url_for('album_paint_the_sky_with_stars') }}" title="Paint the Sky with Stars">Paint the Sky with Stars</a>  &middot; <a href="https://amzn.to/2S9g2HJ" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Echoes In Rain</td>
+
+							<td><a href="{{ url_for('album_dark_sky_island') }}#Echoes_In_Rain">Dark Sky Island</a>   &middot; <a href="https://amzn.to/2Bvgadk" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Eclipse</td>
+
+							<td>On My Way Home</td>
+						</tr>
+
+						<tr>
+							<td>Epona</td>
+
+							<td><a href="{{ url_for('album_the_celts') }}" title="The Celts (album)">The Celts</a> &middot; <a href="https://amzn.to/2EBbc2R" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Evacuee</td>
+
+							<td><a href="{{ url_for('album_shepherd_moons') }}" title="Shepherd Moons">Shepherd Moons</a>   &middot; <a href="https://amzn.to/2S9g2HJ" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Even In The Shadows</td>
+
+							<td><a href="{{ url_for('album_dark_sky_island') }}#Even_In_The_Shadows">Dark Sky Island</a>   &middot; <a href="https://amzn.to/2Bvgadk" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Evening Falls</td>
+
+							<td><a href="{{ url_for('album_watermark') }}" title="Watermark (album)">Watermark</a>, 6 Tracks &middot; <a href="https://amzn.to/2ECklZ5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Exile</td>
+
+							<td><a href="{{ url_for('album_watermark') }}" title="Watermark (album)">Watermark</a> &middot; <a href="https://amzn.to/2ECklZ5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Fairytale</td>
+
+							<td><a href="{{ url_for('album_the_celts') }}" title="The Celts (album)">The Celts</a> &middot; <a href="https://amzn.to/2EBbc2R" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Fallen Embers</td>
+
+							<td><a href="{{ url_for('album_a_day_without_rain') }}" title="A Day Without Rain">A Day Without Rain</a> &middot; <a href="https://amzn.to/35c2GB5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+
+						<tr>
+							<td>First of Autumn [The First of Autumn]</td>
+
+							<td>May It Be, Only Time</td>
+						</tr>
+
+						<tr>
+							<td>Flora's Secret</td>
+
+							<td><a href="{{ url_for('album_a_day_without_rain') }}" title="A Day Without Rain">A Day Without Rain</a> &middot; <a href="https://amzn.to/35c2GB5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+
+						<tr>
+							<td>From Where I Am</td>
+
+							<td><a href="{{ url_for('album_the_memory_of_trees') }}" title="The Memory of Trees">The Memory of Trees</a>  &middot; <a href="https://amzn.to/2CkxDa5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+
+						<tr>
+							<td>Hope Has A Place</td>
+
+							<td><a href="{{ url_for('album_the_memory_of_trees') }}" title="The Memory of Trees">The Memory of Trees</a>  &middot; <a href="https://amzn.to/2CkxDa5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>How Can I Keep From Singing</td>
+
+							<td><a href="{{ url_for('album_shepherd_moons') }}" title="Shepherd Moons">Shepherd Moons</a>   &middot; <a href="https://amzn.to/2S9g2HJ" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>I Could Never Say Goodbye</td>
+
+							<td><a href="{{ url_for('album_dark_sky_island') }}#I_Could_Never_Say_Goodbye">Dark Sky Island</a>   &middot; <a href="https://amzn.to/2Bvgadk" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>I May Not Awaken</td>
+
+							<td>On My Way Home</td>
+						</tr>
+
+						<tr>
+							<td>I Want Tomorrow</td>
+
+							<td><a href="{{ url_for('album_the_celts') }}" title="The Celts (album)">The Celts</a> &middot; <a href="https://amzn.to/2EBbc2R" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>If I Could Be Where You Are</td>
+
+							<td><a href="{{ url_for('album_amarantine') }}" title="Amarantine (album)">Amarantine</a> &middot; <a href="https://amzn.to/38tsQBm" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Isobella</td>
+
+							<td>May It Be, A Day Without Rain</td>
+						</tr>
+
+						<tr>
+							<td>It's In The Rain</td>
+
+							<td><a href="{{ url_for('album_amarantine') }}" title="Amarantine (album)">Amarantine</a>, It's In The Rain &middot; <a href="https://amzn.to/38tsQBm" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Journey of the Angels</td>
+
+							<td><a href="{{ url_for('album_and_winter_came') }}" title="And Winter Came...">And Winter Came...</a>    &middot; <a href="https://amzn.to/2ECHE4N" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>La So&#241;adora</td>
+
+							<td><a href="{{ url_for('album_the_memory_of_trees') }}" title="The Memory of Trees">The Memory of Trees</a>  &middot; <a href="https://amzn.to/2CkxDa5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+
+						<tr>
+							<td>Last Time by Moonlight</td>
+
+							<td><a href="{{ url_for('album_and_winter_came') }}" title="And Winter Came...">And Winter Came...</a>    &middot; <a href="https://amzn.to/2ECHE4N" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Lazy Days</td>
+
+							<td><a href="{{ url_for('album_a_day_without_rain') }}" title="A Day Without Rain">A Day Without Rain</a> &middot; <a href="https://amzn.to/35c2GB5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Less Than a Pearl</td>
+
+							<td><a href="{{ url_for('album_amarantine') }}" title="Amarantine (album)">Amarantine</a>  &middot; <a href="https://amzn.to/38tsQBm" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Long Long Journey</td>
+
+							<td><a href="{{ url_for('album_amarantine') }}" title="Amarantine (album)">Amarantine</a>  &middot; <a href="https://amzn.to/38tsQBm" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Lothl&#243;rien</td>
+
+							<td><a href="{{ url_for('album_shepherd_moons') }}" title="Shepherd Moons">Shepherd Moons</a>   &middot; <a href="https://amzn.to/2S9g2HJ" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Marble Halls</td>
+
+							<td><a href="{{ url_for('album_shepherd_moons') }}" title="Shepherd Moons">Shepherd Moons</a>, <a href="{{ url_for('album_paint_the_sky_with_stars') }}" title="Paint the Sky with Stars">Paint the Sky with Stars</a>   &middot; <a href="https://amzn.to/2S9g2HJ" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>March of the Celts</td>
+
+							<td><a href="{{ url_for('album_the_celts') }}" title="The Celts (album)">The Celts</a> &middot; <a href="https://amzn.to/2EBbc2R" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>May It Be</td>
+
+							<td>May It Be</td>
+						</tr>
+
+						<tr>
+							<td>May It Be (LOTR Soundtrack Version)</td>
+
+							<td>The Lord of the Rings: The Fellowship of the Ring (Soundtrack) &middot; <a href="https://amzn.to/2R1SirL" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Midnight Blue</td>
+
+							<td>Wild Child</td>
+						</tr>
+
+						<tr>
+							<td>Miraculum</td>
+
+							<td><a href="{{ url_for('album_and_winter_came') }}" title="And Winter Came...">And Winter Came...</a>   &middot; <a href="https://amzn.to/2ECHE4N" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Miss Clare Remembers</td>
+
+							<td><a href="{{ url_for('album_watermark') }}" title="Watermark (album)">Watermark</a>, Touch Travel  &middot; <a href="https://amzn.to/2ECklZ5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Morning Glory</td>
+
+							<td>6 Tracks</td>
+						</tr>
+
+						<tr>
+							<td>My! My! Time Flies!</td>
+
+							<td><a href="{{ url_for('album_and_winter_came') }}" title="And Winter Came...">And Winter Came...</a>  &middot; <a href="https://amzn.to/2ECHE4N" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Na Laetha Geal M'ioge</td>
+
+							<td><a href="{{ url_for('album_watermark') }}" title="Watermark (album)">Watermark</a> &middot; <a href="https://amzn.to/2ECklZ5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>No Holly For Miss Quinn</td>
+
+							<td><a href="{{ url_for('album_shepherd_moons') }}" title="Shepherd Moons">Shepherd Moons</a>  &middot; <a href="https://amzn.to/2S9g2HJ" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>O Come O Come Emmanuel</td>
+
+							<td><a href="{{ url_for('album_and_winter_came') }}" title="And Winter Came...">And Winter Came...</a> &middot; <a href="https://amzn.to/2ECHE4N" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>&#211;&#237;che Chi&#250;in  [Silent Night]</td>
+
+							<td>Christmas Ep, Only Time/&#211;&#237;che Chi&#250;in , 6 Tracks</td>
+						</tr>
+
+						<tr>
+							<td>&#211;&#237;che Chi&#250;in (Chorale)</td>
+
+							<td><a href="{{ url_for('album_and_winter_came') }}" title="And Winter Came...">And Winter Came...</a> &middot; <a href="https://amzn.to/2ECHE4N" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>On My Way Home</td>
+
+							<td><a href="{{ url_for('album_the_memory_of_trees') }}" title="The Memory of Trees">The Memory of Trees</a>, <a href="{{ url_for('album_paint_the_sky_with_stars') }}" title="Paint the Sky with Stars">Paint the Sky with Stars</a> &middot; <a href="https://amzn.to/2CkxDa5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>On Your Shore</td>
+
+							<td><a href="{{ url_for('album_watermark') }}" title="Watermark (album)">Watermark</a> &middot; <a href="https://amzn.to/2ECklZ5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Once You Had Gold</td>
+
+							<td><a href="{{ url_for('album_the_memory_of_trees') }}" title="The Memory of Trees">The Memory of Trees</a>  &middot; <a href="https://amzn.to/2CkxDa5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>One By One</td>
+
+							<td><a href="{{ url_for('album_a_day_without_rain') }}" title="A Day Without Rain">A Day Without Rain</a>  &middot; <a href="https://amzn.to/35c2GB5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>One Toy Soldier</td>
+
+							<td><a href="{{ url_for('album_and_winter_came') }}" title="And Winter Came...">And Winter Came...</a>    &middot; <a href="https://amzn.to/2ECHE4N" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Only If</td>
+
+							<td><a href="{{ url_for('album_paint_the_sky_with_stars') }}" title="Paint the Sky with Stars">Paint the Sky with Stars</a> &middot; <a href="https://amzn.to/2EBaN0o" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Only If You Want To...</td>
+
+							<td>Best of... (promo)</td>
+						</tr>
+
+						<tr>
+							<td>Only Time</td>
+
+							<td><a href="{{ url_for('album_a_day_without_rain') }}" title="A Day Without Rain">A Day Without Rain</a>, Only Time &middot; <a href="https://amzn.to/35c2GB5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Only Time (Remix)</td>
+
+							<td>Only Time/&#211;&#237;che Chi&#250;in </td>
+						</tr>
+
+						<tr>
+							<td>Oriel Window</td>
+
+							<td>Book of Days/&#211;&#237;che Chi&#250;in </td>
+						</tr>
+
+						<tr>
+							<td>Orinoco Flow</td>
+
+							<td><a href="{{ url_for('album_watermark') }}" title="Watermark (album)">Watermark</a>, 6 Tracks, <a href="{{ url_for('album_paint_the_sky_with_stars') }}" title="Paint the Sky with Stars">Paint the Sky with Stars</a>  &middot; <a href="https://amzn.to/2ECklZ5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Out of the Blue [Portrait]</td>
+
+							<td>6 Tracks, <a href="{{ url_for('album_the_celts') }}" title="The Celts (album)">The Celts</a> &middot; <a href="https://amzn.to/2EBbc2R" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Paint The Sky With Stars</td>
+
+							<td><a href="{{ url_for('album_paint_the_sky_with_stars') }}" title="Paint the Sky with Stars">Paint the Sky with Stars</a> &middot; <a href="https://amzn.to/2EBaN0o" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+
+						<tr>
+							<td>Pale Grass Blue</td>
+
+							<td><a href="{{ url_for('album_dark_sky_island') }}#Pale_Grass_Blue">Dark Sky Island (Deluxe Edition)</a> &middot; <a href="https://amzn.to/2Bvgadk" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Pax Deorum</td>
+
+							<td><a href="{{ url_for('album_the_memory_of_trees') }}" title="The Memory of Trees">The Memory of Trees</a>  &middot; <a href="https://amzn.to/2CkxDa5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+
+						<tr>
+							<td>Pilgrim</td>
+
+							<td><a href="{{ url_for('album_a_day_without_rain') }}" title="A Day Without Rain">A Day Without Rain</a>  &middot; <a href="https://amzn.to/35c2GB5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Portrait [Out of the Blue]</td>
+
+							<td><a href="{{ url_for('album_the_celts') }}" title="The Celts (album)">The Celts</a>  &middot; <a href="https://amzn.to/2EBbc2R" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Remember Your Smile</td>
+
+							<td><a href="{{ url_for('album_dark_sky_island') }}#Remember_Your_Smile">Dark Sky Island (Deluxe Edition)</a> &middot; <a href="https://amzn.to/2Bvgadk" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>River</td>
+
+							<td><a href="{{ url_for('album_watermark') }}" title="Watermark (album)">Watermark</a> &middot; <a href="https://amzn.to/2ECklZ5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>'S Fagaim Mo Bhaile</td>
+
+							<td>Christmas Ep, Book of Days</td>
+						</tr>
+
+						<tr>
+							<td>Sancta Maria</td>
+
+							<td><a href="{{ url_for('album_dark_sky_island') }}#Sancta_Maria">Dark Sky Island</a> &middot; <a href="https://amzn.to/2Bvgadk" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Shepherd Moons</td>
+
+							<td><a href="{{ url_for('album_shepherd_moons') }}" title="Shepherd Moons">Shepherd Moons</a>, <a href="{{ url_for('album_paint_the_sky_with_stars') }}" title="Paint the Sky with Stars">Paint the Sky with Stars</a> &middot; <a href="https://amzn.to/2S9g2HJ" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Silent Night [&#211;&#237;che Chi&#250;in ]</td>
+
+							<td>Christmas Ep, Only Time/&#211;&#237;che Chi&#250;in , 6 Tracks</td>
+						</tr>
+
+						<tr>
+							<td>Silver Inches</td>
+
+							<td><a href="{{ url_for('album_a_day_without_rain') }}" title="A Day Without Rain">A Day Without Rain</a> &middot; <a href="https://amzn.to/35c2GB5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Smaointe...</td>
+
+							<td><a href="{{ url_for('album_shepherd_moons') }}" title="Shepherd Moons">Shepherd Moons</a>, 6 Tracks &middot; <a href="https://amzn.to/2S9g2HJ" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Someone Said Goodbye</td>
+
+							<td><a href="{{ url_for('album_amarantine') }}" title="Amarantine (album)">Amarantine</a> &middot; <a href="https://amzn.to/38tsQBm" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Song Of The Sandman</td>
+
+							<td>Wild Child</td>
+						</tr>
+
+						<tr>
+							<td>Spaghetti Western Theme from the Celts</td>
+
+							<td>Amarantine Pt 2</td>
+						</tr>
+
+						<tr>
+							<td>So I Could Find My Way</td>
+
+							<td><a href="{{ url_for('album_dark_sky_island') }}#So_I_Could_Find_My_Way">Dark Sky Island</a>  &middot; <a href="https://amzn.to/2Bvgadk" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Solace</td>
+
+							<td><a href="{{ url_for('album_dark_sky_island') }}#Diamonds_on_the_Water">Dark Sky Island (Deluxe Edition)</a>  &middot; <a href="https://amzn.to/2Bvgadk" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Spirit of Christmas Past</td>
+
+							<td><a href="{{ url_for('album_and_winter_came') }}" title="And Winter Came...">And Winter Came...</a> &middot; <a href="https://amzn.to/2ECHE4N" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Stars and Midnight Blue</td>
+
+							<td><a href="{{ url_for('album_and_winter_came') }}" title="And Winter Came...">And Winter Came...</a> &middot; <a href="https://amzn.to/2ECHE4N" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Storms In Africa (I)</td>
+
+							<td><a href="{{ url_for('album_watermark') }}" title="Watermark (album)">Watermark</a>, <a href="{{ url_for('album_paint_the_sky_with_stars') }}" title="Paint the Sky with Stars">Paint the Sky with Stars</a>, Storms In Africa</td>
+						</tr>
+
+						<tr>
+							<td>Storms In Africa (II)</td>
+
+							<td><a href="{{ url_for('album_watermark') }}" title="Watermark (album)">Watermark</a>, Storms In Africa  &middot; <a href="https://amzn.to/2ECklZ5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Sumiregusa</td>
+
+							<td><a href="{{ url_for('album_amarantine') }}" title="Amarantine (album)">Amarantine</a> &middot; <a href="https://amzn.to/38tsQBm" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Tea-House Moon</td>
+
+							<td><a href="{{ url_for('album_the_memory_of_trees') }}" title="The Memory of Trees">The Memory of Trees</a> &middot; <a href="https://amzn.to/2CkxDa5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Tempus Vernum</td>
+
+							<td><a href="{{ url_for('album_a_day_without_rain') }}" title="A Day Without Rain">A Day Without Rain</a> &middot; <a href="https://amzn.to/35c2GB5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>The Celts</td>
+
+							<td><a href="{{ url_for('album_the_celts') }}" title="The Celts (album)">The Celts</a>, Christmas Ep, <a href="{{ url_for('album_paint_the_sky_with_stars') }}" title="Paint the Sky with Stars">Paint the Sky with Stars</a>, Storms In Africa  &middot; <a href="https://amzn.to/2EBbc2R" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>The First of Autumn [First of Autumn]</td>
+
+							<td>May It Be, Only Time</td>
+						</tr>
+
+						<tr>
+							<td>The Forge Of The Angels</td>
+
+							<td><a href="{{ url_for('album_dark_sky_island') }}#The_Forge_of_Angels">Dark Sky Island</a>  &middot; <a href="https://amzn.to/2Bvgadk" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>The Frog Prince</td>
+
+							<td>The Frog Prince: Original Movie Soundtrack</td>
+						</tr>
+
+						<tr>
+							<td>The Humming</td>
+
+							<td><a href="{{ url_for('album_dark_sky_island') }}#The_Humming">Dark Sky Island</a>  &middot; <a href="https://amzn.to/2Bvgadk" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>The Long Ships</td>
+
+							<td><a href="{{ url_for('album_watermark') }}" title="Watermark (album)">Watermark</a>  &middot; <a href="https://amzn.to/2ECklZ5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>The Loxian Gates</td>
+
+							<td><a href="{{ url_for('album_dark_sky_island') }}#The_Loxian_Gates">Dark Sky Island</a> &middot; <a href="https://amzn.to/2Bvgadk" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>The Magic Of The Night</td>
+
+							<td>Christmas Secrets</td>
+						</tr>
+
+						<tr>
+							<td>The Memory of Trees</td>
+
+							<td><a href="{{ url_for('album_the_memory_of_trees') }}" title="The Memory of Trees">The Memory of Trees</a>, <a href="{{ url_for('album_paint_the_sky_with_stars') }}" title="Paint the Sky with Stars">Paint the Sky with Stars</a>   &middot; <a href="https://amzn.to/2CkxDa5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>The Promise</td>
+
+							<td>Only Time</td>
+						</tr>
+
+						<tr>
+							<td>The River Sings</td>
+
+							<td><a href="{{ url_for('album_amarantine') }}" title="Amarantine (album)">Amarantine</a>  &middot; <a href="https://amzn.to/38tsQBm" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>The Sun In The Stream</td>
+
+							<td><a href="{{ url_for('album_the_celts') }}" title="The Celts (album)">The Celts</a> &middot; <a href="https://amzn.to/2EBbc2R" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>To Go Beyond (I)</td>
+
+							<td><a href="{{ url_for('album_the_celts') }}" title="The Celts (album)">The Celts</a> &middot; <a href="https://amzn.to/2EBbc2R" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>To Go Beyond (II)</td>
+
+							<td><a href="{{ url_for('album_the_celts') }}" title="The Celts (album)">The Celts</a> &middot; <a href="https://amzn.to/2EBbc2R" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Trains and Winter Rains</td>
+
+							<td><a href="{{ url_for('album_and_winter_came') }}" title="And Winter Came...">And Winter Came...</a> &middot; <a href="https://amzn.to/2ECHE4N" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Triad</td>
+
+							<td><a href="{{ url_for('album_the_celts') }}" title="The Celts (album)">The Celts</a>  &middot; <a href="https://amzn.to/2EBbc2R" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Water Shows The Hidden Heart</td>
+
+							<td><a href="{{ url_for('album_amarantine') }}" title="Amarantine (album)">Amarantine</a>  &middot; <a href="https://amzn.to/38tsQBm" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Watermark</td>
+
+							<td><a href="{{ url_for('album_watermark') }}" title="Watermark (album)">Watermark</a>, <a href="{{ url_for('album_paint_the_sky_with_stars') }}" title="Paint the Sky with Stars">Paint the Sky with Stars</a>   &middot; <a href="https://amzn.to/2ECklZ5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>We Wish You A Merry Christmas</td>
+
+							<td>Christmas Secrets</td>
+						</tr>
+
+						<tr>
+							<td>White is in the Winter Night</td>
+
+							<td><a href="{{ url_for('album_and_winter_came') }}" title="And Winter Came...">And Winter Came...</a>  &middot; <a href="https://amzn.to/2ECHE4N" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Wild Child</td>
+
+							<td><a href="{{ url_for('album_a_day_without_rain') }}" title="A Day Without Rain">A Day Without Rain</a> &middot; <a href="https://amzn.to/35c2GB5" target="_blank" rel="noopener nofollow">Stream or download song</a></td>
+						</tr>
+
+						<tr>
+							<td>Wild Child (Radio Edit)</td>
+
+							<td>Wild Child</td>
+						</tr>
+
+						<tr>
+							<td>Willows on the Water</td>
+
+							<td>Only Time/&#211;&#237;che Chi&#250;in </td>
+						</tr>
+					</tbody>
+				</table>
+
+
+			</div>
+{% endblock %}
+
+{% block sidebar_content %}
+<div id="sidebar" style="position: relative;">
+
+
+
+
+    <h3>Featured albums</h3>
+
+    <h4><strong><a href="{{ url_for('album_a_day_without_rain') }}">A Day Without Rain</a></em></strong>, 2000</h4>
+
+    <div><a href="{{ url_for('album_a_day_without_rain') }}">
+        <img src="{{ url_for('static', filename='enya-2023-adwr.jpg') }}" alt="A Day Without Rain album picture" /></a>
+
+        <p>Through extensive use in various forms of media, "Only Time" became an anthem of resilience and hope after  the tragic events of the September 11 attacks. </p>
+    </div>
+
+    <h4><strong><a href="{{ url_for('album_the_memory_of_trees') }}">The Memory of Trees</a></em></strong>, 1995</h4>
+
+    <div><a href="{{ url_for('album_the_memory_of_trees') }}">
+        <img src="{{ url_for('static', filename='enya-2023-tmot.jpg') }}" alt="A Day Without Rain album picture" /></a>
+
+        <p>This album won Enya's first Grammy Award for Best New Age Album. &ldquo;With the destruction of the world&rsquo;s rainforests it may turn out to be that the memory of trees is nothing more than that for us&mdash;a memory.&rdquo;</p>
+    </div>
+
+
+</div>
+{% endblock %}

@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block title %}Sitemap: more about Enya and site information{% endblock %}
+
+{% block meta_description %}Enya One is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!{% endblock %}
+
+{% block main_content %}
+<div id="main">
+
+<h1>Sitemap: more in Enya One</h1>
+
+<h3><a href="{{ url_for('biography') }}">About Enya</a></h3>
+
+<ul>
+<li><a href="{{ url_for('roma_ryan_nicky') }}">Roma and Nicky Ryan</a>: Enya lyricist and producer.</li>
+
+  <li><a href="{{ url_for('enya_quotes') }}">Quotes</a>: quotes by and about Enya.</li>
+
+  <li><a href="{{ url_for('new_age_music') }}">New Age music</a>: the Enya musical genre.</li>
+
+  <li><a href="{{ url_for('the_lord_of_the_rings') }}"><em>The Lord of the Rings</em></a>: Enya's favourite book.</li>
+
+  <li><a href="{{ url_for('enya_clannad') }}">Clannad</a>: the band of Enya's family.</li>
+
+<li><a href="{{ url_for('the_celts_documentary') }}"><em>The Celts</em> documentary</a>: made by the BBC, with soundtrack by Enya.</li>
+
+
+<li><a href="{{ url_for('all_songs') }}">Enya songs complete list</a>: A/Z index of all lyrics.</li>
+
+<li><a href="{{ url_for('news_archive') }}">Enya news archive</a>: news coverage and articles on Enya.</li>
+
+  <li><a href="{{ url_for('links') }}">Enya links</a>: pinned Enya resources on the web.</li>
+<li><a href="{{ url_for('pp') }}">Privacy policy</a>: how we use personal information collected at this site.</li>
+
+  <li><a href="https://amzn.to/2ZIw9PC">Enya aStore</a>: hand picked Enya products from Amazon.com.</li>
+  <li><a href="mailto:orangax@gmail.com&amp;subject=Enya%20Lyrics%20feedback">Contact us</a>: drop us an email if you have anyhting to say.</li>
+
+</ul>
+
+<fieldset>
+<legend><label for="text2">Search Enya Lyrics:</label></legend>
+<form action="http://www.google.com" id="cse-search-box">
+	<input type="hidden" name="cx" value="partner-pub-6820018585261081:4173396540" />
+
+	<input type="hidden" name="ie" value="UTF-8" />
+
+	<input id="text2" type="text" name="q"  placeholder="Search" class="field" />
+
+	<input type="submit" name="sa" value="Search" class="button" />
+</form>
+</fieldset>
+
+
+
+<h3 id="aboutus">About this site</h3>
+
+<p><strong><a href="{{ url_for('index') }}">Enya One</a> is a tribute to that great artist.</strong> <strong>This  is as fan site.</strong> We are sponsored
+by Google AdSense and by Amazon.com Associates. Profit isn't our goal. We just use that small amount of money to cover operative costs, and nothing more. If you have anything to say about our ads, please <a href="#contact">contact us</a>.</p>
+
+<p><strong>Our original content is available under the <a href="{{ url_for('gnu_free_documentation_license') }}">GNU Free Documentation License</a></strong>:
+in short, you can copy it for all uses following some rules without
+needing to pay us. It includes our original images and text.</p>
+
+<p><strong>The Enya lyrics, images, videos and logo are copyrighted and
+trademarked by Enya, her Aigle Studio and her label, Warner Bros.
+Records.</strong></p>
+
+<p><strong>This site may use content from <a href="http://en.wikipedia.org/">Wikipedia</a>.</strong> In some pages, we adapted the free Wikipedia content to give you better information about Enya. You can help that innitiative <a href="https://donate.wikimedia.org/">donating for the Wikimedia Foundation</a>.</p>
+
+
+<h3 id="contact">Contact us</h3>
+
+<p><strong>This is a fan site. We are not Enya and we can't send your message to her (unfortunately). </strong></p>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeTOymxSxjxL3qZdEoloBX3bEJNo0DoftJ0pLU31Mn1lYYZ5g/viewform?embedded=true" width="600" height="813" frameborder="0" marginheight="0" marginwidth="0">Carregando�</iframe>
+
+
+</div>
+{% endblock %}
+
+{% block sidebar_content %}
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- EnyaOne2015 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6820018585261081"
+     data-ad-slot="3246451746"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+{% endblock %}
