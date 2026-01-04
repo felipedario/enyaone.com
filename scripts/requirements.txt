@@ -1,0 +1,4 @@
+Pillow
+cssmin
+beautifulsoup4
+lxml
