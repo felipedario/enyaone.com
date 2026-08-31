@@ -2,13 +2,20 @@
 import Layout from "../layouts/Layout.astro";
 
 const title = "Dark Sky Island, Enya's latest album (\"Echoes in Rain\", \"The Humming\" lyrics)";
-const description = "With lyrics for 'So I Could Find My Way/A Thousand Years' and more. All info, lyrics and MP3 downloads for Enya's album Dark Sky Island. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
+const description = "With lyrics for";
 const canonical = "";
-const ogImage = "";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
 ---
 
-<Layout title={title} description={description} canonical={canonical} ogImage={ogImage} bodyClass={bodyClass}>
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
 <div id="content">
 
 <ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
@@ -16,7 +23,7 @@ const bodyClass = "";
 			<span property="name">Home</span></a> 
 		  <meta property="position" content="1">
 		  &rsaquo;</li>
-	<li property="itemListElement" typeof="ListItem"><a href="enya-songs-albums.html" 
+	<li property="itemListElement" typeof="ListItem"><a href="/enya-songs-albums"
 		property="item" typeof="WebPage">
 			<span property="name">Enya Songs &amp; Albums</span></a>  &rsaquo;
 		  <meta property="position" content="2"></li>
@@ -25,31 +32,31 @@ const bodyClass = "";
 		<meta property="position" content="3"></li>
 	</ol>
 
-<div id="main">
+<main id="main">
 
 	<div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
-<a href="https://amzn.to/4okO9eR"><img src="ecs.jpg" alt="Christmas Secrets album cover">
+<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
 <p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
 
-<a href="https://amzn.to/43aGdVb"><img src="awc.jpg" alt="And Winter Came album cover">
+<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><img src="/awc.jpg" alt="And Winter Came album cover">
 <p><em><strong>And Winter Came...</strong></em><br /> A winter-themed album</p></a>
 
-<a href="https://amzn.to/4hEQ7nG"><img src="vbe.jpg" alt="The Very Best of Enya album cover">
+<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><img src="/vbe.jpg" alt="The Very Best of Enya album cover">
 <p><em><strong>The Very Best of Enya</strong></em><br /> The perfect gift</p></a>
 </div>
 
 
 <h1>Dark Sky Island  (2015)</h1>
 
-<a class="new-amazon-album-link" href="https://amzn.to/4bxE48s" rel="nofollow" target="_blank">
-	<img  src="dsi.jpg" alt="Dark Sky Island  (2015)" /></a>
+<a class="new-amazon-album-link" href="https://amzn.to/4bxE48s" rel="nofollow sponsored noopener" target="_blank">
+	<img  src="/dsi.jpg" alt="Dark Sky Island  (2015)"  width="150" height="150" /></a>
 
-<p>Enya's highly anticipated album, <em>Dark Sky Island</em>, took the music world by storm upon its release on November 20th, 2015, marking her latest musical endeavor. The singer herself revealed the album's impending arrival through an announcement on her official website in September 2015, sparking excitement among her dedicated fan base. Building anticipation further, on October 7th, 2015, <a href="enya-biography.html">Enya</a> unveiled the album's captivating title, its lead single, and the complete track listing, heightening the intrigue surrounding the forthcoming musical masterpiece.</p>
+<p>Enya's highly anticipated album, <em>Dark Sky Island</em>, took the music world by storm upon its release on November 20th, 2015, marking her latest musical endeavor. The singer herself revealed the album's impending arrival through an announcement on her official website in September 2015, sparking excitement among her dedicated fan base. Building anticipation further, on October 7th, 2015, <a href="/enya-biography">Enya</a> unveiled the album's captivating title, its lead single, and the complete track listing, heightening the intrigue surrounding the forthcoming musical masterpiece.</p>
 
-<p><a href="https://amzn.to/4bxE48s" rel="nofollow" target="_blank">Stream or download Enya songs</a></p>
+<p><a href="https://amzn.to/4bxE48s" rel="nofollow sponsored noopener" target="_blank">Stream or download Enya songs</a></p>
 
-<p>Notably, "Dark Sky Island" not only made its mark in digital formats with <a href="https://amzn.to/3GN8zbM">standard</a> and <a href="https://amzn.to/3kofpNm">deluxe editions</a> but also made a resounding impact in the <a href="http://amzn.to/1RxMsp0">vinyl</a> realm. This release marked a significant milestone as Enya's first vinyl offering since the <a href="/the-celts.html">re-release of her first album</a> back in 1992, adding an extra layer of allure for vinyl enthusiasts and collectors.</p>
+<p>Notably, "Dark Sky Island" not only made its mark in digital formats with <a href="https://amzn.to/3GN8zbM" target="_blank" rel="nofollow sponsored noopener">standard</a> and <a href="https://amzn.to/3kofpNm" target="_blank" rel="nofollow sponsored noopener">deluxe editions</a> but also made a resounding impact in the <a href="https://amzn.to/1RxMsp0" target="_blank" rel="nofollow sponsored noopener">vinyl</a> realm. This release marked a significant milestone as Enya's first vinyl offering since the <a href="/the-celts">re-release of her first album</a> back in 1992, adding an extra layer of allure for vinyl enthusiasts and collectors.</p>
 
 <p>The album's title itself draws inspiration from the enchanting designation of the island of Sark as a "dark sky island." Additionally, it finds resonance with a collection of poetry books by Roma Ryan that explores the theme of islands. Signifying a powerful union of inspiration and creativity, the title track, "Dark Sky Island," emerged as the first composition crafted for the album, setting the tone for the musical journey that lay ahead.</p>
 
@@ -90,13 +97,13 @@ const bodyClass = "";
 <p>Jump to <a href="#lyrics">lyrics</a>, <a href="#videos">videos list</a>, and <a href="#credits">credits</a>.
 
 
-<h4><a name="dates"></a>Release dates</h4>
+<h4 id="dates">Release dates</h4>
 <ul>
-<li>November 20, 2015 &mdash; CD digital download</li>
-<li>December 18, 2015  2015 &mdash; Vynil</li>
+<li>November 20, 2015 — CD digital download</li>
+<li>December 18, 2015  2015 — Vynil</li>
 </ul>
 
-<h3><a name="lyrics"></a>Lyrics list</h3>
+<h3 id="lyrics">Lyrics list</h3>
 
 <ol>
 <li><a href="#The_Humming">The Humming</a></li>
@@ -115,23 +122,23 @@ const bodyClass = "";
 <li><a href="#Remember_Your_Smile">Remember Your Smile <em>(deluxe edition bonus track)</em></a></li>
 </ol>
 
-<h3><a name="videos"></a>Videos</h3>
+<h3 id="videos">Videos</h3>
 
 <ol>
-<li><a href="video-echoes-rain.html">"Echoes In Rain"</a></li>
-<li><a href="video-so-i-could-find-my-way.html">"So I Could Find My Way"</a></li>
-<li><a href="video-the-humming.html">The Humming</a></li>
-<li><a href="video-even-in-the-shadows.html">Even In The Shadows</a></li>
+<li><a href="/video-echoes-rain">"Echoes In Rain"</a></li>
+<li><a href="/video-so-i-could-find-my-way">"So I Could Find My Way"</a></li>
+<li><a href="/video-the-humming">The Humming</a></li>
+<li><a href="/video-even-in-the-shadows">Even In The Shadows</a></li>
 </ol>
 
-<p><a href="enya-video.html">More videos in <strong>EnyaTube</strong> &raquo;</a></p>
+<p><a href="/enya-video">More videos in <strong>EnyaTube</strong> &raquo;</a></p>
 
-<h3><a name="complyrics"></a>Lyrics</h3>
+<h3 id="complyrics">Lyrics</h3>
 
-<h4><a name="The_Humming"></a>The Humming lyrics</h4>
+<h4 id="The_Humming">The Humming lyrics</h4>
 
 <div id="video-s">
-<a href="enya-video.html"><strong>EnyaTube</strong></a> has the <a href="video-the-humming.html">lyric video of "The Humming"</a>.</div>
+<a href="/enya-video"><strong>EnyaTube</strong></a> has the <a href="/video-the-humming">lyric video of "The Humming"</a>.</div>
 
 <em>Roma Ryan</em><br />
 
@@ -183,10 +190,10 @@ Then all of this begins again<br>
 <br>
 Mmmhmmm, mmmhmmm</p>
 
-<h4><a name="So_I_Could_Find_My_Way"></a>So I Could Find My Way lyrics</h4>
+<h4 id="So_I_Could_Find_My_Way">So I Could Find My Way lyrics</h4>
 
 <div id="video-s">
-<a href="enya-video.html"><strong>EnyaTube</strong></a> has a <a href="video-so-i-could-find-my-way.html"> video of "So I Could Find My Way"</a>.</div>
+<a href="/enya-video"><strong>EnyaTube</strong></a> has a <a href="/video-so-i-could-find-my-way"> video of "So I Could Find My Way"</a>.</div>
 
 <em>Roma Ryan</em><br />
 
@@ -217,10 +224,10 @@ And all those years you guided me,<br>
 So I could find my way.</p>
 <p>So I could find my way…</p>
 
-<h4><a name="Even_In_The_Shadows"></a>Even In The Shadows lyrics</h4>
+<h4 id="Even_In_The_Shadows">Even In The Shadows lyrics</h4>
 
 <div id="video-s">
-<a href="enya-video.html"><strong>EnyaTube</strong></a> has the <a href="video-even-in-the-shadows.html">video of "Even In The Shadows"</a>.</div>
+<a href="/enya-video"><strong>EnyaTube</strong></a> has the <a href="/video-even-in-the-shadows">video of "Even In The Shadows"</a>.</div>
 
 <em>Roma Ryan</em><br />
 
@@ -248,7 +255,7 @@ Wonder why it's not forever</p>
 <p>So high, so low<br>
 Love is gone and love is gone...</p>
 
-<h4><a name="The_Forge_of_Angels"></a>The Forge of Angels lyrics</h4>
+<h4 id="The_Forge_of_Angels">The Forge of Angels lyrics</h4>
 
 
 <em>Roma Ryan</em><br />
@@ -274,10 +281,10 @@ though the night may seem forever,<br>
 the first stars have already gone…</p>
 
 
-<h4><a name="Echoes_In_Rain"></a>Echoes In Rain lyrics</h4>
+<h4 id="Echoes_In_Rain">Echoes In Rain lyrics</h4>
 
 <div id="video-s">
-<a href="enya-video.html"><strong>EnyaTube</strong></a> has a <a href="video-echoes-rain.html">lyrics video of "Echoes In Rain"</a>.</div>
+<a href="/enya-video"><strong>EnyaTube</strong></a> has a <a href="/video-echoes-rain">lyrics video of "Echoes In Rain"</a>.</div>
 
 <em>Roma Ryan</em><br />
 
@@ -295,7 +302,7 @@ Everything flows. Here comes another new day</p>
 Alleluia<br>Alleluia</p><p>Echoes in rain, drifting in waves<br>Long journey home, never too late<br>Black as a crow, night comes again<br>Everything flows. Here comes another new day!</p><p>Alleluia<br>Alle-Alle Alleluia<br>Alleluia<br>Alleluia</p><p>Alleluia<br>Alle-Alle Alleluia<br>Alleluia<br>Alleluia</p>
 
 
-<h4><a name="I_Could_Never_Say_Goodbye"></a>I Could Never Say Goodbye lyrics</h4>
+<h4 id="I_Could_Never_Say_Goodbye">I Could Never Say Goodbye lyrics</h4>
 
 
 <em>Roma Ryan</em><br />
@@ -326,7 +333,7 @@ Alleluia<br>Alleluia</p><p>Echoes in rain, drifting in waves<br>Long journey hom
 
 
 
-<h4><a name="Dark_Sky_Island"></a>Dark Sky Island lyrics</h4>
+<h4 id="Dark_Sky_Island">Dark Sky Island lyrics</h4>
 <em>Roma Ryan</em><br />
 
 <p>Listen
@@ -363,7 +370,7 @@ Come back to me, come back to me<br>
 
 
 
-<h4><a name="Sancta_Maria"></a>Sancta Maria lyrics</h4>
+<h4 id="Sancta_Maria">Sancta Maria lyrics</h4>
 <em>Roma Ryan</em><br />
 
 <p>Sancta Maria Sancta Maria<br>
@@ -374,7 +381,7 @@ Sancta Maria, Maria, Maria<br>
 Sancta Maria, Maria, Maria<br><br>
 (Repeat 3 times)</p>
 
-<h4><a name="Astra_et_Luna"></a>Astra et Luna lyrics</h4>
+<h4 id="Astra_et_Luna">Astra et Luna lyrics</h4>
 <em>Roma Ryan</em><br />
 
 <p>Caelum noctis;<br>
@@ -409,7 +416,7 @@ the beauty of the world around me</p>
 A ship travelling by night.</p>
 
 
-<h4><a name="The_Loxian_Gates"></a>The Loxian Gates lyrics</h4>
+<h4 id="The_Loxian_Gates">The Loxian Gates lyrics</h4>
 <em>Roma Ryan</em><br />
 
 `ora beyhe o llay ay o ay a bey ah llay<br>
@@ -468,7 +475,7 @@ soft breezes whispering,<br>
 night and day.<br>
 But our quest is not yet over.</p>
 
-<h4><a name="Diamonds_on_the_Water"></a>Diamonds on the Water lyrics</h4>
+<h4 id="Diamonds_on_the_Water">Diamonds on the Water lyrics</h4>
 <em>Roma Ryan</em><br />
 
 <p>Listen to the river<br>
@@ -486,7 +493,7 @@ The sound of summer<br>
 						The diamonds on the water<br>
 						Are...are...</p>
 
-<h4><a name="Solace"></a>Solace lyrics</h4>
+<h4 id="Solace">Solace lyrics</h4>
 <em>Roma Ryan</em><br />
 
 <p>What can I do to comfort you?<br>
@@ -499,7 +506,7 @@ Why do you go upon this road<br>
 when you could find your way home?</p>
 
 
-<h4><a name="Pale_Grass_Blue"></a>Pale Grass Blue lyrics</h4>
+<h4 id="Pale_Grass_Blue">Pale Grass Blue lyrics</h4>
 <em>Roma Ryan</em><br />
 
 <p>A silver hue on wings of blue as all<br>
@@ -530,7 +537,7 @@ Sun is high above and winds are still<br>
 enough and one by one they fly away</em></p>
 
 
-<h4><a name="Remember_Your_Smile"></a>Remember Your Smile lyrics</h4>
+<h4 id="Remember_Your_Smile">Remember Your Smile lyrics</h4>
 <em>Roma Ryan</em><br />
 
 
@@ -560,7 +567,7 @@ that’s how it goes<br>
 sometimes we’re together<br>
 sometimes alone</p>
 
-<h3><a name="credits"></a>Credits</h3>
+<h3 id="credits">Credits</h3>
 <p>Everything you hear on the album is Enya multi-layered to perfection:</p>
 <p>MUSIC COMPOSED BY ENYA<br>
 LYRICS BY ROMA RYAN<br>
@@ -601,17 +608,17 @@ www.nickyryan.net</p>
 
 
 
+</main>
+
+<aside id="sidebar">
+
+<a id="albumcover" href="https://amzn.to/4bxE48s" target="_blank" rel="nofollow sponsored noopener"><img src="/dsi.jpg" alt="Audio, images and low prices at Amazon"  width="150" height="150" /></a>
+
+
 </div>
 
-<div id="sidebar">
-
-<a id="albumcover" href="https://amzn.to/4bxE48s"><img src="dsi.jpg" alt="Audio, images and low prices at Amazon" /></a>
-
 
 </div>
 
-<div class="c"></div>
-</div>
-
-<div id="ad-topo"><a href="https://www.amazon.com/dp/B002RV01QI?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as4&creativeASIN=B002RV01QI&adid=18HACXWRC02P3LQLM"><img src="banner-vbe.jpg" alt="The Very Best of Enya" /></a></div>
+<div id="ad-topo"><a href="https://www.amazon.com/dp/B002RV01QI?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as4&creativeASIN=B002RV01QI&adid=18HACXWRC02P3LQLM"><img src="/banner-vbe.jpg" alt="The Very Best of Enya"  width="150" height="150" /></a></div>
 </Layout>

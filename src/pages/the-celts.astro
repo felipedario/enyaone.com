@@ -2,13 +2,20 @@
 import Layout from "../layouts/Layout.astro";
 
 const title = "Enya's The Celts album (\"Boadicea\" sample) | Lyrics, downloads";
-const description = "All info, lyrics and MP3 downloads for Enya's album The Celts. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
+const description = "All info, lyrics and MP3 downloads for Enya";
 const canonical = "";
-const ogImage = "";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
 ---
 
-<Layout title={title} description={description} canonical={canonical} ogImage={ogImage} bodyClass={bodyClass}>
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
 <div id="content">
 
 			<ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
@@ -16,7 +23,7 @@ const bodyClass = "";
 						<span property="name">Home</span></a> 
 					  <meta property="position" content="1">
 					  &rsaquo;</li>
-				<li property="itemListElement" typeof="ListItem"><a href="enya-songs-albums.html" 
+				<li property="itemListElement" typeof="ListItem"><a href="/enya-songs-albums"
 					property="item" typeof="WebPage">
 						<span property="name">Enya Songs &amp; Albums</span></a>  &rsaquo;
 					  <meta property="position" content="2"></li>
@@ -25,20 +32,20 @@ const bodyClass = "";
 					<meta property="position" content="3"></li>
 			</ol>
 			
-			<div id="main">
+			<main id="main">
 				<h1>The Celts (1992)</h1>
 
-				<a class="new-amazon-album-link" href="https://amzn.to/3UBLYaD" rel="nofollow" target="_blank">
-					<img  src="tc.jpg" alt="The Celts (1992)" /></a>
+				<a class="new-amazon-album-link" href="https://amzn.to/3UBLYaD" rel="nofollow sponsored noopener" target="_blank">
+					<img  src="/tc.jpg" alt="The Celts (1992)"  width="150" height="150" /></a>
 				
-				<p><strong><em>The Celts</em></strong>, released in 1992, is a remastered re-release of Enya's 1987 debut album <em><strong><a href="enya-album.html">Enya</a></strong></em>.  It features music
+				<p><strong><em>The Celts</em></strong>, released in 1992, is a remastered re-release of Enya's 1987 debut album <em><strong><a href="/enya-album">Enya</a></strong></em>.  It features music
 					written and recorded for the soundtrack of the 1986 documentary
-					television series by BBC, <a href="the-celts-documentary.html"><em>The Celts</em></a>.</p>
+					television series by BBC, <a href="/the-celts-documentary"><em>The Celts</em></a>.</p>
 
-					<p><a href="https://amzn.to/3WeCL5y" rel="nofollow" target="_blank">Stream or download Enya songs</a></p>
+					<p><a href="https://amzn.to/3WeCL5y" rel="nofollow sponsored noopener" target="_blank">Stream or download Enya songs</a></p>
 
 				
-				<p>In 1992, after Enya gained worldwide commercial success with her following two albums <i><a href="watermark.html">Watermark</a></i> (1988) and <i><a href="shepperd-moons.html">Shepherd Moons</a></i> (1991), <i>Enya</i> was remastered by Arun Chakraverty and redesigned with new artwork designed by Sooky Choi with photography by David Scheinmann. The album was reissued on 16 November 1992 as <i>The Celts</i> by WEA in Europe and  Reprise Records in the United States. <i>The Celts</i> outperformed its original sales, reaching a new peak of No. 10 on the UK Albums Chart for two weeks from the week of 28 November 1992. It returned for two separate weeks 1993, one week in 1996, and six consecutive weeks in 1998. In the United States, the album sold a further one million copies.</p>
+				<p>In 1992, after Enya gained worldwide commercial success with her following two albums <i><a href="/watermark">Watermark</a></i> (1988) and <i><a href="/shepperd-moons">Shepherd Moons</a></i> (1991), <i>Enya</i> was remastered by Arun Chakraverty and redesigned with new artwork designed by Sooky Choi with photography by David Scheinmann. The album was reissued on 16 November 1992 as <i>The Celts</i> by WEA in Europe and  Reprise Records in the United States. <i>The Celts</i> outperformed its original sales, reaching a new peak of No. 10 on the UK Albums Chart for two weeks from the week of 28 November 1992. It returned for two separate weeks 1993, one week in 1996, and six consecutive weeks in 1998. In the United States, the album sold a further one million copies.</p>
 				
 				<p>Aside from the enhanced sound, <em>The Celts</em> also contains a longer
 					version of the instrumental song "Portrait" (which runs for 1:23, found on the
@@ -46,11 +53,11 @@ const bodyClass = "";
 				
 				<p>The instrumental song "Boadicea" was adapted and used, in three other artists' songs: "Ready or Not" by The Fugees; "I Dont Wanna Know" by Mario Winans and "You Should Really Know" by Pirates. The Fugees used the song without official permission. The case was almost taken to court, but Enya decided to make a personal agreement with The Fugees.</p>
 				
-				<div class="c"></div>
+
 				
 				<p>Jump to <a href="#lyrics">lyrics</a>, <a href="#videos">videos list</a>, <a href="#linearnotes">linear notes</a>, <a href="#charts">charts</a> and <a href="#credits">credits</a>.
 				
-				<h3><a name="lyrics"></a>Lyrics list</h3>
+				<h3 id="lyrics">Lyrics list</h3>
 				
 				<ul>
 					<li><a href="#The_Celts">The Celts</a></li>
@@ -70,23 +77,23 @@ const bodyClass = "";
 					<li>To Go Beyond II <em>(Instrumental)</em></a></li>
 				</ul>
 				
-				<h3><a name="videos"></a>Videos</h3>
+				<h3 id="videos">Videos</h3>
 				
 				<ul>
-					<li><a href="video-the-celts.html">"The Celts"</a></li>
-					<li><a href="video-aldebaran.html">"Aldebaran"</a></li>
-					<li><a href="video-i-want-tomorrow.html">"I Want Tomorrow"</a></li>
+					<li><a href="/video-the-celts">"The Celts"</a></li>
+					<li><a href="/video-aldebaran">"Aldebaran"</a></li>
+					<li><a href="/video-i-want-tomorrow">"I Want Tomorrow"</a></li>
 				</ul>
 				
-				<p><a href="enya-video.html">More videos in <strong>EnyaTube</strong> &raquo;</a></p>
+				<p><a href="/enya-video">More videos in <strong>EnyaTube</strong> &raquo;</a></p>
 				
-				<h3><a name="complyrics"></a>Lyrics</h3>
+				<h3 id="complyrics">Lyrics</h3>
 				
-				<h4><a name="The_Celts"></a>The Celts lyrics</h4>
+				<h4 id="The_Celts">The Celts lyrics</h4>
 				
-				<div id="video-s"><a href="enya-video.html"><strong>EnyaTube</strong></a> has a <a href="video-the-celts.html">video of "The Celts"</a>.</div>
+				<div id="video-s"><a href="/enya-video"><strong>EnyaTube</strong></a> has a <a href="/video-the-celts">video of "The Celts"</a>.</div>
 				
-				<p>From the BBC documentary <em><a href="the-celts-documentary.html">The Celts</a></em>.</p>
+				<p>From the BBC documentary <em><a href="/the-celts-documentary">The Celts</a></em>.</p>
 				
 				<em>Roma Ryan</em>
 				
@@ -154,9 +161,9 @@ const bodyClass = "";
 				
 				<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 				
-				<h4><a name="Aldebaran"></a>Aldebaran lyrics</h4>
+				<h4 id="Aldebaran">Aldebaran lyrics</h4>
 				
-				<div id="video-s"><a href="enya-video.html"><strong>EnyaTube</strong></a> has a <a href="video-aldebaran.html">video of "Aldebaran"</a>.</div>
+				<div id="video-s"><a href="/enya-video"><strong>EnyaTube</strong></a> has a <a href="/video-aldebaran">video of "Aldebaran"</a>.</div>
 				
 				<em>Roma Ryan</em>
 				
@@ -166,13 +173,13 @@ const bodyClass = "";
 				
 				<br />Codladh domhain.
 				
-				<br />&Eacute;irigh! Amharc s&iacute;os<br />Aldebaran.
+				<br />Éirigh! Amharc síos<br />Aldebaran.
 				
 				<br />
 				
-				<br />Si&uacute;il liom tr&iacute;d an r&eacute;alta dearg.<br />Deireadh, deireadh an turas.
+				<br />Siúil liom tríd an réalta dearg.<br />Deireadh, deireadh an turas.
 				
-				<br />R&eacute;alt&oacute;g, r&eacute;alt&oacute;g dearg. <br />
+				<br />Réaltóg, réaltóg dearg. <br />
 				
 				<br /><em><strong>Translation</strong></em>
 				
@@ -198,9 +205,9 @@ const bodyClass = "";
 				
 				<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 				
-				<h4><a name="I_Want_Tomorrow"></a>I Want Tomorrow lyrics</h4>
+				<h4 id="I_Want_Tomorrow">I Want Tomorrow lyrics</h4>
 				
-				<div id="video-s"><a href="enya-video.html"><strong>EnyaTube</strong></a> has a <a href="video-i-want-tomorrow.html">video of "I Want Tomorrow"</a>.</div>
+				<div id="video-s"><a href="/enya-video"><strong>EnyaTube</strong></a> has a <a href="/video-i-want-tomorrow">video of "I Want Tomorrow"</a>.</div>
 				
 				<em>Roma Ryan</em>
 				
@@ -250,7 +257,7 @@ const bodyClass = "";
 				
 				<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 				
-				<h4><a name="March_Of_The_Celts"></a>March Of The Celts lyrics</h4>
+				<h4 id="March_Of_The_Celts">March Of The Celts lyrics</h4>
 				
 				<em>Roma Ryan</em>
 				
@@ -292,19 +299,19 @@ const bodyClass = "";
 				
 				<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 				
-				<h4><a name="Deireadh_An_Tuath"></a>Deireadh An Tuath lyrics</h4>
+				<h4 id="Deireadh_An_Tuath">Deireadh An Tuath lyrics</h4>
 				
 				<em>Roma Ryan</em>
 				
 				<br />
 				
-				<br />'S&iacute; an ghealach,<br />mall san o&iacute;che.<br />'S&iacute; an ghrian.<br />F&aacute;n liom go Deo.<br />
+				<br />'Sí an ghealach,<br />mall san oíche.<br />'Sí an ghrian.<br />Fán liom go Deo.<br />
 				
 				<br />Hoireann is O Hi O Ho ra Ha.
 				
 				<br />
 				
-				<br />'S&iacute; na Samhna,<br />t&uacute;s na Bliain Ur.<br />'S&iacute; an crann marbh.<br />Deireadh an tuath.
+				<br />'Sí na Samhna,<br />tús na Bliain Ur.<br />'Sí an crann marbh.<br />Deireadh an tuath.
 				
 				<br />
 				
@@ -345,15 +352,15 @@ const bodyClass = "";
 				
 				<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 				
-				<h4><a name="Triad_St._Patrick"></a>Triad (St. Patrick) lyrics</h4>
+				<h4 id="Triad_St._Patrick">Triad (St. Patrick) lyrics</h4>
 				
 				<em>Traditional</em>
 				
 				<br />
 				
-				<br />Tabhair dom ghr&aacute;sa,<br />F&iacute;ormhac D&eacute;.<br />Tabhair dom do neartsa,
+				<br />Tabhair dom ghrása,<br />Fíormhac Dé.<br />Tabhair dom do neartsa,
 				
-				<br />An ghrian gheal gl&eacute;.<br />
+				<br />An ghrian gheal glé.<br />
 				
 				<br /><em>Repeat</em>
 				
@@ -377,7 +384,7 @@ const bodyClass = "";
 				
 				<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 				
-				<h4><a name="Dan_Y_Dwr"></a>Dan Y Dwr lyrics</h4>
+				<h4 id="Dan_Y_Dwr">Dan Y Dwr lyrics</h4>
 				
 				<em>Roma Ryan</em>
 				
@@ -424,7 +431,7 @@ const bodyClass = "";
 				
 				<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 				
-				<h3><a name="linearnotes"></a>Linear notes</h3>
+				<h3 id="linearnotes">Linear notes</h3>
 				
 				<h4>The Celts</h4>
 				
@@ -489,7 +496,7 @@ const bodyClass = "";
 				<h4>Triad (Saint Patrick)</h4>
 				
 				<p>The son of a Roman official, Patrick was captured by a raiding
-					party of Celts when a boy, and spent six years in captivity.&nbsp;
+					party of Celts when a boy, and spent six years in captivity.
 					He escaped, became a priest and returned to Ireland. According to
 					legend it is St. Patrick who is responsible for Ireland's
 					conversion to Christianity and the final loss of the old Celtic
@@ -544,7 +551,7 @@ const bodyClass = "";
 					for the loss of Capel Celyn, memories now held beneath the
 					water.</p>
 				
-				<h3><a name="charts"></a>Charts</h3>
+				<h3 id="charts">Charts</h3>
 				
 				<strong>Album</strong>
 				
@@ -576,7 +583,7 @@ const bodyClass = "";
 					</tbody>
 				</table>
 				
-				<h3><a name="credits"></a>Credits</h3>
+				<h3 id="credits">Credits</h3>
 				Guest musicians:
 				
 				<ul>
@@ -604,15 +611,15 @@ const bodyClass = "";
 				<br>Designed by <strong>Sooky Choi</strong></p>
 				
 				
-			</div>
+			</main>
 			
-			<div id="sidebar"><a id="albumcover" href="https://amzn.to/3UBLYaD">
-				<img  title="Audio, images and low prices at Amazon" src="tc.jpg" alt="Audio, images and low prices at Amazon" /></a>
+			<aside id="sidebar"><a id="albumcover" href="https://amzn.to/3UBLYaD" target="_blank" rel="nofollow sponsored noopener">
+				<img  title="Audio, images and low prices at Amazon" src="/tc.jpg" alt="Audio, images and low prices at Amazon"  width="150" height="150" /></a>
 				
-				<div class="buy"><a href="https://amzn.to/3UBLYaD">Stream or download Enya songs</a></div>
+				<div class="buy"><a href="https://amzn.to/3UBLYaD" target="_blank" rel="nofollow sponsored noopener">Stream or download Enya songs</a></div>
 			
 			</div>
 			
-			<div class="c"></div>
+
 		</div>
 </Layout>

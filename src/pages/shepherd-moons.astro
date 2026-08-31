@@ -2,13 +2,20 @@
 import Layout from "../layouts/Layout.astro";
 
 const title = "Enya's Shepherd Moons album (\"Book of Days\", \"Caribbean Blue\" lyrics)";
-const description = "All info, song lyrics and MP3 downloads for Enya's 1991 album. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
-const canonical = "https://www.enyaone.com/shepherd-moons.html";
-const ogImage = "";
+const description = "All info, song lyrics and MP3 downloads for Enya";
+const canonical = "https://www.enyaone.com/shepherd-moons";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
 ---
 
-<Layout title={title} description={description} canonical={canonical} ogImage={ogImage} bodyClass={bodyClass}>
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
 <div id="content">
 
 <ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
@@ -16,7 +23,7 @@ const bodyClass = "";
 			<span property="name">Home</span></a> 
 		  <meta property="position" content="1">
 		  &rsaquo;</li>
-	<li property="itemListElement" typeof="ListItem"><a href="enya-songs-albums.html" 
+	<li property="itemListElement" typeof="ListItem"><a href="/enya-songs-albums"
 		property="item" typeof="WebPage">
 			<span property="name">Enya Songs &amp; Albums</span></a>  &rsaquo;
 		  <meta property="position" content="2"></li>
@@ -25,44 +32,44 @@ const bodyClass = "";
 		<meta property="position" content="3"></li>
 </ol>
 
-<div id="main">
+<main id="main">
 
 	<div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
-<a href="https://amzn.to/4okO9eR"><img src="ecs.jpg" alt="Christmas Secrets album cover">
+<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
 <p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
 
-<a href="https://amzn.to/43aGdVb"><img src="awc.jpg" alt="And Winter Came album cover">
+<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><img src="/awc.jpg" alt="And Winter Came album cover">
 <p><em><strong>And Winter Came...</strong></em><br /> A winter-themed album</p></a>
 
-<a href="https://amzn.to/4hEQ7nG"><img src="vbe.jpg" alt="The Very Best of Enya album cover">
+<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><img src="/vbe.jpg" alt="The Very Best of Enya album cover">
 <p><em><strong>The Very Best of Enya</strong></em><br /> The perfect gift</p></a>
 </div>
 
 
 <h1>Shepherd Moons (1991)</h1>
 
-<a class="new-amazon-album-link" href="https://amzn.to/3OCCMyY" rel="nofollow" target="_blank">
-	<img  src="sm.jpg" alt="Shepherd Moons (1991)" /></a>
+<a class="new-amazon-album-link" href="https://amzn.to/3OCCMyY" rel="nofollow sponsored noopener" target="_blank">
+	<img  src="/sm.jpg" alt="Shepherd Moons (1991)"  width="150" height="150" /></a>
 
-<p>Enya's timeless masterpiece, <strong><em>Shepherd Moons</em></strong>, made a resounding impact upon its release in November 1991, securing the coveted Grammy Award for "Best New Age Album" in 1993. This celebrated album exists in multiple versions, each offering its own unique allure. The initial 1991 release showcased a Gaelic language-only rendition of the captivating track <a href="#Book_Of_Days">"Book of Days"</a>. However, Enya's musical journey took an intriguing turn when an English and Gaelic adaptation of the same song found its way into the evocative soundtrack of the film  <a href="enya-songs-albums.html#farandaway"><em>Far And Away</em></a>. Subsequent pressings of the album featured a re-recording of this dual-language rendition, replacing the original Gaelic-only version.</p>
+<p>Enya's timeless masterpiece, <strong><em>Shepherd Moons</em></strong>, made a resounding impact upon its release in November 1991, securing the coveted Grammy Award for "Best New Age Album" in 1993. This celebrated album exists in multiple versions, each offering its own unique allure. The initial 1991 release showcased a Gaelic language-only rendition of the captivating track <a href="#Book_Of_Days">"Book of Days"</a>. However, Enya's musical journey took an intriguing turn when an English and Gaelic adaptation of the same song found its way into the evocative soundtrack of the film  <a href="/enya-songs-albums#farandaway"><em>Far And Away</em></a>. Subsequent pressings of the album featured a re-recording of this dual-language rendition, replacing the original Gaelic-only version.</p>
 	 
 
-<p><a href="https://amzn.to/3OCCMyY" rel="nofollow" target="_blank">Stream or download Enya songs</a></p>
+<p><a href="https://amzn.to/3OCCMyY" rel="nofollow sponsored noopener" target="_blank">Stream or download Enya songs</a></p>
 
 <p>There are at least two versions of <em>Shepherd Moons</em>.
 The first release of 1991 featured a gaelinc language only version of . An English and Gaelic version of this song was subsequently used in the soundtrack of the movie. A re-recording of the latter replaced the original on later pressings of the  album.</p>
 
 <p>The accolades bestowed upon "Shepherd Moons" reflect its profound impact on the music industry and its enduring legacy. Enya's enchanting compositions and ethereal vocals transported listeners to a realm of pure musical bliss, resulting in critical acclaim and commercial success. The Grammy Award for "Best New Age Album" in 1993 served as a testament to the album's remarkable artistry and its ability to captivate audiences with its unparalleled beauty.</p>
 
-<p>A remix of "<a href="#Ebud%E6">Ebud&aelig;</a>" was used in the <a href="enya-songs-albums.html#toys"><em>Toys</em></a> film. <a href="shepherd-moons.html#Marble_Halls">"Marble Halls"</a> appears in the soundtrack of the film <em>The Age of Innocence</em>. </p>
+<p>A remix of "<a href="#Ebud%E6">Ebud&aelig;</a>" was used in the <a href="/enya-songs-albums#toys"><em>Toys</em></a> film. <a href="/shepherd-moons#Marble_Halls">"Marble Halls"</a> appears in the soundtrack of the film <em>The Age of Innocence</em>. </p>
 
 <p><strong>Singles</strong>: <a href="#Caribbean_Blue">"Caribbean Blue" (1991)</a>, <a href="#How_Can_I_Keep_From_Singing">"How Can I Keep from Singing?"</a> (1991), <a href="#Book_Of_Days">"Book of Days"</a> (1992), <a href="#Marble_Halls">"Marble Halls"</a> (1994).</p>
 
 <p>Jump to <a href="#lyrics">lyrics</a>, <a href="#videos">videos list</a>, <a href="#linearnotes">linear notes</a>,
 <a href="#awards">awards</a>, <a href="#charts">charts</a> and <a href="#credits">credits</a>.
 
-<h3><a name="lyrics"></a>Lyrics list</h3>
+<h3 id="lyrics">Lyrics list</h3>
 
 <ul>
 <li>Shepherd Moons <em>(Instrumental)</em></li>
@@ -74,34 +81,34 @@ I Keep From Singing?</a></li>
 <li>No Holly For Miss Quinn <em>(Instrumental)</em></li>
 <li><a href="#Book_Of_Days">Book Of Days</a></li>
 <li><a href="#Evacuee">Evacuee</a></li>
-<li>Lothl&oacute;rien <em>(Instrumental)</em></li>
+<li>Lothlórien <em>(Instrumental)</em></li>
 <li><a href="#Marble_Halls">Marble Halls</a></li>
 <li><a href="#Afer_Ventus">Afer Ventus</a></li>
 <li><a href="#Smaointe...">Smaointe...</a></li>
 
 </ul>
 
-<h3><a name="videos"></a>Videos</h3>
+<h3 id="videos">Videos</h3>
 
 <ul>
 
-<li><a href="video-book-of-days.html">"Book Of Days"</a></li>
+<li><a href="/video-book-of-days">"Book Of Days"</a></li>
 
-<li><a href="video-how-can-i-keep-from-singing.html">"How Can I Keep From Singing?"</a></li>
+<li><a href="/video-how-can-i-keep-from-singing">"How Can I Keep From Singing?"</a></li>
 
-<li><a href="video-caribbean-blue.html">"Caribbean Blue"</a></li>
+<li><a href="/video-caribbean-blue">"Caribbean Blue"</a></li>
 
 </ul>
 
-<p><a href="enya-video.html">More videos in <strong>EnyaTube</strong> &raquo;</a></p>
+<p><a href="/enya-video">More videos in <strong>EnyaTube</strong> &raquo;</a></p>
 
-<h3><a name="complyrics"></a>Lyrics</h3>
+<h3 id="complyrics">Lyrics</h3>
 
-<h4><a name="Caribbean_Blue"></a>Caribbean
+<h4 id="Caribbean_Blue">Caribbean
 Blue lyrics</h4>
 
 <div id="video-s">
-<a href="enya-video.html"><strong>EnyaTube</strong></a> has a <a href="video-caribbean-blue.html">video of "Caribbean Blue"</a>.</div>
+<a href="/enya-video"><strong>EnyaTube</strong></a> has a <a href="/video-caribbean-blue">video of "Caribbean Blue"</a>.</div>
 
 <em>Roma Ryan</em><br />
 
@@ -164,11 +171,11 @@ Zephryus...<br />
 
 <div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 
-<h4><a name="How_Can_I_Keep_From_Singing"></a>How
+<h4 id="How_Can_I_Keep_From_Singing">How
 Can I Keep From Singing? lyrics</h4>
 
 <div id="video-s">
-<a href="enya-video.html"><strong>EnyaTube</strong></a> has a <a href="video-how-can-i-keep-from-singing.html">video of "How
+<a href="/enya-video"><strong>EnyaTube</strong></a> has a <a href="/video-how-can-i-keep-from-singing">video of "How
 Can I Keep From Singing?"</a>.</div>
 
 <em>Traditional</em><br />
@@ -238,20 +245,20 @@ how can I keep from singing?<br />
 
 <div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 
-<h4><a name="Ebud&aelig;"></a>Ebud&aelig; lyrics</h4>
+<h4 id="Ebud&aelig;">Ebud&aelig; lyrics</h4>
 
-Used in <a href="enya-songs-albums.html#toys"><em>Toys</em> film soundtrack</a><br /><br />
+Used in <a href="/enya-songs-albums#toys"><em>Toys</em> film soundtrack</a><br /><br />
 
 <em>Roma Ryan</em><br />
 
 <br />
 
-Amharc, mn&aacute; ag obair l&aacute; 's mall san
-o&iacute;ch,<br />
+Amharc, mná ag obair lá 's mall san
+oích,<br />
 
-Ceolann siad ar laetha geal, a bh&iacute;,<br />
+Ceolann siad ar laetha geal, a bhí,<br />
 
-Bealach fada anonn 's anall a ch&oacute;ich.<br />
+Bealach fada anonn 's anall a chóich.<br />
 
 <br />
 
@@ -269,7 +276,7 @@ A long way back and forth forever.<br />
 
 <div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 
-<h4><a name="Angeles"></a>Angeles lyrics</h4>
+<h4 id="Angeles">Angeles lyrics</h4>
 
 <em>Roma Ryan</em><br />
 
@@ -330,23 +337,23 @@ mine to give...<br />
 
 <div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 
-<h4><a name="Book_Of_Days"></a>Book
+<h4 id="Book_Of_Days">Book
 Of Days lyrics</h4>
 
 <div id="video-s">
-<a href="enya-video.html"><strong>EnyaTube</strong></a> has a <a href="video-book-of-days.html">video of "Book Of Days"</a>.</div>
+<a href="/enya-video"><strong>EnyaTube</strong></a> has a <a href="/video-book-of-days">video of "Book Of Days"</a>.</div>
 
 <em>Roma Ryan</em><br />
 
 <br />
 
-&Oacute; l&aacute; go l&aacute;, mo thuras,<br />
+Ó lá go lá, mo thuras,<br />
 
 An bealach fada romham.<br />
 
-&Oacute; o&iacute;che go ho&iacute;che, mo thuras,<br />
+Ó oíche go hoíche, mo thuras,<br />
 
-na sc&eacute;alta nach mbeidh a cho&iacute;ch.<br />
+na scéalta nach mbeidh a choích.<br />
 
 <br />
 
@@ -359,7 +366,7 @@ The stories that will be lost forever.<br><br>
 
 
 
-<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div><h4><a name="Evacuee"></a>Evacuee lyrics</h4>
+<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div><h4 id="Evacuee">Evacuee lyrics</h4>
 
 <em>Roma Ryan</em><br />
 
@@ -405,7 +412,7 @@ but I must wait until it's over.<br />
 
 <div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 
-<h4><a name="Marble_Halls"></a>Marble
+<h4 id="Marble_Halls">Marble
 Halls lyrics</h4>
 
 <em>Alfred Bunn<br />
@@ -470,7 +477,7 @@ you loved me still the same. <br />
 
 <div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 
-<h4><a name="Afer_Ventus"></a>Afer
+<h4 id="Afer_Ventus">Afer
 Ventus lyrics</h4>
 
 <em>Roma Ryan</em><br />
@@ -564,90 +571,90 @@ as everyone treasures their own. <br /><br />
 
 <div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 
-<h4><a name="Smaointe..."></a>Smaointe... lyrics</h4>
+<h4 id="Smaointe...">Smaointe... lyrics</h4>
 
 <em>Roma Ryan</em><br />
 
 <br />
 
-&Eacute;ist le mo chro&iacute;,<br />
+Éist le mo chroí,<br />
 
-Go br&oacute;nach a cho&iacute;ch<br />
+Go brónach a choích<br />
 
-T&aacute; m&eacute; caillte gan t&uacute;<br />
+Tá mé caillte gan tú<br />
 
-'s do bhean ch&eacute;ile.<br />
+'s do bhean chéile.<br />
 
-An gr&aacute; m&oacute;r i do shaoil<br />
+An grá mór i do shaoil<br />
 
-Threora&iacute; s&iacute; m&eacute;.<br />
+Threoraí sí mé.<br />
 
-B&iacute;g&iacute; liomsa i gc&oacute;n&aacute;i<br />
+Bígí liomsa i gcónái<br />
 
-L&aacute; 's o&iacute;ch.<br />
+Lá 's oích.<br />
 
 <br />
 
-Ag caoineadh ar an uaigneas m&oacute;r<br />
+Ag caoineadh ar an uaigneas mór<br />
 
-Na deora, go br&oacute;nach<br />
+Na deora, go brónach<br />
 
-Na gcodladh ins an uaigh ghlas chi&uacute;in<br />
+Na gcodladh ins an uaigh ghlas chiúin<br />
 
 Faoi shuaimhneas, go domhain<br />
 
 <br />
 
-Aoibhneas a bh&iacute;<br />
+Aoibhneas a bhí<br />
 
 Ach d'imigh sin<br />
 
-S&eacute; lean t&uacute;<br />
+Sé lean tú<br />
 
-Do fhear ch&eacute;ile.<br />
+Do fhear chéile.<br />
 
-An gr&aacute; m&oacute;r i do shaoil<br />
+An grá mór i do shaoil<br />
 
-Threora&iacute; s&eacute; m&eacute;.<br />
+Threoraí sé mé.<br />
 
-B&iacute;g&iacute; liomsa i gc&oacute;n&aacute;i<br />
+Bígí liomsa i gcónái<br />
 
-L&aacute; 's o&iacute;ch.<br />
+Lá 's oích.<br />
 
 <br />
 
-Ag caoineadh ar an uaigneas m&oacute;r<br />
+Ag caoineadh ar an uaigneas mór<br />
 
-Na deora, go br&oacute;nach<br />
+Na deora, go brónach<br />
 
-'Na gcodladh ins an uaigh ghlas chi&uacute;in<br />
+'Na gcodladh ins an uaigh ghlas chiúin<br />
 
 Faoi shuaimhneas, go domhain<br />
 
 <br />
 
-Smaointe, ar an l&aacute;<br />
+Smaointe, ar an lá<br />
 
 Raibh sibh ar mo thaobh<br />
 
-Ag inse sc&eacute;il<br />
+Ag inse scéil<br />
 
-Ar an d&oacute;igh a bh&iacute;<br />
+Ar an dóigh a bhí<br />
 
-Is cuimhin liom an l&aacute;<br />
+Is cuimhin liom an lá<br />
 
 Gan gha 's gan ghruaim<br />
 
-B&iacute;g&iacute; liomsa i gc&oacute;na&iacute;<br />
+Bígí liomsa i gcónaí<br />
 
-L&aacute; 's o&iacute;ch'.<br />
+Lá 's oích'.<br />
 
 <br />
 
 <strong><em>Translation</em><br />
 <br />
 
-A Thought&hellip;</strong><br />
+A Thought…</strong><br />
 
 
 Listen to my heart. <br />
@@ -688,7 +695,7 @@ day and night. <br /><br />
 
 <div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 
-<h3><a name="linearnotes"></a>Linear notes</h3>
+<h3 id="linearnotes">Linear notes</h3>
 
 <h4>Shepherd Moons</h4>
 
@@ -758,7 +765,7 @@ away from, the harder times.</p>
 
 <h4>No Holly For Miss Quinn</h4>
 
-<p>A partner piece to 'Miss Clare Remembers' (<a href="watermark.html"<em>Watermark</em></a>). 'No Holly For
+<p>A partner piece to 'Miss Clare Remembers' (<a href="/watermark"<em>Watermark</em></a>). 'No Holly For
 Miss Quinn' was prompted by another Miss Read story. The idyllic descriptions of
 country and village life and the simple portraits of those who peopled such
 settings had appeal to Enya. In composing this music she recaptures the naivety
@@ -831,7 +838,7 @@ to Enya when she walks there, memories which she will treasure always. I wrote
 translated means 'thoughts'.</p>
 
 
-<h3><a name="awards"></a>Awards</h3>
+<h3 id="awards">Awards</h3>
 
 <strong>Grammy Awards</strong>
 
@@ -863,7 +870,7 @@ translated means 'thoughts'.</p>
 </table>
 
 
-<h3><a name="charts"></a>Charts</h3>
+<h3 id="charts">Charts</h3>
 
 <strong>Album</strong>
 
@@ -1022,7 +1029,7 @@ translated means 'thoughts'.</p>
 </tr>
 </tbody></table>
 
-<h3><a name="credits"></a>Credits</h3>
+<h3 id="credits">Credits</h3>
 
 Guest musicians:
 <ul>
@@ -1065,17 +1072,17 @@ Wardrobe by <strong>The New Renaissance</strong></p>
 
 <p><em>�r mbu�ochas do Rob Dickins a d'fhan, 'ag an sti�ir'.</em> (Our thanks to Rob Dickins who stayed at the helm.)</p>
 
+</main>
+
+<aside id="sidebar">
+
+<a id="albumcover" href="https://amzn.to/3OCCMyY" target="_blank" rel="nofollow sponsored noopener"><img  title="Audio, images and low prices at Amazon" src="/sm.jpg" alt="Audio, images and low prices at Amazon"  width="150" height="150" /></a>
+
+<div class="buy"><a href="https://amzn.to/3OCCMyY" target="_blank" rel="nofollow sponsored noopener">Stream or download Enya songs</a></div>
+
 </div>
 
-<div id="sidebar">
 
-<a id="albumcover" href="https://amzn.to/3OCCMyY"><img  title="Audio, images and low prices at Amazon" src="sm.jpg" alt="Audio, images and low prices at Amazon" /></a>
-
-<div class="buy"><a href="https://amzn.to/3OCCMyY">Stream or download Enya songs</a></div>
-
-</div>
-
-<div class="c"></div>
 
 </div>
 </Layout>

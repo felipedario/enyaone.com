@@ -1,18 +1,25 @@
 ---
 import Layout from "../layouts/Layout.astro";
 
-const title = "Enya &mdash; Christmas Carols from Cork (December 2016) live performance video";
-const description = "Enya &mdash; Christmas Carols from Cork (December 2016). Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
+const title = "Enya — Christmas Carols from Cork (December 2016) live performance video";
+const description = "Enya — Christmas Carols from Cork (December 2016). Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
 const canonical = "";
-const ogImage = "";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
 ---
 
-<Layout title={title} description={description} canonical={canonical} ogImage={ogImage} bodyClass={bodyClass}>
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
 <div id="content">
 
-<a class="h20" href="https://amzn.to/36p9s8q" target="_blank" rel="noopener nofollow">
-	<img src="h20.jpg" alt="Listen to songs by Enya for free" />
+<a class="h20" href="https://amzn.to/36p9s8q" target="_blank" rel="nofollow sponsored noopener">
+	<img src="/h20.jpg" alt="Listen to songs by Enya for free"  width="150" height="150" />
 
 	<h2>Holidays <em>with</em> Enya</h2>
 
@@ -21,7 +28,7 @@ const bodyClass = "";
 
 <div id="video-main">
 
-<h1>Enya &mdash; Christmas Carols from Cork <small>(December 2016)</small></h1>
+<h1>Enya — Christmas Carols from Cork <small>(December 2016)</small></h1>
 
 <div class="ads-2016">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -48,7 +55,7 @@ const bodyClass = "";
 
 <p>Enya appeared on RTɒs one-hour Christmas Carols from Cork TV special, performing three songs and briefly chatting to the host Mary Kennedy. The performance was pre-recorded in November 2016 in the historic Honan Chapel at University College Cork (UCC). Like usual, Enya was backed by a small choir and string section from Wired Strings.</p>
 
-<p><strong><a href="enya-video.html">&laquo; EnyaTube home</a></strong></p>
+<p><strong><a href="/enya-video">&laquo; EnyaTube home</a></strong></p>
 
 </div>
 

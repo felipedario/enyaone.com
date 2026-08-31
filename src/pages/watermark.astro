@@ -2,13 +2,20 @@
 import Layout from "../layouts/Layout.astro";
 
 const title = "Enya's Watermark album (\"Orinoco Flow/Sail Away\", \"Evining Falls...\" lyrics)";
-const description = "All info, lyrics and MP3 downloads for Enya's album Watermark. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
-const canonical = "https://www.enyaone.com/watermark.html";
-const ogImage = "";
+const description = "All info, lyrics and MP3 downloads for Enya";
+const canonical = "https://www.enyaone.com/watermark";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
 ---
 
-<Layout title={title} description={description} canonical={canonical} ogImage={ogImage} bodyClass={bodyClass}>
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
 <div id="content">
 			
 		
@@ -19,7 +26,7 @@ const bodyClass = "";
 						<span property="name">Home</span></a> 
 					  <meta property="position" content="1">
 					  &rsaquo;  </li>
-				<li property="itemListElement" typeof="ListItem"><a href="enya-songs-albums.html" 
+				<li property="itemListElement" typeof="ListItem"><a href="/enya-songs-albums"
 					property="item" typeof="WebPage">
 						<span property="name">Enya Songs &amp; Albums</span></a>  &rsaquo; 
 					  <meta property="position" content="2"></li>
@@ -29,45 +36,45 @@ const bodyClass = "";
 				</ol>
 
 	
-			<div id="main">
+			<main id="main">
 
 				<div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
-<a href="https://amzn.to/4okO9eR"><img src="ecs.jpg" alt="Christmas Secrets album cover">
+<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
 <p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
 
-<a href="https://amzn.to/43aGdVb"><img src="awc.jpg" alt="And Winter Came album cover">
+<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><img src="/awc.jpg" alt="And Winter Came album cover">
 <p><em><strong>And Winter Came...</strong></em><br /> A winter-themed album</p></a>
 
-<a href="https://amzn.to/4hEQ7nG"><img src="vbe.jpg" alt="The Very Best of Enya album cover">
+<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><img src="/vbe.jpg" alt="The Very Best of Enya album cover">
 <p><em><strong>The Very Best of Enya</strong></em><br /> The perfect gift</p></a>
 </div>
 
 
 				<h1>Watermark (1988)</h1>
 				
-				<a class="new-amazon-album-link" href="https://amzn.to/49c6ZNC" rel="nofollow" target="_blank">
-					<img  src="wm.jpg" alt="Watermark (1988)" /></a>
+				<a class="new-amazon-album-link" href="https://amzn.to/49c6ZNC" rel="nofollow sponsored noopener" target="_blank">
+					<img  src="/wm.jpg" alt="Watermark (1988)"  width="150" height="150" /></a>
 				
 				<p><strong><em>Watermark</strong></em>, released in September 1988, features Enya's first major hit, <a href="#Orinoco_Flow">Orinoco Flow</a> (aka "Sail Away") and was Enya's breakthrough album release, being considered
-					a seminal example of <a href="new-age-music.html">New Age music</a> (although Enya herself does not
+					a seminal example of <a href="/new-age-music">New Age music</a> (although Enya herself does not
 					consider her work to be of that genre).</p>
 
-					<p><a href="https://amzn.to/49c6ZNC" rel="nofollow" target="_blank">Stream or download Enya songs</a></p>
+					<p><a href="https://amzn.to/49c6ZNC" rel="nofollow sponsored noopener" target="_blank">Stream or download Enya songs</a></p>
 					
 					<blockquote>
 						<p>
-							Looking back on Watermark, the words are those of loss, of reflection, of exile &mdash; not necessarily from one's country, but from those whom the heart loves. It has in its theme searching, longing, of reaching out for an answer. The ocean is a central image. It is the symbolism of a great journey, which is the way I would describe this album.
+							Looking back on Watermark, the words are those of loss, of reflection, of exile — not necessarily from one's country, but from those whom the heart loves. It has in its theme searching, longing, of reaching out for an answer. The ocean is a central image. It is the symbolism of a great journey, which is the way I would describe this album.
 						</p>
 						<em>Enya</em>
 					</blockquote>
 					
 					<p>The original release from WEA Records is eleven tracks long. The
 						Reprise Records (U.S.) version is twelve tracks long with the extra
-						track <a href="enya-other.html#Storms_In_Africa_Part_II">"Storms in Africa II"</a>. Some later
+						track <a href="/enya-other#Storms_In_Africa_Part_II">"Storms in Africa II"</a>. Some later
 						reissues of <em>Watermark</em> once again omit this track.</p>
 					
-					<p>The track <a href="enya-other.html#Storms_In_Africa_Part_II">"Storms in Africa II"</a> is a faster tempo remix of <a href="#Storms_In_Africa">"Storms
+					<p>The track <a href="/enya-other#Storms_In_Africa_Part_II">"Storms in Africa II"</a> is a faster tempo remix of <a href="#Storms_In_Africa">"Storms
 						in Africa"</a> with an English lyrics replacing the original Irish ones.</p>
 					
 					<p>The single <a href="#Exile">"Exile"</a> (1991) was included in the films <em>Green Card</em> and <em>L.A. Story</em>.</p>
@@ -78,7 +85,7 @@ const bodyClass = "";
 					
 					<p>Jump to <a href="#lyrics">lyrics</a>, <a href="#videos">videos list</a> and <a href="#credits">credits</a>.
 					
-					<h3><a name="lyrics"></a>Lyrics list</h3>
+					<h3 id="lyrics">Lyrics list</h3>
 					
 					<ul>
 						<li>Watermark <em>(Instrumental)</em></li>
@@ -91,24 +98,24 @@ const bodyClass = "";
 						<li><a href="#Evening_Falls...">Evening Falls...</a></li>
 						<li>River <em>(Instrumental)</em></li>
 						<li><a href="#The_Longships">The Longships</a></li>
-						<li><a href="#Na_Laetha_Geal_M%D3ige">Na Laetha Geal M'&Oacute;ige</a></li>
+						<li><a href="#Na_Laetha_Geal_M%D3ige">Na Laetha Geal M'Óige</a></li>
 					</ul>
 					
-					<h3><a name="videos"></a>Videos</h3>
+					<h3 id="videos">Videos</h3>
 					
 					<ul>
-						<li><a href="video-exile.html">"Exile"</a></li>
-						<li><a href="video-storms-in-africa-english.html">"Storms In Africa II" (English lyrics)</a></li>
-						<li><a href="video-evening-falls.html">"Evening Falls..."</a></li>
-						<li><a href="video-orinoco-flow-sail-away.html">"Orinoco Flow (Sail Away)"</a></li>
+						<li><a href="/video-exile">"Exile"</a></li>
+						<li><a href="/video-storms-in-africa-english">"Storms In Africa II" (English lyrics)</a></li>
+						<li><a href="/video-evening-falls">"Evening Falls..."</a></li>
+						<li><a href="/video-orinoco-flow-sail-away">"Orinoco Flow (Sail Away)"</a></li>
 
 					</ul>
 					
-					<p><a href="enya-video.html">More videos in <strong>EnyaTube</strong> &raquo;</a></p>
+					<p><a href="/enya-video">More videos in <strong>EnyaTube</strong> &raquo;</a></p>
 					
-					<h3><a name="complyrics"></a>Lyrics</h3>
+					<h3 id="complyrics">Lyrics</h3>
 					
-					<h4><a name="Cursum_Perficio"></a>Cursum Perficio lyrics</h4>
+					<h4 id="Cursum_Perficio">Cursum Perficio lyrics</h4>
 					
 					<em>Roma Ryan</em>
 					
@@ -249,7 +256,7 @@ const bodyClass = "";
 					
 					<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 					
-					<h4><a name="On_Your_Shore"></a>On Your Shore lyrics</h4>
+					<h4 id="On_Your_Shore">On Your Shore lyrics</h4>
 					
 					
 					<em>Roma Ryan</em>
@@ -314,29 +321,29 @@ const bodyClass = "";
 					
 					<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 					
-					<h4><a name="Storms_In_Africa"></a>Storms In Africa lyrics</h4>
+					<h4 id="Storms_In_Africa">Storms In Africa lyrics</h4>
 					
-					<div id="video-s"><a href="enya-video.html"><strong>EnyaTube</strong></a> has a <a href="video-storms-in-africa-english.html">video of "Storms In Africa"</a>.</div>
+					<div id="video-s"><a href="/enya-video"><strong>EnyaTube</strong></a> has a <a href="/video-storms-in-africa-english">video of "Storms In Africa"</a>.</div>
 					
-					<p>There's a <a href="enya-other.html#Storms_In_Africa_Part_II">second version</a> of that song, with English lyrics.</p>
+					<p>There's a <a href="/enya-other#Storms_In_Africa_Part_II">second version</a> of that song, with English lyrics.</p>
 					
 					<em>Roma Ryan (Irish adaptation by Enya)</em>
 					
 					<br />
 					
-					<br />C&aacute; fhad &eacute; &oacute;<br />C&aacute; fhad &eacute; &oacute;<br />
+					<br />Cá fhad é ó<br />Cá fhad é ó<br />
 					
-					<br />Si&uacute;l tr&iacute;d na stoirmeacha.<br />Dul tr&iacute;d na stoirmeacha.<br />
+					<br />Siúl tríd na stoirmeacha.<br />Dul tríd na stoirmeacha.<br />
 					
-					<br />C&aacute; fhad &eacute; &oacute;<br />an t&uacute;s don stoirm.<br />C&aacute; fhad &eacute; &oacute;<br />an t&uacute;s go deireadh.<br />
+					<br />Cá fhad é ó<br />an tús don stoirm.<br />Cá fhad é ó<br />an tús go deireadh.<br />
 					
-					<br />T&oacute;g do Chro&iacute;.<br />Si&uacute;l tr&iacute;d na stoirmeacha.<br />T&oacute;g do chro&iacute;sa.<br />Dul tr&iacute;d na stoirmeacha.<br />
+					<br />Tóg do Chroí.<br />Siúl tríd na stoirmeacha.<br />Tóg do chroísa.<br />Dul tríd na stoirmeacha.<br />
 					
-					<br />Turas m&oacute;r.<br />Tor tr&iacute;d na Stoirmeacha.<br />
+					<br />Turas mór.<br />Tor tríd na Stoirmeacha.<br />
 					
 					<br />Turas fada.
 					
-					<br />Amharc tr&iacute;d na Stoirmeacha.<br />
+					<br />Amharc tríd na Stoirmeacha.<br />
 					
 					<br /><strong><em>Translation</em></strong>
 					
@@ -388,9 +395,9 @@ const bodyClass = "";
 					
 					<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 					
-					<h4><a name="Exile"></a>Exile lyrics</h4>
+					<h4 id="Exile">Exile lyrics</h4>
 					
-					<div id="video-s"><a href="enya-video.html"><strong>EnyaTube</strong></a> has a <a href="video-exile.html">video of "Exile"</a>.</div>
+					<div id="video-s"><a href="/enya-video"><strong>EnyaTube</strong></a> has a <a href="/video-exile">video of "Exile"</a>.</div>
 					
 					
 					<em>Roma Ryan</em>
@@ -457,9 +464,9 @@ const bodyClass = "";
 					
 					<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 					
-					<h4><a name="Orinoco_Flow"></a>Orinoco Flow lyrics</h4>
+					<h4 id="Orinoco_Flow">Orinoco Flow lyrics</h4>
 					
-					<div id="video-s"><a href="enya-video.html"><strong>EnyaTube</strong></a> has a <a href="video-orinoco-flow-sail-away.html">video of "Orinoco Flow</a>.</div>
+					<div id="video-s"><a href="/enya-video"><strong>EnyaTube</strong></a> has a <a href="/video-orinoco-flow-sail-away">video of "Orinoco Flow</a>.</div>
 					
 					<p>Also known as "Sail Away".</p>
 					
@@ -581,9 +588,9 @@ const bodyClass = "";
 					
 					<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 					
-					<h4><a name="Evening_Falls..."></a>Evening Falls... lyrics</h4>
+					<h4 id="Evening_Falls...">Evening Falls... lyrics</h4>
 					
-					<div id="video-s"><a href="enya-video.html"><strong>EnyaTube</strong></a> has a <a href="video-evening-falls.html">video of "Evening Falls..."</a>.</div>
+					<div id="video-s"><a href="/enya-video"><strong>EnyaTube</strong></a> has a <a href="/video-evening-falls">video of "Evening Falls..."</a>.</div>
 					
 					<em>Roma Ryan</em>
 					
@@ -641,7 +648,7 @@ const bodyClass = "";
 					
 					<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 					
-					<h4><a name="The_Longships"></a>The Longships lyrics</h4>
+					<h4 id="The_Longships">The Longships lyrics</h4>
 					
 					<em>Roma Ryan</em>
 					
@@ -659,7 +666,7 @@ const bodyClass = "";
 					
 					<br />Hoireann is oro
 					
-					<br />T&aacute; muid beo<br />Him oro ho
+					<br />Tá muid beo<br />Him oro ho
 					
 					<br />Go Deo na ndeor
 					
@@ -680,25 +687,25 @@ const bodyClass = "";
 					
 					<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 					
-					<h4><a name="Na_Laetha_Geal_M&Oacute;ige"></a>Na Laetha Geal M'&Oacute;ige lyrics</h4>
+					<h4 id="Na_Laetha_Geal_MÓige">Na Laetha Geal M'Óige lyrics</h4>
 					
 					<em>Roma Ryan (Irish adaptation by Enya)</em>
 					
 					<br />
 					
-					<br />Ag amharc tr&eacute; m'&oacute;ige,<br />Is m&eacute; bh&iacute; s&aacute;mh,<br />Gan eolas marbh
+					<br />Ag amharc tré m'óige,<br />Is mé bhí sámh,<br />Gan eolas marbh
 					
-					<br />Bh&iacute; m&eacute; &oacute;g san am.<br />
+					<br />Bhí mé óg san am.<br />
 					
-					<br />Anois, t&aacute;im buartha,<br />'s fad ar shi&uacute;il an l&aacute;.<br />Och&oacute;n 's och&oacute;n &oacute;.<br />
+					<br />Anois, táim buartha,<br />'s fad ar shiúil an lá.<br />Ochón 's ochón ó.<br />
 					
-					<br />Na laetha geal m'&oacute;ige<br />Bh&iacute; siad l&aacute;n de dh&oacute;chas<br />An bealach m&oacute;r a bh&iacute; romham anonn<br />Bh&iacute; s&eacute; i nd&aacute;n domh go mbeinn,<br />sl&aacute;n, sl&aacute;n.<br />
+					<br />Na laetha geal m'óige<br />Bhí siad lán de dhóchas<br />An bealach mór a bhí romham anonn<br />Bhí sé i ndán domh go mbeinn,<br />slán, slán.<br />
 					
-					<br />Anois, t&aacute;im buartha,<br />'s fad ar shi&uacute;il an l&aacute;.<br />Och&oacute;n 's och&oacute;n &oacute;.<br />
+					<br />Anois, táim buartha,<br />'s fad ar shiúil an lá.<br />Ochón 's ochón ó.<br />
 					
-					<br />Na laetha geal m'&oacute;ige<br />Bh&iacute; siad l&aacute;n de dh&oacute;chas<br />An bealach m&oacute;r a bh&iacute; romham anonn<br />Bh&iacute; s&eacute; i nd&aacute;n domh go mbeinn,<br />sl&aacute;n, sl&aacute;n.<br />
+					<br />Na laetha geal m'óige<br />Bhí siad lán de dhóchas<br />An bealach mór a bhí romham anonn<br />Bhí sé i ndán domh go mbeinn,<br />slán, slán.<br />
 					
-					<br />Anois, t&aacute;im buartha,<br />'s fad ar shi&uacute;il an l&aacute;.<br />Och&oacute;n 's och&oacute;n &oacute;.<br />
+					<br />Anois, táim buartha,<br />'s fad ar shiúil an lá.<br />Ochón 's ochón ó.<br />
 					
 					<br /><strong><em>Translation</em>
 						
@@ -746,7 +753,7 @@ const bodyClass = "";
 					
 					<br />
 					
-					<h3><a name="credits"></a>Credits</h3>
+					<h3 id="credits">Credits</h3>
 					
 					Guest musicians:
 					
@@ -797,16 +804,16 @@ const bodyClass = "";
 					<p>Management: <strong>Aigle Music</strong></p>
 					
 					<p><em>T� muid f�orbhu�och do Rob Dickins ar son an chuidi� agus an mhisneach a thug s� du�nn.</em> (We are truly grateful to Rob Dickins for the help and courage he gave us.)</p>
+					</main>
+					
+					<aside id="sidebar"><a id="albumcover" href="https://amzn.to/49c6ZNC" target="_blank" rel="nofollow sponsored noopener">
+						<img  title="Audio, images and low prices at Amazon" src="/wm.jpg" alt="Audio, images and low prices at Amazon"  width="150" height="150" /></a>
+						
+						<div class="buy"><a href="https://amzn.to/49c6ZNC" target="_blank" rel="nofollow sponsored noopener">Stream or download Enya songs</a></div>
+						
+					
 					</div>
 					
-					<div id="sidebar"><a id="albumcover" href="https://amzn.to/49c6ZNC">
-						<img  title="Audio, images and low prices at Amazon" src="wm.jpg" alt="Audio, images and low prices at Amazon" /></a>
-						
-						<div class="buy"><a href="https://amzn.to/49c6ZNC">Stream or download Enya songs</a></div>
-						
-					
-					</div>
-					
-					<div class="c"></div>
+
 					</div>
 </Layout>

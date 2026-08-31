@@ -2,13 +2,20 @@
 import Layout from "../layouts/Layout.astro";
 
 const title = "Enya's The Memory Of Trees album (\"Anywhere Is\", \"China Roses\" lyrics)";
-const description = "All info, song lyrics and MP3 downloads for Enya's 1995 album. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
+const description = "All info, song lyrics and MP3 downloads for Enya";
 const canonical = "";
-const ogImage = "";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
 ---
 
-<Layout title={title} description={description} canonical={canonical} ogImage={ogImage} bodyClass={bodyClass}>
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
 <div id="content">
 		
 
@@ -17,7 +24,7 @@ const bodyClass = "";
 			<span property="name">Home</span></a> 
 		  <meta property="position" content="1">
 		  &rsaquo;</li>
-	<li property="itemListElement" typeof="ListItem"><a href="enya-songs-albums.html" 
+	<li property="itemListElement" typeof="ListItem"><a href="/enya-songs-albums"
 		property="item" typeof="WebPage">
 			<span property="name">Enya Songs &amp; Albums</span></a>  &rsaquo;
 		  <meta property="position" content="2"></li>
@@ -27,47 +34,47 @@ const bodyClass = "";
 	</ol>
 			
 			
-			<div id="main">
+			<main id="main">
 
 				<div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
-<a href="https://amzn.to/4okO9eR"><img src="ecs.jpg" alt="Christmas Secrets album cover">
+<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
 <p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
 
-<a href="https://amzn.to/43aGdVb"><img src="awc.jpg" alt="And Winter Came album cover">
+<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><img src="/awc.jpg" alt="And Winter Came album cover">
 <p><em><strong>And Winter Came...</strong></em><br /> A winter-themed album</p></a>
 
-<a href="https://amzn.to/4hEQ7nG"><img src="vbe.jpg" alt="The Very Best of Enya album cover">
+<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><img src="/vbe.jpg" alt="The Very Best of Enya album cover">
 <p><em><strong>The Very Best of Enya</strong></em><br /> The perfect gift</p></a>
 </div>
 
 
 				<h1>The Memory Of Trees (1995)</h1>
 				
-				<a class="new-amazon-album-link" href="https://amzn.to/499iOEx" rel="nofollow" target="_blank">
-					<img  src="tmot.jpg" alt="The Memory Of Trees (1995)" /></a>
+				<a class="new-amazon-album-link" href="https://amzn.to/499iOEx" rel="nofollow sponsored noopener" target="_blank">
+					<img  src="/tmot.jpg" alt="The Memory Of Trees (1995)"  width="150" height="150" /></a>
 				
 				<p><em><strong>The Memory Of Trees</em></strong>, released in 1995, won Enya's first Grammy Award for "<em>Best New Age Album</em>", in 1997.</p>
 
-				<p><a href="https://amzn.to/499iOEx" rel="nofollow" target="_blank">Stream or download Enya songs</a></p>
+				<p><a href="https://amzn.to/499iOEx" rel="nofollow sponsored noopener" target="_blank">Stream or download Enya songs</a></p>
 					
 					<p>Its cover art was inspired by a painting called <a href="MaxfieldParrish_YoungKing.jpg" rel="nofollow" target="_blank">"The Young
 						King of the Black Isles"</a> by Maxfield Parrish, whose work has inspired
 						many of her music videos as well.</p>
 					
-					<p>As <a href="roma-ryan-nicky.html">Roma Ryan</a>, Enya's lyricist, remarks in the linear notes of the <a href="#The_Memory_Of_Trees">The Memory Of Trees</a> song for the later colletion <a href="paint-the-sky-with-stars.html"><em>Paint The Sky With Stars</em></a>, "In ancient Celtic belief trees had spirits within them and were
+					<p>As <a href="/roma-ryan-nicky">Roma Ryan</a>, Enya's lyricist, remarks in the linear notes of the <a href="#The_Memory_Of_Trees">The Memory Of Trees</a> song for the later colletion <a href="/paint-the-sky-with-stars"><em>Paint The Sky With Stars</em></a>, "In ancient Celtic belief trees had spirits within them and were
 						considered sacred. They were the keepers of memory and lore. <em>(...)</em> The future we look at may give us another interpretation of the title, with the destruction of the world's rainforests it may
 						turn out to be  that the memory of trees is nothing more than that
 						for us - a memory."</p>
 					
-					<div class="c"></div>
+
 					
 				
 					
 					<p>Jump to <a href="#lyrics">lyrics</a>, <a href="#videos">videos list</a>, <a href="#linearnotes">linear notes</a>,
 						<a href="#awards">awards</a>, <a href="#charts">charts</a> and <a href="#credits">credits</a>.
 					
-					<h3><a name="lyrics"></a>Lyrics list</h3>
+					<h3 id="lyrics">Lyrics list</h3>
 					
 					<ul>
 						<li>The Memory Of Trees <em>(Instrumental)</em></li>
@@ -79,24 +86,24 @@ const bodyClass = "";
 						<li><a href="#Hope_Has_A_Place">Hope Has A Place</a></li>
 						<li>Tea-House Moon <em>(Instrumental)</em></li>
 						<li><a href="#Once_You_Had_Gold">Once You Had Gold</a></li>
-						<li><a href="#La_So%F1adora">La So&ntilde;adora</a></li>
+						<li><a href="#La_So%F1adora">La Soñadora</a></li>
 						<li><a href="#On_My_Way_Home">On My Way Home</a></li>
 					</ul>
 					
-					<h3><a name="videos"></a>Videos</h3>
+					<h3 id="videos">Videos</h3>
 					
 					<ul>
-						<li><a href="video-on-my-way-home.html">"On My Way Home"</a></li>
-						<li><a href="video-anywhere-is.html">"Anywhere Is"</a></li>
+						<li><a href="/video-on-my-way-home">"On My Way Home"</a></li>
+						<li><a href="/video-anywhere-is">"Anywhere Is"</a></li>
 					</ul>
 					
-					<p><a href="enya-video.html">More videos in <strong>EnyaTube</strong> &raquo;</a></p>
+					<p><a href="/enya-video">More videos in <strong>EnyaTube</strong> &raquo;</a></p>
 					
-					<h3><a name="complyrics"></a>Lyrics</h3>
+					<h3 id="complyrics">Lyrics</h3>
 					
-					<h4><a name="Anywhere_Is"></a>Anywhere Is lyrics</h4>
+					<h4 id="Anywhere_Is">Anywhere Is lyrics</h4>
 					
-					<div id="video-s"><a href="enya-video.html"><strong>EnyaTube</strong></a> has a <a href="video-anywhere-is.html">video of "Anyhwre Is"</a>.</div>
+					<div id="video-s"><a href="/enya-video"><strong>EnyaTube</strong></a> has a <a href="/video-anywhere-is">video of "Anyhwre Is"</a>.</div>
 					
 					<em>Roma Ryan</em>
 					
@@ -232,7 +239,7 @@ const bodyClass = "";
 					
 					<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 					
-					<h4><a name="Pax_Deorum"></a>Pax Deorum lyrics</h4>
+					<h4 id="Pax_Deorum">Pax Deorum lyrics</h4>
 					
 					<em>Roma Ryan</em>
 					
@@ -289,7 +296,7 @@ const bodyClass = "";
 					
 					<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 					
-					<h4><a name="Athair_Ar_Neamh"></a>Athair Ar Neamh lyrics</h4>
+					<h4 id="Athair_Ar_Neamh">Athair Ar Neamh lyrics</h4>
 					
 					<em>Roma Ryan</em>
 					
@@ -299,15 +306,15 @@ const bodyClass = "";
 					
 					<br />Athair ar neamh, Dia liom
 					
-					<br />M'anam, mo chro&iacute;, mo ghl&oacute;ir<br />Moladh duit a Dhia.
+					<br />M'anam, mo chroí, mo ghlóir<br />Moladh duit a Dhia.
 					
 					<br />
 					
-					<br />Fada an l&aacute;, go s&aacute;mh<br />Fada an o&iacute;che, gan gruaim<br />Aoibhneas, &aacute;thas, gr&aacute;<br />Moladh duit a Dhia.
+					<br />Fada an lá, go sámh<br />Fada an oíche, gan gruaim<br />Aoibhneas, áthas, grá<br />Moladh duit a Dhia.
 					
 					<br />
 					
-					<br />M&oacute;raim th&uacute;, &oacute; l&aacute; go l&aacute;<br />M&oacute;raim th&uacute;, &oacute; o&iacute;che go ho&iacute;che.<br />
+					<br />Móraim thú, ó lá go lá<br />Móraim thú, ó oíche go hoíche.<br />
 					
 					<br />Athair ar neamh, Dia linn
 					
@@ -368,7 +375,7 @@ const bodyClass = "";
 					
 					<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 					
-					<h4><a name="China_Roses"></a>China Roses lyrics</h4>
+					<h4 id="China_Roses">China Roses lyrics</h4>
 					
 					<em>Roma Ryan</em>
 					
@@ -434,7 +441,7 @@ const bodyClass = "";
 					
 					<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 					
-					<h4><a name="Hope_Has_A_Place"></a>Hope Has A Place lyrics</h4>
+					<h4 id="Hope_Has_A_Place">Hope Has A Place lyrics</h4>
 					
 					<em>Roma Ryan</em>
 					
@@ -502,7 +509,7 @@ const bodyClass = "";
 					
 					<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 					
-					<h4><a name="Once_You_Had_Gold"></a>Once You Had Gold lyrics</h4>
+					<h4 id="Once_You_Had_Gold">Once You Had Gold lyrics</h4>
 					
 					<em>Roma Ryan</em>
 					
@@ -564,25 +571,25 @@ const bodyClass = "";
 					
 					<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 					
-					<h4><a name="La_So&ntilde;adora"></a>La So&ntilde;adora lyrics</h4>
+					<h4 id="La_Soñadora">La Soñadora lyrics</h4>
 					
 					<em>Roma Ryan</em>
 					
 					<br />
 					
-					<br />Yo; el oto&ntilde;o<br />Yo; el vespero
+					<br />Yo; el otoño<br />Yo; el vespero
 					
 					<br />He sido un eco.
 					
 					<br />
 					
-					<br />Ser&eacute; una ola<br />Ser&eacute; la luna<br />He sido todo, soy yo.
+					<br />Seré una ola<br />Seré la luna<br />He sido todo, soy yo.
 					
 					<br />
 					
 					<br />Yo; el verano
 					
-					<br />Yo; el &eacute;bano<br />Soy la so&ntilde;adora.<br />
+					<br />Yo; el ébano<br />Soy la soñadora.<br />
 					
 					<br /><strong><em>Translation
 							<br />
@@ -620,9 +627,9 @@ const bodyClass = "";
 					
 					<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 					
-					<h4><a name="On_My_Way_Home"></a>On My Way Home lyrics</h4>
+					<h4 id="On_My_Way_Home">On My Way Home lyrics</h4>
 					
-					<div id="video-s"><a href="enya-video.html"><strong>EnyaTube</strong></a> has a <a href="video-on-my-way-home.html">video of "On My Way Home"</a>.</div>
+					<div id="video-s"><a href="/enya-video"><strong>EnyaTube</strong></a> has a <a href="/video-on-my-way-home">video of "On My Way Home"</a>.</div>
 					
 					<em>Roma Ryan</em>
 					
@@ -690,7 +697,7 @@ const bodyClass = "";
 					
 					<br />
 					
-					<h3><a name="linearnotes"></a>Linear notes</h3>
+					<h3 id="linearnotes">Linear notes</h3>
 					
 					<h4>Anywhere Is</h4>
 					
@@ -803,7 +810,7 @@ const bodyClass = "";
 						friends, those we love. The solitary path has more room for wishes, in
 						that stillness, in that night, going home.</p>
 					
-					<h3><a name="awards"></a>Awards</h3>
+					<h3 id="awards">Awards</h3>
 					
 					
 					<strong>Grammy Awards</strong>
@@ -828,7 +835,7 @@ const bodyClass = "";
 						</tbody>
 					</table>
 					
-					<h3><a name="charts"></a>Charts</h3>
+					<h3 id="charts">Charts</h3>
 					
 					<strong>Album</strong>
 					
@@ -1006,7 +1013,7 @@ const bodyClass = "";
 						</tbody>
 					</table>
 					
-					<h3><a name="credits"></a>Credits</h3>
+					<h3 id="credits">Credits</h3>
 					
 					<p>Produced by <strong>Nicky Ryan</strong></p>
 					
@@ -1042,16 +1049,16 @@ const bodyClass = "";
 					
 					
 					
-					<a href="#">Return to top</a></div>
+					<a href="#">Return to top</a></main>
 					
-					<div id="sidebar"><a id="albumcover" href="https://amzn.to/499iOEx">
-						<img title="Audio, images and low prices at Amazon" src="tmot.jpg" alt="Audio, images and low prices at Amazon" /></a>
+					<aside id="sidebar"><a id="albumcover" href="https://amzn.to/499iOEx" target="_blank" rel="nofollow sponsored noopener">
+						<img title="Audio, images and low prices at Amazon" src="/tmot.jpg" alt="Audio, images and low prices at Amazon"  width="150" height="150" /></a>
 						
-						<div class="buy"><a href="https://amzn.to/499iOEx">Stream or download Enya songs</a></div>
+						<div class="buy"><a href="https://amzn.to/499iOEx" target="_blank" rel="nofollow sponsored noopener">Stream or download Enya songs</a></div>
 
 
 					</div>
 					
-					<div class="c"></div>
+
 					</div>
 </Layout>

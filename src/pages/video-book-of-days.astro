@@ -4,11 +4,18 @@ import Layout from "../layouts/Layout.astro";
 const title = "Enya's Book Of Days music video | All Enya videos, live performances";
 const description = "Video for Enya song Book Of Days. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
 const canonical = "";
-const ogImage = "";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
 ---
 
-<Layout title={title} description={description} canonical={canonical} ogImage={ogImage} bodyClass={bodyClass}>
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
 <div id="content">
 <div id="video-main">
 
@@ -34,7 +41,7 @@ const bodyClass = "";
 </div>
 
 <h3>About</h3>
-<p>Released in November 1992, this is the promo video for Enya single <a href="shepherd-moons.html#Book_Of_Days">"Book Of Days"</a>, from the album <a href="shepherd-moons.html"><em>Shepperd Moons</em></a>.</p>
+<p>Released in November 1992, this is the promo video for Enya single <a href="/shepherd-moons#Book_Of_Days">"Book Of Days"</a>, from the album <a href="/shepherd-moons"><em>Shepperd Moons</em></a>.</p>
 <p>Time: 2:52</p>
 <p>Directed by Michael Geoghegan.</p>
 
@@ -42,7 +49,7 @@ const bodyClass = "";
 
 "Book of Days" became Enya's second top-ten single on the UK Singles Chart, peaking at number 10, and reached number 12 on the Irish Singles Chart. It was used as a temp track during the editing of James Cameron's film Titanic, for the scene eventually accompanied by the musical cue called "Take Her To Sea, Mr. Murdoch" on the finished soundtrack by James Horner. </p>
 
-<p><strong><a href="enya-video.html">&laquo; EnyaTube home</a></strong></p>
+<p><strong><a href="/enya-video">&laquo; EnyaTube home</a></strong></p>
 
 </div>
 

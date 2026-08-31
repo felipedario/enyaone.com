@@ -4,13 +4,20 @@ import Layout from "../layouts/Layout.astro";
 const title = "GNU Free Documentation License | Enya Lyrics";
 const description = "Full GNU Free Documentation License. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
 const canonical = "";
-const ogImage = "";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
 ---
 
-<Layout title={title} description={description} canonical={canonical} ogImage={ogImage} bodyClass={bodyClass}>
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
 <div id="content">
-<div id="main">
+<main id="main">
 
 <h1>Original content rights</h1>
 
@@ -27,7 +34,7 @@ Records.</strong></p>
 
 <p>We also take some images, content and news from <a href="http://www.enya.sk/">Out of the Blue: The Enya Website (Enya.sk)</a>, a complete Enya fansite and a generous friend.</p>
 
-<p>If you have any questions about our content, please <a href="mailto:orangax@gmail.com&amp;subject=Enya%20Lyrics%20content%20feedback">contact us</a>. <a href="sitemap.html#aboutus">More about us</a>.</p>
+<p>If you have any questions about our content, please <a href="mailto:orangax@gmail.com&amp;subject=Enya%20Lyrics%20content%20feedback">contact us</a>. <a href="/sitemap#aboutus">More about us</a>.</p>
 
 <h3>GNU Free Documentation License</h3>
 
@@ -569,11 +576,11 @@ Records.</strong></p>
 
 
 
-</div>
+</main>
 
 
 
-<div id="sidebar">
+<aside id="sidebar">
 
 
 
@@ -581,7 +588,7 @@ Records.</strong></p>
 </div>
 
 
-<div class="c"></div>
+
 
 </div>
 </Layout>

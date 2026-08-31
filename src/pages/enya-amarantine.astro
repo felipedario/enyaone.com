@@ -2,13 +2,20 @@
 import Layout from "../layouts/Layout.astro";
 
 const title = "Enya's Amarantine 2005 album (\"If I Could Be Where You Are\", \"Sumiregusa\")";
-const description = "All info, lyrics and MP3 downloads for Enya's album Amarantine. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
-const canonical = "https://www.enyaone.com/enya-amarantine.html";
-const ogImage = "";
+const description = "All info, lyrics and MP3 downloads for Enya";
+const canonical = "https://www.enyaone.com/enya-amarantine";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
 ---
 
-<Layout title={title} description={description} canonical={canonical} ogImage={ogImage} bodyClass={bodyClass}>
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
 <div id="content">
 
 <ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
@@ -16,7 +23,7 @@ const bodyClass = "";
 			<span property="name">Home</span></a> 
 		  <meta property="position" content="1">
 		  &rsaquo;</li>
-	<li property="itemListElement" typeof="ListItem"><a href="enya-songs-albums.html" 
+	<li property="itemListElement" typeof="ListItem"><a href="/enya-songs-albums"
 		property="item" typeof="WebPage">
 			<span property="name">Enya Songs &amp; Albums</span></a>  &rsaquo;
 		  <meta property="position" content="2"></li>
@@ -25,20 +32,20 @@ const bodyClass = "";
 		<meta property="position" content="3"></li>
 </ol>
 
-<div id="main">
+<main id="main">
 
 <h1>Amarantine (2005)</h1>
 
-<a class="new-amazon-album-link" href="https://amzn.to/3SUVkgw" rel="nofollow" target="_blank">
-	<img  src="am.jpg" alt="Amarantine (2005)" /></a>
+<a class="new-amazon-album-link" href="https://amzn.to/3SUVkgw" rel="nofollow sponsored noopener" target="_blank">
+	<img  src="/am.jpg" alt="Amarantine (2005)"  width="150" height="150" /></a>
 
-<p>Enya's mesmerizing seventh album, <strong><em>Amarantine</em></strong>, made its debut on November 22, 2005. Recognizing its outstanding artistry, the album was honored with the prestigious Grammy Award for Best New Age Album in 2007, solidifying Enya's musical prowess. Within the enchanting tapestry of <em>Amarantine</em> a unique linguistic journey unfolds. While Irish Gaelic takes a backseat in this particular album, Enya and Roma Ryan ventured into uncharted territory, weaving three songs with an invented language known as Loxian. Described by Enya and Roma Ryan to <em>The Times</em> as "a futuristic language from a distant planet," Loxian adds an ethereal touch to the album's lyrical landscape. This creative endeavor was born out of their previous experiences crafting songs in Tolkien's Elvish languages, such as "May it Be" and "An&iacute;ron."</p>
+<p>Enya's mesmerizing seventh album, <strong><em>Amarantine</em></strong>, made its debut on November 22, 2005. Recognizing its outstanding artistry, the album was honored with the prestigious Grammy Award for Best New Age Album in 2007, solidifying Enya's musical prowess. Within the enchanting tapestry of <em>Amarantine</em> a unique linguistic journey unfolds. While Irish Gaelic takes a backseat in this particular album, Enya and Roma Ryan ventured into uncharted territory, weaving three songs with an invented language known as Loxian. Described by Enya and Roma Ryan to <em>The Times</em> as "a futuristic language from a distant planet," Loxian adds an ethereal touch to the album's lyrical landscape. This creative endeavor was born out of their previous experiences crafting songs in Tolkien's Elvish languages, such as "May it Be" and "Aníron."</p>
 	
 
-<p><a href="https://amzn.to/3SUVkgw" rel="nofollow" target="_blank">Stream or download Enya songs</a></p>
+<p><a href="https://amzn.to/3SUVkgw" rel="nofollow sponsored noopener" target="_blank">Stream or download Enya songs</a></p>
 
 
-<p>Following the release of her compilation box set Only Time – The Collection (2002), Enya took a short break before she started work on a new album in September 2003, her first since <em><a href="a-day-without-rain.html">A Day Without Rain</a></em> (2000). <em>Amarantine</em> was recorded in Ireland with her longtime recording partners, <a href="roma-ryan-nicky.html">arranger and producer Nicky Ryan and his wife, lyricist Roma Ryan</a>.</p>
+<p>Following the release of her compilation box set Only Time – The Collection (2002), Enya took a short break before she started work on a new album in September 2003, her first since <em><a href="/a-day-without-rain">A Day Without Rain</a></em> (2000). <em>Amarantine</em> was recorded in Ireland with her longtime recording partners, <a href="/roma-ryan-nicky">arranger and producer Nicky Ryan and his wife, lyricist Roma Ryan</a>.</p>
 
 <p>The release date was announced by Roma Ryan on September 23,
 2005 at
@@ -48,22 +55,22 @@ November 11, 2005.</p>
 <p>The promotional photography was shot by Simon Fowler
 during two days in June 2005 at <a href="http://www.knebworthhouse.com/">Knebworth House</a>, Hertfordshire, England.</p>
 
-<p>A <a href="video-amarantine.html">music video for the first single "Amarantine"</a> was directed by Tim Royes. The surreal forest through which Enya walks was created by digital matte painter Charles Darby
+<p>A <a href="/video-amarantine">music video for the first single "Amarantine"</a> was directed by Tim Royes. The surreal forest through which Enya walks was created by digital matte painter Charles Darby
 (<em>The Fifth Element</em>, <em>Titanic</em>, <em>The Matrix</em>).</p>
 
 <p>The album was launched on November 27 in the Castle of Vaux Le Vicomte, France. Record company Warner gave Enya, who wore a stunning red gown by Maria Grachvogel, an impressive banquet starting with fireworks set to the new music.</p>
 
 <div style="margin: 0 0 1em 30px; float: right; width: 348px;">
-<img src="iitr.jpg" alt=""></a>
+<img src="/iitr.jpg" alt=""></a>
 <p style="font-size: 0.9em; margin-bottom: 0;text-align:right;">
-<em>Enya in <a href="video-its-in-the-rain.html">"It's In The Rain" music video</a>.</em></p>
+<em>Enya in <a href="/video-its-in-the-rain">"It's In The Rain" music video</a>.</em></p>
 </div>
 
-<p>In November 2006, an extended version of the album was issued (<em><a href="http://www.amazon.com/dp/B000JJSJYQ?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B000JJSJYQ&adid=04VTYCY773AGB65NC7WP&">Amarantine - Special Christmas Edition</a></em>), containing four additional
+<p>In November 2006, an extended version of the album was issued (<em><a href="https://www.amazon.com/dp/B000JJSJYQ?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B000JJSJYQ&adid=04VTYCY773AGB65NC7WP&">Amarantine - Special Christmas Edition</a></em>), containing four additional
 Christmas-themed tracks.</p>
 
 <p>Three songs on <em>Amarantine</em> are sung in a fictional language Loxian created by Enya's lyricist Roma Ryan.
-The idea arose after Roma'd written lyrics in Elvish for <em><a href="the-lord-of-the-rings.html">The Lord Of The Rings - The Fellowship
+The idea arose after Roma'd written lyrics in Elvish for <em><a href="/the-lord-of-the-rings">The Lord Of The Rings - The Fellowship
 of the Ring</a></em>. The
 main influence is from the sounds that Enya sings while the songs don't have actual lyrics yet.</p>
 
@@ -138,7 +145,7 @@ Released as CD and cassette</p>
 <a href="#awards">awards</a>, <a href="#charts">charts</a> and <a href="#credits">credits</a>.
 
 
-<h3><a name="lyrics"></a>Lyrics list</h3>
+<h3 id="lyrics">Lyrics list</h3>
 
 <ul>
 
@@ -187,24 +194,24 @@ Shows the Hidden Heart</a></li>
 </ul>
 
 
-<h3><a name="videos"></a>Videos</h3>
+<h3 id="videos">Videos</h3>
 
 <ul>
 
 
-<li><a href="video-amarantine.html">"Amarantine"</a></li>
+<li><a href="/video-amarantine">"Amarantine"</a></li>
 
-<li><a href="video-its-in-the-rain.html">"It's In The Rain"</a></li>
+<li><a href="/video-its-in-the-rain">"It's In The Rain"</a></li>
  
 </ul>
 
-<p><a href="enya-video.html">More videos in <strong>EnyaTube</strong> &raquo;</a></p>
+<p><a href="/enya-video">More videos in <strong>EnyaTube</strong> &raquo;</a></p>
 
 
-<h3><a name="complyrics"></a>Lyrics</h3>
+<h3 id="complyrics">Lyrics</h3>
 
 
-<h4><a name="Less_than_a_pearl"></a>Less than
+<h4 id="Less_than_a_pearl">Less than
 a pearl lyrics</h4>
 
 
@@ -349,10 +356,10 @@ We call out into the distance...<br />
 
 
 </strong>
-<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div><h4><a name="Amarantine"></a>Amarantine lyrics</h4>
+<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div><h4 id="Amarantine">Amarantine lyrics</h4>
 
 <div id="video-s">
-<a href="enya-video.html"><strong>EnyaTube</strong></a> has a <a href="video-amarantine.html">video of "Amarantine"</a>.</div>
+<a href="/enya-video"><strong>EnyaTube</strong></a> has a <a href="/video-amarantine">video of "Amarantine"</a>.</div>
 
 <em>Roma Ryan</em><br />
 
@@ -372,7 +379,7 @@ everything is new.<br />
 And you know time will always find a way<br />
 
 
-to let your heart believe it&rsquo;s true.<br />
+to let your heart believe it’s true.<br />
 
 
 <br />
@@ -517,7 +524,7 @@ Love...<br />
 <br />
 
 
-You know when love&rsquo;s<br />
+You know when love’s<br />
 
 
 shining in your eyes<br />
@@ -540,11 +547,11 @@ for night and day belong to love.<br />
 <br />
 
 
-<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div><h4><a name="Its_in_the_rain"></a>It's in the
+<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div><h4 id="Its_in_the_rain">It's in the
 rain lyrics</h4>
 
 <div id="video-s">
-<a href="enya-video.html"><strong>EnyaTube</strong></a> has a <a href="video-its-in-the-rain.html">video of "It's In The Rain"</a>.</div>
+<a href="/enya-video"><strong>EnyaTube</strong></a> has a <a href="/video-its-in-the-rain">video of "It's In The Rain"</a>.</div>
 
 <em>Roma Ryan</em><br />
 
@@ -677,7 +684,7 @@ Hear my name in the rain.<br />
 <br />
 
 
-<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div><h4><a name="If_I_could_be_where_you_are"></a>If
+<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div><h4 id="If_I_could_be_where_you_are">If
 I could be where you are lyrics</h4>
 
 <em>Roma Ryan</em><br />
@@ -768,7 +775,7 @@ to bring you back home to me<br />
 <br />
 
 
-<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div><h4><a name="Long_long_journey"></a>Long long
+<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div><h4 id="Long_long_journey">Long long
 journey lyrics</h4>
 
 
@@ -881,7 +888,7 @@ to the heart that's coming home?<br />
 <br />
 
 
-<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div><h4><a name="Sumiregusa_Wild_Violet"></a>Sumiregusa (Wild
+<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div><h4 id="Sumiregusa_Wild_Violet">Sumiregusa (Wild
 Violet) lyrics</h4>
 
 
@@ -988,7 +995,7 @@ A wild iris<br />
 
 
 </strong>
-<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div><h4><a name="Someone_said_goodbye"></a>Someone
+<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div><h4 id="Someone_said_goodbye">Someone
 said goodbye lyrics</h4>
 
 <em>Roma Ryan</em><br />
@@ -1136,7 +1143,7 @@ I don't know why.<br />
 <br />
 
 
-<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div><h4><a name="A_moment_lost"></a>A moment lost lyrics</h4>
+<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div><h4 id="A_moment_lost">A moment lost lyrics</h4>
 
 
 <em>Roma Ryan</em><br />
@@ -1211,7 +1218,7 @@ all your love to me.<br />
 
 <div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 
-<h4><a name="The_River_Sings"></a>The River
+<h4 id="The_River_Sings">The River
 Sings lyrics</h4>
 
 
@@ -1510,7 +1517,7 @@ Who knows the way it is?<br />
 Who knows what time will not tell us?<br />
 <br />
 
-<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div><h4><a name="Amid_the_falling_snow"></a>Amid
+<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div><h4 id="Amid_the_falling_snow">Amid
 the falling snow lyrics</h4>
 
 
@@ -1616,7 +1623,7 @@ amid the falling snow.<br />
 
 <br />
 
-<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div><h4><a name="Water_shows_the_hidden_heart"></a>Water
+<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div><h4 id="Water_shows_the_hidden_heart">Water
 shows the hidden heart lyrics</h4>
 
 
@@ -1897,7 +1904,7 @@ the Room of Books<br />
 where the winds come to him and say...<br />
 <br />
 
-<h3><a name="linearnotes"></a>Linear notes</h3>
+<h3 id="linearnotes">Linear notes</h3>
 
 <h4>Less than a Pearl</h4>
 <p>"...yet there is one sound that is not their own and 
@@ -1997,7 +2004,7 @@ waters, even the hidden heart."</p>
 
 
 
-<h3><a name="awards"></a>Awards</h3>
+<h3 id="awards">Awards</h3>
 
 
 <b>Grammy Awards</b>
@@ -2042,7 +2049,7 @@ waters, even the hidden heart."</p>
 </table>
 
 
-<h3><a name="charts"></a>Charts</h3>
+<h3 id="charts">Charts</h3>
 
 
 <strong>Album</strong>
@@ -2324,7 +2331,7 @@ waters, even the hidden heart."</p>
 </table>
 
 
-<h3><a name="credits"></a>Credits</h3>
+<h3 id="credits">Credits</h3>
 <p>Produced by Nicky Ryan</p>
 <p>All titles composed by Enya<br>
 Lyrics by Roma Ryan<br>
@@ -2365,17 +2372,17 @@ Berry Klein, Glen Pratley and SSL for their support.</p>
 to the memory of their friend, BBC Producer, Tony McAuley.</p>
 
 
+</main>
+
+<aside id="sidebar">
+
+<a id="albumcover" href="https://amzn.to/3SUVkgw" target="_blank" rel="nofollow sponsored noopener"><img  title="Audio, images and low prices at Amazon" src="/am.jpg" alt="Audio, images and low prices at Amazon"  width="150" height="150" /></a>
+
+<div class="buy"><a href="https://amzn.to/3SUVkgw" target="_blank" rel="nofollow sponsored noopener">Stream or download Enya songs</a></div>
+
 </div>
 
-<div id="sidebar">
 
-<a id="albumcover" href="https://amzn.to/3SUVkgw"><img  title="Audio, images and low prices at Amazon" src="am.jpg" alt="Audio, images and low prices at Amazon" /></a>
-
-<div class="buy"><a href="https://amzn.to/3SUVkgw">Stream or download Enya songs</a></div>
-
-</div>
-
-<div class="c"></div>
 
 </div>
 </Layout>

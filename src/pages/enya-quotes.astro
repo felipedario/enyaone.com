@@ -2,16 +2,23 @@
 import Layout from "../layouts/Layout.astro";
 
 const title = "The best and most beautiful Enya quotes, | Enya Lyrics, biography";
-const description = "Enya's famous quotes and lyrics. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
+const description = "Enya";
 const canonical = "";
-const ogImage = "";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
 ---
 
-<Layout title={title} description={description} canonical={canonical} ogImage={ogImage} bodyClass={bodyClass}>
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
 <div id="content">
 
-<div id="main">
+<main id="main">
 
 <h1>Enya quotes</h1>
 
@@ -22,18 +29,18 @@ const bodyClass = "";
 Memory of Trees</em> promotional interview with Merilee Kelly</a>
 of KSCA 101.9 FM (18 January 1996)</p>
 
-<p>"I think they find it &mdash; they find me quite
-confusing, because &mdash; they know the music, but they don't know
+<p>"I think they find it — they find me quite
+confusing, because — they know the music, but they don't know
 anything about me ... because I keep a very private lifestyle so they
 end up ... making up stories as such. But I don't really concern myself
 too much about them." -- On the music press</p>
 
 
 
-<p>"On the project <a href="the-celts-documentary.html"><em>The Celts</em></a> I was asked to ... to write a song.
-And, at the time I was ... arranging with <a href="roma-ryan-nicky.html">Nicky</a>, and writing the music
+<p>"On the project <a href="/the-celts-documentary"><em>The Celts</em></a> I was asked to ... to write a song.
+And, at the time I was ... arranging with <a href="/roma-ryan-nicky">Nicky</a>, and writing the music
 and performing ... so, no desire whatsoever to write lyrics!... But
-<a href="roma-ryan-nicky.html">Roma</a> was actually writing poetry at the time, and she was involved,
+<a href="/roma-ryan-nicky">Roma</a> was actually writing poetry at the time, and she was involved,
 with listening in the studio ... being the audience in the studio ...
 so she was involved with the project. So, it was very obvious that she
 would write the lyrics."</p>
@@ -91,8 +98,8 @@ love the discipline of sitting in the studio, writing and listening.
 That is my domain."</p>
 
 
-<p>"They are as much "Enya" as I am." -- On her producer <a href="roma-ryan-nicky.html">Nicky Ryan</a> and
-her lyricist, his wife <a href="roma-ryan-nicky.html">Roma Ryan</a>.</p>
+<p>"They are as much "Enya" as I am." -- On her producer <a href="/roma-ryan-nicky">Nicky Ryan</a> and
+her lyricist, his wife <a href="/roma-ryan-nicky">Roma Ryan</a>.</p>
 
 
 <p>"There is no formula to it because writing every song, for me,
@@ -137,8 +144,8 @@ didn't feel the need to be out there at red-carpet events. I wanted a
 career. But I wanted to keep myself intact as a person."</p>
 
 
-<p>"I started writing instrumentals but <a href="roma-ryan-nicky.html">Roma</a> pointed out they
-were very visual, so she started writing lyrics .. and <a href="roma-ryan-nicky.html">Nicky</a> had this
+<p>"I started writing instrumentals but <a href="/roma-ryan-nicky">Roma</a> pointed out they
+were very visual, so she started writing lyrics .. and <a href="/roma-ryan-nicky">Nicky</a> had this
 idea of creating a wall of sound and started multi-tracking my voice."</p>
 
 
@@ -176,9 +183,9 @@ brought up to think. At the same time, as I grew older, I told myself
 that if it happens, it happens, and that will be fine, but if it
 doesn't, that will be fine, too."</p>
 
-<p>"I loved to talk about music to <a href="roma-ryan-nicky.html">Nicky</a> ... His influence came
+<p>"I loved to talk about music to <a href="/roma-ryan-nicky">Nicky</a> ... His influence came
 from people like The Beatles and The Beach Boys, and he had these ideas
-about layering vocals, painting landscapes with music. <a href="roma-ryan-nicky.html">Roma</a> knew about
+about layering vocals, painting landscapes with music. <a href="/roma-ryan-nicky">Roma</a> knew about
 Irish mythology, told stories, wrote poetry and had this special
 feeling for lyrics. My grounding came from the classics."</p>
 
@@ -209,7 +216,7 @@ the Heart" interview with Maureen Paton</a> in <em>You</em>
 bold as to rename Manderley, because Daphne du Maurier 's Rebecca is
 one of my favourite books. ... People have this image of me as an
 ethereal Lady of Shalott, floating across the battlements, but it's a
-very small castle as castles go &mdash; with no big ballrooms... I
+very small castle as castles go — with no big ballrooms... I
 don't write my music in my home, only in the studio; I want as normal
 life as possible at home, with dinner parties and entertaining."</p>
 
@@ -221,18 +228,18 @@ easy."</p>
 <p>"I felt as if we were two families: the older ones, who were
 away touring when I was at school and the younger ones. I was closer to
 my two younger sisters because of the nearness of our ages, but I feel
-I would have to have permission to say their names &mdash; they're
+I would have to have permission to say their names — they're
 very private that way."</p>
 
 <p>"I joined my family's band, Clannad , as a teenager in 1980 to
 sing harmonies and play keyboards, but it wasn't musically chalenging
 for me; I felt like an outsider. ... My split from Clannad two years
 later caused a conflict of loyalty for a time, because I went off with
-their manager <a href="roma-ryan-nicky.html">Nicky Ryan</a>, who had asked me to join Clannad in the first
+their manager <a href="/roma-ryan-nicky">Nicky Ryan</a>, who had asked me to join Clannad in the first
 place."</p>
 
-<p>"Enya is more than just me. It's also <a href="roma-ryan-nicky.html">Nicky</a>, who arranges my
-melodies, and his wife <a href="roma-ryan-nicky.html">Roma</a>, who writes the lyrics. They believed in my
+<p>"Enya is more than just me. It's also <a href="/roma-ryan-nicky">Nicky</a>, who arranges my
+melodies, and his wife <a href="/roma-ryan-nicky">Roma</a>, who writes the lyrics. They believed in my
 music from day one"</p>
 
 <p>"I have never come close to being married or engaged. I was
@@ -252,13 +259,13 @@ own thing. Tensions were created because we never answered any of the
 questions. If you're going to answer questions, people aren't going to
 believe you anyway. The proof of the pudding is that Enya is my sister,
 and I love her dearly, and we get on really, really well." --
-M&aacute;ire Brennan, On rumors of ill will between Enya and her
+Máire Brennan, On rumors of ill will between Enya and her
 family members who were also former Clannad bandmates</p>
 
 <p>"She does have a life. She'd kill me if I talked about it, so
 I'm not going to talk about it. There's a difference between being a
 private person and a recluse. All this blushed and flushed stuff about
-her being a recluse put it to bed, for God's sake." -- <a href="roma-ryan-nicky.html">Nicky
+her being a recluse put it to bed, for God's sake." -- <a href="/roma-ryan-nicky">Nicky
 Ryan</a></p>
 
 <p>"Enya never writes a bad melody. That's first and foremost her
@@ -266,13 +273,13 @@ secret. As she goes along, she'll start changing the dynamics, pushing
 here and there so that not everything is perfectly in unison. It adds a
 texture you can acquire only from having different voices. The
 variations lead to interesting quirks. It's an integral part of the
-Enya sound." -- <a href="roma-ryan-nicky.html">Nicky
+Enya sound." -- <a href="/roma-ryan-nicky">Nicky
 Ryan</a></p>
 
 <p>"Enya knew nothing about recording, about production or
 arrangements. Originally, we were stock-piling music and just letting
 her get on with it. There was no name on the music she was writing. All
-I knew was that hard work succeeded." -- <a href="roma-ryan-nicky.html">Nicky
+I knew was that hard work succeeded." -- <a href="/roma-ryan-nicky">Nicky
 Ryan</a></p>
 
 <p>"I heard the soundtrack to The Celts TV programme, which Enya
@@ -312,18 +319,18 @@ Rob Dickins</p>
 <a href="#">Return to top</a>
 
 
-</div>
+</main>
 
 
 
-<div id="sidebar">
+<aside id="sidebar">
 
 
 	
 </div>
 
 
-<div class="c"></div>
+
 
 </div>
 </Layout>

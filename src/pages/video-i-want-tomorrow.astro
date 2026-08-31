@@ -4,11 +4,18 @@ import Layout from "../layouts/Layout.astro";
 const title = "Enya's I Want Tomorrow music video | All Enya videos";
 const description = "Video for Enya song I Want Tomorrow. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
 const canonical = "";
-const ogImage = "";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
 ---
 
-<Layout title={title} description={description} canonical={canonical} ogImage={ogImage} bodyClass={bodyClass}>
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
 <div id="content">
 <div id="video-main">
 
@@ -34,13 +41,13 @@ const bodyClass = "";
 </div>
 
 <h3>About</h3>
-<p>Released in 1987, this is the video of Enya song <a href="the-celts.html#I_Want_Tomorrow">"I Want Tomorrow"</a>, from the BBC's <a href="the-celts-documentary.html"><em>The Celts</em> documentary</a>.</p>
+<p>Released in 1987, this is the video of Enya song <a href="/the-celts#I_Want_Tomorrow">"I Want Tomorrow"</a>, from the BBC's <a href="/the-celts-documentary"><em>The Celts</em> documentary</a>.</p>
 <p>Time: 3:54</p>
 <p>Directed by David Richardson, produced by BBC.</p>
 
 <p>"Boadicea", which means "victorious", is a reference to the queen Boudica of the British-Celtic Iceni tribe in East Anglia who led a resistance against the occupying forces of the Roman Empire in 60 A.D., but was defeated and subsequently poisoned herself. As a song about her was already written, Richardson wished for a new track that depicted the idea of "being spellbound" by Boudica, which turned into "I Want Tomorrow". In the liner notes of the album's 1992 reissue, "I Want Tomorrow" is described, simply, as "thoughts of the present" and "March of the Celts" "echoes from the past". </p>
 
-<p><strong><a href="enya-video.html">&laquo; EnyaTube home</a></strong></p>
+<p><strong><a href="/enya-video">&laquo; EnyaTube home</a></strong></p>
 
 </div>
 

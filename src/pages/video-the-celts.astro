@@ -4,11 +4,18 @@ import Layout from "../layouts/Layout.astro";
 const title = "Enya's The Celts music video | All Enya videos, live performances";
 const description = "Video for Enya song The Celts. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
 const canonical = "";
-const ogImage = "";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
 ---
 
-<Layout title={title} description={description} canonical={canonical} ogImage={ogImage} bodyClass={bodyClass}>
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
 <div id="content">
 <div id="video-main">
 <h1>The Celts, 1993 <small>Directed by Michael Geoghegan</small></h1>
@@ -34,7 +41,7 @@ const bodyClass = "";
 
 
 <h3>About</h3>
-<p>Released in 1993, this is the promo video for Enya single <a href="the-celts.html#The_Celts">"The Celts"</a>, from <a href="the-celts.html"><em>The Celts</em></a> album.</p>
+<p>Released in 1993, this is the promo video for Enya single <a href="/the-celts#The_Celts">"The Celts"</a>, from <a href="/the-celts"><em>The Celts</em></a> album.</p>
 <p>Time: 3:05</p>
 <p>Directed by Michael Geoghegan.</p>
 
@@ -46,7 +53,7 @@ The video of the song was filmed at Bodiam Castle. The B-side of the single, "Ec
 
 When the album was re-issued in 1992 and re-titled The Celts, the title song was released as the accompanying single, peaking at #29 in the UK. </p>
 
-<p><strong><a href="enya-video.html">&laquo; EnyaTube home</a></strong></p>
+<p><strong><a href="/enya-video">&laquo; EnyaTube home</a></strong></p>
 
 </div>
 

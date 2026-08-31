@@ -1,26 +1,33 @@
 ---
 import Layout from "../layouts/Layout.astro";
 
-const title = "The Lord of the Rings and Enya (\"May It Be\", \"An&iacute;ron\") | Enya Lyrics";
+const title = "The Lord of the Rings and Enya (\"May It Be\", \"Aníron\") | Enya Lyrics";
 const description = "More on The Lord of the Rings and Enya songs. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
 const canonical = "";
-const ogImage = "";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
 ---
 
-<Layout title={title} description={description} canonical={canonical} ogImage={ogImage} bodyClass={bodyClass}>
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
 <div id="content">
 
-<div id="main">
+<main id="main">
 
 <h1>The Lord of the Rings</h1>
 
 <p><strong><em>The Lord of the Rings</em></strong> is an epic fantasy novel written by the English academic J. R. R. Tolkien. It is one of the most popular works in 20th-century literature and Enya's favourite book.</p>
 
 <div style="margin: 0 30px 1em 0; float: left; width: 180px;">
-<img src="180px-Cover_lotr_green_gandalf.jpg" alt=""></a>
+<img src="/180px-Cover_lotr_green_gandalf.jpg" alt=""></a>
 <p style="font-size: 0.9em; margin-bottom: 0pt;">
-<em>Cover of</em>&nbsp;&nbsp;The Lord Of The Rings<em> book trilogy.</em></p>
+<em>Cover of</em>  The Lord Of The Rings<em> book trilogy.</em></p>
 </div>
 
 <p>The story of the <em>The Lord of the Rings</em> takes place in the imaginary Third Age of Middle-earth. The
@@ -39,7 +46,7 @@ television, video games, and subsequent literature. Adaptations of <em>The
 Lord of the Rings</em> have been made for radio, theatre, and film.</p>
 
 <div style="margin:0  1em 0 30px; float: right; width: 250px;">
-<img src="250px-Ringstrilogyposter.jpg" alt=""></a>
+<img src="/250px-Ringstrilogyposter.jpg" alt=""></a>
 <p style="font-size: 0.9em; margin-bottom: 0;">
 LotR <em> movie trilogy poster.</em></p>
 </div>
@@ -48,10 +55,10 @@ LotR <em> movie trilogy poster.</em></p>
 
 <p>A number of rock, classical and New Age music artists have also
 been influenced by Tolkien's work. Enya wrote an instrumental piece
-called "Lothl&oacute;rien" in 1991, for <em><a href="shepherd-moons.html">shepherd Moons</a></em>, and
+called "Lothlórien" in 1991, for <em><a href="/shepherd-moons">shepherd Moons</a></em>, and
 composed two songs for the film <em>The Lord of the Rings: The Fellowship
-of the Ring</em>, <a href="enya-other.html#May_It_Be">"May It Be"</a> and
-<a href="enya-other.html#An%EDron">"An&iacute;ron"</a>.</p>
+of the Ring</em>, <a href="/enya-other#May_It_Be">"May It Be"</a> and
+<a href="/enya-other#An%EDron">"Aníron"</a>.</p>
 
 
 
@@ -59,23 +66,23 @@ of the Ring</em>, <a href="enya-other.html#May_It_Be">"May It Be"</a> and
 <a href="#">Return to top</a>
 
 
+</main>
+
+
+
+<aside id="sidebar">
+
+
+<p>Amazon.com has images, more information and great discounts for <strong><em>The Lord Of The Rings</em> <a href="https://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fbestsellers%2Fdvd%2F10337131%2F&tag=enylyrallenys-20&linkCode=ur2&camp=1789&creative=9325" rel="nofollow" target="_blank">movies</a> and <a href="https://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fbestsellers%2Fbooks%2F408708%2F&tag=enylyrallenys-20&linkCode=ur2&camp=1789&creative=9325" rel="nofollow" target="_blank">books</a></strong>.</p>
+
+
+
+
+
 </div>
 
 
 
-<div id="sidebar">
-
-
-<p>Amazon.com has images, more information and great discounts for <strong><em>The Lord Of The Rings</em> <a href="http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fbestsellers%2Fdvd%2F10337131%2F&tag=enylyrallenys-20&linkCode=ur2&camp=1789&creative=9325" rel="nofollow" target="_blank">movies</a> and <a href="http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fbestsellers%2Fbooks%2F408708%2F&tag=enylyrallenys-20&linkCode=ur2&camp=1789&creative=9325" rel="nofollow" target="_blank">books</a></strong>.</p>
-
-
-
-
-
-</div>
-
-
-<div class="c"></div>
 
 </div>
 </Layout>

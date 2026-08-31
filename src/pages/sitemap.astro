@@ -3,12 +3,19 @@ import Layout from "../layouts/Layout.astro";
 
 const title = "Sitemap: more about Enya and site information";
 const description = "Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
-const canonical = "https://www.enyaone.com/sitemap.html";
-const ogImage = "";
+const canonical = "https://www.enyaone.com/sitemap";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
 ---
 
-<Layout title={title} description={description} canonical={canonical} ogImage={ogImage} bodyClass={bodyClass}>
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
 <div id="content">
 
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -24,34 +31,34 @@ const bodyClass = "";
 	</script>
 
 
-<div id="main">
+<main id="main">
 
 <h1>Sitemap: more in Enya One</h1>
 
-<h3><a href="enya-biography.html">About Enya</a></h3>
+<h3><a href="/enya-biography">About Enya</a></h3>
 
 <ul>
-<li><a href="roma-ryan-nicky.html">Roma and Nicky Ryan</a>: Enya lyricist and producer.</li>
+<li><a href="/roma-ryan-nicky">Roma and Nicky Ryan</a>: Enya lyricist and producer.</li>
 
-  <li><a href="enya-quotes.html">Quotes</a>: quotes by and about Enya.</li>
+  <li><a href="/enya-quotes">Quotes</a>: quotes by and about Enya.</li>
 
-  <li><a href="new-age-music.html">New Age music</a>: the Enya musical genre.</li>
+  <li><a href="/new-age-music">New Age music</a>: the Enya musical genre.</li>
 
-  <li><a href="the-lord-of-the-rings.html"><em>The Lord of the Rings</em></a>: Enya's favourite book.</li>
+  <li><a href="/the-lord-of-the-rings"><em>The Lord of the Rings</em></a>: Enya's favourite book.</li>
 
-  <li><a href="enya-clannad.html">Clannad</a>: the band of Enya's family.</li>
+  <li><a href="/enya-clannad">Clannad</a>: the band of Enya's family.</li>
 
-<li><a href="the-celts-documentary.html"><em>The Celts</em> documentary</a>: made by the BBC, with soundtrack by Enya.</li>
+<li><a href="/the-celts-documentary"><em>The Celts</em> documentary</a>: made by the BBC, with soundtrack by Enya.</li>
 
 
-<li><a href="all-enya-songs.html">Enya songs complete list</a>: A/Z index of all lyrics.</li>
+<li><a href="/all-enya-songs">Enya songs complete list</a>: A/Z index of all lyrics.</li>
 
-<li><a href="news-archive.html">Enya news archive</a>: news coverage and articles on Enya.</li>
+<li><a href="/news-archive">Enya news archive</a>: news coverage and articles on Enya.</li>
 
-  <li><a href="enya-links.html">Enya links</a>: pinned Enya resources on the web.</li>
-<li><a href="pp.html">Privacy policy</a>: how we use personal information collected at this site.</li>
+  <li><a href="/enya-links">Enya links</a>: pinned Enya resources on the web.</li>
+<li><a href="/pp">Privacy policy</a>: how we use personal information collected at this site.</li>
 
-  <li><a href="https://amzn.to/2ZIw9PC">Enya aStore</a>: hand picked Enya products from Amazon.com.</li>
+  <li><a href="https://amzn.to/2ZIw9PC" target="_blank" rel="nofollow sponsored noopener">Enya aStore</a>: hand picked Enya products from Amazon.com.</li>
   <li><a href="mailto:orangax@gmail.com&amp;subject=Enya%20Lyrics%20feedback">Contact us</a>: drop us an email if you have anyhting to say.</li>
 
 </ul>
@@ -73,10 +80,10 @@ const bodyClass = "";
 
 <h3 id="aboutus">About this site</h3>
 
-<p><strong><a href="index.html">Enya One</a> is a tribute to that great artist.</strong> <strong>This  is as fan site.</strong> We are sponsored
+<p><strong><a href="/">Enya One</a> is a tribute to that great artist.</strong> <strong>This  is as fan site.</strong> We are sponsored
 by Google AdSense and by Amazon.com Associates. Profit isn't our goal. We just use that small amount of money to cover operative costs, and nothing more. If you have anything to say about our ads, please <a href="#contact">contact us</a>.</p>
 
-<p><strong>Our original content is available under the <a href="gnu-free-documentation-license.html">GNU Free Documentation License</a></strong>:
+<p><strong>Our original content is available under the <a href="/gnu-free-documentation-license">GNU Free Documentation License</a></strong>:
 in short, you can copy it for all uses following some rules without
 needing to pay us. It includes our original images and text.</p>
 
@@ -94,9 +101,9 @@ Records.</strong></p>
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeTOymxSxjxL3qZdEoloBX3bEJNo0DoftJ0pLU31Mn1lYYZ5g/viewform?embedded=true" width="600" height="813" frameborder="0" marginheight="0" marginwidth="0">Carregando�</iframe>
 
 
-</div>
+</main>
 
-<div id="sidebar">
+<aside id="sidebar">
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- EnyaOne2015 -->
@@ -113,6 +120,6 @@ Records.</strong></p>
 
 </div>
 
-<div class="c"></div>
+
 </div>
 </Layout>

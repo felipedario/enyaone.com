@@ -1,14 +1,21 @@
 ---
 import Layout from "../layouts/Layout.astro";
 
-const title = "Movie soundtracks by Enya and more (\"May It Be\", \"An&iacute;ron\")";
+const title = "Movie soundtracks by Enya and more (\"May It Be\", \"Aníron\")";
 const description = "Non-album Enya songs, like The Lord of The Rings soundtrack. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
 const canonical = "";
-const ogImage = "";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
 ---
 
-<Layout title={title} description={description} canonical={canonical} ogImage={ogImage} bodyClass={bodyClass}>
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
 <div id="content">
 
 
@@ -17,7 +24,7 @@ const bodyClass = "";
 			<span property="name">Home</span></a> 
 		  <meta property="position" content="1">
 		  &rsaquo;</li>
-	<li property="itemListElement" typeof="ListItem"><a href="enya-songs-albums.html" 
+	<li property="itemListElement" typeof="ListItem"><a href="/enya-songs-albums"
 		property="item" typeof="WebPage">
 			<span property="name">Enya Songs &amp; Albums</span></a>  &rsaquo;
 		  <meta property="position" content="2"></li>
@@ -27,56 +34,56 @@ const bodyClass = "";
 	</ol>
 
 
-<div id="main">
+<main id="main">
 
 	<div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
-<a href="https://amzn.to/4okO9eR"><img src="ecs.jpg" alt="Christmas Secrets album cover">
+<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
 <p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
 
-<a href="https://amzn.to/43aGdVb"><img src="awc.jpg" alt="And Winter Came album cover">
+<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><img src="/awc.jpg" alt="And Winter Came album cover">
 <p><em><strong>And Winter Came...</strong></em><br /> A winter-themed album</p></a>
 
-<a href="https://amzn.to/4hEQ7nG"><img src="vbe.jpg" alt="The Very Best of Enya album cover">
+<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><img src="/vbe.jpg" alt="The Very Best of Enya album cover">
 <p><em><strong>The Very Best of Enya</strong></em><br /> The perfect gift</p></a>
 </div>
 
 
 <h1>Other songs by Enya</h1>
 
-<a class="new-amazon-album-link" href="https://amzn.to/3SU09Xt" rel="nofollow" target="_blank">
-	<img  src="vbe.jpg" alt="All Enya songs: Complete list for listening and download" /></a>
+<a class="new-amazon-album-link" href="https://amzn.to/3SU09Xt" rel="nofollow sponsored noopener" target="_blank">
+	<img  src="/vbe.jpg" alt="All Enya songs: Complete list for listening and download"  width="150" height="150" /></a>
 
 <p>Here are all <strong>songs released by Enya that are not included in her albums</strong>, such as singles b-sides, soundtracks or EPs. They  have never appeared on a <em>standard</em> Enya album, except in a few cases as bonus tracks.</p>
 
-<p>Also included are the <em>Sounds of the Season/Christmas Secrets</em> songs. <em>Sounds of the Season</em> was a Christmas extended play released in November 2006 in partnership with NBC. It featured the new recordings <a href="#Adeste_Fideles">"Adeste, Fideles"</a> ("Oh Come All Ye Faithful" in Latin), <a href="#The_Magic_Of_The_Night">"The Magic of the Night"</a>, <a href="#We_Wish_You_A_Merry_Christmas">"We Wish You a Merry Christmas"</a> and <a href="#Christmas_Secrets">"Christmas Secrets"</a>, plus <a href="enya-amarantine.html#Amid_the_falling_snow">"Amid the Falling Snow"</a> from <a href="enya-amarantine.html"><em>Amarantine</em></a> and <a href="#Oiche_Chiun">"O&iacute;che
-Chi&uacute;in"</a> ("Silent Night" in Gaelic), that have been a b-side from the <a href="a-day-without-rain.html#Only_Time">"Only Time"</a> single.</p>
+<p>Also included are the <em>Sounds of the Season/Christmas Secrets</em> songs. <em>Sounds of the Season</em> was a Christmas extended play released in November 2006 in partnership with NBC. It featured the new recordings <a href="#Adeste_Fideles">"Adeste, Fideles"</a> ("Oh Come All Ye Faithful" in Latin), <a href="#The_Magic_Of_The_Night">"The Magic of the Night"</a>, <a href="#We_Wish_You_A_Merry_Christmas">"We Wish You a Merry Christmas"</a> and <a href="#Christmas_Secrets">"Christmas Secrets"</a>, plus <a href="/enya-amarantine#Amid_the_falling_snow">"Amid the Falling Snow"</a> from <a href="/enya-amarantine"><em>Amarantine</em></a> and <a href="#Oiche_Chiun">"Oíche
+Chiúin"</a> ("Silent Night" in Gaelic), that have been a b-side from the <a href="/a-day-without-rain#Only_Time">"Only Time"</a> single.</p>
 
-</p>In other countries, the album was included in a special box set with Enya's <a href="enya-amarantine.html"><em>Amarantine</em></a> album under the name <em>Amarantine: Special Christmas Edition</em>. It only includes the first four tracks of <em>Sounds of the Season</em>.</p>
+</p>In other countries, the album was included in a special box set with Enya's <a href="/enya-amarantine"><em>Amarantine</em></a> album under the name <em>Amarantine: Special Christmas Edition</em>. It only includes the first four tracks of <em>Sounds of the Season</em>.</p>
 
-<a class="h19" href="https://amzn.to/2LtIUcC" style="float: left;" rel="nofollow" target="_blank"><img src="ecs.jpg" alt="Christmas Secrets album cover" /></a>
+<a class="h19" href="https://amzn.to/2LtIUcC" style="float: left;" rel="nofollow sponsored noopener" target="_blank"><img src="/ecs.jpg" alt="Christmas Secrets album cover"  width="150" height="150" /></a>
 
-<p>In 2019, this album was re-released with additional tracks as the <a href="https://amzn.to/2LtIUcC" rel="nofollow" target="_blank"><em>Christmas Secrets</em> compilation</a>.</p>
+<p>In 2019, this album was re-released with additional tracks as the <a href="https://amzn.to/2LtIUcC" rel="nofollow sponsored noopener" target="_blank"><em>Christmas Secrets</em> compilation</a>.</p>
 
-<div class="c"></div>
+
 
 <p>Also here are soundtrack songs, like "<a href="#May_It_Be">May It Be</a>" and "<a href="#The_Frog_Prince">The Frog Prince</a>",  and alternate versions of previous releases, like <a href="#Book_Of_Days_English_Lyric">"Book Of
 Days" (English lyrics) </a> and "<a href="#Storms_In_Africa_Part_II">Storms In
 Africa II"</a>.</p>
 
-<p><strong>Is this really an Enya song?</strong> There are some songs mistakenly attributed to Enya, like "Harry's Game" (by <a href="enya-clannad.html">Clannad</a>) or "Adiemus". Sometimes people think that they have heard Enya singing on the soundtrack of <em>Gladiator</em> or <em>Titanic</em> too. <a href="#wrong">See this list of songs wrongly attributed to Enya.</a></p>
+<p><strong>Is this really an Enya song?</strong> There are some songs mistakenly attributed to Enya, like "Harry's Game" (by <a href="/enya-clannad">Clannad</a>) or "Adiemus". Sometimes people think that they have heard Enya singing on the soundtrack of <em>Gladiator</em> or <em>Titanic</em> too. <a href="#wrong">See this list of songs wrongly attributed to Enya.</a></p>
 
 <h3>Album releases before "Enya", 1987</h3>
 
 <h4><em>Touch Travel,</em> 1984</h4>
 
-<img src="tt.jpg" alt="Touch Travel compilation cover" style="float: left; margin: 0 20px 10px 0;" />
+<img src="/tt.jpg" alt="Touch Travel compilation cover" style="float: left; margin: 0 20px 10px 0;"  width="150" height="150" />
 
-<p><strong>Touch Travel</strong>  is a compilation (released only in the cassette format)  which contains music by different artists. It has two instrumental pieces by Enya, still using her real name Eithne N� Bhraon�in: "An Ghaoth �n Ghrian" (The Solar Wind, 2:04, piano and synthesizer) and  "Miss Clare Remembers"  (2:02); the latter would be modified and includend in the album  <a href="watermark.html"><em>Watermark</em>  (1988)</a>.</p><p> Both tracks were produced by  Nicky Ryan  and recorded in  Windmill Lane Studios  in  Dublin  in 1983. About 5,000 copies of this compilation were printed. </p> 
+<p><strong>Touch Travel</strong>  is a compilation (released only in the cassette format)  which contains music by different artists. It has two instrumental pieces by Enya, still using her real name Eithne N� Bhraon�in: "An Ghaoth �n Ghrian" (The Solar Wind, 2:04, piano and synthesizer) and  "Miss Clare Remembers"  (2:02); the latter would be modified and includend in the album  <a href="/watermark"><em>Watermark</em>  (1988)</a>.</p><p> Both tracks were produced by  Nicky Ryan  and recorded in  Windmill Lane Studios  in  Dublin  in 1983. About 5,000 copies of this compilation were printed. </p>
 
-<h4><a name="frogprince"></a><em>The Frog Prince</em> soundtrack, 1975</h4>
+<h4 id="frogprince"><em>The Frog Prince</em> soundtrack, 1975</h4>
 
-<img src="frogprince.jpg" alt="The Frog Prince soundtrack cover" style="float: left; margin: 0 20px 10px 0; max-width: 33%;" />
+<img src="/frogprince.jpg" alt="The Frog Prince soundtrack cover" style="float: left; margin: 0 20px 10px 0; max-width: 33%;"  width="150" height="150" />
 
 <p>The commission for <strong><em>The Frog Prince</em> soundtrack</strong> was obtained thanks to  Roma Ryan: director  David Puttnam  was looking for a composer;  Ryan  sent some demos to the British director who, after listening to them, decided to entrust this task to Enya.</p> 
 <p>It has songs composed and performed by the Irish singer and other artists. These are mostly instrumental pieces with the exception of  "The Frog Prince",  "Dreams"  (performed by  Enya  and produced by  Nicky Ryan), and  "Les Flon-Flons Du Bal"  by  Edith Piaf.</p>
@@ -86,7 +93,7 @@ Africa II"</a>.</p>
      "At the age of eighteen, Enya (Eithne N� Bhraon�in) joined Clannad's group, immediately his family. With them he recorded two albums going on tour in Europe for two years. Later he decided to devote his time to his own music. This album sees its first foray into the world of film music. It is a source of pride for Enya that David Puttnam has chosen his music for this project."</p>
 
 
-<h3><a name="lyrics"></a>Lyrics list</h3>
+<h3 id="lyrics">Lyrics list</h3>
 
 <ul>
 
@@ -105,8 +112,8 @@ Days <em>(English lyrics)</em></a></li>
 Africa II <em>(English lyrics)</em></a></li>
 
 
-  <li><a href="#Oiche_Chiun">O&iacute;che
-Chi&uacute;in</a></li>
+  <li><a href="#Oiche_Chiun">Oíche
+Chiúin</a></li>
 
 
 <li><a href="#S_Fagaim_Mo_Bhaile">'S Fagaim Mo
@@ -117,7 +124,7 @@ Bhaile</a></li>
 
 <li><a href="#May_It_Be">May It Be</a></li>
 
-<li><a href="#Aniron">An&iacute;ron</a></li>
+<li><a href="#Aniron">Aníron</a></li>
 
 <li><a href="#The_Frog_Prince">The Frog Prince</a></li>
 
@@ -127,16 +134,16 @@ Bhaile</a></li>
 <li><a href="#eclipse">Eclipse</a></li>
 </ul>
 
-<h3><a name="complyrics"></a>Lyrics</h3>
+<h3 id="complyrics">Lyrics</h3>
 
-<h4><a name="Book_Of_Days_English_Lyric"></a>Book
+<h4 id="Book_Of_Days_English_Lyric">Book
 Of Days (English lyrics)</h4>
 
-<div id="video-s"><a href="enya-video.html"><strong>EnyaTube</strong></a>
-has a <a href="video-book-of-days.html">video of "Book Of
+<div id="video-s"><a href="/enya-video"><strong>EnyaTube</strong></a>
+has a <a href="/video-book-of-days">video of "Book Of
 Days"</a>.</div>
 
-from <a href="enya-songs-albums.html#farandaway"><em>Far And Away</em> film soundtrack</a><br /><br />
+from <a href="/enya-songs-albums#farandaway"><em>Far And Away</em> film soundtrack</a><br /><br />
 
 <em>Roma Ryan</em><br />
 
@@ -165,16 +172,16 @@ this way could be my Book of Days.<br />
 <br />
 
 
-&Oacute; l&aacute; go l&aacute;, mo thuras,<br />
+Ó lá go lá, mo thuras,<br />
 
 
 an bealach fada romham.<br />
 
 
-&Oacute; o&iacute;che go ho&iacute;che, mo thuras,<br />
+Ó oíche go hoíche, mo thuras,<br />
 
 
-na sc&eacute;alta nach mbeidh a cho&iacute;ch.<br />
+na scéalta nach mbeidh a choích.<br />
 
 
 <br />
@@ -231,7 +238,7 @@ Far and Away.<br />
 | <a href="#lyrics">Lyrics list</a></div>
 
 
-<h4><a name="Adeste_Fideles"></a>Adeste, Fideles lyrics</h4>
+<h4 id="Adeste_Fideles">Adeste, Fideles lyrics</h4>
 
 <em>Traditional</em><br />
 
@@ -376,7 +383,7 @@ Glory to God in the highest<br />
 | <a href="#lyrics">Lyrics list</a></div>
 
 
-<h4><a name="Christmas_Secrets"></a>Christmas Secrets lyrics</h4>
+<h4 id="Christmas_Secrets">Christmas Secrets lyrics</h4>
 
 <em>Roma Ryan</em><br />
 
@@ -450,11 +457,11 @@ Whom shall I tell my secrets to?<br />
 <br />
 
 
-<div class="btt"><a href="enya-other.html#">Back
-to top</a> | <a href="enya-other.html#lyrics">Lyrics
+<div class="btt"><a href="/enya-other#">Back
+to top</a> | <a href="/enya-other#lyrics">Lyrics
 list</a></div>
 
-<h4><a name="The_Magic_Of_The_Night"></a>The Magic Of The Night lyrics</h4>
+<h4 id="The_Magic_Of_The_Night">The Magic Of The Night lyrics</h4>
 
 <em>Roma Ryan</em><strong></strong><br />
 
@@ -570,12 +577,12 @@ It's the magic of the night<br />
 <br />
 
 
-<div class="btt"><a href="enya-other.html#">Back
-to top</a> | <a href="enya-other.html#lyrics">Lyrics
+<div class="btt"><a href="/enya-other#">Back
+to top</a> | <a href="/enya-other#lyrics">Lyrics
 list</a></div>
 
 
-<h4><a name="We_Wish_You_A_Merry_Christmas"></a>We Wish You A Merry Christmas lyrics</h4>
+<h4 id="We_Wish_You_A_Merry_Christmas">We Wish You A Merry Christmas lyrics</h4>
 
 
 <em>Roma Ryan</em><br />
@@ -619,21 +626,21 @@ And a happy new year<br />
 <br />
 
 
-<div class="btt"><a href="enya-other.html#">Back
-to top</a> | <a href="enya-other.html#lyrics">Lyrics
+<div class="btt"><a href="/enya-other#">Back
+to top</a> | <a href="/enya-other#lyrics">Lyrics
 list</a></div>
 
 
-<h4><a name="Storms_In_Africa_Part_II"></a>Storms
+<h4 id="Storms_In_Africa_Part_II">Storms
 In Africa II (English lyrics)</em></h4>
 
 
 <div id="video-s">
-<a href="enya-video.html"><strong>EnyaTube</strong></a>
-has a <a href="video-storms-in-africa-english.html">video
+<a href="/enya-video"><strong>EnyaTube</strong></a>
+has a <a href="/video-storms-in-africa-english">video
 of "Storms In Africa"</a>.</div>
 
-<p>This is the second version of that song, <a href="watermark.html#Storms_In_Africa">originally in Gaelic</a>.</p>
+<p>This is the second version of that song, <a href="/watermark#Storms_In_Africa">originally in Gaelic</a>.</p>
 
 <em>Roma Ryan</em><br />
 
@@ -731,8 +738,8 @@ through Storms in Africa<br />
 | <a href="#lyrics">Lyrics list</a></div>
 
 
-<h4><a name="Oiche_Chiun"></a>O&iacute;che
-Chi&uacute;in lyrics</h4>
+<h4 id="Oiche_Chiun">Oíche
+Chiúin lyrics</h4>
 
 <em>Traditional</em><br />
 
@@ -740,49 +747,49 @@ Chi&uacute;in lyrics</h4>
 <br />
 
 
-O&iacute;che chi&uacute;in, o&iacute;che Mhic D&eacute;,<br />
+Oíche chiúin, oíche Mhic Dé,<br />
 
 
-C&aacute;ch 'na suan d&iacute;s araon.<br />
+Cách 'na suan dís araon.<br />
 
 
-D&iacute;s is d&iacute;lse 'faire le sp&eacute;is<br />
+Dís is dílse 'faire le spéis<br />
 
 
-Na&iacute;on beag, leanbh ceansa 'gus caomh.<br />
-
-
-<br />
-
-
-Cr&iacute;ost, 'na chodladh go s&aacute;mh.<br />
-
-
-Cr&iacute;ost, 'na chodladh go s&aacute;mh.<br />
+Naíon beag, leanbh ceansa 'gus caomh.<br />
 
 
 <br />
 
 
-O&iacute;che chi&uacute;in, o&iacute;che Mhic D&eacute;,<br />
+Críost, 'na chodladh go sámh.<br />
 
 
-Aoir&iacute; ar dt&uacute;s chuala 'n sc&eacute;al.<br />
-
-
-Allel&uacute;ia aingeal ag glaoch.<br />
-
-
-Cantain suairc i ngar is i gc&eacute;in.<br />
+Críost, 'na chodladh go sámh.<br />
 
 
 <br />
 
 
-Cr&iacute;ost an Sl&aacute;naitheoir F&eacute;in.<br />
+Oíche chiúin, oíche Mhic Dé,<br />
 
 
-Cr&iacute;ost an Sl&aacute;naitheoir F&eacute;in.<br />
+Aoirí ar dtús chuala 'n scéal.<br />
+
+
+Allelúia aingeal ag glaoch.<br />
+
+
+Cantain suairc i ngar is i gcéin.<br />
+
+
+<br />
+
+
+Críost an Slánaitheoir Féin.<br />
+
+
+Críost an Slánaitheoir Féin.<br />
 
 
 <br />
@@ -846,7 +853,7 @@ Christ, the saviour himself.<br />
 | <a href="#lyrics">Lyrics list</a></div>
 
 
-<h4><a name="S_Fagaim_Mo_Bhaile"></a>'S Fagaim
+<h4 id="S_Fagaim_Mo_Bhaile">'S Fagaim
 Mo Bhaile lyrics</h4>
 
 
@@ -856,68 +863,68 @@ Mo Bhaile lyrics</h4>
 <br />
 
 
-Maidin is t&uacute;s an lae<br />
+Maidin is tús an lae<br />
 
 
-Is f&aacute;gaim mo bhaile<br />
+Is fágaim mo bhaile<br />
 
 
-T&aacute; mo chro&iacute;se go br&oacute;n<br />
+Tá mo chroíse go brón<br />
 
 
-Is fad ar shi&uacute;l m'&oacute;ige<br />
+Is fad ar shiúl m'óige<br />
 
 
 <br />
 
 
-O&iacute;che is m&eacute; liom f&eacute;in<br />
+Oíche is mé liom féin<br />
 
 
-Sp&eacute;artha dubh go domhain, a cho&iacute;ch<br />
+Spéartha dubh go domhain, a choích<br />
 
 
-Ag cuimhneach ar laethanta a bh&iacute;<br />
+Ag cuimhneach ar laethanta a bhí<br />
 
 
-Gan gh&aacute; agus gan ghruaim<br />
+Gan ghá agus gan ghruaim<br />
 
 
 Eistim leis an ghaoth<br />
 
 
-Uaigneas m&oacute;r, go deo, a cho&iacute;ch<br />
+Uaigneas mór, go deo, a choích<br />
 
 
 <br />
 
 
-Deireadh an turas m&oacute;r<br />
+Deireadh an turas mór<br />
 
 
-T&aacute;im br&oacute;nach, buartha 's briste<br />
+Táim brónach, buartha 's briste<br />
 
 
-I mo dhiaidh nach mbeidh n&iacute;os m&oacute;<br />
+I mo dhiaidh nach mbeidh níos mó<br />
 
 
-Ach, t&aacute; s&eacute; i nd&aacute;n d&uacute;inn, a
-ph&aacute;ist&iacute;<br />
+Ach, tá sé i ndán dúinn, a
+pháistí<br />
 
 
 <br />
 
 
-Is fada anois an l&aacute;<br />
+Is fada anois an lá<br />
 
 
-A d'fh&aacute;g m&eacute; mo bhaile<br />
+A d'fhág mé mo bhaile<br />
 
 
-N&iacute;l &aacute;thas i mo chro&iacute;<br />
+Níl áthas i mo chroí<br />
 
 
-N&iacute;l ann ach an marbh.<br />
+Níl ann ach an marbh.<br />
 
 
 <br />
@@ -1015,7 +1022,7 @@ Repeat last line<br />
 | <a href="#lyrics">Lyrics list</a></div>
 
 
-<h4><a name="I_May_Not_Awaken"></a>I May Not
+<h4 id="I_May_Not_Awaken">I May Not
 Awaken lyrics</h4>
 
 <em>Roma Ryan</em><br />
@@ -1106,15 +1113,15 @@ I may not awaken <br />
 | <a href="#lyrics">Lyrics list</a></div>
 
 
-<h4><a name="May_It_Be"></a>May It Be lyrics</h4>
+<h4 id="May_It_Be">May It Be lyrics</h4>
 
 
 <div id="video-s">
-<a href="enya-video.html"><strong>EnyaTube</strong></a>
-has a <a href="video-may-it-be.html">video of "May It Be"</a>.</div>
+<a href="/enya-video"><strong>EnyaTube</strong></a>
+has a <a href="/video-may-it-be">video of "May It Be"</a>.</div>
 
 
-<p>From the soundtrack of <a href="the-lord-of-the-rings.html"><em>The Lord of the
+<p>From the soundtrack of <a href="/the-lord-of-the-rings"><em>The Lord of the
 Rings: The Fellowship of the Ring</em></a>.</p>
 <em>Roma Ryan</em><br />
 
@@ -1143,7 +1150,7 @@ Oh! How far you are from home<br />
 <br />
 
 
-Morni&euml; ut&uacute;li&euml; <em>(Darkness has
+Morni&euml; utúli&euml; <em>(Darkness has
 come)</em><br />
 
 
@@ -1180,7 +1187,7 @@ You may rise to find the sun<br />
 <br />
 
 
-Morni&euml; ut&uacute;li&euml; <em>(Darkness has
+Morni&euml; utúli&euml; <em>(Darkness has
 come)</em><br />
 
 
@@ -1209,10 +1216,10 @@ A promise lives within you now<br />
 | <a href="#lyrics">Lyrics list</a></div>
 
 
-<h4><a name="Aniron"></a>An&iacute;ron lyrics</h4>
+<h4 id="Aniron">Aníron lyrics</h4>
 
 
-<p>From the soundtrack of <a href="the-lord-of-the-rings.html"><em>The Lord of the
+<p>From the soundtrack of <a href="/the-lord-of-the-rings"><em>The Lord of the
 Rings: The Fellowship of the Ring</em></a>. The lyrics in italics are not included in the version feaured on the soundrack.</p>
 
 
@@ -1262,9 +1269,9 @@ Ah! I desire Elfstone.<br /></em>
 | <a href="#lyrics">Lyrics list</a></div>
 
 
-<h4><a name="The_Frog_Prince"></a>The Frog
+<h4 id="The_Frog_Prince">The Frog
 Prince lyrics</h4>
-from <a href="enya-songs-albums.html#frogprince"><em>The Frog Pince</em> film soundtrack</a><br /><br />
+from <a href="/enya-songs-albums#frogprince"><em>The Frog Pince</em> film soundtrack</a><br /><br />
 
 <em>Roma Ryan</em><br />
 
@@ -1372,9 +1379,9 @@ oh, what joy this love has shown<br />
 | <a href="#lyrics">Lyrics list</a></div>
 
 
-<h4><a name="Dreams"></a>Dreams lyrics</h4>
+<h4 id="Dreams">Dreams lyrics</h4>
 
-from <a href="enya-songs-albums.html#frogprince"><em>The Frog Pince</em> film soundtrack</a><br /><br />
+from <a href="/enya-songs-albums#frogprince"><em>The Frog Pince</em> film soundtrack</a><br /><br />
 
 <em>C. McGettigan</em> <br /><br />
 
@@ -1399,7 +1406,7 @@ Tell me what, tell me what, are dreams?<br>
 Can I believe these spells I feel?<br>
 I'm wary now.<br>
 Can I believe, or is this real?<br>
-I'm wary now.&nbsp;<br>
+I'm wary now. <br>
 
 <br>
 Just like some new-born creature, I.<br>
@@ -1412,7 +1419,7 @@ Tell me what, tell me what, are dreams?<br><br>
 | <a href="#lyrics">Lyrics list</a></div>
 
 
-<h4><a name="SOTS"></a>Song of the Sandman lyrics</h4>
+<h4 id="SOTS">Song of the Sandman lyrics</h4>
 
 <em>Roma Ryan</em><br /><br />
 
@@ -1443,7 +1450,7 @@ I will come to you<br /><br />
 | <a href="#lyrics">Lyrics list</a></div>
 
 
-<h4><a name="eclipse"></a>Eclipse lyrics</h4>
+<h4 id="eclipse">Eclipse lyrics</h4>
 
 <em>Roma Ryan</em><br /><br />
 
@@ -1463,20 +1470,20 @@ hcalaehg na is.<br /><br />
 
 <h3 id="wrong">Songs wrongly attributed to Enya</h3>
 				
-				<p style="margin: 0;">Adiemus [Karl Jenkins] (<a href="https://amzn.to/32WZabX" rel="nofollow" target="_blank">Listen to the song</a>)<br />
-				Ameno [Era] (<a href="https://amzn.to/37m0Dfi" rel="nofollow" target="_blank">Listen to the song</a>)<br />
+				<p style="margin: 0;">Adiemus [Karl Jenkins] (<a href="https://amzn.to/32WZabX" rel="nofollow sponsored noopener" target="_blank">Listen to the song</a>)<br />
+				Ameno [Era] (<a href="https://amzn.to/37m0Dfi" rel="nofollow sponsored noopener" target="_blank">Listen to the song</a>)<br />
 				Anam Cara [Medwyn Goodall: Anam Cara] or [Anam Cara [by Aeone, from The Woman's Touch]<br />
 				A New Day Has Come [Celine Dion with NO back-ups by Enya]<br />
 				A Neverending Dream [X-Perience]<br />
 				Angelica [SEAY]<br />
 				Anthem [Ronan Hardiman]<br />
 				Arcadia [Miriam Stockley: Miriam]<br />
-				Ask the Mountains [Vangelis] (<a href="https://amzn.to/2Xu7EWX" rel="nofollow" target="_blank">Listen to the song</a>)<br />
-				Bonny Portmore [Loreena McKennitt, known by downloading as Highlander (or Highlander End Theme]  (<a href="https://amzn.to/37jg4F0" rel="nofollow" target="_blank">Listen to the song</a>)<br />
-				Braveheart Theme [James Horner]  (<a href="https://amzn.to/37lqOTp" rel="nofollow" target="_blank">Listen to the song</a>)<br />
+				Ask the Mountains [Vangelis] (<a href="https://amzn.to/2Xu7EWX" rel="nofollow sponsored noopener" target="_blank">Listen to the song</a>)<br />
+				Bonny Portmore [Loreena McKennitt, known by downloading as Highlander (or Highlander End Theme]  (<a href="https://amzn.to/37jg4F0" rel="nofollow sponsored noopener" target="_blank">Listen to the song</a>)<br />
+				Braveheart Theme [James Horner]  (<a href="https://amzn.to/37lqOTp" rel="nofollow sponsored noopener" target="_blank">Listen to the song</a>)<br />
 				Caeli et Terra [perhaps "Prism of Life" by Enigma]<br />
 				Cagaran Gaolach [Mary Jane Lamond]<br />
-				Celtic Rain [Mike Oldfield: Voyager] (<a href="https://amzn.to/341Tv5x" rel="nofollow" target="_blank">Listen to the song</a>)<br />
+				Celtic Rain [Mike Oldfield: Voyager] (<a href="https://amzn.to/341Tv5x" rel="nofollow sponsored noopener" target="_blank">Listen to the song</a>)<br />
 				Dance With A Stranger [Yanni, from his album: Tribute]<br />
 				Dark Garden [The Java Quartet]<br />
 				Deliver Me [Sarah Brightman]<br />
@@ -1492,33 +1499,33 @@ hcalaehg na is.<br /><br />
 				Final Fantasy [Uemastu, Mitsuda, Shimomura]<br />
 				Fire and Ice (instrumental) = false title for Boadicea<br />
 				Gravity of Love [Enigma: The Screen Behind the Mirror]<br />
-				Harry's Game [Clannad: Magical Ring ] (<a href="https://amzn.to/2qj2ctQ" rel="nofollow" target="_blank">Listen to the song</a>)<br />
-				Here with Me remix [Dido] (<a href="https://amzn.to/2QvV5sr" rel="nofollow" target="_blank">Listen to the song</a>)<br />
+				Harry's Game [Clannad: Magical Ring ] (<a href="https://amzn.to/2qj2ctQ" rel="nofollow sponsored noopener" target="_blank">Listen to the song</a>)<br />
+				Here with Me remix [Dido] (<a href="https://amzn.to/2QvV5sr" rel="nofollow sponsored noopener" target="_blank">Listen to the song</a>)<br />
 				Highlander [Darby DeVon]<br />
 				Hills of Ireland [Mychael and Jeff Danna, A Celtic Romance]<br />
 				Horizon [Eri Sugai: Mai]<br />
 				Iapetus [Infrared Uforia]</p>
 				<p>
 				In The Arms Of Eternity [die sektor]<br />
-				I Will Find You, from Last of the Mohicans [Moya Brennan/Clannad] (<a href="https://amzn.to/2Qwj3E4" rel="nofollow" target="_blank">Listen to the song</a>)<br />
+				I Will Find You, from Last of the Mohicans [Moya Brennan/Clannad] (<a href="https://amzn.to/2Qwj3E4" rel="nofollow sponsored noopener" target="_blank">Listen to the song</a>)<br />
 				Jigga Jigga [Scooter]<br />
 				Key of the Twilight [by Yuki Kajiura, from anime]<br />
 				Kiss the Book [by Moya Brennan]<br />
 				Love Song [ Leslie Dowdall/Ronan Hardiman]<br />
 				Metamorphosis [by Eden, from Spiritual Chillout]<br />
 				Mor Rioghain - [perhaps "The Call of Mor-rioghain" by Vae Victis]<br />
-				Mummers Dance [Loreena McKennitt] (<a href="https://amzn.to/35ipbUB" rel="nofollow" target="_blank">Listen to the song</a>)<br />
-				My Heart Will Go On [Celine Dion] (<a href="https://amzn.to/2CXViNm" rel="nofollow" target="_blank">Listen to the song</a>)<br />
+				Mummers Dance [Loreena McKennitt] (<a href="https://amzn.to/35ipbUB" rel="nofollow sponsored noopener" target="_blank">Listen to the song</a>)<br />
+				My Heart Will Go On [Celine Dion] (<a href="https://amzn.to/2CXViNm" rel="nofollow sponsored noopener" target="_blank">Listen to the song</a>)<br />
 				Mysterium [Libera Boys Choir, from Libera]<br />
 				Never [by Ronan Hardiman, from Anthem]<br />
-				Now We Are Free [Lisa Gerrard] (<a href="https://amzn.to/2OuOJHr" rel="nofollow" target="_blank">Listen to the song</a>)<br />
+				Now We Are Free [Lisa Gerrard] (<a href="https://amzn.to/2OuOJHr" rel="nofollow sponsored noopener" target="_blank">Listen to the song</a>)<br />
 				Ocean of Sin/Sea of Sin<br />
 				Om Namo Bhagavate [by Deva Premal, from Embrace]<br />
-				On Sacred Ground [Yanni: If I Could Tell You] (<a href="https://amzn.to/2qixZLv" rel="nofollow" target="_blank">Listen to the song</a>)<br />
+				On Sacred Ground [Yanni: If I Could Tell You] (<a href="https://amzn.to/2qixZLv" rel="nofollow sponsored noopener" target="_blank">Listen to the song</a>)<br />
 				Perfect Time [Moya Brennan]<br />
 				Relax [Kenny G]<br />
 				Remember Now [2002]<br />
-				Return to Innocence [Enigma: The Cross of Changes] (<a href="https://amzn.to/2rUrgrf" rel="nofollow" target="_blank">Listen to the song</a>)<br />
+				Return to Innocence [Enigma: The Cross of Changes] (<a href="https://amzn.to/2rUrgrf" rel="nofollow sponsored noopener" target="_blank">Listen to the song</a>)<br />
 				Salve Me<br />
 				Secret World [Ronan Hardiman]<br />
 				Skin 2 Skin [by Diane Arkenstone, from Jewel in the Sun]<br />
@@ -1526,15 +1533,15 @@ hcalaehg na is.<br /><br />
 				Suddenly Yours [2002, from the album This Moment Now]<br />
 				Sweet Lullaby [Deep Forest]<br />
 				The Closing Of The Year [Horn/Zimmer: Toys]<br />
-				The Eyes Of Truth (Matrix Theme) [Enigma: The Cross of Changes]  (<a href="https://amzn.to/2rWCmfr" rel="nofollow" target="_blank">Listen to the song</a>)<br />
+				The Eyes Of Truth (Matrix Theme) [Enigma: The Cross of Changes]  (<a href="https://amzn.to/2rWCmfr" rel="nofollow sponsored noopener" target="_blank">Listen to the song</a>)<br />
 				The Hills Of Ireland [Samuel Ferguson]<br />
-				The Mystic's Dream [Loreena McKennitt: The Mask and Mirror] (<a href="https://amzn.to/35flnTT" rel="nofollow" target="_blank">Listen to the song</a>)<br />
+				The Mystic's Dream [Loreena McKennitt: The Mask and Mirror] (<a href="https://amzn.to/35flnTT" rel="nofollow sponsored noopener" target="_blank">Listen to the song</a>)<br />
 				Voices [Dario G ]<br />
 				Waiting for the Wind to Blow [Cantara]<br />
 				What Child is This [composed by William Chatterton Dix (1837-1865), and sung by many different artists through the years, but not by Enya.]<br />
 				Winter [by Iona, from The river flows, CD 4]<br />
 				Wish You Were Here [Blackmore's Night: Shadow of the Moon]<br />
-				World of Wonders - [perhaps "Across The World Of Wonders" by Mortiis or F.R.E.U.D.]  (<a href="https://amzn.to/2O2hw7d" rel="nofollow" target="_blank">Listen to the song</a>)</p>
+				World of Wonders - [perhaps "Across The World Of Wonders" by Mortiis or F.R.E.U.D.]  (<a href="https://amzn.to/2O2hw7d" rel="nofollow sponsored noopener" target="_blank">Listen to the song</a>)</p>
 				
 			<p>
 
@@ -1542,34 +1549,34 @@ hcalaehg na is.<br /><br />
 				
 				At First Sight [Mark Isham]<br />
 				
-				Braveheart OST [James Horner] (<a href="https://amzn.to/2CY7Ow5" rel="nofollow" target="_blank">Listen and download the MP3</a>)<br />
+				Braveheart OST [James Horner] (<a href="https://amzn.to/2CY7Ow5" rel="nofollow sponsored noopener" target="_blank">Listen and download the MP3</a>)<br />
 				
 				Earth: Final Conflict [Micky Erbe and Maribeth Solomon]<br />
 				
-				Gladiator [Hans Zimmer] (<a href="https://amzn.to/2KCjGbj" rel="nofollow" target="_blank">Listen and download the MP3</a>)<br />
+				Gladiator [Hans Zimmer] (<a href="https://amzn.to/2KCjGbj" rel="nofollow sponsored noopener" target="_blank">Listen and download the MP3</a>)<br />
 				
-				Titanic [James Horner] (<a href="https://amzn.to/2QuPcvL" rel="nofollow" target="_blank">Listen and download the MP3</a>)</p>
+				Titanic [James Horner] (<a href="https://amzn.to/2QuPcvL" rel="nofollow sponsored noopener" target="_blank">Listen and download the MP3</a>)</p>
 
 
 
 
-</div>
+</main>
 
-<div id="sidebar">
+<aside id="sidebar">
 
-<a id="albumcover" href="https://amzn.to/38qoPzQ" rel="nofollow" target="_blank"><img src="other.JPG" alt="Audio, images and low prices at Amazon" /></a>
+<a id="albumcover" href="https://amzn.to/38qoPzQ" rel="nofollow sponsored noopener" target="_blank"><img src="/other.JPG" alt="Audio, images and low prices at Amazon"  width="150" height="150" /></a>
 Stream or download Enya songs:
 <ul>
-<li><a href="http://www.amazon.com/dp/B000JJSJYQ?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B000JJSJYQ&adid=04VTYCY773AGB65NC7WP&" rel="nofollow" target="_blank"><em>Amarantine: Special Christmas Edition</em></a></li>
-<li><a href="http://www.amazon.com/dp/B000JVSUXY?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B000JVSUXY&adid=1W3ZQ9ABR6GAMWRHADPR&" rel="nofollow" target="_blank"><em>Christmas Secret</em> single</a></li>
-<li><a href="http://www.amazon.com/dp/B00005S8ME?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B00005S8ME&adid=1XZFRJ9ZRDXV2Y830CYG&" rel="nofollow" target="_blank"><em>Only Time/O&iacute;che
-Chi&uacute;in</em> single</a></li>
-<li><a href="http://www.amazon.com/dp/B00005UE4B?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B00005UE4B&adid=1S4W21GX8ZD0KEX2ZFP1&" rel="nofollow" target="_blank"><em>May It Be</em> single</a></li></ul>
+<li><a href="https://www.amazon.com/dp/B000JJSJYQ?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B000JJSJYQ&adid=04VTYCY773AGB65NC7WP&" rel="nofollow" target="_blank"><em>Amarantine: Special Christmas Edition</em></a></li>
+<li><a href="https://www.amazon.com/dp/B000JVSUXY?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B000JVSUXY&adid=1W3ZQ9ABR6GAMWRHADPR&" rel="nofollow" target="_blank"><em>Christmas Secret</em> single</a></li>
+<li><a href="https://www.amazon.com/dp/B00005S8ME?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B00005S8ME&adid=1XZFRJ9ZRDXV2Y830CYG&" rel="nofollow" target="_blank"><em>Only Time/Oíche
+Chiúin</em> single</a></li>
+<li><a href="https://www.amazon.com/dp/B00005UE4B?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B00005UE4B&adid=1S4W21GX8ZD0KEX2ZFP1&" rel="nofollow" target="_blank"><em>May It Be</em> single</a></li></ul>
 
 
 </div>
 
-<div class="c"></div>
+
 
 </div>
 </Layout>

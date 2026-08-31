@@ -2,21 +2,32 @@
 import Layout from "../layouts/Layout.astro";
 
 const title = "Enya's A Day Without Rain album (\"Only Time/Who Can Say\", \"Wild Child\" lyrics)";
-const description = "All info, lyrics and MP3 downloads for Enya's album A Day Without Rain. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
-const canonical = "https://www.enyaone.com/a-day-without-rain.html";
-const ogImage = "";
+const description = "All info, lyrics and MP3 downloads for Enya";
+const canonical = "https://www.enyaone.com/a-day-without-rain";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
 ---
 
-<Layout title={title} description={description} canonical={canonical} ogImage={ogImage} bodyClass={bodyClass}>
-<div id="content">
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
+<div id="wrap">
+
+
+
+		<div id="content">
 			
 			<ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
 				<li property="itemListElement" typeof="ListItem"><a href="/" property="item" typeof="WebPage">
 					    <span property="name">Home</span></a> 
 					  <meta property="position" content="1">
 					  &rsaquo;</li>
-				<li property="itemListElement" typeof="ListItem"><a href="enya-songs-albums.html" 
+				<li property="itemListElement" typeof="ListItem"><a href="/enya-songs-albums"
 					property="item" typeof="WebPage">
 					    <span property="name">Enya Songs &amp; Albums</span></a>  &rsaquo;
 					  <meta property="position" content="2"></li>
@@ -25,17 +36,17 @@ const bodyClass = "";
 					<meta property="position" content="3"></li>
 			</ol>
 			
-			<div id="main">
+			<main id="main">
 
 				<div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
-<a href="https://amzn.to/4okO9eR"><img src="ecs.jpg" alt="Christmas Secrets album cover">
+<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
 <p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
 
-<a href="https://amzn.to/43aGdVb"><img src="awc.jpg" alt="And Winter Came album cover">
+<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><img src="/awc.jpg" alt="And Winter Came album cover">
 <p><em><strong>And Winter Came...</strong></em><br /> A winter-themed album</p></a>
 
-<a href="https://amzn.to/4hEQ7nG"><img src="vbe.jpg" alt="The Very Best of Enya album cover">
+<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><img src="/vbe.jpg" alt="The Very Best of Enya album cover">
 <p><em><strong>The Very Best of Enya</strong></em><br /> The perfect gift</p></a>
 </div>
 
@@ -44,16 +55,16 @@ const bodyClass = "";
 
 
 
-				<a class="new-amazon-album-link" href="https://amzn.to/498nslX" rel="nofollow" target="_blank">
-					<img  src="adwr.jpg" alt="A Day Without Rain (2000)" /></a>
+				<a class="new-amazon-album-link" href="https://amzn.to/498nslX" rel="nofollow sponsored noopener" target="_blank">
+					<img  src="/adwr.jpg" alt="A Day Without Rain (2000)"  width="150" height="150" /></a>
 					
 				
 				<p>Enya's fifth studio album, <em>A Day Without Rain,</em> made its debut on November 20, 2000, under the WEA label. The album gained significant recognition, primarily due to the inclusion of the song <a href="#Only_Time">"Only Time,"</a> which served as the album's second single. "Only Time" quickly rose to prominence in 2000, capturing the hearts of listeners and achieving substantial success. However, its impact further intensified in 2001, when the song became intimately associated with the tragic events of the September 11 attacks. Through extensive use in various forms of media, "Only Time" became an anthem of resilience and hope during that challenging period. The album's enduring legacy stands as a testament to Enya's ability to create powerful and emotionally evocative music that resonates with audiences around the world.</p>
 					
 					
-					<p><a href="https://amzn.to/498nslX" rel="nofollow" target="_blank">Stream or download Enya songs</a></p>
+					<p><a href="https://amzn.to/498nslX" rel="nofollow sponsored noopener" target="_blank">Stream or download Enya songs</a></p>
 					
-				<p> Following a promotional tour in support of her compilation album Paint the Sky with Stars (1997), Enya took a short break before she resumed writing and recording a new album in 1998 with her usual recording partners, <a href="roma-ryan-nicky.html">producer and arranger Nicky Ryan and his wife, lyricist Roma Ryan</a>. In a musical departure from her previous albums, Enya incorporates a string section which was not a conscious decision.</p>
+				<p> Following a promotional tour in support of her compilation album Paint the Sky with Stars (1997), Enya took a short break before she resumed writing and recording a new album in 1998 with her usual recording partners, <a href="/roma-ryan-nicky">producer and arranger Nicky Ryan and his wife, lyricist Roma Ryan</a>. In a musical departure from her previous albums, Enya incorporates a string section which was not a conscious decision.</p>
 				
 				<p>Three versions of <em>A Day Without Rain</em> were released. In most
 					countries, the album includes "The First of Autumn." The U.S. version
@@ -64,12 +75,12 @@ const bodyClass = "";
 
 				<blockquote>
 					<p>
-						A Day Without Rain is probably the most positive of all the albums in the sense that even reminiscences are looked upon lovingly rather than with only sadness, that you are able to enjoy life, that you are able to meet the day and not be afraid, but know where you are in it. Hence, the reference to the ocean and water as being one of separation has now become one that is less painful. Now is the time to see the beauty of life &mdash; in all its seasons. 
+						A Day Without Rain is probably the most positive of all the albums in the sense that even reminiscences are looked upon lovingly rather than with only sadness, that you are able to enjoy life, that you are able to meet the day and not be afraid, but know where you are in it. Hence, the reference to the ocean and water as being one of separation has now become one that is less painful. Now is the time to see the beauty of life — in all its seasons.
 					</p>
 					<em>Enya, Barnes &amp; Noble, 2000</em>
 				</blockquote>
 				
-				<p>Recording took place at Aigle Studio in the Ryans' home in Killiney, County Dublin. Enya felt the need to work at a more leisurely pace for <em>A Day Without Rain</em>. than working on her previous studio album, <em><a href="the-memory-of-trees.html">The Memory of Trees (1995)</a></em>, making a conscious effort to record for five days a week instead of seven, and take the weekends off. The reduction in her work schedule made her feel happier as a result.</p>
+				<p>Recording took place at Aigle Studio in the Ryans' home in Killiney, County Dublin. Enya felt the need to work at a more leisurely pace for <em>A Day Without Rain</em>. than working on her previous studio album, <em><a href="/the-memory-of-trees">The Memory of Trees (1995)</a></em>, making a conscious effort to record for five days a week instead of seven, and take the weekends off. The reduction in her work schedule made her feel happier as a result.</p>
 				
 				<p>Enya produced <em>A Day Without Rain</em> in a similar way to her previous albums. She first spends time alone developing melodies and outlines of songs on the piano. These would then be presented to the Ryans; "I'm quite anxious at this point", she said, "because it really is an act of laying your soul bare". While Roma starts to write lyrics to the melodies, Enya and Nicky will work in the studio to develop them into completed arrangements. Working without a deadline from her record label or a set timeline, Enya felt the project was complete after two years, feeling it was time to "step out of the studio ... time for it to have its life out in the world".</p>
 				
@@ -83,14 +94,14 @@ const bodyClass = "";
 				<p>Jump to <a href="#lyrics">lyrics</a>, <a href="#videos">videos list</a>, <a href="#linearnotes">linear notes</a>,
 					<a href="#awards">awards</a>, <a href="#charts">charts</a> and <a href="#credits">credits</a>.
 				
-				<h3><a name="lyrics"></a>Track list</h3>
+				<h3 id="lyrics">Track list</h3>
 				
 				<ol>
 					<li>A Day Without Rain &middot; Instrumental &middot; 2:38</li>
 					<li><a href="#Wild_Child">Wild Child</a> &middot; English &middot;  3:47</li>
 					<li><a href="#Only_Time">Only Time</a> &middot; English &middot; 3:38</li>
 					<li><a href="#Tempus_Vernum">Tempus Vernum</a> &middot; Latin &middot; 2:24</li>
-					<li><a href="#Deora_Ar_Mo_Chro%ED">Deora Ar Mo Chro&iacute;</a> &middot; Gaelic &middot; 2:48</li>
+					<li><a href="#Deora_Ar_Mo_Chro%ED">Deora Ar Mo Chroí</a> &middot; Gaelic &middot; 2:48</li>
 					<li><a href="#Floras_Secret">Flora's Secret</a> &middot; English &middot;  4:07</li>
 					<li><a href="#Fallen_Embers">Fallen Embers</a> &middot; English &middot;  2:31</li>
 					<li>Silver Inches &middot; Instrumental &middot; 1:37</li>
@@ -101,20 +112,20 @@ const bodyClass = "";
 					<li><a href="#Lazy_Days">Lazy Days</a> &middot; English &middot;  3:42</li>
 				</ol>
 				
-				<h3><a name="videos"></a>Videos</h3>
+				<h3 id="videos">Videos</h3>
 				
 				<ul>
-					<li><a href="video-wild-child.html">"Wild Child"</a></li>
-					<li><a href="video-only-time.html">"Only Time"</a></li>
+					<li><a href="/video-wild-child">"Wild Child"</a></li>
+					<li><a href="/video-only-time">"Only Time"</a></li>
 				</ul>
 				
-				<p><a href="enya-video.html">More videos in <strong>EnyaTube</strong> &raquo;</a></p>
+				<p><a href="/enya-video">More videos in <strong>EnyaTube</strong> &raquo;</a></p>
 				
-				<h3><a name="complyrics"></a>Lyrics</h3>
+				<h3 id="complyrics">Lyrics</h3>
 				
-				<h4><a name="Wild_Child"></a>Wild Child lyrics</h4>
+				<h4 id="Wild_Child">Wild Child lyrics</h4>
 				
-				<div id="video-s"><a href="enya-video.html"><strong>EnyaTube</strong></a> has a <a href="video-wild-child.html">video of "Wild Child"</a>.</div>
+				<div id="video-s"><a href="/enya-video"><strong>EnyaTube</strong></a> has a <a href="/video-wild-child">video of "Wild Child"</a>.</div>
 				
 				<em>Roma Ryan</em>
 				
@@ -228,9 +239,9 @@ const bodyClass = "";
 				
 				<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 				
-				<h4><a name="Only_Time"></a>Only Time lyrics</h4>
+				<h4 id="Only_Time">Only Time lyrics</h4>
 				
-				<div id="video-s"><a href="enya-video.html"><strong>EnyaTube</strong></a> has a <a href="video-only-time.html">video of "Only Time"</a>.</div>
+				<div id="video-s"><a href="/enya-video"><strong>EnyaTube</strong></a> has a <a href="/video-only-time">video of "Only Time"</a>.</div>
 				
 				<em>Roma Ryan</em>
 				
@@ -326,7 +337,7 @@ const bodyClass = "";
 				
 				<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 				
-				<h4><a name="Tempus_Vernum"></a>Tempus Vernum lyrics</h4>
+				<h4 id="Tempus_Vernum">Tempus Vernum lyrics</h4>
 				
 				
 				<em>Roma Ryan</em>
@@ -419,19 +430,19 @@ const bodyClass = "";
 				
 				<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 				
-				<h4><a name="Deora_Ar_Mo_Chro&iacute;"></a>Deora Ar Mo Chro&iacute; lyrics</h4>
+				<h4 id="Deora_Ar_Mo_Chroí">Deora Ar Mo Chroí lyrics</h4>
 				
 				<em>Lyrics by Roma Ryan, Irish adaptation by Enya</em>
 				
 				<br />
 				
-				<br />Ba dheas an l&aacute; go o&iacute;che<br />Na gl&oacute;rtha binne i mo thaobh<br />'S aoibhneas i gach &aacute;it gan gruaim<br />&Aacute;thas ar mo chro&iacute; go deo<br />He-a-ro
+				<br />Ba dheas an lá go oíche<br />Na glórtha binne i mo thaobh<br />'S aoibhneas i gach áit gan gruaim<br />Áthas ar mo chroí go deo<br />He-a-ro
 				
 				<br />He-a-o-ro
 				
 				<br />
 				
-				<br />Ma shi&uacute;laim &oacute; na laetha beo<br />An ghrian 's an ghealach ar mo ch&uacute;l<br />Nil uaim ach smaointe &oacute; mo shaoil<br />Deora ar mo chro&iacute; go br&oacute;n<br />He-a-ro
+				<br />Ma shiúlaim ó na laetha beo<br />An ghrian 's an ghealach ar mo chúl<br />Nil uaim ach smaointe ó mo shaoil<br />Deora ar mo chroí go brón<br />He-a-ro
 				
 				<br />He-a-ro
 				
@@ -475,7 +486,7 @@ const bodyClass = "";
 				
 				<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 				
-				<h4><a name="Floras_Secret"></a>Flora's Secret lyrics</h4>
+				<h4 id="Floras_Secret">Flora's Secret lyrics</h4>
 				
 				<em>Roma Ryan</em>
 				
@@ -587,7 +598,7 @@ const bodyClass = "";
 				
 				<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 				
-				<h4><a name="Fallen_Embers"></a>Fallen Embers lyrics</h4>
+				<h4 id="Fallen_Embers">Fallen Embers lyrics</h4>
 				
 				
 				<em>Roma Ryan</em>
@@ -644,7 +655,7 @@ const bodyClass = "";
 				
 				<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 				
-				<h4><a name="Pilgrim"></a>Pilgrim lyrics</h4>
+				<h4 id="Pilgrim">Pilgrim lyrics</h4>
 				
 				<em>Roma Ryan</em>
 				
@@ -730,7 +741,7 @@ const bodyClass = "";
 				
 				<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 				
-				<h4><a name="One_By_One"></a>One By One lyrics</h4>
+				<h4 id="One_By_One">One By One lyrics</h4>
 				
 				<em>Roma Ryan</em>
 				
@@ -740,11 +751,11 @@ const bodyClass = "";
 				
 				<br />Yet another goodbye!
 				
-				<br />He says Adi&oacute;s, says Adi&oacute;s,<br />And do you know why
+				<br />He says Adiós, says Adiós,<br />And do you know why
 				
 				<br />She won't break down and cry?
 				
-				<br />- she says Adi&oacute;s, says Adi&oacute;s, Goodbye.<br />
+				<br />- she says Adiós, says Adiós, Goodbye.<br />
 				
 				<br />One by one my leaves fall.
 				
@@ -756,11 +767,11 @@ const bodyClass = "";
 				
 				<br />She is yearning to fly.
 				
-				<br />She says Adi&oacute;s, says Adi&oacute;s,<br />And now you know why
+				<br />She says Adiós, says Adiós,<br />And now you know why
 				
 				<br />He's a reason to sign
 				
-				<br />- she says Adi&oacute;s, says Adi&oacute;s, Goodbye.<br />
+				<br />- she says Adiós, says Adiós, Goodbye.<br />
 				
 				<br />One by one my leaves fall.
 				
@@ -772,29 +783,29 @@ const bodyClass = "";
 				
 				<br />She was aiming too high.
 				
-				<br />He says Adi&oacute;s, says Adi&oacute;s,<br />And now you know why
+				<br />He says Adiós, says Adiós,<br />And now you know why
 				
 				<br />There's no moon in her sky
 				
-				<br />- he says Adi&oacute;s, says Adi&oacute;s, Goodbye.<br />- he says Adi&oacute;s, says Adi&oacute;s, Goodbye.<br />
+				<br />- he says Adiós, says Adiós, Goodbye.<br />- he says Adiós, says Adiós, Goodbye.<br />
 				
 				<br />No Goodbyes
 				
 				<br />For love brightens their eyes
 				
-				<br />Don't say Adi&oacute;s, say Adi&oacute;s,<br />And do you know why
+				<br />Don't say Adiós, say Adiós,<br />And do you know why
 				
 				<br />There's a love that won't die?
 				
-				<br />- don't say Adi&oacute;s, say Adi&oacute;s, Goodbye.<br />
+				<br />- don't say Adiós, say Adiós, Goodbye.<br />
 				
-				<br />- don't say Adi&oacute;s, say Adi&oacute;s, Goodbye.<br />- don't say Adi&oacute;s, say Adi&oacute;s, Goodbye.<br />- don't say Adi&oacute;s, say Adi&oacute;s, Goodbye.<br />
+				<br />- don't say Adiós, say Adiós, Goodbye.<br />- don't say Adiós, say Adiós, Goodbye.<br />- don't say Adiós, say Adiós, Goodbye.<br />
 				
 				<br />
 				
 				<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 				
-				<h4><a name="Isobella"></a>Isobella lyrics</h4>
+				<h4 id="Isobella">Isobella lyrics</h4>
 				<em>(On the Japanese version of the album only.)</em>
 				
 				<br />
@@ -803,21 +814,21 @@ const bodyClass = "";
 				
 				<br />
 				
-				<br />I do bheatha sa t&uacute;s, sa deireadh,<br />I do bheatha sa t&uacute;s, sa deireadh.<br />Isobella, o
+				<br />I do bheatha sa tús, sa deireadh,<br />I do bheatha sa tús, sa deireadh.<br />Isobella, o
 				
 				<br />Isobella, o
 				
 				<br />
 				
-				<br />I do l&aacute; 's t&uacute; go s&aacute;mh<br />I do l&aacute; 's t&uacute; go fior.<br />Gr&aacute;, anois go deo na ndeor.<br />
+				<br />I do lá 's tú go sámh<br />I do lá 's tú go fior.<br />Grá, anois go deo na ndeor.<br />
 				
-				<br />I do bheatha sa t&uacute;s, sa deireadh<br />I do bheatha sa t&uacute;s, sa deireadh<br />Isobella, o
+				<br />I do bheatha sa tús, sa deireadh<br />I do bheatha sa tús, sa deireadh<br />Isobella, o
 				
 				<br />Isobella, o
 				
 				<br />
 				
-				<br />I do l&aacute; 's t&uacute; gan buairt<br />I do l&aacute; 's t&uacute; gan br&oacute;n<br />Gr&aacute;, anois go deo<br />Gr&aacute;, anois go deo na ndeor.<br />
+				<br />I do lá 's tú gan buairt<br />I do lá 's tú gan brón<br />Grá, anois go deo<br />Grá, anois go deo na ndeor.<br />
 				
 				<br /><em><strong>Translation</strong></em>
 				
@@ -857,7 +868,7 @@ const bodyClass = "";
 				
 				<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 				
-				<h4><a name="Lazy_Days"></a>Lazy Days lyrics</h4>
+				<h4 id="Lazy_Days">Lazy Days lyrics</h4>
 				
 				<em>Roma Ryan</em>
 				
@@ -905,7 +916,7 @@ const bodyClass = "";
 				
 				<div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 				
-				<h3><a name="linearnotes"></a>Linear notes</h3>
+				<h3 id="linearnotes">Linear notes</h3>
 				
 				<p>From <em>Only Time: The Colletion</em>. More information on <a href="http://enya.sk/only-time-liner-notes/">Enya.sk page on that colletion</a>.</p>
 				
@@ -1021,7 +1032,7 @@ const bodyClass = "";
 					winter, whether watching the corn moving in the wind, or a single
 					red balloon floating skywards.</p>
 				
-				<h3><a name="awards"></a>Awards</h3>
+				<h3 id="awards">Awards</h3>
 				
 				
 				<strong>Grammy Awards</strong>
@@ -1046,7 +1057,7 @@ const bodyClass = "";
 					</tbody>
 				</table>
 				
-				<h3><a name="charts"></a>Charts</h3>
+				<h3 id="charts">Charts</h3>
 				
 				
 				<strong>Album</strong>
@@ -1220,7 +1231,7 @@ const bodyClass = "";
 					</tbody>
 				</table>
 				
-				<h3><a name="credits"></a>Credits</h3>
+				<h3 id="credits">Credits</h3>
 				
 				<p>Produced by Nicky Ryan</p>
 				
@@ -1267,18 +1278,30 @@ const bodyClass = "";
 				
 				<p><strong>A special thanks to our long time friend &amp; publisher<br>
 					Peter Reichardt.</strong></p>
-			</div>
+			</main>
 			
-			<div id="sidebar">
+			<aside id="sidebar">
 				
-				<a id="albumcover" href="https://amzn.to/498nslX" rel="nofollow" target="_blank">
-				<img  title="Audio, images and low prices at Amazon" src="adwr.jpg" alt="Audio, images and low prices at Amazon" /></a>
+				<a id="albumcover" href="https://amzn.to/498nslX" rel="nofollow sponsored noopener" target="_blank">
+				<img  title="Audio, images and low prices at Amazon" src="/adwr.jpg" alt="Audio, images and low prices at Amazon"  width="150" height="150" /></a>
 				
-				<div class="buy"><a href="https://amzn.to/498nslX" rel="nofollow" target="_blank">Stream or download Enya songs</a></div>
+				<div class="buy"><a href="https://amzn.to/498nslX" rel="nofollow sponsored noopener" target="_blank">Stream or download Enya songs</a></div>
 				
 
 			</div>
 			
-			<div class="c"></div>
+
 		</div>
+
+
+
+
+	</div>
+
+
+
+			<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K7NW25M"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 </Layout>

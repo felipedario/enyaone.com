@@ -4,24 +4,31 @@ import Layout from "../layouts/Layout.astro";
 const title = "Roma and Nicky Ryan, Enya's lyricist and late producer biographies";
 const description = "Meet Roma and Nicky Ryan. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
 const canonical = "";
-const ogImage = "";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
 ---
 
-<Layout title={title} description={description} canonical={canonical} ogImage={ogImage} bodyClass={bodyClass}>
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
 <div id="content">
 
-<div id="main">
+<main id="main">
 
 	<div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
-<a href="https://amzn.to/4okO9eR"><img src="ecs.jpg" alt="Christmas Secrets album cover">
+<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
 <p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
 
-<a href="https://amzn.to/43aGdVb"><img src="awc.jpg" alt="And Winter Came album cover">
+<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><img src="/awc.jpg" alt="And Winter Came album cover">
 <p><em><strong>And Winter Came...</strong></em><br /> A winter-themed album</p></a>
 
-<a href="https://amzn.to/4hEQ7nG"><img src="vbe.jpg" alt="The Very Best of Enya album cover">
+<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><img src="/vbe.jpg" alt="The Very Best of Enya album cover">
 <p><em><strong>The Very Best of Enya</strong></em><br /> The perfect gift</p></a>
 </div>
 
@@ -29,17 +36,17 @@ const bodyClass = "";
 <h1>Roma and Nicky Ryan</h1>
 
 <div style="margin: 0 0 1em 30px; float: right; width: 250px;">
-	<img src="enya_hello_07.jpg" alt="" />
+	<img src="/enya_hello_07.jpg" alt=""  width="150" height="150" />
 	<p style="font-size: 0.9em; margin-bottom: 0;">
 	<em>Roma Ryan, Enya and Nicky Ryan.</em></p></div>
 
 
 	<h3>The Enya Creative Trio</h3>
 
-<p>At the heart of Enya's music lies a powerful partnership. <a href="enya-biography.html">Enya</a>, the mastermind behind the music and vocals, collaborated with <strong>Nicky Ryan</strong>, the late, visionary producer who brought her sound to life. <strong>Roma Ryan</strong>, the talented lyricist, crafts evocative words in multiple languages, adding another layer to Enya's artistic legacy.</p>
+<p>At the heart of Enya's music lies a powerful partnership. <a href="/enya-biography">Enya</a>, the mastermind behind the music and vocals, collaborated with <strong>Nicky Ryan</strong>, the late, visionary producer who brought her sound to life. <strong>Roma Ryan</strong>, the talented lyricist, crafts evocative words in multiple languages, adding another layer to Enya's artistic legacy.</p>
 
 
-<div class="c"></div>
+
 
 <blockquote>
 	<p>
@@ -52,48 +59,48 @@ const bodyClass = "";
 <p>This formidable trio forged a remarkable partnership that spans over four decades, with their collaboration taking root at the inception of Enya's career in 1982. Together, they nurtured Enya's creative vision, shaping her distinctive sound and garnering worldwide acclaim.</p>
 
 
-<p><strong>Roma Shane Ryan</strong> (born 20 January 1950 in Belfast) is a Northern Irish writer, poet, and lyricist, currently living in Artane, Ireland. <strong>Nicholas Dominick Ryan</strong> (1949-2025) was an Irish music producer, recording engineer, and manager. Born and raised in Dublin, Nicky Ryan gained initial recognition in the 1970s and 1980s for his work with several artists including Gary Moore, Planxty, Christy Moore and <a href="enya-clannad.html">Clannad</a>.</p>
+<p><strong>Roma Shane Ryan</strong> (born 20 January 1950 in Belfast) is a Northern Irish writer, poet, and lyricist, currently living in Artane, Ireland. <strong>Nicholas Dominick Ryan</strong> (1949-2025) was an Irish music producer, recording engineer, and manager. Born and raised in Dublin, Nicky Ryan gained initial recognition in the 1970s and 1980s for his work with several artists including Gary Moore, Planxty, Christy Moore and <a href="/enya-clannad">Clannad</a>.</p>
 
 <p>In 1982, Enya struck out on her own, leaving Clannad with the Ryans. Nicky Ryan became her producer and arranger, while Roma Ryan crafted the lyrics for Enya's music.  For two years, Enya lived with the Ryans, honing her skills and recording demos.  This creative partnership solidified in 1983, with the formation of their music company, Aigle Music, and their home recording studio, Aigle Studio.  A key turning point came from Nicky's idea of layering Enya's vocals, creating the signature sound that continues to enchant fans today.</p>
 
 
-<p>Roma is the primary lyricist for Enya. Her lyrics have won Grammy awards; the song <a href="enya-other.html#May_It_Be">"May It Be"</a> for the <a href="the-lord-of-the-rings.html"><em>The Lord of the Rings</em> film <em>The Fellowship of the Ring</em></a> was nominated for an Oscar.</p>
-<p>Her lyrics can be heard in films such as <em>The Frog Prince</em> (1984), <em>Green Card</em> (1990), <em>L.A. Story</em> (1991), <em>Toys</em> (1992), <em>Cry, the Beloved Country</em> (1995), and <em>Reisei to j&ocirc;netsu no aida</em> (2001), all of which feature Enya's music.</p>
+<p>Roma is the primary lyricist for Enya. Her lyrics have won Grammy awards; the song <a href="/enya-other#May_It_Be">"May It Be"</a> for the <a href="/the-lord-of-the-rings"><em>The Lord of the Rings</em> film <em>The Fellowship of the Ring</em></a> was nominated for an Oscar.</p>
+<p>Her lyrics can be heard in films such as <em>The Frog Prince</em> (1984), <em>Green Card</em> (1990), <em>L.A. Story</em> (1991), <em>Toys</em> (1992), <em>Cry, the Beloved Country</em> (1995), and <em>Reisei to jônetsu no aida</em> (2001), all of which feature Enya's music.</p>
 
-<p>In 2005, Roma created a new language known as Loxian, inspired by J.R.R. Tolkien's Elvish language, for Enya's album <a href="enya-amarantine.html"><em>Amarantine</em></a>. She wrote a book describing Loxian, called <em>Water Shows the Hidden Heart</em>.</p>
+<p>In 2005, Roma created a new language known as Loxian, inspired by J.R.R. Tolkien's Elvish language, for Enya's album <a href="/enya-amarantine"><em>Amarantine</em></a>. She wrote a book describing Loxian, called <em>Water Shows the Hidden Heart</em>.</p>
 
 <p>Roma and Nicky have two daughters, Ebony and Persia, who also contributed with artwork and layout to Enya's 2005 release.</p>
 
-</div>
+</main>
 
-<div id="sidebar">
+<aside id="sidebar">
 
-	<a id="albumcover" target="_blank" href="https://www.amazon.com/Enya/e/B000APUOQK?ref=sr_ntt_srch_lnk_2&amp;qid=1641169744&amp;sr=1-2&_encoding=UTF8&tag=enylyrallenys-20&linkCode=ur2&linkId=d541620b701d12b789cae68caf79229e&camp=1789&creative=9325"><img src="ern.jpg" alt="Download MP3 or stream Enya songs in Amazon.com" /></a>
+	<a id="albumcover" target="_blank" href="https://www.amazon.com/Enya/e/B000APUOQK?ref=sr_ntt_srch_lnk_2&amp;qid=1641169744&amp;sr=1-2&_encoding=UTF8&tag=enylyrallenys-20&linkCode=ur2&linkId=d541620b701d12b789cae68caf79229e&camp=1789&creative=9325"><img src="/ern.jpg" alt="Download MP3 or stream Enya songs in Amazon.com"  width="150" height="150" /></a>
 
 	<p>Nicky Ryan, Enya and Roma Ryan</p>
 
 
 	<h3>Featured albums</h3>
 
-	<h4><strong><a href="a-day-without-rain.html">A Day Without Rain</a></em></strong>, 2000</h4>
+	<h4><strong><a href="/a-day-without-rain">A Day Without Rain</a></em></strong>, 2000</h4>
 
-	<div><a href="a-day-without-rain.html">
-		<img src="enya-2023-adwr.jpg" alt="A Day Without Rain album picture" /></a>
+	<div><a href="/a-day-without-rain">
+		<img src="/enya-2023-adwr.jpg" alt="A Day Without Rain album picture"  width="150" height="150" /></a>
 
 		<p>Through extensive use in various forms of media, "Only Time" became an anthem of resilience and hope after  the tragic events of the September 11 attacks. </p>
 	</div>
 
-	<h4><strong><a href="the-memory-of-trees.html">The Memory of Trees</a></em></strong>, 1995</h4>
+	<h4><strong><a href="/the-memory-of-trees">The Memory of Trees</a></em></strong>, 1995</h4>
 
-	<div><a href="the-memory-of-trees.html">
-		<img src="enya-2023-tmot.jpg" alt="A Day Without Rain album picture" /></a>
+	<div><a href="/the-memory-of-trees">
+		<img src="/enya-2023-tmot.jpg" alt="A Day Without Rain album picture"  width="150" height="150" /></a>
 
-		<p>This album won Enya's first Grammy Award for Best New Age Album. &ldquo;With the destruction of the world&rsquo;s rainforests it may turn out to be that the memory of trees is nothing more than that for us&mdash;a memory.&rdquo;</p>
+		<p>This album won Enya's first Grammy Award for Best New Age Album. “With the destruction of the world’s rainforests it may turn out to be that the memory of trees is nothing more than that for us—a memory.”</p>
 	</div>
 
 </div>
 
-<div class="c"></div>
+
 
 </div>
 </Layout>

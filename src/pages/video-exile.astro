@@ -4,11 +4,18 @@ import Layout from "../layouts/Layout.astro";
 const title = "Enya's Exile music video | All Enya videos, live performances";
 const description = "Video for Enya song Exile. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
 const canonical = "";
-const ogImage = "";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
 ---
 
-<Layout title={title} description={description} canonical={canonical} ogImage={ogImage} bodyClass={bodyClass}>
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
 <div id="content">
 <div id="video-main">
 
@@ -34,13 +41,13 @@ const bodyClass = "";
 </div>
 
 <h3>About</h3>
-<p>Released in 1991, this is the promo video for Enya single <a href="watermark.html#Exile">"Exile"</a>, from the album <a href="watermark.html"><em>Watermark</em></a>.</p>
+<p>Released in 1991, this is the promo video for Enya single <a href="/watermark#Exile">"Exile"</a>, from the album <a href="/watermark"><em>Watermark</em></a>.</p>
 <p>Time: 3:40</p>
 <p>Directed by Michael Geoghegan.</p>
 
 <p>"Exile" is a song by the Irish singer Enya. It was first released on her 1988 album Watermark, and was later released as the fourth and final single from the album in 1991 after it was featured in the film L.A. Story. The song also appeared in the 1995 film Cry, the Beloved Country and on the TV series Haven. German techno band Scooter sampled "Exile" on their single "Jigga Jigga!", taken from the 2004 album Mind the Gap. </p>
 
-<p><strong><a href="enya-video.html">&laquo; EnyaTube home</a></strong></p>
+<p><strong><a href="/enya-video">&laquo; EnyaTube home</a></strong></p>
 
 </div>
 

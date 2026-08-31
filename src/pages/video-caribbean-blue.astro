@@ -4,11 +4,18 @@ import Layout from "../layouts/Layout.astro";
 const title = "Enya's Caribbean Blue music video | All Enya videos, live performances";
 const description = "Video for Enya song Caribbean Blue. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
 const canonical = "";
-const ogImage = "";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
 ---
 
-<Layout title={title} description={description} canonical={canonical} ogImage={ogImage} bodyClass={bodyClass}>
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
 <div id="content">
 <div id="video-main">
 
@@ -34,7 +41,7 @@ const bodyClass = "";
 </div>
 
 <h3>About</h3>
-<p>Released in October 1991, this is the promo video for Enya single <a href="shepherd-moons.html#Caribbean_Blue">"Caribbean Blue"</a>, from the album <a href="shepherd-moons.html"><em>shepherd Moons</em></a>.</p>
+<p>Released in October 1991, this is the promo video for Enya single <a href="/shepherd-moons#Caribbean_Blue">"Caribbean Blue"</a>, from the album <a href="/shepherd-moons"><em>shepherd Moons</em></a>.</p>
 <p>Time: 3:01</p>
 <p>Directed by Michael Geoghegan.</p>
 
@@ -42,7 +49,7 @@ const bodyClass = "";
 
 When released, "Caribbean Blue" reached number eight on the Irish Singles Chart and number 13 on the UK Singles Chart. In the United States, it reached number 79 on the Billboard Hot 100 and number three on the Billboard Modern Rock Tracks chart. It was also highly popular in Poland, peaking at number five on the LP3 chart. The music video for the song features visual imagery based on the paintings of Maxfield Parrish, and was an early appearance for British TV-personality Martine McCutcheon. </p>
 
-<p><strong><a href="enya-video.html">&laquo; EnyaTube home</a></strong></p>
+<p><strong><a href="/enya-video">&laquo; EnyaTube home</a></strong></p>
 
 </div>
 

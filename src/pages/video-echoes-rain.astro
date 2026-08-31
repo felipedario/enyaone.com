@@ -4,11 +4,18 @@ import Layout from "../layouts/Layout.astro";
 const title = "Enya's Echoes In Rain music video | All Enya videos, live performances";
 const description = "Video for Enya song Echoes In Rain. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
 const canonical = "";
-const ogImage = "";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
 ---
 
-<Layout title={title} description={description} canonical={canonical} ogImage={ogImage} bodyClass={bodyClass}>
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
 <div id="content">
 <div id="video-main">
 
@@ -34,16 +41,16 @@ const bodyClass = "";
 </div>
 
 <h3>About</h3>
-<p>Released in October 2015, this is the lyric video for Enya single <a href="enya-dark-sky-island.html#Echoes_In_Rain">"Echoes In Rain "</a>, from her new album <a href="enya-dark-sky-island.html"><em>Dark Sky Island</em></a>.</p>
+<p>Released in October 2015, this is the lyric video for Enya single <a href="/enya-dark-sky-island#Echoes_In_Rain">"Echoes In Rain "</a>, from her new album <a href="/enya-dark-sky-island"><em>Dark Sky Island</em></a>.</p>
 <p>Time: 3:35</p>
 
-<p><strong><a href="enya-video.html">&laquo; EnyaTube home</a></strong></p>
+<p><strong><a href="/enya-video">&laquo; EnyaTube home</a></strong></p>
 
 <p>"Echoes in Rain" is a single by Irish musician Enya, the first to be taken from the album Dark Sky Island. It was released on 9 October 2015 by Warner Music. "Echoes in Rain" has a 'buoyant optimism' due to the 'marching' rhythmic ostinatos and pizzicato strings. The a cappella multi-vocal ending was compared to Enya's breakthrough single "Orinoco Flow". "Echoes in Rain" is played in a minor scale (explicitly F-sharp minor). Enya's vocals span 2 octaves from the low note of B2 to the high note of E5. The song includes a piano-based bridge, similar to Enya's piano solo work, and it is the first of her lead singles to do so.
 
 The lyrics describe the feelings of a long journey home, travelling through night and through day, with the verses detailing how the surroundings and emotions change throughout the journey. The lyric 'everything flows' is repeated throughout, perhaps referring to "Orinoco Flow", like the song "Lazy Days" did with the lyric 'and how it sails away' on A Day Without Rain. 'Here comes another new day' precedes the chorus, which uses the phrase 'alleluia' to show the joy each 'new day' brings and shows the joy felt when back home. </p>
 
-<p><strong><a href="enya-video.html">&laquo; EnyaTube home</a></strong></p>
+<p><strong><a href="/enya-video">&laquo; EnyaTube home</a></strong></p>
 
 </div>
 

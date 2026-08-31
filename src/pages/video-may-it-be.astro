@@ -4,11 +4,18 @@ import Layout from "../layouts/Layout.astro";
 const title = "Enya's May It Be music video | All Enya videos, live performances";
 const description = "Video for Enya song May It Be. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
 const canonical = "";
-const ogImage = "";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
 ---
 
-<Layout title={title} description={description} canonical={canonical} ogImage={ogImage} bodyClass={bodyClass}>
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
 <div id="content">
 <div id="video-main">
 
@@ -34,12 +41,12 @@ const bodyClass = "";
 </div>
 
 <h3>About</h3>
-<p>Released in July 2020, this is the promo lyrics video for Enya single <a href="enya-other.html#May_It_Be">"May It Be"</a>, from <a href="the-lord-of-the-rings.html"><em>The Lord Of The Rings: The Fellowship Of The Ring</em></a> soundtrack.</p>
+<p>Released in July 2020, this is the promo lyrics video for Enya single <a href="/enya-other#May_It_Be">"May It Be"</a>, from <a href="/the-lord-of-the-rings"><em>The Lord Of The Rings: The Fellowship Of The Ring</em></a> soundtrack.</p>
 <p>Time: 3:34</p>
 
 <p>"May It Be" is a song by Irish recording artist Enya. It was composed by Enya and Roma Ryan for Peter Jackson's 2001 film The Lord of the Rings: The Fellowship of the Ring. The song entered the German Singles Chart at number one in 2002 and was performed by Enya at the 74th Academy Awards. "May It Be" was acclaimed from music critics and received nominations for Golden Globe Award for Best Original Song, Academy Award for Best Original Song and Grammy Award nomination for Best Song Written for Visual Media. </p>
 
-<p><strong><a href="enya-video.html">&laquo; EnyaTube home</a></strong></p>
+<p><strong><a href="/enya-video">&laquo; EnyaTube home</a></strong></p>
 
 </div>
 

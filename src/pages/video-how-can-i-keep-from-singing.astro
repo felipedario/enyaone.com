@@ -4,11 +4,18 @@ import Layout from "../layouts/Layout.astro";
 const title = "Enya's How Can I Keep From Singing? music video | All Enya videos";
 const description = "Video for Enya song How Can I Keep From Singing?. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
 const canonical = "";
-const ogImage = "";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
 ---
 
-<Layout title={title} description={description} canonical={canonical} ogImage={ogImage} bodyClass={bodyClass}>
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
 <div id="content">
 <div id="video-main">
 
@@ -34,13 +41,13 @@ const bodyClass = "";
 </div>
 
 <h3>About</h3>
-<p>Released in December 1991, this is the promo video for Enya single <a href="shepherd-moons.html#How_Can_I_Keep_From_Singing">"How Can I Keep From Singing?"</a>, from the album <a href="shepherd-moons.html"><em>shepherd Moons</em></a>.</p>
+<p>Released in December 1991, this is the promo video for Enya single <a href="/shepherd-moons#How_Can_I_Keep_From_Singing">"How Can I Keep From Singing?"</a>, from the album <a href="/shepherd-moons"><em>shepherd Moons</em></a>.</p>
 <p>Time: 3:06</p>
 <p>Produced by Entertainment Productions.</p>
 
 <p>"How Can I Keep From Singing?" (also known by its incipit "My Life Flows On in Endless Song") is a Christian hymn with music written by American Baptist minister Robert Wadsworth Lowry. The song is frequently, though erroneously, cited as a traditional Quaker or Shaker hymn. The original composition has now entered into the public domain, and appears in several hymnals and song collections, both in its original form and with a revised text. Though it is not, in fact, a Quaker hymn, twentieth-century Quakers adopted it as their own and use it widely today. </p>
 
-<p><strong><a href="enya-video.html">&laquo; EnyaTube home</a></strong></p>
+<p><strong><a href="/enya-video">&laquo; EnyaTube home</a></strong></p>
 
 </div>
 

@@ -2,13 +2,20 @@
 import Layout from "../layouts/Layout.astro";
 
 const title = "And Winter Came..., Enya's Christmas album (\"Trains and Winter Rains\")";
-const description = "All info, lyrics and MP3 downloads for Enya's 2008 Christmas album And Winter Came.... Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
+const description = "All info, lyrics and MP3 downloads for Enya";
 const canonical = "";
-const ogImage = "";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
 ---
 
-<Layout title={title} description={description} canonical={canonical} ogImage={ogImage} bodyClass={bodyClass}>
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
 <div id="content">
 
 <ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
@@ -16,7 +23,7 @@ const bodyClass = "";
 			<span property="name">Home</span></a> 
 		  <meta property="position" content="1">
 		  &rsaquo;</li>
-	<li property="itemListElement" typeof="ListItem"><a href="enya-songs-albums.html" 
+	<li property="itemListElement" typeof="ListItem"><a href="/enya-songs-albums"
 		property="item" typeof="WebPage">
 			<span property="name">Enya Songs &amp; Albums</span></a>  &rsaquo;
 		  <meta property="position" content="2"></li>
@@ -25,29 +32,29 @@ const bodyClass = "";
 		<meta property="position" content="3"></li>
 	</ol>
 
-<div id="main">
+<main id="main">
 
 	<div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
-<a href="https://amzn.to/4okO9eR"><img src="ecs.jpg" alt="Christmas Secrets album cover">
+<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
 <p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
 
-<a href="https://amzn.to/43aGdVb"><img src="awc.jpg" alt="And Winter Came album cover">
+<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><img src="/awc.jpg" alt="And Winter Came album cover">
 <p><em><strong>And Winter Came...</strong></em><br /> A winter-themed album</p></a>
 
-<a href="https://amzn.to/4hEQ7nG"><img src="vbe.jpg" alt="The Very Best of Enya album cover">
+<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><img src="/vbe.jpg" alt="The Very Best of Enya album cover">
 <p><em><strong>The Very Best of Enya</strong></em><br /> The perfect gift</p></a>
 </div>
 
 
 <h1>And Winter Came... (2008)</h1>
 
-<a class="new-amazon-album-link" href="https://amzn.to/48dzSaQ" rel="nofollow" target="_blank">
-	<img  src="awc.jpg" alt="And Winter Came... (2008)" /></a>
+<a class="new-amazon-album-link" href="https://amzn.to/48dzSaQ" rel="nofollow sponsored noopener" target="_blank">
+	<img  src="/awc.jpg" alt="And Winter Came... (2008)"  width="150" height="150" /></a>
 
 <p>Enya's album titled 	<strong><em>And Winter Came...</em></strong>emerged on the music scene in 2008, with its UK release on November 10th and US release on November 11th. The collection of songs primarily embraces a Christmas or Winter theme, immersing listeners in a seasonal ambiance. The album made its mark on the UK charts, peaking at #6 on November 16, 2008, reflecting its popularity among listeners. Since its initial release, <em>And Winter Came...</em> has garnered significant commercial success, surpassing 2,100,000 copies sold. This achievement further solidifies Enya's enduring presence in the music industry.</p>
 
-<p><a href="https://amzn.to/48dzSaQ" rel="nofollow" target="_blank">Stream or download Enya songs</a></p>
+<p><a href="https://amzn.to/48dzSaQ" rel="nofollow sponsored noopener" target="_blank">Stream or download Enya songs</a></p>
 
 <p>Enya's album comprises a collection of twelve tracks, including ten original English compositions. Among them, "Oiche Chiuin" stands out, sung in Gaelic, and a rendition of "Oh Come, Oh Come Emmanuel" performed in Latin. Notably, "Oiche Chiuin" presents a unique occurrence where Enya re-recorded a previously released track, originally unveiled in the early 1990s.</p>
 
@@ -55,43 +62,43 @@ const bodyClass = "";
 	
 	<p>Enya, expressing her thoughts on her website, shared her long-standing desire to create a Christmas album. However, during the recording process,  she "didn't feel it was right to impose a Christmas theme on certain  songs", leading to a more nuanced approach in crafting this collection.</p>
 
-<p><a href="roma-ryan-nicky.html">Nicky Ryan</a>, her producer since <a href="enya-album.html">the first album</a>, adds that they "started out writing for a
+<p><a href="/roma-ryan-nicky">Nicky Ryan</a>, her producer since <a href="/enya-album">the first album</a>, adds that they "started out writing for a
 Christmas album, but it has evolved into more an Enya album based in a
 winter landscape where Christmas arrives here and there, but it would be wrong to call it an Enya Christmas album."</p>
 
 <iframe style="width:120px;height:240px; float: left; margin: 0 20px 20px 0;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=ss_til&ad_type=product_link&tracking_id=enylyrallenys-20&marketplace=amazon&region=US&placement=B001GQ2TGA&asins=B001GQ2TGA&linkId=QBSJBH3PVH6VI2XX&show_border=false&link_opens_in_new_window=false">
 </iframe>
 
-<p><a href="roma-ryan-nicky.html">Roma Ryan</a>, Enya's lyricist, also talks
-about the title and the &ldquo;sense of possibility that Christmas
-brings&rdquo;: &ldquo;some
+<p><a href="/roma-ryan-nicky">Roma Ryan</a>, Enya's lyricist, also talks
+about the title and the “sense of possibility that Christmas
+brings”: “some
 people see it <em>[the winter]</em> as an ending, with a
 whole story before it, but
-I see it very much as a new beginning.&rdquo;</p>
+I see it very much as a new beginning.”</p>
 
 <p>The song "Trains and Winter Rains", which premiered in UK radios on September 29, will be released as the album first single in November 10th too. "This track is my personal choice for the first single also" Enya says "I particularly enjoyed our percussion arrangement in this song." It's also described by Roma as a "journey from home that everyone must make when they start to get too comfortable." It features "Agnus Dei", a Christian verse commonly heard in churches.</p>
 
-<p>&ldquo;White is in the Winter Night&rdquo;, described
-by Nicky Ryan as &ldquo;the
+<p>“White is in the Winter Night”, described
+by Nicky Ryan as “the
 kind of song you could hear at the Proms with everyone joining in, it
-has that kind of Christmassy vibe&rdquo;, is the album second single, released for dowload only in November 4th.</p>
+has that kind of Christmassy vibe”, is the album second single, released for dowload only in November 4th.</p>
 
-<p>&ldquo;O Come, O Come, Emmanuel&rdquo; is a version of the Latin
-carol &ldquo;Veni Veni&rdquo;, rumored
-to be sung in Latin. &ldquo;O&iacute;che
-Ch&iacute;un (Chorale)&rdquo; was re-recorded after 20 years: Enya says that &ldquo;It was exciting to re-live &lsquo;Silent
-Night&rsquo; (...) It is re-released every year in America and it was so nice to go back and do something different with it.&rdquo; The new
+<p>“O Come, O Come, Emmanuel” is a version of the Latin
+carol “Veni Veni”, rumored
+to be sung in Latin. “Oíche
+Chíun (Chorale)” was re-recorded after 20 years: Enya says that “It was exciting to re-live ‘Silent
+Night’ (...) It is re-released every year in America and it was so nice to go back and do something different with it.” The new
 rendering incorporates
-what Nicky describes as the &ldquo;choir of one&rdquo;,
-multi-layering Enya vocals. &ldquo;I
+what Nicky describes as the “choir of one”,
+multi-layering Enya vocals. “I
 enjoy the process, I love the excitement of not knowing if it will
-work,&rdquo; admits Enya.</p>
+work,” admits Enya.</p>
 
 <p>"Midnight Blue", instrumental b-side from "Wild Child" single, has been reworked as "Stars and Midnight Blue", with added vocals. The song "And Winter Came" is an instrumental meant for reflection.</p>
 
-<p>The last recorded song for the album, &ldquo;My! My! Time Flies!&rdquo;, is a tribute to the late Irish guitarist Jimmy Faulkner. The song involves a slight departure for Enya featuring guitar solos as well as references to The Beatles, Elvis and B.B King. Dubliner Pat Farrell is the featured guitarist on the track, which insiders are forecasting will be the third single, with a likely release date in the new year.</p>
+<p>The last recorded song for the album, “My! My! Time Flies!”, is a tribute to the late Irish guitarist Jimmy Faulkner. The song involves a slight departure for Enya featuring guitar solos as well as references to The Beatles, Elvis and B.B King. Dubliner Pat Farrell is the featured guitarist on the track, which insiders are forecasting will be the third single, with a likely release date in the new year.</p>
 
-<p>The bonus track <a href="http://www.amazon.com/gp/product/B001KPYNW0/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001KPYNW0&linkCode=as2&tag=enylyrallenys-20&linkId=PRFYST3ZTYISYVUS">"Miraculum" is available as an Amazon.com mp3 download</a>.</p>
+<p>The bonus track <a href="https://www.amazon.com/gp/product/B001KPYNW0/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001KPYNW0&linkCode=as2&tag=enylyrallenys-20&linkId=PRFYST3ZTYISYVUS">"Miraculum" is available as an Amazon.com mp3 download</a>.</p>
 
 <h4>Release dates</h4>
 <ul>
@@ -108,22 +115,22 @@ work,&rdquo; admits Enya.</p>
   <tbody>
     <tr>
       <td><a
-href="http://www.amazon.com/gp/product/B001JPNX6I?ie=UTF8&tag=enylyrallenys-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B001JPNX6I"><img src="tawrb-copy.jpg" alt="Trains And Winter Rains single cover art"></a></td>
+href="https://www.amazon.com/gp/product/B001JPNX6I?ie=UTF8&tag=enylyrallenys-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B001JPNX6I"><img src="/tawrb-copy.jpg" alt="Trains And Winter Rains single cover art"></a></td>
 
 <td><a
-href="http://www.amazon.com/gp/product/B001JQHMM8?ie=UTF8&tag=enylyrallenys-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B001JQHMM8"><img src="51YsORETrEL.jpg" alt="White Is In The Winter Night single cover art"></a></td>
+href="https://www.amazon.com/gp/product/B001JQHMM8?ie=UTF8&tag=enylyrallenys-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B001JQHMM8"><img src="/51YsORETrEL.jpg" alt="White Is In The Winter Night single cover art"></a></td>
 
    <td><a
-href="http://www.amazon.com/gp/product/B001QP7SLC?ie=UTF8&tag=enylyrallenys-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B001QP7SLC"><img src="mmtf.jpg" alt="My! My! Yime Flies! single cover art"></a></td>
+href="https://www.amazon.com/gp/product/B001QP7SLC?ie=UTF8&tag=enylyrallenys-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B001QP7SLC"><img src="/mmtf.jpg" alt="My! My! Yime Flies! single cover art"></a></td>
 
     </tr>
     <tr>
 <td><a href="#TWR"><strong>Trains And Winter</strong></a>, 2008<br />(<a
-href="http://www.amazon.com/gp/product/B001JPNX6I?ie=UTF8&tag=enylyrallenys-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B001JPNX6I">MP3 download on Amazon.com</a>) 
+href="https://www.amazon.com/gp/product/B001JPNX6I?ie=UTF8&tag=enylyrallenys-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B001JPNX6I">MP3 download on Amazon.com</a>)
  </td>
 
  <td><a href="#WIITWN"><strong>White Is In The Winter Night</a></strong>, 2008<br />(<a
-href="http://www.amazon.com/gp/product/B001JQHMM8?ie=UTF8&tag=enylyrallenys-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B001JQHMM8">MP3 download on Amazon.com</a>) </td>
+href="https://www.amazon.com/gp/product/B001JQHMM8?ie=UTF8&tag=enylyrallenys-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B001JQHMM8">MP3 download on Amazon.com</a>) </td>
 
 
  <td><a href="#MMTF"><strong>My! My! Time Flies!</strong></a>, 2009<br />(<a
@@ -137,7 +144,7 @@ href="hhttp://www.amazon.com/gp/product/B001QP7SLC?ie=UTF8&tag=enylyrallenys-20&
 
 
 
-</p><h3><a name="lyrics"></a>Lyrics list</h3>
+</p><h3 id="lyrics">Lyrics list</h3>
 
 <ul>   
 <li>And Winter Came... <em>(Instrumental)</em></li>
@@ -151,21 +158,21 @@ href="hhttp://www.amazon.com/gp/product/B001QP7SLC?ie=UTF8&tag=enylyrallenys-20&
 <li><a href="#SAMB">Stars and Midnight Blue</a></li>
 <li><a href="#TSOCP">The Spirit of Christmas Past</a></li>
 <li><a href="#MMTF">My! My! Time Flies!</a></li>
-<li><a href="#OCC">O&iacute;che Ch&iacute;un (Chorale)</a></li>
+<li><a href="#OCC">Oíche Chíun (Chorale)</a></li>
 <li><a href="#M">Miraculum <em>[bonus track]</em></a></li>
 </ul>
 
-<h3><a name="videos"></a>Videos</h3>
+<h3 id="videos">Videos</h3>
 
 <ul>
-<li><a href="video-trains-and-winter-rains.html">"Trains and Winter Rains"</a></li>
+<li><a href="/video-trains-and-winter-rains">"Trains and Winter Rains"</a></li>
 </ul>
 
-<p><a href="enya-video.html">More videos in <strong>EnyaTube</strong> �</a></p>
+<p><a href="/enya-video">More videos in <strong>EnyaTube</strong> �</a></p>
 
-<h3><a name="complyrics"></a>Lyrics</h3>
+<h3 id="complyrics">Lyrics</h3>
 
-<h4><a name="JOTF"></a>Journey of the Angels lyrics</h4>
+<h4 id="JOTF">Journey of the Angels lyrics</h4>
 <em>Roma Ryan</em><br /><br />
 
 Somewhere in a winter night<br />
@@ -197,7 +204,7 @@ Tonight all sing<br />
 Oh! Angels, a newborn king.<br /><br />
 
 <div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
-<h4><a name="WIITWN"></a>White is in the Winter Night lyrics</h4>
+<h4 id="WIITWN">White is in the Winter Night lyrics</h4>
 <em>Roma Ryan</em><br /><br />
 
 Have you seen the mistletoe?<br />
@@ -239,7 +246,7 @@ Have you heard the choir singing,<br />
 Glory! Glory! Glory!<br /><br />
 
 <div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
-<h4><a name="OCOCE"></a>O Come, O Come, Emmanuel lyrics lyrics</h4>
+<h4 id="OCOCE">O Come, O Come, Emmanuel lyrics lyrics</h4>
 <em>Roma Ryan</em><br /><br />
 
 O come, O come Emmanuel<br />
@@ -263,10 +270,10 @@ Nascetur pro te, Israel!<br /><br />
 
 
 <div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
-<h4><a name="TWR"></a>Trains and Winter Rains lyrics</h4>
+<h4 id="TWR">Trains and Winter Rains lyrics</h4>
 
 <div id="video-s">
-<a href="enya-video.html"><strong>EnyaTube</strong></a> has a <a href="video-trains-and-winter-rains.html">video of "Trains and Winter Rains"</a>.</div>
+<a href="/enya-video"><strong>EnyaTube</strong></a> has a <a href="/video-trains-and-winter-rains">video of "Trains and Winter Rains"</a>.</div>
 
 <em>Roma Ryan</em><br /><br />
 
@@ -314,7 +321,7 @@ And in the sky a star alone<br />
 (Agnus Dei)<br /><br />
 
 <div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
-<h4><a name="DAMP"></a>Dreams are More Precious lyrics</h4>
+<h4 id="DAMP">Dreams are More Precious lyrics</h4>
 <em>Roma Ryan</em><br /><br />
 
 Come! See! High above.<br />
@@ -348,7 +355,7 @@ Dreams are more precious than gold.<br />
 Dreams are more precious than gold.<br /><br />
 
 <div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
-<h4><a name="LABM"></a>Last Time by Moonlight lyrics</h4>
+<h4 id="LABM">Last Time by Moonlight lyrics</h4>
 <em>Roma Ryan</em><br /><br />
 
 The winter sky above us<br />
@@ -383,7 +390,7 @@ for no-one knows<br />
 the way life goes.<br /><br />
 
 <div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
-<h4><a name="OTS"></a>One Toy Soldier lyrics</h4>
+<h4 id="OTS">One Toy Soldier lyrics</h4>
 <em>Roma Ryan</em><br /><br />
 
 One toy soldier stands alone<br />
@@ -426,7 +433,7 @@ Happy Christmas Day to you!<br /><br />
 
 
 <div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
-<h4><a name="SAMB"></a>Stars and Midnight Blue lyrics</h4>
+<h4 id="SAMB">Stars and Midnight Blue lyrics</h4>
 <em>Roma Ryan</em><br /><br />
 
 Memories we share together<br />
@@ -451,7 +458,7 @@ Stars and midnight blue<br />
 Stars and midnight blue<br /><br />
 
 <div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
-<h4><a name="TSOCP"></a>The Spirit of Christmas Past lyrics</h4>
+<h4 id="TSOCP">The Spirit of Christmas Past lyrics</h4>
 <em>Roma Ryan</em><br /><br />
 
 When tears are in your eyes,<br />
@@ -476,7 +483,7 @@ Tomorrow will be Christmas Day.<br /><br />
 
 
 <div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
-<h4><a name="MMTF"></a>My! My! Time Flies! lyrics</h4>
+<h4 id="MMTF">My! My! Time Flies! lyrics</h4>
 <em>Roma Ryan</em><br /><br />
 
 My! My! Time flies!<br />
@@ -517,30 +524,30 @@ could be tomorrow, but then,<br />
 could be 2010.<br /><br />
 
 <div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
-<h4><a name="OCC"></a>O&iacute;che Ch&iacute;un (Chorale) lyrics</h4>
+<h4 id="OCC">Oíche Chíun (Chorale) lyrics</h4>
 <em>Roma Ryan</em><br />
 
-O&iacute;che chi&uacute;in, o&iacute;che Mhic
-D&eacute;, <br />
-C&aacute;ch 'na suan d&iacute;s araon. <br />
-D&iacute;s is d&iacute;lse 'faire le sp&eacute;is <br />
-Na&iacute;on beag, leanbh ceansa 'gus caomh. <br />
+Oíche chiúin, oíche Mhic
+Dé, <br />
+Cách 'na suan dís araon. <br />
+Dís is dílse 'faire le spéis <br />
+Naíon beag, leanbh ceansa 'gus caomh. <br />
 <br />
-Cr&iacute;ost, 'na chodladh go s&aacute;mh. <br />
-Cr&iacute;ost, 'na chodladh go s&aacute;mh. <br />
+Críost, 'na chodladh go sámh. <br />
+Críost, 'na chodladh go sámh. <br />
 <br />
-O&iacute;che chi&uacute;in, o&iacute;che Mhic
-D&eacute;, <br />
-Aoir&iacute; ar dt&uacute;s chuala 'n sc&eacute;al. <br />
-Allel&uacute;ia aingeal ag glaoch. <br />
-Cantain suairc i ngar is i gc&eacute;in. <br />
+Oíche chiúin, oíche Mhic
+Dé, <br />
+Aoirí ar dtús chuala 'n scéal. <br />
+Allelúia aingeal ag glaoch. <br />
+Cantain suairc i ngar is i gcéin. <br />
 <br />
-Cr&iacute;ost an Sl&aacute;naitheoir F&eacute;in. <br />
-Cr&iacute;ost an Sl&aacute;naitheoir F&eacute;in.<br /><br />
+Críost an Slánaitheoir Féin. <br />
+Críost an Slánaitheoir Féin.<br /><br />
 
 <div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
-<h4><a name="M"></a>Miraculum lyrics</h4>
-<em>This is a Japanese and iTunes bonus track. It's a comemorative song for the 20 years of the</em> <a href="watermark.html">Watermark <em>album</em></a>.<br /><br />
+<h4 id="M">Miraculum lyrics</h4>
+<em>This is a Japanese and iTunes bonus track. It's a comemorative song for the 20 years of the</em> <a href="/watermark">Watermark <em>album</em></a>.<br /><br />
 <em>Roma Ryan</em><br /><br />
 
 o Semel canebamus<br />
@@ -636,7 +643,7 @@ we will sail away. Sail away.<br /><br />
 
 <div class="btt"><a href="#">Back to top</a> | <a href="#lyrics">Lyrics list</a></div>
 
-<h3><a name="charts"></a>Charts</h3>
+<h3 id="charts">Charts</h3>
 
 <strong>Album</strong>
 
@@ -882,7 +889,7 @@ we will sail away. Sail away.<br /><br />
 </tr>
 </tbody></table>
 
-<h3><a name="credits"></a>Credits</h3>
+<h3 id="credits">Credits</h3>
 
 <p>Produced by Nicky Ryan<br>
 Music composed by Enya<br>
@@ -912,20 +919,20 @@ Lyor Cohen<br>
 Tom Whalley<br>
 John Reid�</p>
 
-</div>
+</main>
 
-<div id="sidebar">
+<aside id="sidebar">
 
-<a id="albumcover" href="https://amzn.to/48dzSaQ"><img  title="Audio, images and low prices at Amazon" src="awc.jpg" alt="Audio, images and low prices at Amazon" /></a>
+<a id="albumcover" href="https://amzn.to/48dzSaQ" target="_blank" rel="nofollow sponsored noopener"><img  title="Audio, images and low prices at Amazon" src="/awc.jpg" alt="Audio, images and low prices at Amazon"  width="150" height="150" /></a>
 
 <br />
 
-<p><a style="display:block;"href="https://amzn.to/48dzSaQ">Stream or download Enya songs</a></p>
+<p><a style="display:block;"href="https://amzn.to/48dzSaQ" target="_blank" rel="nofollow sponsored noopener">Stream or download Enya songs</a></p>
 
 
 </div>
 
-<div class="c"></div>
+
 
 </div>
 </Layout>

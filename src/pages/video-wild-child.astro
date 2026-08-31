@@ -4,11 +4,18 @@ import Layout from "../layouts/Layout.astro";
 const title = "Enya's Wild Child video | All Enya music videos, live performances";
 const description = "Video for Enya song Wild Child. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
 const canonical = "";
-const ogImage = "";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
 ---
 
-<Layout title={title} description={description} canonical={canonical} ogImage={ogImage} bodyClass={bodyClass}>
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
 <div id="content">
 <div id="video-main">
 
@@ -34,7 +41,7 @@ const bodyClass = "";
 </div>
 
 <h3>About</h3>
-<p>Released in March 2001, this is the promo video for Enya single <a href="a-day-without-rain.html#Wild_Child">"Wild Child"</a>, from the album <a href="a-day-without-rain.html"><em>A Day Without Rain</em></a>.</p>
+<p>Released in March 2001, this is the promo video for Enya single <a href="/a-day-without-rain#Wild_Child">"Wild Child"</a>, from the album <a href="/a-day-without-rain"><em>A Day Without Rain</em></a>.</p>
 <p>Time: 3:30</p>
 <p>Directed by Graham Fink.</p>
 
@@ -50,7 +57,7 @@ The B-side "Midnight Blue" was later reworked and included as the title track on
 
 Enya performed the song at the 2001 Japan Gold Disc Award, after received an award for Best International Pop Albums of the Year for A Day Without Rain. </p>
 
-<p><strong><a href="enya-video.html">&laquo; EnyaTube home</a></strong></p>
+<p><strong><a href="/enya-video">&laquo; EnyaTube home</a></strong></p>
 
 </div>
 
