@@ -113,12 +113,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	}
 
 	.buy-amazon {
-		background: url(amazon-icon.png) 10px center no-repeat;
+		background: url("/") 10px center no-repeat;
 		padding: 5px 10px 5px 45px;
 	}
 
 	.buy-apple {
-		background: url(apple-icon.png) 10px center no-repeat;
+		background: url("/") 10px center no-repeat;
 		padding: 5px 10px 5px 45px;
 	}
 
@@ -165,7 +165,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		text-indent: -999em;
 		width: 250px;
 		height: 80px;
-		background: url(logo.png) no-repeat left top;
+		background: url("/") no-repeat left top;
 		background-size: contain;
 	}
 
@@ -195,7 +195,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	}
 
 	#menu #sm {
-		background: url(e-seta.png) right center no-repeat;
+		background: url("/") right center no-repeat;
 		padding-right: 14px;
 	}
 
@@ -281,7 +281,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		top: 0;
 		right: 10px;
 		cursor: pointer;
-		background: url(search-icon.png) center right no-repeat;
+		background: url("/") center right no-repeat;
 		background-size: contain;
 		text-indent: -999em;
 	}
@@ -732,7 +732,7 @@ blockquote{
 .ad-loja a {
 	text-indent: -999em;
 	display: block;
-	background: url(enyaastore-badge.png);
+	background: url("/");
 	height: 60px;
 	border: none;
 }
@@ -745,7 +745,7 @@ blockquote{
 /*  video */
 
 #etl {
-	background: url(et-logo.png);
+	background: url("/");
 	width: 200px;
 	height: 61px;
 	float: left;
@@ -1013,12 +1013,12 @@ grid-row-gap: 0px;
 	}
 
 	.buy-amazon {
-		background: url(amazon-icon.png) 10px center no-repeat;
+		background: url("/") 10px center no-repeat;
 		padding: 5px 10px 5px 45px;
 	}
 
 	.buy-apple {
-		background: url(apple-icon.png) 10px center no-repeat;
+		background: url("/") 10px center no-repeat;
 		padding: 5px 10px 5px 45px;
 	}
 
@@ -1049,7 +1049,7 @@ grid-row-gap: 0px;
 	#logo a {
 		width: 100%;
 		height: 40px;
-		background: url(logo.png) center no-repeat ;
+		background: url("/") center no-repeat ;
 		background-size: contain;
 	}
 

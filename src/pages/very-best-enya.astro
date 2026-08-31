@@ -18,7 +18,7 @@ const schemaJson = {
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
 <div id="content">
 
-<ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
+<nav aria-label="Breadcrumb"><ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
 	<li property="itemListElement" typeof="ListItem">
 		<a href="/" property="item" typeof="WebPage">
 			<span property="name">Home</span></a>
@@ -31,9 +31,7 @@ const schemaJson = {
 	<li property="itemListElement" typeof="ListItem">
 		<strong property="name">The Very Best of Enya</strong>
 		<meta property="position" content="3"></li>
-	</ol>
-
-<main id="main">
+	</ol></nav><main id="main">
 
 	<div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>

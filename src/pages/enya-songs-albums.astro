@@ -8,8 +8,8 @@ const canonical = "https://www.enyaone.com/enya-songs-albums";
 const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "discography-page";
 
-const mainAlbums = albumsData.filter((a) => !a.link?.includes("#") && a.year && parseInt(a.year) >= 1987 && !a.title.includes("Frog") && !a.title.includes("Lord"));
-const soundtrackAlbums = albumsData.filter((a) => a.title.includes("Frog") || a.title.includes("Lord") || a.title.includes("Far") || a.title.includes("Toys") || a.title.includes("Calmi") || a.title.includes("documentary"));
+const mainAlbums = albumsData.filter((a) => a.type === "studio" || a.type === "compilation");
+const soundtrackAlbums = albumsData.filter((a) => a.type === "soundtrack");
 
 const schemaJson = {
   "@context": "https://schema.org",
@@ -34,10 +34,11 @@ const schemaJson = {
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
   <div id="content">
-    <ol id="breadcrumb">
-      <li><a href="/">Home</a> &rsaquo;</li>
-      <li><strong>Enya Songs &amp; Albums</strong></li>
-    </ol>
+    <nav aria-label="Breadcrumb">
+      <ol id="breadcrumb">
+        <li><a href="/">Home</a> &rsaquo;</li>
+        <li><strong>Enya Songs &amp; Albums</strong></li>
+      </ol></nav> </nav>
 
     <main id="main" class="discography">
       <div id="holidays2025">
@@ -64,7 +65,7 @@ const schemaJson = {
         <strong>Dive into Enya's complete discography</strong>: Explore all her albums, renowned for their captivating melodies and insightful lyrics. Our <a href="/all-enya-songs">comprehensive song list</a> helps you find any track effortlessly.
       </p>
 
-      <h3>Enya's studio albums and compilations</h3>
+      <h2>Enya's studio albums and compilations</h2>
 
       <div class="album-grid">
         {mainAlbums.map((album) => (
@@ -79,13 +80,13 @@ const schemaJson = {
               )}
             </div>
             <div class="album-details">
-              <h4>
+              <h3>
                 {album.link ? (
                   <a href={album.link}><strong>{album.title}</strong>{album.year ? `, ${album.year}` : ''}</a>
                 ) : (
                   <span><strong>{album.title}</strong>{album.year ? `, ${album.year}` : ''}</span>
                 )}
-              </h4>
+              </h3>
               <p>{album.description}</p>
               {album.buyLink && (
                 <p>
@@ -99,7 +100,7 @@ const schemaJson = {
         ))}
       </div>
 
-      <h3 id="esoundtrack">Enya on TV and film soundtracks</h3>
+      <h2 id="esoundtrack">Enya on TV and film soundtracks</h2>
 
       <div class="album-grid">
         {soundtrackAlbums.map((album) => (
@@ -108,13 +109,13 @@ const schemaJson = {
               <img src={album.cover} alt={`${album.title} cover`} width="150" height="150" />
             </div>
             <div class="album-details">
-              <h4>
+              <h3>
                 {album.link ? (
                   <a href={album.link}><strong>{album.title}</strong>{album.year ? `, ${album.year}` : ''}</a>
                 ) : (
                   <span><strong>{album.title}</strong>{album.year ? `, ${album.year}` : ''}</span>
                 )}
-              </h4>
+              </h3>
               <p>{album.description}</p>
             </div>
           </article>
@@ -159,7 +160,7 @@ const schemaJson = {
     border-radius: 4px;
     object-fit: cover;
   }
-  .album-details h4 {
+  .album-details h3 {
     margin-top: 0;
     margin-bottom: 0.5rem;
   }

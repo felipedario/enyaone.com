@@ -26,13 +26,11 @@ const schemaJson = {
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
   <div id="content">
-    <ol id="breadcrumb">
+    <nav aria-label="Breadcrumb"><ol id="breadcrumb">
       <li><a href="/">Home</a> &rsaquo;</li>
       <li><a href="/enya-songs-albums">Enya Songs &amp; Albums</a> &rsaquo;</li>
       <li><strong>All Enya songs</strong></li>
-    </ol>
-
-    <main id="main" class="all-songs">
+    </ol></nav><main id="main" class="all-songs">
       <div id="holidays2025">
         <h2><em>Holidays with Enya</em></h2>
         <a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener">
@@ -55,7 +53,7 @@ const schemaJson = {
 
       <p>This is a list of all songs recorded by Irish singer Enya, including her studio albums, compilations, B-sides, and soundtrack appearances.</p>
 
-      <table class="wikitable sortable" border="0" cellpadding="0" cellspacing="0" id="all-songs-table">
+      <table class="wikitable sortable" border="0"   id="all-songs-table">
         <thead>
           <tr>
             <th>Song title</th>

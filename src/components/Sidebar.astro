@@ -1,0 +1,56 @@
+---
+interface Props {
+  featuredAlbumTitle?: string;
+  featuredAlbumLink?: string;
+  featuredAlbumImg?: string;
+  featuredAlbumDesc?: string;
+  featuredVideoTitle?: string;
+  featuredVideoLink?: string;
+  featuredVideoImg?: string;
+  featuredVideoDesc?: string;
+}
+
+const {
+  featuredAlbumTitle = "And Winter Came...",
+  featuredAlbumLink = "/and-winter-came",
+  featuredAlbumImg = "/awc.jpg",
+  featuredAlbumDesc = "Released in 2008, this album primarily has a Christmas or winter theme.",
+  featuredVideoTitle = '"Orinoco Flow (Sail Away)", remastered in 4K',
+  featuredVideoLink = "/video-orinoco-flow-sail-away",
+  featuredVideoImg = "/vof2.jpg",
+  featuredVideoDesc = "Released in October 1988, this is the promo video for Enya \"Orinoco Flow\", from the album Watermark."
+} = Astro.props;
+---
+
+<aside id="sidebar">
+  <p>
+    <strong>Looking for downloads?</strong>
+    <a href="https://amzn.to/1N3fScO" rel="nofollow sponsored noopener" target="_blank">
+      Get all Enya MP3 downloads
+    </a> on Amazon now!
+  </p>
+
+  <h3>Featured Album</h3>
+  <div>
+    <a href={featuredAlbumLink}>
+      <img src={featuredAlbumImg} alt={`${featuredAlbumTitle} album cover`} width="150" height="150" />
+    </a>
+    <p>
+      <strong><em><a href={featuredAlbumLink}>{featuredAlbumTitle}</a></em></strong><br />
+      {featuredAlbumDesc}
+    </p>
+  </div>
+
+  <h3>Featured Video</h3>
+  <div>
+    <a href={featuredVideoLink}>
+      <img src={featuredVideoImg} alt="Featured music video still" width="150" height="150" />
+    </a>
+    <p>
+      <strong><em><a href={featuredVideoLink}>{featuredVideoTitle}</a></em></strong><br />
+      {featuredVideoDesc}
+    </p>
+  </div>
+
+  <slot />
+</aside>

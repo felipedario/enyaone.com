@@ -19,6 +19,7 @@ const albumsCollection = defineCollection({
   schema: z.array(z.object({
     title: z.string(),
     year: z.string().optional(),
+    type: z.string().optional(),
     cover: z.string(),
     link: z.string().optional(),
     description: z.string(),
