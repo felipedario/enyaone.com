@@ -1,6 +1,5 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Sidebar from "../components/Sidebar.astro";
 
 const title = "The Lord of the Rings and Enya (\"May It Be\", \"Aníron\") | Enya Lyrics";
 const description = "More on The Lord of the Rings and Enya songs. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
@@ -17,10 +16,7 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-  <div id="content">
 
-
-    <main id="main">
       <h1>The Lord of the Rings</h1>
 
 <p><strong><em>The Lord of the Rings</em></strong> is an epic fantasy novel written by the English academic J. R. R. Tolkien. It is one of the most popular works in 20th-century literature and Enya's favourite book.</p>
@@ -65,8 +61,5 @@ of the Ring</em>, <a href="/enya-other#May_It_Be">"May It Be"</a> and
 
 
 <a href="#">Return to top</a>
-    </main>
 
-    <Sidebar />
-  </div>
 </Layout>

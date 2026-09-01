@@ -1,6 +1,5 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Sidebar from "../components/Sidebar.astro";
 
 const title = "Enya's A Day Without Rain album (\"Only Time/Who Can Say\", \"Wild Child\" lyrics)";
 const description = "All info, lyrics and MP3 downloads for Enya";
@@ -17,7 +16,7 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-  <div id="content">
+
     <nav aria-label="Breadcrumb">
       <ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
 				<li property="itemListElement" typeof="ListItem"><a href="/" property="item" typeof="WebPage">
@@ -34,7 +33,7 @@ const schemaJson = {
 			</ol>
     </nav>
 
-    <main id="main">
+
       <div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
 <a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
@@ -53,7 +52,7 @@ const schemaJson = {
 
 
 				<a class="new-amazon-album-link" href="https://amzn.to/498nslX" rel="nofollow sponsored noopener" target="_blank">
-					<img  src="/adwr.jpg" alt="A Day Without Rain (2000)"  width="150" height="150" /></a>
+					<img  src="/adwr.jpg" alt="A Day Without Rain (2000)"  width="300" height="300" /></a>
 					
 				
 				<p>Enya's fifth studio album, <em>A Day Without Rain,</em> made its debut on November 20, 2000, under the WEA label. The album gained significant recognition, primarily due to the inclusion of the song <a href="#Only_Time">"Only Time,"</a> which served as the album's second single. "Only Time" quickly rose to prominence in 2000, capturing the hearts of listeners and achieving substantial success. However, its impact further intensified in 2001, when the song became intimately associated with the tragic events of the September 11 attacks. Through extensive use in various forms of media, "Only Time" became an anthem of resilience and hope during that challenging period. The album's enduring legacy stands as a testament to Enya's ability to create powerful and emotionally evocative music that resonates with audiences around the world.</p>
@@ -1275,8 +1274,5 @@ const schemaJson = {
 				
 				<p><strong>A special thanks to our long time friend &amp; publisher<br>
 					Peter Reichardt.</strong></p>
-    </main>
 
-    <Sidebar />
-  </div>
 </Layout>

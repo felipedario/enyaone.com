@@ -25,92 +25,68 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-  <div id="content">
+
     <nav aria-label="Breadcrumb"><ol id="breadcrumb">
       <li><a href="/">Home</a> &rsaquo;</li>
       <li><a href="/enya-songs-albums">Enya Songs &amp; Albums</a> &rsaquo;</li>
       <li><strong>All Enya songs</strong></li>
-    </ol></nav><main id="main" class="all-songs">
-      <div id="holidays2025">
-        <h2><em>Holidays with Enya</em></h2>
-        <a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener">
-          <img src="/ecs.jpg" alt="Christmas Secrets album cover" width="150" height="150" />
-          <p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p>
-        </a>
+    </ol></nav>
+  
+            <div id="holidays2025">
+<h2><em>Holidays with Enya</em></h2>
+<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
+<p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
 
-        <a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener">
-          <img src="/awc.jpg" alt="And Winter Came album cover" width="150" height="150" />
-          <p><em><strong>And Winter Came...</strong></em><br /> A winter-themed album</p>
-        </a>
+<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><img src="/awc.jpg" alt="And Winter Came album cover">
+<p><em><strong>And Winter Came...</strong></em><br /> A winter-themed album</p></a>
 
-        <a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener">
-          <img src="/vbe.jpg" alt="The Very Best of Enya album cover" width="150" height="150" />
-          <p><em><strong>The Very Best of Enya</strong></em><br /> The perfect gift</p>
-        </a>
-      </div>
+<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><img src="/vbe.jpg" alt="The Very Best of Enya album cover">
+<p><em><strong>The Very Best of Enya</strong></em><br /> The perfect gift</p></a>
+</div>
 
       <h1>All Enya songs: full list of Enya's albums</h1>
 
       <p>This is a list of all songs recorded by Irish singer Enya, including her studio albums, compilations, B-sides, and soundtrack appearances.</p>
 
-      <table class="wikitable sortable" border="0"   id="all-songs-table">
-        <thead>
-          <tr>
-            <th>Song title</th>
-            <th>Found on...</th>
-          </tr>
-        </thead>
-        <tbody>
-          {allSongs.map((song) => (
-            <tr>
-              <td>
-                {song.songLink ? (
-                  <a href={song.songLink}>{song.title}</a>
-                ) : (
-                  song.title
-                )}
-              </td>
-              <td>
-                {song.albumLinks && song.albumLinks.length > 0 ? (
-                  song.albumLinks.map((albumLink, index) => (
-                    <span>
-                      <a href={albumLink.href}>{albumLink.title}</a>
-                      {index < song.albumLinks.length - 1 ? ' · ' : ''}
-                    </span>
-                  ))
-                ) : (
-                  <span>{song.albumText}</span>
-                )}
-                {song.streamLink && (
-                  <span>
-                    {' · '}
-                    <a href={song.streamLink} target="_blank" rel="nofollow sponsored noopener">
-                      Stream or download song
-                    </a>
-                  </span>
-                )}
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </main>
+      <!-- Tabela sem atributo obsoleto e com Fragmentos limpos -->
+<table class="wikitable sortable" id="all-songs-table">
+  <thead>
+    <tr>
+      <th>Song title</th>
+      <th>Found on...</th>
+    </tr>
+  </thead>
+  <tbody>
+    {allSongs.map((song) => (
+      <tr>
+        <td>
+          {song.songLink ? <a href={song.songLink}>{song.title}</a> : song.title}
+        </td>
+        <td>
+          {song.albumLinks && song.albumLinks.length > 0 ? (
+            song.albumLinks.map((albumLink, index) => (
+              <>
+                <a href={albumLink.href}>{albumLink.title}</a>
+                {index < song.albumLinks.length - 1 ? ' · ' : ''}
+              </>
+            ))
+          ) : (
+            <span>{song.albumText}</span>
+          )}
+          {song.streamLink && (
+            <>
+              {' · '}
+              <a href={song.streamLink} target="_blank" rel="nofollow sponsored noopener">
+                Stream or download song
+              </a>
+            </>
+          )}
+        </td>
+      </tr>
+    ))}
+  </tbody>
+</table>
 
-    <aside id="sidebar">
-      <p><strong>Looking for downloads?</strong> <a href="https://amzn.to/1N3fScO" rel="nofollow sponsored noopener" target="_blank">Get all Enya MP3 downloads</a> on Amazon now!</p>
-
-      <h3>Featured Album</h3>
-      <div>
-        <a href="/and-winter-came">
-          <img src="/awc.jpg" alt="And Winter Came... album cover" width="150" height="150" />
-        </a>
-        <p>
-          <strong><em><a href="/and-winter-came">And Winter Came...</a></em></strong><br />
-          Released in 2008, this album primarily has a Christmas or winter theme.
-        </p>
-      </div>
-    </aside>
-  </div>
 </Layout>
 
 <style>

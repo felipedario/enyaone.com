@@ -1,6 +1,5 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Sidebar from "../components/Sidebar.astro";
 
 const title = "Roma and Nicky Ryan, Enya's lyricist and late producer biographies";
 const description = "Meet Roma and Nicky Ryan. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
@@ -17,10 +16,7 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-  <div id="content">
 
-
-    <main id="main">
       <div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
 <a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
@@ -71,8 +67,5 @@ const schemaJson = {
 <p>In 2005, Roma created a new language known as Loxian, inspired by J.R.R. Tolkien's Elvish language, for Enya's album <a href="/enya-amarantine"><em>Amarantine</em></a>. She wrote a book describing Loxian, called <em>Water Shows the Hidden Heart</em>.</p>
 
 <p>Roma and Nicky have two daughters, Ebony and Persia, who also contributed with artwork and layout to Enya's 2005 release.</p>
-    </main>
 
-    <Sidebar />
-  </div>
 </Layout>

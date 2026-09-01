@@ -1,6 +1,5 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Sidebar from "../components/Sidebar.astro";
 
 const title = "\"Enya\", 1987, the first Enya album | Lyrics, downloads, info";
 const description = "All info, lyrics and MP3 downloads for Enya";
@@ -17,7 +16,7 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-  <div id="content">
+  
     <nav aria-label="Breadcrumb">
       <ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
 		<li property="itemListElement" typeof="ListItem"><a href="/" property="item" typeof="WebPage">
@@ -34,7 +33,7 @@ const schemaJson = {
 		</ol>
     </nav>
 
-    <main id="main">
+   
       <div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
 <a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
@@ -163,8 +162,5 @@ David Richardson and Tony McAuley</p>
 thank. We would, however, like to take this opportunity to express
 our gratitude to the staff of BBC Enterprises involved in this project for their encouragement and
 hospitality."</p>
-    </main>
 
-    <Sidebar />
-  </div>
 </Layout>

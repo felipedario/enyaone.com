@@ -1,6 +1,5 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Sidebar from "../components/Sidebar.astro";
 
 const title = "Enya songs, albums, biography, lyrics, and more!";
 const description = "Enya Lyrics is a tribute to singer Enya featuring all her song lyrics, downloads, Only Time info, albums information, videos, biography and more!";
@@ -17,10 +16,7 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-  <div id="content">
 
-
-    <main id="main">
       <div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
 <a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
@@ -48,7 +44,7 @@ const schemaJson = {
 
 				</ul>
 
-				<h3>Even more about Enya:</h3>
+				<h2>Even more about Enya:</h2>
 
 				<ul>
 
@@ -67,17 +63,14 @@ const schemaJson = {
 				</ul>
 
 
-				<h3 id="About_Enya">Who is Enya?</h3>
+				<h2 id="About_Enya">Who is Enya?</h2>
 
-				<a target="_blank" href="https://www.amazon.com/Enya/e/B000APUOQK?ref=sr_ntt_srch_lnk_2&amp;qid=1641169744&amp;sr=1-2&_encoding=UTF8&tag=enylyrallenys-20&linkCode=ur2&linkId=d541620b701d12b789cae68caf79229e&camp=1789&creative=9325"><img src="/enya-home2023-2.jpg" alt="Stream or download Enya songs" class="float-left width-33 rounded"  width="150" height="150" /></a>
+				<a target="_blank" href="https://www.amazon.com/Enya/e/B000APUOQK?ref=sr_ntt_srch_lnk_2&amp;qid=1641169744&amp;sr=1-2&_encoding=UTF8&tag=enylyrallenys-20&linkCode=ur2&linkId=d541620b701d12b789cae68caf79229e&camp=1789&creative=9325"><img src="/enya-home2023-2.jpg" alt="Stream or download Enya songs" class="float-left width-33 rounded"  width="150" height="243" /></a>
 
 				<p><a href="/enya-biography"><strong>Enya</strong></a> is a Grammy Award Irish singer, often labeled as “New Age”. Singing and playing all instruments by herself, she made world hits such as “<a href="/a-day-without-rain#Only_Time">Only Time</a>”, “<a href="/enya-other#May_It_Be">May It
 					Be</a>” and “<a href="/watermark#Orinoco_Flow">Orinoco Flow (Sail Away)</a>”.
 					<br /> <a href="/enya-biography"><strong>More about Enya &raquo;</strong></a></p>
 
 				<p>Artists like Enya: <a href="/new-age-music">Celtic Woman</a>, <a href="/new-age-music">Clannad</a> (Enya's family band), <a href="/new-age-music">Loreena McKennitt</a>, <a href="/new-age-music">Vangelis</a> and <a href="/new-age-music">Yanni</a>.</p>
-    </main>
 
-    <Sidebar />
-  </div>
 </Layout>

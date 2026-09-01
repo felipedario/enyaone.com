@@ -1,6 +1,5 @@
 ---
 import '../styles/style-enya-lyrics.css';
-import SearchForm from '../components/SearchForm.astro';
 
 interface Props {
 	title?: string;
@@ -119,16 +118,46 @@ const schemasToRender = schemaJson ? (Array.isArray(schemaJson) ? schemaJson : [
 					<li><a href="/enya-biography" title="Enya biography">Biography</a></li>
 					<li><a href="/new-age-music" title="New Age music">Artists like Enya</a></li>
 					<li><a href="/enya-video" title="EnyaTube Enya videos">Videos</a></li>
-					<li><a href="/sitemap" title="More about Enya">More <span>about Enya: sitemap</span></a></li>
+					<li><a href="/sitemap" title="More about Enya">More <span class="sr">about Enya: sitemap</span></a></li>
 				</ul>
 			</nav>
 
-			<SearchForm />
 		</header>
+
+		<section id="content">
+
+		<main id="main">
 
 		<slot />
 
-		<nav id="mel19" aria-label="Secondary navigation">
+		</main>
+
+		<aside id="sidebar">
+				
+				<h2>Featured albums</h2>
+
+				<h3><em><a href="/a-day-without-rain">A Day Without Rain</a></em>, 2000</h3>
+				
+				<div><a href="/a-day-without-rain">
+					<img src="/enya-2023-adwr.jpg" alt="A Day Without Rain album picture"  width="300" height="300" /></a>
+					
+					<p>Through extensive use in various forms of media, "Only Time" became an anthem of resilience and hope after  the tragic events of the September 11 attacks. </p>
+				</div>
+
+				<h3><em><a href="/the-memory-of-trees">The Memory of Trees</a></em>, 1995</h3>
+				
+				<div><a href="/the-memory-of-trees">
+					<img src="/enya-2023-tmot.jpg" alt="The Memory of Trees album picture" width="300" height="300" /></a>
+					
+					<p>This album won Enya's first Grammy Award for Best New Age Album. &ldquo;With the destruction of the world&rsquo;s rainforests it may turn out to be that the memory of trees is nothing more than that for us&mdash;a memory.&rdquo;</p>
+				</div>
+				
+			</aside>
+
+			</section>
+
+		
+			<nav id="mel19" aria-label="Secondary navigation">
 			<h2>Browse Enya One</h2>
 
 			<h3>Enya albums and songs lyrics</h3>

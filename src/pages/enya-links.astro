@@ -1,6 +1,5 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Sidebar from "../components/Sidebar.astro";
 
 const title = "Our recommended links | Enya fan sites";
 const description = "More Enya official and fan site links. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
@@ -17,10 +16,7 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-  <div id="content">
 
-
-    <main id="main">
       <h1>Enya links</h1>
 
 
@@ -36,8 +32,5 @@ href="https://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.
 profile in Amazon.com</a>, with big savings in Enya products.</span></li>
 
 </ul>
-    </main>
 
-    <Sidebar />
-  </div>
 </Layout>

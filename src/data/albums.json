@@ -5,7 +5,7 @@
     "type": "compilation",
     "cover": "/ecs.jpg",
     "link": "https://amzn.to/2LtIUcC",
-    "description": "Stream album",
+    "description": "Stream-only compilation",
     "buyLink": "https://amzn.to/2LtIUcC"
   },
   {
@@ -15,7 +15,8 @@
     "cover": "/dsi.jpg",
     "link": "/enya-dark-sky-island",
     "description": "Download or stream album, Lyrics",
-    "buyLink": "https://amzn.to/1gqSdan"
+    "buyLink": "http://amzn.to/1gqSdan",
+    "billboardPeak": "#8"
   },
   {
     "title": "The Very Best of Enya",
@@ -24,16 +25,22 @@
     "cover": "/vbe.jpg",
     "link": "/very-best-enya",
     "description": "Download or stream album, Lyrics",
-    "buyLink": ""
+    "buyLink": "https://www.amazon.com/dp/B002RV01QI?tag=enylyrallenys-20",
+    "billboardPeak": "#55"
   },
   {
-    "title": "And Winter Came",
+    "title": "And Winter Came...",
     "year": "2008",
     "type": "studio",
     "cover": "/awc.jpg",
     "link": "/and-winter-came",
     "description": "Download or stream album, Charts, Lyrics, Videos",
-    "buyLink": ""
+    "buyLink": "http://www.amazon.com/2008-Release-Enya/dp/B001EI5CA0?tag=enylyrallenys-20",
+    "billboardPeak": "#8",
+    "featuredSongs": [
+      { "title": "Trains and Winter Rains", "link": "/and-winter-came#TWR" },
+      { "title": "My! My! Time Flies", "link": "/and-winter-came#MMTF" }
+    ]
   },
   {
     "title": "Amarantine",
@@ -42,7 +49,12 @@
     "cover": "/am.jpg",
     "link": "/enya-amarantine",
     "description": "Download or stream album, Charts, Lyrics, Videos",
-    "buyLink": ""
+    "buyLink": "http://www.amazon.com/dp/B000B8QEYC?tag=enylyrallenys-20",
+    "billboardPeak": "#6",
+    "featuredSongs": [
+      { "title": "Amarantine", "link": "/enya-amarantine#Amarantine" },
+      { "title": "It's In The Rain", "link": "/enya-amarantine#Its_in_the_rain" }
+    ]
   },
   {
     "title": "A Day Without Rain",
@@ -51,7 +63,12 @@
     "cover": "/adwr.jpg",
     "link": "/a-day-without-rain",
     "description": "Download or stream album, Charts, Lyrics, Videos",
-    "buyLink": ""
+    "buyLink": "http://www.amazon.com/dp/B000050XEI?tag=enylyrallenys-20",
+    "billboardPeak": "#2",
+    "featuredSongs": [
+      { "title": "Wild Child", "link": "/a-day-without-rain#Wild_Child" },
+      { "title": "Only Time", "link": "/a-day-without-rain#Only_Time" }
+    ]
   },
   {
     "title": "Paint The Sky With Stars",
@@ -60,7 +77,11 @@
     "cover": "/ptsws.jpg",
     "link": "/paint-the-sky-with-stars",
     "description": "Download or stream album, Lyrics, Videos",
-    "buyLink": ""
+    "buyLink": "http://www.amazon.com/dp/B000002NJH?tag=enylyrallenys-20",
+    "billboardPeak": "#30",
+    "featuredSongs": [
+      { "title": "Paint The Sky With Stars", "link": "/paint-the-sky-with-stars#Paint_the_Sky_with_Stars" }
+    ]
   },
   {
     "title": "The Memory of Trees",
@@ -69,7 +90,11 @@
     "cover": "/tmot.jpg",
     "link": "/the-memory-of-trees",
     "description": "Download or stream album, Charts, Lyrics, Videos",
-    "buyLink": ""
+    "buyLink": "http://www.amazon.com/dp/B000002N3N?tag=enylyrallenys-20",
+    "billboardPeak": "#9",
+    "featuredSongs": [
+      { "title": "On My Way Home", "link": "/the-memory-of-trees#On_My_Way_Home" }
+    ]
   },
   {
     "title": "The Celts",
@@ -78,7 +103,11 @@
     "cover": "/tc.jpg",
     "link": "/the-celts",
     "description": "Re-released version of Enya, 1987. Download or stream album, Charts, Lyrics, Videos",
-    "buyLink": ""
+    "buyLink": "http://www.amazon.com/dp/B000002MSM?tag=enylyrallenys-20",
+    "featuredSongs": [
+      { "title": "The Celts", "link": "/the-celts#The_Celts" },
+      { "title": "I Want Tomorrow", "link": "/the-celts#I_Want_Tomorrow" }
+    ]
   },
   {
     "title": "Shepherd Moons",
@@ -87,7 +116,11 @@
     "cover": "/sm.jpg",
     "link": "/shepherd-moons",
     "description": "Download or stream album, Charts, Lyrics, Videos",
-    "buyLink": ""
+    "buyLink": "http://www.amazon.com/dp/B000002LRT?tag=enylyrallenys-20",
+    "billboardPeak": "#17",
+    "featuredSongs": [
+      { "title": "Caribbean Blue", "link": "/shepherd-moons#Caribbean_Blue" }
+    ]
   },
   {
     "title": "Watermark",
@@ -96,7 +129,12 @@
     "cover": "/wm.jpg",
     "link": "/watermark",
     "description": "Download or stream album, Lyrics, Videos",
-    "buyLink": ""
+    "buyLink": "http://www.amazon.com/dp/B000002LRR?tag=enylyrallenys-20",
+    "billboardPeak": "#25",
+    "featuredSongs": [
+      { "title": "Storms In Africa", "link": "/watermark#Storms_In_Africa" },
+      { "title": "Orinoco Flow", "link": "/watermark#Orinoco_Flow" }
+    ]
   },
   {
     "title": "Enya",
@@ -104,8 +142,20 @@
     "type": "studio",
     "cover": "/ea.jpg",
     "link": "/enya-album",
-    "description": "Debut album",
+    "description": "Debut album. Later re-released as The Celts, 1992.",
     "buyLink": ""
+  },
+  {
+    "title": "Other songs & singles",
+    "year": "",
+    "type": "other",
+    "cover": "/other.JPG",
+    "link": "/enya-other",
+    "description": "B-sides, soundtracks, and standalone singles.",
+    "featuredSongs": [
+      { "title": "Adeste, Fideles", "link": "/enya-other#Adeste_Fideles" },
+      { "title": "May It Be", "link": "/enya-other#May_It_Be" }
+    ]
   },
   {
     "title": "The Frog Prince",
@@ -113,7 +163,7 @@
     "type": "soundtrack",
     "cover": "/05_A01a.jpg",
     "link": "/enya-other#frogprince",
-    "description": "The film The Frog Prince has most soundtrack songs composed by Enya.",
+    "description": "The film The Frog Prince (released as The French Lesson in the USA) has most soundtrack songs composed by Enya, but only two are performed by her ('The Frog Prince' and 'Dreams').",
     "buyLink": ""
   },
   {
@@ -122,8 +172,8 @@
     "type": "soundtrack",
     "cover": "/tcdvd.jpg",
     "link": "/the-celts-documentary",
-    "description": "BBC documentary series with soundtrack composed by Enya.",
-    "buyLink": ""
+    "description": "BBC documentary series with soundtrack composed by Enya. Reissued on DVD.",
+    "buyLink": "http://www.amazon.com/dp/B0000WN10E?tag=enylyrallenys-20"
   },
   {
     "title": "Far And Away",
@@ -131,8 +181,8 @@
     "type": "soundtrack",
     "cover": "/05_A02a.jpg",
     "link": "",
-    "description": "Features 'Book of Days' in the end credits.",
-    "buyLink": ""
+    "description": "Features 'Book of Days' rewritten with English-Gaelic lyrics for the film credits.",
+    "buyLink": "http://www.amazon.com/Far-Away-Original-Picture-Soundtrack/dp/B000002OL9?tag=enylyrallenys-20"
   },
   {
     "title": "Toys",
@@ -140,8 +190,8 @@
     "type": "soundtrack",
     "cover": "/05_A03a.jpg",
     "link": "",
-    "description": "Features a special remix of 'Ebudæ'.",
-    "buyLink": ""
+    "description": "Features a special remix of 'Ebudæ' (slightly shorter with distinctive percussion and bells).",
+    "buyLink": "http://www.amazon.com/Toys-Original-Motion-Picture-Soundtrack/dp/B000000OT8?tag=enylyrallenys-20"
   },
   {
     "title": "Themes From Calmi Cuori Appassionati",
@@ -149,7 +199,7 @@
     "type": "soundtrack",
     "cover": "/05_A04a.jpg",
     "link": "",
-    "description": "Japanese film soundtrack featuring 14 Enya songs.",
+    "description": "Japanese film soundtrack featuring 14 Enya songs. 'Wild Child' is used in full during closing credits.",
     "buyLink": ""
   },
   {
@@ -157,8 +207,8 @@
     "year": "2001",
     "type": "soundtrack",
     "cover": "/05_A05a.jpg",
-    "link": "",
-    "description": "Features 'May It Be' and 'Aníron'.",
-    "buyLink": "https://amzn.to/2ZIw9PC"
+    "link": "/the-lord-of-the-rings",
+    "description": "Includes 'May It Be' (English/Quenya) and 'Aníron' (Sindarin).",
+    "buyLink": "http://www.amazon.com/Lord-Rings-Fellowship-Ring/dp/B00005QZWI?tag=enylyrallenys-20"
   }
 ]

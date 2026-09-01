@@ -1,6 +1,5 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Sidebar from "../components/Sidebar.astro";
 
 const title = "\"The Celts\" documentary and the first album | Enya Lyrics, downloads";
 const description = "BBCs The Celts documentary originated Enya";
@@ -17,10 +16,7 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-  <div id="content">
 
-
-    <main id="main">
       <h1><em>The Celts</em> documentary</h1>
 
 <p><strong><em>The Celts</em></strong> (subtitled "Rich Traditions and Ancient Myths") is a 1986 documentary series produced by the BBC, with all soundtrack composed by Enya. It was written and presented by Frank Delaney, who also wrote an accompanying book.</p>
@@ -90,8 +86,5 @@ original release <em>Enya</em>), entitled "Portrait: Out Of The Blue" (3:11).</p
 
 
 <p>According to <a href="/roma-ryan-nicky">Roma Ryan</a>, Enya's lyricist, "[t]he director had various pastiches in the programme and wanted music to compliment these. Thus the music ranges from a "Spaghetti Western" through to "The Third Man" and "The Haunted House" to the more familiar tracks embodied on the soundtrack album. What happened to the other tracks? I hear you say. We still have them!"</p>
-    </main>
 
-    <Sidebar />
-  </div>
 </Layout>

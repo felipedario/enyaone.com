@@ -1,6 +1,5 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Sidebar from "../components/Sidebar.astro";
 
 const title = "And Winter Came..., Enya's Christmas album (\"Trains and Winter Rains\")";
 const description = "All info, lyrics and MP3 downloads for Enya";
@@ -17,7 +16,7 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-  <div id="content">
+
     <nav aria-label="Breadcrumb">
       <ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
 	<li property="itemListElement" typeof="ListItem"><a href="/" property="item" typeof="WebPage">
@@ -34,7 +33,7 @@ const schemaJson = {
 	</ol>
     </nav>
 
-    <main id="main">
+
       <div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
 <a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
@@ -51,7 +50,7 @@ const schemaJson = {
 <h1>And Winter Came... (2008)</h1>
 
 <a class="new-amazon-album-link" href="https://amzn.to/48dzSaQ" rel="nofollow sponsored noopener" target="_blank">
-	<img  src="/awc.jpg" alt="And Winter Came... (2008)"  width="150" height="150" /></a>
+	<img  src="/awc.jpg" alt="And Winter Came... (2008)"  width="300" height="300" /></a>
 
 <p>Enya's album titled 	<strong><em>And Winter Came...</em></strong>emerged on the music scene in 2008, with its UK release on November 10th and US release on November 11th. The collection of songs primarily embraces a Christmas or Winter theme, immersing listeners in a seasonal ambiance. The album made its mark on the UK charts, peaking at #6 on November 16, 2008, reflecting its popularity among listeners. Since its initial release, <em>And Winter Came...</em> has garnered significant commercial success, surpassing 2,100,000 copies sold. This achievement further solidifies Enya's enduring presence in the music industry.</p>
 
@@ -67,8 +66,6 @@ const schemaJson = {
 Christmas album, but it has evolved into more an Enya album based in a
 winter landscape where Christmas arrives here and there, but it would be wrong to call it an Enya Christmas album."</p>
 
-<iframe style="width:120px;height:240px; float: left; margin: 0 20px 20px 0;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=ss_til&ad_type=product_link&tracking_id=enylyrallenys-20&marketplace=amazon&region=US&placement=B001GQ2TGA&asins=B001GQ2TGA&linkId=QBSJBH3PVH6VI2XX&show_border=false&link_opens_in_new_window=false">
-</iframe>
 
 <p><a href="/roma-ryan-nicky">Roma Ryan</a>, Enya's lyricist, also talks
 about the title and the “sense of possibility that Christmas
@@ -919,8 +916,5 @@ Edgar Bronfman Jnr<br>
 Lyor Cohen<br>
 Tom Whalley<br>
 John Reid�</p>
-    </main>
 
-    <Sidebar />
-  </div>
 </Layout>

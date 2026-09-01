@@ -1,6 +1,5 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Sidebar from "../components/Sidebar.astro";
 
 const title = "Movie soundtracks by Enya and more (\"May It Be\", \"Aníron\")";
 const description = "Non-album Enya songs, like The Lord of The Rings soundtrack. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
@@ -17,7 +16,7 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-  <div id="content">
+ 
     <nav aria-label="Breadcrumb">
       <ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
 	<li property="itemListElement" typeof="ListItem"><a href="/" property="item" typeof="WebPage">
@@ -34,7 +33,7 @@ const schemaJson = {
 	</ol>
     </nav>
 
-    <main id="main">
+    
       <div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
 <a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
@@ -51,7 +50,7 @@ const schemaJson = {
 <h1>Other songs by Enya</h1>
 
 <a class="new-amazon-album-link" href="https://amzn.to/3SU09Xt" rel="nofollow sponsored noopener" target="_blank">
-	<img  src="/vbe.jpg" alt="All Enya songs: Complete list for listening and download"  width="150" height="150" /></a>
+	<img  src="/vbe.jpg" alt="All Enya songs: Complete list for listening and download"  width="300" height="300" /></a>
 
 <p>Here are all <strong>songs released by Enya that are not included in her albums</strong>, such as singles b-sides, soundtracks or EPs. They  have never appeared on a <em>standard</em> Enya album, except in a few cases as bonus tracks.</p>
 
@@ -1555,8 +1554,5 @@ hcalaehg na is.<br /><br />
 				Gladiator [Hans Zimmer] (<a href="https://amzn.to/2KCjGbj" rel="nofollow sponsored noopener" target="_blank">Listen and download the MP3</a>)<br />
 				
 				Titanic [James Horner] (<a href="https://amzn.to/2QuPcvL" rel="nofollow sponsored noopener" target="_blank">Listen and download the MP3</a>)</p>
-    </main>
-
-    <Sidebar />
-  </div>
+    
 </Layout>

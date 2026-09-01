@@ -1,6 +1,5 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Sidebar from "../components/Sidebar.astro";
 
 const title = "Enya's Shepherd Moons album (\"Book of Days\", \"Caribbean Blue\" lyrics)";
 const description = "All info, song lyrics and MP3 downloads for Enya";
@@ -17,7 +16,7 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-  <div id="content">
+ 
     <nav aria-label="Breadcrumb">
       <ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
 	<li property="itemListElement" typeof="ListItem"><a href="/" property="item" typeof="WebPage">
@@ -34,7 +33,7 @@ const schemaJson = {
 </ol>
     </nav>
 
-    <main id="main">
+   
       <div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
 <a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
@@ -51,7 +50,7 @@ const schemaJson = {
 <h1>Shepherd Moons (1991)</h1>
 
 <a class="new-amazon-album-link" href="https://amzn.to/3OCCMyY" rel="nofollow sponsored noopener" target="_blank">
-	<img  src="/sm.jpg" alt="Shepherd Moons (1991)"  width="150" height="150" /></a>
+	<img  src="/sm.jpg" alt="Shepherd Moons (1991)"  width="300" height="300" /></a>
 
 <p>Enya's timeless masterpiece, <strong><em>Shepherd Moons</em></strong>, made a resounding impact upon its release in November 1991, securing the coveted Grammy Award for "Best New Age Album" in 1993. This celebrated album exists in multiple versions, each offering its own unique allure. The initial 1991 release showcased a Gaelic language-only rendition of the captivating track <a href="#Book_Of_Days">"Book of Days"</a>. However, Enya's musical journey took an intriguing turn when an English and Gaelic adaptation of the same song found its way into the evocative soundtrack of the film  <a href="/enya-songs-albums#farandaway"><em>Far And Away</em></a>. Subsequent pressings of the album featured a re-recording of this dual-language rendition, replacing the original Gaelic-only version.</p>
 	 
@@ -1072,8 +1071,5 @@ Wardrobe by <strong>The New Renaissance</strong></p>
 <p>"Our thanks to: Owen Drumm of Owen Drumm Designs, Ideal Systems, John Kennedy, Se�n Cannon M-Ocean Pictures, Peter Reichardt &amp; all at the Warner family.</p>
 
 <p><em>�r mbu�ochas do Rob Dickins a d'fhan, 'ag an sti�ir'.</em> (Our thanks to Rob Dickins who stayed at the helm.)</p>
-    </main>
 
-    <Sidebar />
-  </div>
 </Layout>
