@@ -1,0 +1,37 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
+
+const title = "Enya — Christmas Carols from Cork (December 2016) live performance video";
+const description = "Enya — Christmas Carols from Cork (December 2016). Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
+const canonical = "https://www.enyaone.com/enya-live-christmas";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
+const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "WebPage",
+	"name": title,
+	"description": description
+};
+---
+
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
+
+      <h1>Enya — Christmas Carols from Cork <small>(December 2016)</small></h1>
+
+<div id="video-screen">
+
+<iframe width="1050" height="591" src="https://www.youtube-nocookie.com/embed/oJ2pKJRkR7E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
+<h3>About</h3>
+<p>Enya performing three songs on a Special Christmas Show 2016: "Adeste Fideles", "The Spirit of Christmas Past" &amp; "O�che Chi�in"(Silent Night), and short interview with Mary Kennedy. </p>
+
+
+<p>Enya appeared on RTɒs one-hour Christmas Carols from Cork TV special, performing three songs and briefly chatting to the host Mary Kennedy. The performance was pre-recorded in November 2016 in the historic Honan Chapel at University College Cork (UCC). Like usual, Enya was backed by a small choir and string section from Wired Strings.</p>
+
+<p><strong><a href="/enya-video">&laquo; EnyaTube home</a></strong></p>
+
+</Layout>

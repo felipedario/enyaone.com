@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* =========================================
+   1. CSS VARIABLES (THEME CONFIGURATION)
+   ========================================= */
+:root {
+  /* Colors */
+  --bg-color: #f3f1ec;
+  --bg-color-alt: #ffffff;
+  --bg-quote: #e7f0f7;
+  --text-primary: #554c33;
+  --text-muted: #807966;
+  --text-meta: #AAA699;
+  
+  --brand-primary: #c80612;
+  --link-color: #156bb5;
+  --link-hover: #c80612;
+  --link-visited: #8AB5DA;
+  --link-nav-visited: #156bb5;
+  
+  --border-color: #d0cec9;
+  --btn-border: #1565c0;
+  --btn-border-hover: #c80612;
+  
+  /* Typography */
+  --font-body: 'Lato', sans-serif;
+  --font-heading: 'Alegreya', serif;
+  
+  /* Shadows & Radius */
+  --shadow-main: 0px 0 25px rgba(0,0,0,0.25);
+  --shadow-menu: 0 0 50px 0 rgba(0,0,0,0.5);
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 15px;
+}
+
+/* =========================================
+   2. MODERN CSS RESET
+   ========================================= */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img, picture, iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+/* =========================================
+   3. BASE STYLES (MOBILE FIRST)
+   ========================================= */
+body {
+  font-family: var(--font-body);
+  font-size: 18px;
+  line-height: 1.75;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  position: relative;
+  min-height: 100vh;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  left: 0;
+  top: 0;
+  background: linear-gradient(180deg, rgba(209,202,188,1) 0%, rgba(209,202,188,0) 100%);
+  z-index: -1;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  color: var(--brand-primary);
+}
+
+h1 {
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 1.5em;
+  margin: 0 0 0.5em;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 1.5em 0 0.5em;
+  line-height: 1.1;
+}
+
+h3 {
+  margin: 1.5em 0 0.5em;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.3em;
+}
+
+p {
+  margin: 0.5em 0 1em 0;
+}
+
+a:link { color: var(--link-color); }
+a:visited { color: var(--link-visited); }
+a:focus, a:hover, a:active { color: var(--link-hover); }
+
+blockquote {
+  border-radius: var(--radius-md);
+  margin: 1em 0;
+  padding: 15px;
+  text-align: center;
+  background-color: var(--bg-quote);
+  font-family: var(--font-heading);
+  font-size: 1.15em;
+  font-weight: 300;
+}
+
+#content ul {
+  list-style-position: outside;
+  margin: 0 0 1em 1em;
+}
+
+#content li {
+  margin: .2em 0;
+}
+
+/* Screen Reader Only */
+.sr:not(:focus) {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* =========================================
+   4. LAYOUT & COMPONENTS (MOBILE FIRST)
+   ========================================= */
+#wrap {
+  width: 100%;
+  padding: 20px 15px 0;
+  margin: 0 auto;
+}
+
+/* Header & Navigation */
+header {
+	text-align: center;
+  margin-bottom: 20px;
+}
+
+#logo a {
+  display: block;
+  text-indent: -999em;
+  width: 100%;
+  max-width: 300px;
+  height: 75px;
+  background: url("/logo.png") center no-repeat;
+  background-size: contain;
+  margin: 0 auto 10px;
+}
+
+#menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: end;
+  gap: 10px;
+  list-style: none;
+}
+
+#menu li {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+#menu a, #menu #sm {
+  display: block;
+  padding: 10px 5px;
+  line-height: 1.25;
+}
+
+/* Hide deeper submenus on mobile */
+#menu ul li:nth-child(3), 
+#menu ul li:nth-child(4), 
+#menu li ul {
+  display: none;
+}
+
+#menu a:visited {
+  color: var(--link-color);
+}
+
+/* Main Content Area */
+#content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#main {
+	background: var(--bg-color-alt);
+	border-radius: var(--radius-lg);
+  padding: 20px 20px;
+}
+
+#sidebar {
+  width: 100%;
+  padding: 20px 0;
+}
+
+#sidebar div img {
+  border-radius: var(--radius-lg);
+  margin-bottom: 10px;
+}
+
+/* Breadcrumbs */
+#breadcrumb {
+  margin: 0 0 20px 0;
+}
+
+#breadcrumb li {
+  display: inline;
+}
+
+/* Promos & Modules */
+#holidays2025 {
+  display: none;
+  gap: 10px;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+#holidays2025 a {
+  flex: 1;
+  font-size: 0.85em;
+  line-height: 1.3;
+}
+
+#holidays2025 img {
+  border-radius: var(--radius-sm);
+  margin-bottom: 8px;
+}
+
+.new-amazon-album-link {
+  display: block;
+  width: 100%;
+  margin: 0 auto 15px;
+}
+
+.new-amazon-album-link img {
+  border-radius: var(--radius-lg);
+}
+
+/* Tables (Discography) */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.discography td {
+  display: block;
+  text-align: center;
+  padding: 15px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.discography .desc {
+  margin-bottom: 20px;
+}
+
+.discography img {
+  border-radius: var(--radius-lg);
+  margin: 0 auto 10px;
+}
+
+.desc {
+  font-size: 1.25em;
+}
+
+.rounded {
+  border-radius: 15px;
+
+}
+.width-33 {
+  width: 33%;
+}
+.float-left {
+  float: left;
+  margin: 0 20px 20px 0;
+
+}
+
+/* Footer Navigation Grid */
+#mel19 {
+  padding: 20px 0;
+}
+
+#mel19 h3 {
+  margin-top: 0;
+}
+
+#mel19 ul {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-bottom: 2rem;
+  list-style: none;
+}
+
+#mel19 ul li {
+  border-bottom: 1px solid var(--border-color);
+}
+
+#mel19 ul li a {
+  display: block;
+  padding: 10px 0;
+}
+
+#mel19 ul li a span {
+  color: var(--text-primary);
+}
+
+#mel19 ul li a:visited {
+  color: var(--link-nav-visited);
+}
+
+footer {
+  padding: 20px 0;
+}
+
+/* Utilities */
+.mobile { display: block; }
+.desktop { display: none; }
+.hid { display: none; }
+.c { clear: both; } /* Kept for legacy HTML compatibility */
+
+/* =========================================
+   5. DESKTOP OVERRIDES (MIN-WIDTH: 800px)
+   ========================================= */
+@media screen and (min-width: 800px) {
+  
+  .mobile { display: none; }
+  .desktop { display: block; }
+
+  body {
+    font-size: 18px; /* Original desktop size */
+  }
+
+  h1 {
+    font-size: 1.75em;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.75em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    letter-spacing: 0.125em;
+  }
+
+  blockquote {
+    font-size: 1.25em;
+    padding: 15px 30px;
+  }
+
+  #wrap {
+    padding: 20px 40px;
+  }
+
+  /* Header */
+  header {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  #logo a {
+    width: 250px;
+    height: 80px;
+    background-position: left top;
+  }
+
+  /* Navigation Dropdown */
+  #menu {
+    flex-grow: 1;
+    margin-top: 0;
+    margin-left: 20px;
+  }
+
+  #menu ul {
+    justify-content: flex-end;
+  }
+
+  #menu li {
+    flex: 0 1 auto;
+    position: relative;
+  }
+
+  #menu a {
+    padding: 7px 15px 6px 15px;
+  }
+
+  #menu #sm {
+    background: url("/e-seta.png") right center no-repeat;
+    padding: 7px 15px 6px 15px;
+  }
+
+  /* Restore full menu items */
+  #menu ul li:nth-child(3), 
+  #menu ul li:nth-child(4) {
+    display: block;
+  }
+
+  /* Dropdown Logic */
+  #menu li ul {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 300px;
+    background: var(--bg-color-alt) !important;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-menu);
+    border-radius: var(--radius-lg);
+    transition: all 0.3s ease-in-out;
+    z-index: 9999;
+	overflow: hidden;
+  }
+
+  #menu li:hover ul {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  #menu ul li ul li {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+    #menu ul li ul a{
+		display: block;
+	}
+
+  #menu ul li ul a:hover {
+    background: var(--bg-color);
+  }
+
+  /* Main Layout */
+  #content {
+    flex-direction: row;
+    align-items: flex-start;
+	justify-content: space-between;
+  }
+
+
+  #breadcrumb {
+    margin: 0 0 25px 50px;
+  }
+
+  #main {
+    width: 65%;
+    box-shadow: var(--shadow-main);
+    padding: 30px 40px;
+  }
+
+  #sidebar {
+    width: 300px;
+    position: sticky;
+    top: 20px;
+    padding: 0;
+  }
+
+  /* Modules Desktop */
+  .new-amazon-album-link {
+    width: 33%;
+    float: left; /* Kept float for inline text wrapping if required by legacy HTML, otherwise use grid */
+    margin: 0 30px 10px 0;
+  }
+
+  .right-amazon-album-link {
+    float: right;
+    margin: 0 0 10px 30px;
+  }
+
+  #holidays2025 a {
+    padding: 0 10px;
+    font-size: 1em;
+  }
+
+  /* Discography Table Desktop */
+  .discography td {
+    display: table-cell;
+    text-align: left;
+    padding: 10px;
+    vertical-align: top;
+  }
+  
+  .discography td.cover {
+    width: 180px;
+  }
+
+  .buy-amazon, .buy-apple {
+    display: inline-block;
+    float: left;
+    margin: 0 0.5em 0.5em 0;
+  }
+
+  /* Secondary Navigation Grid */
+  #mel19 {
+    margin: 20px 0 50px;
+    padding: 0;
+  }
+
+  #mel19 ul {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  #mel19 ul li a {
+    padding: 10px 20px;
+  }
+
+  footer {
+    text-align: left;
+    padding: 1em 0 0.5em 0;
+  }
+}

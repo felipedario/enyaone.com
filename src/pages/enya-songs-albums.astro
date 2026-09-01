@@ -1,0 +1,246 @@
+---
+import Layout from "../layouts/Layout.astro";
+import albumsData from "../data/albums.json";
+
+const title = "Enya's full album list in order, movie soundtracks | Enya One";
+const description = "All information on Enya's songs, albums and more. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, albums, news, videos, quotes, biography and more!";
+const canonical = "https://www.enyaone.com/enya-songs-albums";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
+const bodyClass = "discography-page";
+
+const mainAlbums = albumsData.filter((a) => a.type === "studio" || a.type === "compilation" || a.type === "other");
+const soundtrackAlbums = albumsData.filter((a) => a.type === "soundtrack");
+
+const popularSongs = [
+  { title: "Only Time", link: "/a-day-without-rain#Only_Time" },
+  { title: "Orinoco Flow (Sail Away)", link: "/watermark#Orinoco_Flow" },
+  { title: "Caribbean Blue", link: "/shepherd-moons#Caribbean_Blue" },
+  { title: "May It Be", link: "/enya-other#May_It_Be" },
+  { title: "Echoes In Rain", link: "/enya-dark-sky-island#Echoes_In_Rain" },
+  { title: "Wild Child", link: "/a-day-without-rain#Wild_Child" },
+  { title: "Anywhere Is", link: "/paint-the-sky-with-stars#Anywhere_Is" },
+  { title: "Aníron", link: "/enya-other#Aniron" },
+  { title: "Trains and Winter Rains", link: "/and-winter-came#TWR" },
+  { title: "Amarantine", link: "/enya-amarantine#Amarantine" },
+  { title: "Boadicea (Instrumental)", link: "/watermark" },
+  { title: "The Humming", link: "/enya-dark-sky-island#The_Humming" },
+  { title: "So I Could Find My Way", link: "/enya-dark-sky-island#So_I_Could_Find_My_Way" },
+  { title: "One by One", link: "/a-day-without-rain#One_By_One" },
+  { title: "Book of Days", link: "/shepherd-moons#Book_Of_Days" }
+];
+
+const schemaJson = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Enya Albums & Discography",
+  "description": description,
+  "itemListElement": albumsData.map((album, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "item": {
+      "@type": "MusicAlbum",
+      "name": album.title,
+      "datePublished": album.year,
+      "byArtist": {
+        "@type": "MusicGroup",
+        "name": "Enya"
+      }
+    }
+  }))
+};
+---
+
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
+  <nav aria-label="Breadcrumb">
+    <ol id="breadcrumb">
+      <li><a href="/">Home</a> &rsaquo;</li>
+      <li><strong>Enya Songs &amp; Albums</strong></li>
+    </ol>
+  </nav>
+
+      <div id="holidays2025">
+<h2><em>Holidays with Enya</em></h2>
+<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
+<p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
+
+<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><img src="/awc.jpg" alt="And Winter Came album cover">
+<p><em><strong>And Winter Came...</strong></em><br /> A winter-themed album</p></a>
+
+<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><img src="/vbe.jpg" alt="The Very Best of Enya album cover">
+<p><em><strong>The Very Best of Enya</strong></em><br /> The perfect gift</p></a>
+</div>
+
+  <h1>All of Enya's music: full album list, soundtracks</h1>
+
+  <p>
+    <strong>Dive into Enya's complete discography</strong>: Explore all her albums, renowned for their captivating melodies and insightful lyrics. Our <a href="/all-enya-songs">comprehensive song list</a> helps you find any track effortlessly.
+  </p>
+
+  <p>
+    Explore her ethereal compositions for <a href="#esoundtrack">TV and movie soundtracks</a>, and discover <a href="#eotherwork">early works and guest appearances</a> unearthing hidden gems of her evolving talent.
+  </p>
+
+  <h2>Enya's most popular songs</h2>
+  <ol class="popular-songs-list">
+    {popularSongs.map((song) => (
+      <li>
+        <a href={song.link}>"{song.title}"</a>
+      </li>
+    ))}
+  </ol>
+
+  <h2>Enya's studio albums and compilations</h2>
+
+  <div class="album-grid">
+    {mainAlbums.map((album) => (
+      <article class="album-card">
+        <div class="album-cover">
+          {album.link ? (
+            <a href={album.link}>
+              <img src={album.cover} alt={`${album.title} album cover`} width="150" height="150" />
+            </a>
+          ) : (
+            <img src={album.cover} alt={`${album.title} album cover`} width="150" height="150" />
+          )}
+        </div>
+        <div class="album-details">
+          <h3>
+            {album.link ? (
+              <a href={album.link}><strong>{album.title}</strong>{album.year ? `, ${album.year}` : ''}</a>
+            ) : (
+              <span><strong>{album.title}</strong>{album.year ? `, ${album.year}` : ''}</span>
+            )}
+          </h3>
+          <p>{album.description}</p>
+          {album.billboardPeak && (
+            <p className="billboard-peak">Peak position on Billboard 200: <strong>{album.billboardPeak}</strong></p>
+          )}
+          {album.featuredSongs && album.featuredSongs.length > 0 && (
+            <p className="featured-songs">
+              Featured songs:{' '}
+              {album.featuredSongs.map((song, idx) => (
+                <>
+                  <a href={song.link}>"{song.title}"</a>
+                  {idx < album.featuredSongs.length - 1 ? ', ' : ''}
+                </>
+              ))}
+            </p>
+          )}
+          {album.buyLink && (
+            <p>
+              <a href={album.buyLink} target="_blank" rel="nofollow sponsored noopener" class="buy-btn">
+                Stream / Buy on Amazon
+              </a>
+            </p>
+          )}
+        </div>
+      </article>
+    ))}
+  </div>
+
+  <h2 id="esoundtrack">Enya on TV and film soundtracks</h2>
+
+  <div class="album-grid">
+    {soundtrackAlbums.map((album) => (
+      <article class="album-card">
+        <div class="album-cover">
+          {album.link ? (
+            <a href={album.link}>
+              <img src={album.cover} alt={`${album.title} cover`} width="150" height="150" />
+            </a>
+          ) : (
+            <img src={album.cover} alt={`${album.title} cover`} width="150" height="150" />
+          )}
+        </div>
+        <div class="album-details">
+          <h3>
+            {album.link ? (
+              <a href={album.link}><strong>{album.title}</strong>{album.year ? `, ${album.year}` : ''}</a>
+            ) : (
+              <span><strong>{album.title}</strong>{album.year ? `, ${album.year}` : ''}</span>
+            )}
+          </h3>
+          <p>{album.description}</p>
+          {album.buyLink && (
+            <p>
+              <a href={album.buyLink} target="_blank" rel="nofollow sponsored noopener" class="buy-btn">
+                Available on Amazon
+              </a>
+            </p>
+          )}
+        </div>
+      </article>
+    ))}
+  </div>
+
+  <h3>Other films, TV shows and documentaries that used Enya songs</h3>
+  <ul>
+    <li><strong>1989: <em>Portrait of Ireland</em></strong> — Songs used: "Triad", "Na Laetha Geal M'Óige", "Evening Falls...", "The Sun In The Stream", "Boadicea", "Cursum Perficio" and "Deireadh An Tuath".</li>
+    <li><strong>1990: <em>The Memory of Earth</em></strong> — Songs used: "Deireath An Tuath", "Boadicea", "Dan y Dwr", "Aldebaran", "Epona", "Portrait", "I Want Tomorrow", "The Sun In The Stream" and "To Go Beyond II".</li>
+    <li><strong>1990: <em>Green Card</em></strong> — Songs used: "River", "Storms in Africa" and "Watermark".</li>
+    <li><strong>1991: <em>L.A. Story</em></strong> — Songs used: "Epona", "Exile" and "On Your Shore".</li>
+    <li><strong>1992: <em>Sleepwalkers</em></strong> — Song used: "Boadicea".</li>
+    <li><strong>1993: <em>Age of Innocence</em></strong> — Song used: "Marble Halls".</li>
+    <li><strong>1995: <em>Cry the Beloved Country</em></strong> — Song used: "Exile".</li>
+    <li><strong>2001: <em>Sweet November</em></strong> — Song used: "Only Time".</li>
+  </ul>
+
+  <h3 id="eotherwork">Early work and other appearances by Enya</h3>
+  <p>Enya's musical journey began with her family band, <a href="/enya-clannad">Clannad</a>. Beyond her solo career, she also lent her voice and talents to other artists:</p>
+  <ul>
+    <li><strong>1983: <em>Ceol Aduaidh</em> album by Mairéad Ní Mhaonaigh and Frankie Kennedy</strong> — Synthesizer on "An Cár Bog Déil".</li>
+    <li><strong>1984: <em>Touch Travel</em> album by various artists</strong> — Included two instrumental tracks under her real name Eithne Ní Bhraonáin: "An Ghaoth Ón Ghrian" and "Miss Clare Remembers".</li>
+    <li><strong>1985: <em>Ordinary Man</em> album by Christy Moore</strong> — Backup vocals on "Sweet Music Roll On", "The Diamondtina Drover" and "Quiet Desperation".</li>
+    <li><strong>1987: <em>The Lion And the Cobra</em> album by Sinéad O'Connor</strong> — Reads Psalms 91:11-13 in Irish Gaelic on "Never Get Old".</li>
+    <li><strong>1991: <em>The Driver</em> album by Terry Reid</strong> — Backup vocals on "The Whole of the Moon".</li>
+    <li><strong>1996: <em>Celtic Folk Festival</em> album by various artists</strong> — Includes unreleased Clannad tracks "Horo Gheallaid" and "Dúlamán".</li>
+  </ul>
+</Layout>
+
+<style>
+  .popular-songs-list {
+    margin-left: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  .album-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+  }
+  .album-card {
+    display: flex;
+    gap: 1.25rem;
+    align-items: flex-start;
+    padding: 1rem;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    background: #fff;
+  }
+  .album-cover img {
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  .album-details h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  .billboard-peak, .featured-songs {
+    font-size: 0.9rem;
+    margin: 0.35rem 0;
+  }
+  .buy-btn {
+    display: inline-block;
+    padding: 0.35rem 0.75rem;
+    font-size: 0.85rem;
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    border-radius: 3px;
+    color: #111;
+    text-decoration: none;
+    margin-top: 0.35rem;
+  }
+  .buy-btn:hover {
+    background-color: #ddb347;
+  }
+</style>

@@ -1,0 +1,38 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
+
+const title = "Enya's On My Way Home music video | All Enya videos, live performances";
+const description = "Video for Enya song On My Way Home. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
+const canonical = "https://www.enyaone.com/video-on-my-way-home";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
+const bodyClass = "";
+
+const schemaJson = {
+	"@context": "https://schema.org",
+	"@type": "VideoObject",
+	"name": title,
+	"description": description
+};
+---
+
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
+
+      <h1>On My Way Home, 1992 <small>Dir. by Rob Dickins</small></h1>
+
+<div id="video-screen">
+
+<iframe width="1050" height="591" src="https://www.youtube-nocookie.com/embed/uinlWB5W8rU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
+<h3>About</h3>
+<p>Released in December 1996, this is the promo video for Enya single <a href="/the-memory-of-trees#On_My_Way_Home">"On My Way Home"</a>, from the album <a href="/the-memory-of-trees"><em>The Memory Of Trees</em></a>.</p>
+<p>Time: 4:25</p>
+<p>Directed by Rob Dickins.</p>
+
+<p>"On My Way Home" is a song by Irish new-age artist Enya. It was released as the second and final single from her fourth studio album, The Memory Of Trees. The song achieved minor success, reaching #26 on the UK singles charts in December 1996. The song contains samples from two other Enya songs, "Book of Days" and "Orinoco Flow". </p>
+
+<p><strong><a href="/enya-video">&laquo; EnyaTube home</a></strong></p>
+
+</Layout>

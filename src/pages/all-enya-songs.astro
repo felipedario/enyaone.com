@@ -1,0 +1,106 @@
+---
+import Layout from "../layouts/Layout.astro";
+import allSongs from "../data/all-songs.json";
+
+const title = "All Enya songs: full list of Enya's albums, lyrics and downloads";
+const description = "This is a complete list of Enya songs with easy lyrics and MP3 download links. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, albums, news, videos, quotes, biography and more!";
+const canonical = "https://www.enyaone.com/all-enya-songs";
+const ogImage = "https://www.enyaone.com/enya-promo.jpg";
+const bodyClass = "all-songs-page";
+
+const schemaJson = {
+  "@context": "https://schema.org",
+  "@type": "MusicPlaylist",
+  "name": "Complete List of Enya Songs",
+  "numTracks": allSongs.length,
+  "track": allSongs.map((song) => ({
+    "@type": "MusicRecording",
+    "name": song.title,
+    "byArtist": {
+      "@type": "MusicGroup",
+      "name": "Enya"
+    }
+  }))
+};
+---
+
+<Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
+
+    <nav aria-label="Breadcrumb"><ol id="breadcrumb">
+      <li><a href="/">Home</a> &rsaquo;</li>
+      <li><a href="/enya-songs-albums">Enya Songs &amp; Albums</a> &rsaquo;</li>
+      <li><strong>All Enya songs</strong></li>
+    </ol></nav>
+  
+            <div id="holidays2025">
+<h2><em>Holidays with Enya</em></h2>
+<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
+<p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
+
+<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><img src="/awc.jpg" alt="And Winter Came album cover">
+<p><em><strong>And Winter Came...</strong></em><br /> A winter-themed album</p></a>
+
+<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><img src="/vbe.jpg" alt="The Very Best of Enya album cover">
+<p><em><strong>The Very Best of Enya</strong></em><br /> The perfect gift</p></a>
+</div>
+
+      <h1>All Enya songs: full list of Enya's albums</h1>
+
+      <p>This is a list of all songs recorded by Irish singer Enya, including her studio albums, compilations, B-sides, and soundtrack appearances.</p>
+
+      <!-- Tabela sem atributo obsoleto e com Fragmentos limpos -->
+<table class="wikitable sortable" id="all-songs-table">
+  <thead>
+    <tr>
+      <th>Song title</th>
+      <th>Found on...</th>
+    </tr>
+  </thead>
+  <tbody>
+    {allSongs.map((song) => (
+      <tr>
+        <td>
+          {song.songLink ? <a href={song.songLink}>{song.title}</a> : song.title}
+        </td>
+        <td>
+          {song.albumLinks && song.albumLinks.length > 0 ? (
+            song.albumLinks.map((albumLink, index) => (
+              <>
+                <a href={albumLink.href}>{albumLink.title}</a>
+                {index < song.albumLinks.length - 1 ? ' · ' : ''}
+              </>
+            ))
+          ) : (
+            <span>{song.albumText}</span>
+          )}
+          {song.streamLink && (
+            <>
+              {' · '}
+              <a href={song.streamLink} target="_blank" rel="nofollow sponsored noopener">
+                Stream or download song
+              </a>
+            </>
+          )}
+        </td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+
+</Layout>
+
+<style>
+  #all-songs-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  #all-songs-table th, #all-songs-table td {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  #all-songs-table th {
+    background-color: #f5f5f5;
+  }
+</style>

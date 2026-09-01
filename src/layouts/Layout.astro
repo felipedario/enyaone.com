@@ -1,0 +1,210 @@
+---
+import '../styles/style-enya-lyrics.css';
+
+interface Props {
+	title?: string;
+	description?: string;
+	canonical?: string;
+	ogImage?: string;
+	ogImageWidth?: number | string;
+	ogImageHeight?: number | string;
+	bodyClass?: string;
+	schemaJson?: Record<string, any> | Array<Record<string, any>>;
+}
+
+const {
+	title = "Enya songs, albums, biography, lyrics, and more!",
+	description = "Enya Lyrics is a tribute to singer Enya featuring all her song lyrics, downloads, Only Time info, albums information, videos, biography and more!",
+	canonical,
+	ogImage = "https://www.enyaone.com/enya-promo.jpg",
+	ogImageWidth,
+	ogImageHeight,
+	bodyClass = "",
+	schemaJson
+} = Astro.props;
+
+const currentYear = new Date().getFullYear();
+
+const defaultWebsiteSchema = {
+	"@context": "https://schema.org",
+	"@type": "WebSite",
+	"name": "Enya One",
+	"url": "https://www.enyaone.com/",
+	"description": description,
+	"publisher": {
+		"@type": "Person",
+		"name": "Enya",
+		"alternateName": "Eithne Pádraigín Ní Bhraonáin"
+	}
+};
+
+const schemasToRender = schemaJson ? (Array.isArray(schemaJson) ? schemaJson : [schemaJson]) : [defaultWebsiteSchema];
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Google Tag Manager -->
+	<script is:inline>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-K7NW25M');</script>
+	<!-- End Google Tag Manager -->
+
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>{title}</title>
+
+	<meta name="description" content={description} />
+
+	{canonical && <link rel="canonical" href={canonical} />}
+
+	<meta itemprop="name" content={title}>
+	<meta itemprop="description" content={description}>
+	<meta itemprop="image" content={ogImage}>
+
+	{ogImageWidth && <meta property="og:image:width" content={String(ogImageWidth)}>}
+	{ogImageHeight && <meta property="og:image:height" content={String(ogImageHeight)}>}
+	<meta property="og:description" content={description}>
+	<meta property="og:title" content={title}>
+	{canonical && <meta property="og:url" content={canonical}>}
+	<meta property="og:image" content={ogImage}>
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content={title}>
+	<meta name="twitter:description" content={description}>
+	<meta name="twitter:image:src" content={ogImage}>
+
+	<meta content="Felipe Dario (https://felipedario.com)" name="author" />
+
+	{schemasToRender.map((schema) => (
+		<script type="application/ld+json" set:html={JSON.stringify(schema)} />
+	))}
+</head>
+<body class={bodyClass}>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K7NW25M"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+	<a href="#main" class="sr">Jump to content</a>
+
+	<div id="wrap">
+		<header>
+			<div id="logo"><a href="/" title="Enya Lyrics main page">Enya One: Enya songs, albums, biography, lyrics, and more!</a></div>
+
+			<nav id="menu" aria-label="Main navigation">
+				<ul>
+					<li class="drop"><a href="/enya-songs-albums" title="Albums and lyrics list" id="sm">Songs, Albums &amp; Lyrics</a>
+						<ul>
+							<li><a href="/enya-album"><em>Enya</em>, 1987</a></li>
+							<li><a href="/watermark"><em>Watermark</em>, 1988</a></li>
+							<li><a href="/shepherd-moons"><em>Shepherd Moons</em>, 1991</a></li>
+							<li><a href="/the-celts"><em>The Celts</em>, 1992</a></li>
+							<li><a href="/the-memory-of-trees"><em>The Memory of Trees</em>, 1995</a></li>
+							<li><a href="/paint-the-sky-with-stars"><em>Paint The Sky With Stars</em>, 1997</a></li>
+							<li><a href="/a-day-without-rain"><em>A Day Without Rain</em>, 2000</a></li>
+							<li><a href="/enya-amarantine"><em>Amarantine</em>, 2005</a></li>
+							<li><a href="/and-winter-came"><em>And Winter Came</em>, 2008</a></li>
+							<li><a href="/very-best-enya"><em>The Very Best of Enya</em>, 2009</a></li>
+							<li><a href="/enya-dark-sky-island"><em>Dark Sky Island</em>, 2015</a></li>
+							<li><a href="/enya-other">Other songs by Enya</a></li>
+							<li><a href="/all-enya-songs">List of all songs</a></li>
+						</ul>
+					</li>
+					<li><a href="/enya-biography" title="Enya biography">Biography</a></li>
+					<li><a href="/new-age-music" title="New Age music">Artists like Enya</a></li>
+					<li><a href="/enya-video" title="EnyaTube Enya videos">Videos</a></li>
+					<li><a href="/sitemap" title="More about Enya">More <span class="sr">about Enya: sitemap</span></a></li>
+				</ul>
+			</nav>
+
+		</header>
+
+		<section id="content">
+
+		<main id="main">
+
+		<slot />
+
+		</main>
+
+		<aside id="sidebar">
+				
+				<h2>Featured albums</h2>
+
+				<h3><em><a href="/a-day-without-rain">A Day Without Rain</a></em>, 2000</h3>
+				
+				<div><a href="/a-day-without-rain">
+					<img src="/enya-2023-adwr.jpg" alt="A Day Without Rain album picture"  width="300" height="300" /></a>
+					
+					<p>Through extensive use in various forms of media, "Only Time" became an anthem of resilience and hope after  the tragic events of the September 11 attacks. </p>
+				</div>
+
+				<h3><em><a href="/the-memory-of-trees">The Memory of Trees</a></em>, 1995</h3>
+				
+				<div><a href="/the-memory-of-trees">
+					<img src="/enya-2023-tmot.jpg" alt="The Memory of Trees album picture" width="300" height="300" /></a>
+					
+					<p>This album won Enya's first Grammy Award for Best New Age Album. &ldquo;With the destruction of the world&rsquo;s rainforests it may turn out to be that the memory of trees is nothing more than that for us&mdash;a memory.&rdquo;</p>
+				</div>
+				
+			</aside>
+
+			</section>
+
+		
+			<nav id="mel19" aria-label="Secondary navigation">
+			<h2>Browse Enya One</h2>
+
+			<h3>Enya albums and songs lyrics</h3>
+
+			<ul>
+				<li><a href="/enya-album"><em>Enya</em><span>, 1987</span></a></li>
+				<li><a href="/watermark"><em>Watermark</em><span>, 1988</span></a></li>
+				<li><a href="/shepherd-moons"><em>Shepherd Moons</em><span>, 1991</span></a></li>
+				<li><a href="/the-celts"><em>The Celts</em><span>, 1992</span></a></li>
+				<li><a href="/the-memory-of-trees"><em>The Memory of Trees</em><span>, 1995</span></a></li>
+				<li><a href="/paint-the-sky-with-stars"><em>Paint The Sky With Stars - The Best of Enya</em><span>, 1997</span></a></li>
+				<li><a href="/a-day-without-rain"><em>A Day Without Rain</em><span>, 2001</span></a></li>
+				<li><a href="/enya-amarantine"><em>Amarantine</em><span>, 2005</span></a></li>
+				<li><a href="/and-winter-came"><em>And Winter Came...</em><span>, 2008</span></a></li>
+				<li><a href="/enya-dark-sky-island"><em>Dark Sky Island</em><span>, 2015</span></a></li>
+				<li><a href="/enya-other">Other songs<span>, including <em>Sounds of the Season/Christmas Secrets</em></span></a></li>
+				<li><a href="/all-enya-songs">Complete list<span>: listen for free and download all Enya songs</span></a></li>
+				<li><a href="/enya-songs-albums">Enya Songs &amp; Albums<span>, including soundtracks and other works</span></a></li>
+			</ul>
+
+			<h3>About Enya</h3>
+
+			<ul>
+				<li><a href="/enya-biography">Enya biography, trivia and FAQ</a></li>
+				<li><a href="/roma-ryan-nicky">Roma <span>(Enya's lyricist) and</span> Nicky Ryan <span>(her late producer)</span></a></li>
+				<li><a href="/new-age-music">Artists like Enya<span>: New Age, Celtic, ambient and ethereal music</span></a></li>
+				<li><a href="/enya-quotes">Quotes<span> by and about Enya</span></a></li>
+				<li><a href="/the-lord-of-the-rings"><em>The Lord of the Rings</em><span>, Enya's favorite book</span></a></li>
+				<li><a href="/enya-clannad">Clannad<span>, Enya's family band</span></a></li>
+				<li><a href="/the-celts-documentary"><span>BBC's</span> <em>The Celts</em> documentary</a></li>
+			</ul>
+
+			<h3>Even more</h3>
+
+			<ul>
+				<li><a href="/sitemap">Sitemap<span>: more about Enya</span></a></li>
+				<li><a href="/enya-video">EnyaTube<span>: all Enya videos</span></a></li>
+				<li><a href="https://amzn.to/2ZIw9PC" target="_blank" rel="nofollow sponsored noopener">Enya MP3<span> and more products</span></a></li>
+				<li><a href="/enya-links"><span>Pinned</span> Enya links</a></li>
+			</ul>
+		</nav>
+
+		<footer>
+			<p><strong><a href="/">Enya One</a></strong>, 2007&ndash;{currentYear} &middot; <a href="/sitemap#aboutus">About us</a> &middot; <a href="/pp">Privacy Policy</a> &middot; <a href="/sitemap#contact">Contact us</a> &middot; <a href="https://felipedario.com/" target="_blank" rel="noopener">Design and web development by Felipe D&aacute;rio</a>.</p>
+
+			<p>Lyrics, videos, images and the Enya logo TM &amp; &copy; Enya/Warner Music. As Amazon Associates, we earn a small commission from qualifying purchases.</p>
+		</footer>
+	</div>
+</body>
+</html>
