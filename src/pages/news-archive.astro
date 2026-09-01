@@ -1,9 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
 
 const title = "News archive | Enya Lyrics, videos, MP3 downloads, biography";
 const description = "Our news archive. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
-const canonical = "";
+const canonical = "https://www.enyaone.com/news-archive";
 const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
 
@@ -16,11 +17,11 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-<div id="content">
+  <div id="content">
 
-<main id="main">
 
-<h1>Enya news archive</h1>
+    <main id="main">
+      <h1>Enya news archive</h1>
 
 <h4>Christmas compilation album just released</h4>
 
@@ -613,16 +614,8 @@ Day Without Rain</em></a>, <a href="/enya-amarantine"><em>Amarantine</em></a>, <
 <h3><a href="/sitemap">Sitemap</a></h3>
 <p><a href="/sitemap">More about Enya</a>, <a href="/enya-video">Enya videos</a>, <a href="https://amzn.to/2ZIw9PC" target="_blank" rel="nofollow sponsored noopener">Store</a>, <a href="/enya-links">Links</a>, <a href="/sitemap#aboutus">About us</a>, <a href="mailto:orangax@gmail.com&amp;subject=Enya%20Lyrics%20feedback">Contact</a>.</p>
 </div>
-</main>
+    </main>
 
-<aside id="sidebar">
-
-	<a id="albumcover" target="_blank" href="https://www.amazon.com/Enya/e/B000APUOQK?ref=sr_ntt_srch_lnk_2&amp;qid=1641169744&amp;sr=1-2&_encoding=UTF8&tag=enylyrallenys-20&linkCode=ur2&linkId=d541620b701d12b789cae68caf79229e&camp=1789&creative=9325"><img src="/enya-home2022.jpg" alt="Download MP3 or stream Enya songs in Amazon.com"  width="150" height="150" /></a>
-
-	<p><a target="_blank" href="https://www.amazon.com/Enya/e/B000APUOQK?ref=sr_ntt_srch_lnk_2&amp;qid=1641169744&amp;sr=1-2&_encoding=UTF8&tag=enylyrallenys-20&linkCode=ur2&linkId=d541620b701d12b789cae68caf79229e&camp=1789&creative=9325">Download MP3 or stream Enya songs in Amazon.com</a></p>
-
-
-</div>
-
-</div>
+    <Sidebar />
+  </div>
 </Layout>

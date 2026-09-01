@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
 
 const title = "Enya's Watermark album (\"Orinoco Flow/Sail Away\", \"Evining Falls...\" lyrics)";
 const description = "All info, lyrics and MP3 downloads for Enya";
@@ -16,11 +17,9 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-<div id="content">
-			
-		
-			
-			<nav aria-label="Breadcrumb"><ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
+  <div id="content">
+    <nav aria-label="Breadcrumb">
+      <ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
 				<li property="itemListElement" typeof="ListItem">
 					<a href="/" property="item" typeof="WebPage">
 						<span property="name">Home</span></a> 
@@ -33,9 +32,11 @@ const schemaJson = {
 				<li property="itemListElement" typeof="ListItem">
 					<strong property="name">Watermark</strong>
 					<meta property="position" content="3"></li>
-				</ol></nav><main id="main">
+				</ol>
+    </nav>
 
-				<div id="holidays2025">
+    <main id="main">
+      <div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
 <a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
 <p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
@@ -801,16 +802,8 @@ const schemaJson = {
 					<p>Management: <strong>Aigle Music</strong></p>
 					
 					<p><em>T� muid f�orbhu�och do Rob Dickins ar son an chuidi� agus an mhisneach a thug s� du�nn.</em> (We are truly grateful to Rob Dickins for the help and courage he gave us.)</p>
-					</main>
-					
-					<aside id="sidebar"><a id="albumcover" href="https://amzn.to/49c6ZNC" target="_blank" rel="nofollow sponsored noopener">
-						<img  title="Audio, images and low prices at Amazon" src="/wm.jpg" alt="Audio, images and low prices at Amazon"  width="150" height="150" /></a>
-						
-						<div class="buy"><a href="https://amzn.to/49c6ZNC" target="_blank" rel="nofollow sponsored noopener">Stream or download Enya songs</a></div>
-						
-					
-					</div>
-					
+    </main>
 
-					</div>
+    <Sidebar />
+  </div>
 </Layout>

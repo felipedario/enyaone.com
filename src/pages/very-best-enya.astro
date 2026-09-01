@@ -1,9 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
 
 const title = "The Very Best of Enya, 2009 compilation album | Enya Lyrics";
 const description = "All info, lyrics and MP3 downloads for Enya";
-const canonical = "";
+const canonical = "https://www.enyaone.com/very-best-enya";
 const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
 
@@ -16,9 +17,9 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-<div id="content">
-
-<nav aria-label="Breadcrumb"><ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
+  <div id="content">
+    <nav aria-label="Breadcrumb">
+      <ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
 	<li property="itemListElement" typeof="ListItem">
 		<a href="/" property="item" typeof="WebPage">
 			<span property="name">Home</span></a>
@@ -31,9 +32,11 @@ const schemaJson = {
 	<li property="itemListElement" typeof="ListItem">
 		<strong property="name">The Very Best of Enya</strong>
 		<meta property="position" content="3"></li>
-	</ol></nav><main id="main">
+	</ol>
+    </nav>
 
-	<div id="holidays2025">
+    <main id="main">
+      <div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
 <a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
 <p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
@@ -199,22 +202,8 @@ Art Direction and Design by Peacock<br>
 Photography by Simon Fowler, David Scheinmann, Russel Young and Max Adelman<br>
 Lettering by Ruth Rowland<br>
 Published By EMI Music Publishing Ltd.</p>
+    </main>
 
-</main>
-
-<aside id="sidebar">
-
-<a id="albumcover" href="https://amzn.to/3SU09Xt" target="_blank" rel="nofollow sponsored noopener"><img src="/vbe.jpg" alt="Audio, images and low prices at Amazon"  width="150" height="150" /></a>
-
-<br /><br />
-
-<p><a style="display:block;" href="https://amzn.to/3SU09Xt" target="_blank" rel="nofollow sponsored noopener">Stream or download Enya songs</a></p>
-
-</div>
-
-
-
-</div>
-
-<div id="ad-topo"><a href="https://www.amazon.com/dp/B002RV01QI?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as4&creativeASIN=B002RV01QI&adid=18HACXWRC02P3LQLM"><img src="/banner-vbe.jpg" alt="The Very Best of Enya"  width="150" height="150" /></a></div>
+    <Sidebar />
+  </div>
 </Layout>

@@ -1,9 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
 
 const title = "New Age, Celtic, ambient and ethereal music: artists like Enya | Enya One";
 const description = "Meet artists like Enya! Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
-const canonical = "";
+const canonical = "https://www.enyaone.com/new-age-music";
 const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
 
@@ -16,11 +17,11 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-<div id="content">
+  <div id="content">
 
-<main id="main">
 
-<h1>New Age, Celtic, ambient and ethereal music: artists like Enya</h1>
+    <main id="main">
+      <h1>New Age, Celtic, ambient and ethereal music: artists like Enya</h1>
 
 <p><strong><a title="News Age music bestsellers on Amazon.com"
 href="https://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fbestsellers%2Fmusic%2F36&tag=enylyrallenys-20&linkCode=ur2&camp=1789&creative=9325">New Age music</a></strong>, often said to be Enya's musical genre, is a style originally associated with some New Age beliefs (but it's often not the case; Enya herself is catholic). It has its basis in the 1960s and is generally characterised as being primarily
@@ -139,17 +140,8 @@ Tempo: Usually slow and flowing, helping to create that relaxed vibe.
 						<li><a href="https://amzn.to/40sjoKf" target="_blank" rel="nofollow sponsored noopener"><strong>Enigma</strong></a>: A German musical project created by Michael Cretu. Enigma is known for its atmospheric and mysterious sound, blending Gregorian chants, world music influences, and electronic elements. Their music often has a spiritual or mystical quality.</li>
 
 </ul>
+    </main>
 
-</main>
-
-<aside id="sidebar">
-
-<p>Amazon.com has a <a href="https://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fbestsellers%2Fmusic%2F36&tag=enylyrallenys-20&linkCode=ur2&camp=1789&creative=9325">list of <strong>New Age music</strong> bestsellers</a>, with more information and great discounts.</p>
-
-</div>
-
-
-
-
-</div>
+    <Sidebar />
+  </div>
 </Layout>

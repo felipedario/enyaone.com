@@ -1,25 +1,27 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
 
 const title = "Enya's It's In The Rain music video | All Enya videos";
 const description = "Video for Enya song It";
-const canonical = "";
+const canonical = "https://www.enyaone.com/video-its-in-the-rain";
 const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
 
 const schemaJson = {
 	"@context": "https://schema.org",
-	"@type": "WebPage",
+	"@type": "VideoObject",
 	"name": title,
 	"description": description
 };
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-<div id="content">
-<div id="video-main">
+  <div id="content">
 
-<h1>It's In The Rain, 2006 <small>Directed by Tim Royes</small></h1>
+
+    <main id="main">
+      <h1>It's In The Rain, 2006 <small>Directed by Tim Royes</small></h1>
 
 <div class="ads-2016">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -52,4 +54,8 @@ const schemaJson = {
 </div>
 
 </div>
+    </main>
+
+    <Sidebar />
+  </div>
 </Layout>

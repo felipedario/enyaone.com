@@ -1,9 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
 
 const title = "\"The Celts\" documentary and the first album | Enya Lyrics, downloads";
 const description = "BBCs The Celts documentary originated Enya";
-const canonical = "";
+const canonical = "https://www.enyaone.com/the-celts-documentary";
 const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
 
@@ -16,10 +17,11 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-<div id="content">
-<main id="main">
+  <div id="content">
 
-<h1><em>The Celts</em> documentary</h1>
+
+    <main id="main">
+      <h1><em>The Celts</em> documentary</h1>
 
 <p><strong><em>The Celts</em></strong> (subtitled "Rich Traditions and Ancient Myths") is a 1986 documentary series produced by the BBC, with all soundtrack composed by Enya. It was written and presented by Frank Delaney, who also wrote an accompanying book.</p>
 
@@ -53,7 +55,9 @@ immigration of the Irish and others to North America.<br /> <em>Songs used: "The
 <li><em><strong>The Legacy</strong></em> is a discussion on the degree to which
 modern people may view themselves as Celts, with examples of modern
 Celtic-inspired practices like military discipline and warfare and modern Irish music and art.<br /> <em>Songs used: "The Celts", "Seaside Ditty", "Third Man", untitled, "Irish Piece", "To Go Beyond II", "Deserted House", "Aldebaran" and "Portrait".</em></li>
-</ol></nav><h3><em>The Celts</em> and Enya</h3>
+</ol>
+
+<h3><em>The Celts</em> and Enya</h3>
 
 <div style="float:left; width:250px; margin:10px 30px 20px 0;">
 <a href="/video-i-want-tomorrow"><img src="/250px-TheCelts.JPG" alt=""  width="150" height="150" /></a>
@@ -86,15 +90,8 @@ original release <em>Enya</em>), entitled "Portrait: Out Of The Blue" (3:11).</p
 
 
 <p>According to <a href="/roma-ryan-nicky">Roma Ryan</a>, Enya's lyricist, "[t]he director had various pastiches in the programme and wanted music to compliment these. Thus the music ranges from a "Spaghetti Western" through to "The Third Man" and "The Haunted House" to the more familiar tracks embodied on the soundtrack album. What happened to the other tracks? I hear you say. We still have them!"</p>
+    </main>
 
-
-</main>
-
-<aside id="sidebar">
-
-</div>
-
-
-
-</div>
+    <Sidebar />
+  </div>
 </Layout>

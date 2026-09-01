@@ -1,9 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
 
 const title = "GNU Free Documentation License | Enya Lyrics";
 const description = "Full GNU Free Documentation License. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
-const canonical = "";
+const canonical = "https://www.enyaone.com/gnu-free-documentation-license";
 const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
 
@@ -16,10 +17,11 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-<div id="content">
-<main id="main">
+  <div id="content">
 
-<h1>Original content rights</h1>
+
+    <main id="main">
+      <h1>Original content rights</h1>
 
 
 <p><strong><em>Enya Lyrics</em> and <em>EnyaTube</em> sites original content is available under the GNU Free Documentation License below</strong>.
@@ -572,23 +574,8 @@ Records.</strong></p>
   free software license, such as the GNU General Public License,
   to permit their use in free software.
 </p>
+    </main>
 
-
-
-
-</main>
-
-
-
-<aside id="sidebar">
-
-
-
-	
-</div>
-
-
-
-
-</div>
+    <Sidebar />
+  </div>
 </Layout>

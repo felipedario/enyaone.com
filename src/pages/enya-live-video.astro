@@ -1,34 +1,27 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
 
 const title = "Enya's \"Only Time\", \"Orinoco Flow\", \"May It Be\" live performance video";
 const description = "Enya peforming Only Time, Orinoco Flow, and May It Be Live. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
-const canonical = "";
+const canonical = "https://www.enyaone.com/enya-live-video";
 const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
 
 const schemaJson = {
 	"@context": "https://schema.org",
-	"@type": "WebPage",
+	"@type": "VideoObject",
 	"name": title,
 	"description": description
 };
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-<div id="content">
+  <div id="content">
 
-<a class="h19" href="https://amzn.to/37ItmLq" target="_blank" rel="nofollow sponsored noopener">
-	<img src="/h19.jpg" alt="Listen to songs by Enya for free with Amazon Music Unlimited trial"  width="150" height="150" />
 
-	<h2>Holidays with Enya</h2>
-
-	Listen to songs by Enya for free with Amazon Music Unlimited trial.
-	</a>
-
-<div id="video-main">
-
-<h1>Enya's "Only Time", "Orinoco Flow", "May It Be" live <br /><small>100% live vocal performance compilation</small></h1>
+    <main id="main">
+      <h1>Enya's "Only Time", "Orinoco Flow", "May It Be" live <br /><small>100% live vocal performance compilation</small></h1>
 
 <div class="ads-2016">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -64,4 +57,8 @@ const schemaJson = {
 </div>
 
 </div>
+    </main>
+
+    <Sidebar />
+  </div>
 </Layout>

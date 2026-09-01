@@ -1,9 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
 
 const title = "Enya's The Memory Of Trees album (\"Anywhere Is\", \"China Roses\" lyrics)";
 const description = "All info, song lyrics and MP3 downloads for Enya";
-const canonical = "";
+const canonical = "https://www.enyaone.com/the-memory-of-trees";
 const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
 
@@ -16,10 +17,9 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-<div id="content">
-		
-
-<nav aria-label="Breadcrumb"><ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
+  <div id="content">
+    <nav aria-label="Breadcrumb">
+      <ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
 	<li property="itemListElement" typeof="ListItem"><a href="/" property="item" typeof="WebPage">
 			<span property="name">Home</span></a> 
 		  <meta property="position" content="1">
@@ -31,9 +31,11 @@ const schemaJson = {
 	<li property="itemListElement" typeof="ListItem">
 		<strong property="name">The Memory Of Trees</strong>
 		<meta property="position" content="3"></li>
-	</ol></nav><main id="main">
+	</ol>
+    </nav>
 
-				<div id="holidays2025">
+    <main id="main">
+      <div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
 <a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
 <p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
@@ -812,22 +814,22 @@ const schemaJson = {
 					
 					<strong>Grammy Awards</strong>
 					
-					<table style="width: 100%;"   >
+					<table style="width: 100%;"  cellpadding="0" cellspacing="0">
 						<tbody>
 							<tr>
 								<th style="text-align: left;">Year</th>
 								
-								<th >Winner</th>
+								<th align="left">Winner</th>
 								
-								<th >Category</th>
+								<th align="left">Category</th>
 							</tr>
 							
 							<tr>
-								<td >1997</td>
+								<td align="left">1997</td>
 								
-								<td ><i>The Memory of Trees</i></td>
+								<td align="left"><i>The Memory of Trees</i></td>
 								
-								<td >Best New Age Album</td>
+								<td align="left">Best New Age Album</td>
 							</tr>
 						</tbody>
 					</table>
@@ -836,20 +838,20 @@ const schemaJson = {
 					
 					<strong>Album</strong>
 					
-					<table style="width: 100%;" class="wikitable" border="0"  >
+					<table style="width: 100%;" class="wikitable" border="0" cellpadding="0" cellspacing="0">
 						<tbody>
 							<tr>
-								<th >Country</th>
+								<th align="left">Country</th>
 								
-								<th >Peak position</th>
+								<th align="left">Peak position</th>
 								
-								<th >Certification</th>
+								<th align="left">Certification</th>
 								
-								<th >Sales</th>
+								<th align="left">Sales</th>
 							</tr>
 							
 							<tr>
-								<td >Australia</td>
+								<td align="left">Australia</td>
 								
 								<td>1</td>
 								
@@ -859,7 +861,7 @@ const schemaJson = {
 							</tr>
 							
 							<tr>
-								<td >Austria</td>
+								<td align="left">Austria</td>
 								
 								<td>3</td>
 								
@@ -869,7 +871,7 @@ const schemaJson = {
 							</tr>
 							
 							<tr>
-								<td >Brazil</td>
+								<td align="left">Brazil</td>
 								
 								<td></td>
 								
@@ -879,7 +881,7 @@ const schemaJson = {
 							</tr>
 							
 							<tr>
-								<td >Canada</td>
+								<td align="left">Canada</td>
 								
 								<td></td>
 								
@@ -889,7 +891,7 @@ const schemaJson = {
 							</tr>
 							
 							<tr>
-								<td >Finland</td>
+								<td align="left">Finland</td>
 								
 								<td>11</td>
 								
@@ -899,7 +901,7 @@ const schemaJson = {
 							</tr>
 							
 							<tr>
-								<td >France</td>
+								<td align="left">France</td>
 								
 								<td></td>
 								
@@ -909,7 +911,7 @@ const schemaJson = {
 							</tr>
 							
 							<tr>
-								<td >Germany</td>
+								<td align="left">Germany</td>
 								
 								<td></td>
 								
@@ -919,7 +921,7 @@ const schemaJson = {
 							</tr>
 							
 							<tr>
-								<td >Netherlands</td>
+								<td align="left">Netherlands</td>
 								
 								<td></td>
 								
@@ -929,7 +931,7 @@ const schemaJson = {
 							</tr>
 							
 							<tr>
-								<td >New Zealand</td>
+								<td align="left">New Zealand</td>
 								
 								<td>3</td>
 								
@@ -939,7 +941,7 @@ const schemaJson = {
 							</tr>
 							
 							<tr>
-								<td >Norway</td>
+								<td align="left">Norway</td>
 								
 								<td>1</td>
 								
@@ -949,7 +951,7 @@ const schemaJson = {
 							</tr>
 							
 							<tr>
-								<td >Poland</td>
+								<td align="left">Poland</td>
 								
 								<td></td>
 								
@@ -959,7 +961,7 @@ const schemaJson = {
 							</tr>
 							
 							<tr>
-								<td >Spain</td>
+								<td align="left">Spain</td>
 								
 								<td>1</td>
 								
@@ -969,7 +971,7 @@ const schemaJson = {
 							</tr>
 							
 							<tr>
-								<td >Sweden</td>
+								<td align="left">Sweden</td>
 								
 								<td>1</td>
 								
@@ -979,7 +981,7 @@ const schemaJson = {
 							</tr>
 							
 							<tr>
-								<td >Switzerland</td>
+								<td align="left">Switzerland</td>
 								
 								<td>3</td>
 								
@@ -989,7 +991,7 @@ const schemaJson = {
 							</tr>
 							
 							<tr>
-								<td >United Kingdom</td>
+								<td align="left">United Kingdom</td>
 								
 								<td>5</td>
 								
@@ -999,7 +1001,7 @@ const schemaJson = {
 							</tr>
 							
 							<tr>
-								<td >United States</td>
+								<td align="left">United States</td>
 								
 								<td>9</td>
 								
@@ -1046,16 +1048,9 @@ const schemaJson = {
 					
 					
 					
-					<a href="#">Return to top</a></main>
-					
-					<aside id="sidebar"><a id="albumcover" href="https://amzn.to/499iOEx" target="_blank" rel="nofollow sponsored noopener">
-						<img title="Audio, images and low prices at Amazon" src="/tmot.jpg" alt="Audio, images and low prices at Amazon"  width="150" height="150" /></a>
-						
-						<div class="buy"><a href="https://amzn.to/499iOEx" target="_blank" rel="nofollow sponsored noopener">Stream or download Enya songs</a></div>
+					<a href="#">Return to top</a>
+    </main>
 
-
-					</div>
-					
-
-					</div>
+    <Sidebar />
+  </div>
 </Layout>

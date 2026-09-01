@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
 
 const title = "Paint The Sky With Stars | The Best of Enya (\"Orinoco Flow\" lyrics)";
 const description = "All info, lyrics and downloads for Enya";
@@ -16,9 +17,9 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-<div id="content">
-
-<nav aria-label="Breadcrumb"><ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
+  <div id="content">
+    <nav aria-label="Breadcrumb">
+      <ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
 	<li property="itemListElement" typeof="ListItem"><a href="/" property="item" typeof="WebPage">
 			<span property="name">Home</span></a> 
 		  <meta property="position" content="1">
@@ -30,8 +31,11 @@ const schemaJson = {
 	<li property="itemListElement" typeof="ListItem">
 		<strong property="name">Paint The Sky With Stars</strong>
 		<meta property="position" content="3"></li>
-	</ol></nav><main id="main">
-				<h1>Paint The Sky With Stars (1997)</h1>
+	</ol>
+    </nav>
+
+    <main id="main">
+      <h1>Paint The Sky With Stars (1997)</h1>
 				
 				<a class="new-amazon-album-link" href="https://amzn.to/49vcwPf" rel="nofollow sponsored noopener" target="_blank">
 					<img  src="/ptsws.jpg" alt="Paint The Sky With Stars (1997)"  width="150" height="150" /></a>
@@ -1195,14 +1199,9 @@ const schemaJson = {
 					Mar as gn�th�bui�chas do Rob Dickins</em></p>
 				
 				
-				<a href="#">Return to top</a></main>
-			
-			<aside id="sidebar"><a id="albumcover" href="https://amzn.to/49vcwPf" target="_blank" rel="nofollow sponsored noopener">
-				<img title="Audio, images and low prices at Amazon" src="/ptsws.jpg" alt="Audio, images and low prices at Amazon"  width="150" height="150" /></a>
-				
-				<div class="buy"><a href="https://amzn.to/49vcwPf" target="_blank" rel="nofollow sponsored noopener">Stream or download Enya songs</a></div>
-			</div>
-			
+				<a href="#">Return to top</a>
+    </main>
 
-		</div>
+    <Sidebar />
+  </div>
 </Layout>

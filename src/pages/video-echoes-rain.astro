@@ -1,25 +1,27 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
 
 const title = "Enya's Echoes In Rain music video | All Enya videos, live performances";
 const description = "Video for Enya song Echoes In Rain. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
-const canonical = "";
+const canonical = "https://www.enyaone.com/video-echoes-rain";
 const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
 
 const schemaJson = {
 	"@context": "https://schema.org",
-	"@type": "WebPage",
+	"@type": "VideoObject",
 	"name": title,
 	"description": description
 };
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-<div id="content">
-<div id="video-main">
+  <div id="content">
 
-<h1>Echoes In Rain (Lyric Video), 2015</h1>
+
+    <main id="main">
+      <h1>Echoes In Rain (Lyric Video), 2015</h1>
 
 <div class="ads-2016">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -55,4 +57,8 @@ The lyrics describe the feelings of a long journey home, travelling through nigh
 </div>
 
 </div>
+    </main>
+
+    <Sidebar />
+  </div>
 </Layout>

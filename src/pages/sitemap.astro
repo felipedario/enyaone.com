@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
 
 const title = "Sitemap: more about Enya and site information";
 const description = "Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
@@ -16,24 +17,13 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-<div id="content">
-
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<!-- Enya Lyrics Teste 10/12/19 -->
-	<ins class="adsbygoogle"
-	     style="display:block"
-	     data-ad-client="ca-pub-6820018585261081"
-	     data-ad-slot="3832387275"
-	     data-ad-format="auto"
-	     data-full-width-responsive="true"></ins>
-	<script>
-	     (adsbygoogle = window.adsbygoogle || []).push({});
-	</script>
+  <div id="content">
 
 
-<main id="main">
+    <main id="main">
+      <h1>Sitemap: more in Enya One</h1>
 
-<h1></h1><h2><a href="/enya-biography">About Enya</a></h3>
+<h2><a href="/enya-biography">About Enya</a></h3>
 
 <ul>
 <li><a href="/roma-ryan-nicky">Roma and Nicky Ryan</a>: Enya lyricist and producer.</li>
@@ -97,27 +87,8 @@ Records.</strong></p>
 <p><strong>This is a fan site. We are not Enya and we can't send your message to her (unfortunately). </strong></p>
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeTOymxSxjxL3qZdEoloBX3bEJNo0DoftJ0pLU31Mn1lYYZ5g/viewform?embedded=true" width="600" height="813" frameborder="0" marginheight="0" marginwidth="0">Carregando�</iframe>
+    </main>
 
-
-</main>
-
-<aside id="sidebar">
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- EnyaOne2015 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6820018585261081"
-     data-ad-slot="3246451746"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-
-</div>
-
-
-</div>
+    <Sidebar />
+  </div>
 </Layout>

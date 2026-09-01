@@ -1,9 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
 
 const title = "Movie soundtracks by Enya and more (\"May It Be\", \"Aníron\")";
 const description = "Non-album Enya songs, like The Lord of The Rings soundtrack. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
-const canonical = "";
+const canonical = "https://www.enyaone.com/enya-other";
 const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
 
@@ -16,10 +17,9 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-<div id="content">
-
-
-<nav aria-label="Breadcrumb"><ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
+  <div id="content">
+    <nav aria-label="Breadcrumb">
+      <ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
 	<li property="itemListElement" typeof="ListItem"><a href="/" property="item" typeof="WebPage">
 			<span property="name">Home</span></a> 
 		  <meta property="position" content="1">
@@ -31,9 +31,11 @@ const schemaJson = {
 	<li property="itemListElement" typeof="ListItem">
 		<strong property="name">Other songs by Enya</strong>
 		<meta property="position" content="3"></li>
-	</ol></nav><main id="main">
+	</ol>
+    </nav>
 
-	<div id="holidays2025">
+    <main id="main">
+      <div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
 <a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
 <p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
@@ -1553,27 +1555,8 @@ hcalaehg na is.<br /><br />
 				Gladiator [Hans Zimmer] (<a href="https://amzn.to/2KCjGbj" rel="nofollow sponsored noopener" target="_blank">Listen and download the MP3</a>)<br />
 				
 				Titanic [James Horner] (<a href="https://amzn.to/2QuPcvL" rel="nofollow sponsored noopener" target="_blank">Listen and download the MP3</a>)</p>
+    </main>
 
-
-
-
-</main>
-
-<aside id="sidebar">
-
-<a id="albumcover" href="https://amzn.to/38qoPzQ" rel="nofollow sponsored noopener" target="_blank"><img src="/other.JPG" alt="Audio, images and low prices at Amazon"  width="150" height="150" /></a>
-Stream or download Enya songs:
-<ul>
-<li><a href="https://www.amazon.com/dp/B000JJSJYQ?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B000JJSJYQ&adid=04VTYCY773AGB65NC7WP&" rel="nofollow" target="_blank"><em>Amarantine: Special Christmas Edition</em></a></li>
-<li><a href="https://www.amazon.com/dp/B000JVSUXY?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B000JVSUXY&adid=1W3ZQ9ABR6GAMWRHADPR&" rel="nofollow" target="_blank"><em>Christmas Secret</em> single</a></li>
-<li><a href="https://www.amazon.com/dp/B00005S8ME?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B00005S8ME&adid=1XZFRJ9ZRDXV2Y830CYG&" rel="nofollow" target="_blank"><em>Only Time/Oíche
-Chiúin</em> single</a></li>
-<li><a href="https://www.amazon.com/dp/B00005UE4B?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B00005UE4B&adid=1S4W21GX8ZD0KEX2ZFP1&" rel="nofollow" target="_blank"><em>May It Be</em> single</a></li></ul>
-
-
-</div>
-
-
-
-</div>
+    <Sidebar />
+  </div>
 </Layout>

@@ -1,9 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
 
 const title = "Clannad, Enya's family band | Enya Lyrics, MP3 downloads";
 const description = "Get to know Enya";
-const canonical = "";
+const canonical = "https://www.enyaone.com/enya-clannad";
 const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
 
@@ -16,11 +17,11 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-<div id="content">
+  <div id="content">
 
-			<main id="main">
 
-				<div id="holidays2025">
+    <main id="main">
+      <div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
 <a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
 <p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
@@ -181,16 +182,8 @@ const schemaJson = {
 		<h4>N&#225;d&#250;r</h4>
 
 		<p><em>N&#225;d&#250;r</em> (Irish for "nature") is the most recent studio album by Irish folk group Clannad, and was released digitally worldwide on 20 September 2013 and physically within the following week or two, depending on the country. It was the first new studio album since <em>Landmarks</em> in 1998, and the first to feature all five original members of Clannad since the compilation album <em>Past Present</em> in 1989. It is also the last to feature P&#225;draig Duggan who died on August 9th 2016. </p>
+    </main>
 
-
-			</main>
-
-			<aside id="sidebar">
-
-				<p><a href="https://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2FClannad%2Fartist%2FB000APWCWO%2F&tag=enylyrallenys-20&linkCode=ur2&camp=1789&creative=9325">Stream or download Clannad songs</a></p>
-
-			</div>
-
-
-		</div>
+    <Sidebar />
+  </div>
 </Layout>

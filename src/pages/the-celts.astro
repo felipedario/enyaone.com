@@ -1,9 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
 
 const title = "Enya's The Celts album (\"Boadicea\" sample) | Lyrics, downloads";
 const description = "All info, lyrics and MP3 downloads for Enya";
-const canonical = "";
+const canonical = "https://www.enyaone.com/the-celts";
 const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
 
@@ -16,9 +17,9 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-<div id="content">
-
-			<nav aria-label="Breadcrumb"><ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
+  <div id="content">
+    <nav aria-label="Breadcrumb">
+      <ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
 				<li property="itemListElement" typeof="ListItem"><a href="/" property="item" typeof="WebPage">
 						<span property="name">Home</span></a> 
 					  <meta property="position" content="1">
@@ -30,8 +31,11 @@ const schemaJson = {
 				<li property="itemListElement" typeof="ListItem">
 					<strong property="name">The Celts</strong>
 					<meta property="position" content="3"></li>
-			</ol></nav><main id="main">
-				<h1>The Celts (1992)</h1>
+			</ol>
+    </nav>
+
+    <main id="main">
+      <h1>The Celts (1992)</h1>
 
 				<a class="new-amazon-album-link" href="https://amzn.to/3UBLYaD" rel="nofollow sponsored noopener" target="_blank">
 					<img  src="/tc.jpg" alt="The Celts (1992)"  width="150" height="150" /></a>
@@ -553,30 +557,30 @@ const schemaJson = {
 				
 				<strong>Album</strong>
 				
-				<table style="width: 100%;"  >
+				<table style="width: 100%;" cellpadding="0" cellspacing="0">
 					<tbody>
 						<tr>
-							<th >Year</th>
+							<th align="left">Year</th>
 							
 							<th style="text-align: left;">Chart</th>
 							
-							<th >Position</th>
+							<th align="left">Position</th>
 						</tr>
 						
 						<tr>
-							<td >1990</td>
+							<td align="left">1990</td>
 							
-							<td >Top New Age Albums (US)</td>
+							<td align="left">Top New Age Albums (US)</td>
 							
-							<td >14</td>
+							<td align="left">14</td>
 						</tr>
 						
 						<tr>
-							<td >1992</td>
+							<td align="left">1992</td>
 							
-							<td >Official Album Chart (UK)</td>
+							<td align="left">Official Album Chart (UK)</td>
 							
-							<td >10</td>
+							<td align="left">10</td>
 						</tr>
 					</tbody>
 				</table>
@@ -607,17 +611,8 @@ const schemaJson = {
 					<br>Photography by <strong>David Scheinmann</strong>
 					
 				<br>Designed by <strong>Sooky Choi</strong></p>
-				
-				
-			</main>
-			
-			<aside id="sidebar"><a id="albumcover" href="https://amzn.to/3UBLYaD" target="_blank" rel="nofollow sponsored noopener">
-				<img  title="Audio, images and low prices at Amazon" src="/tc.jpg" alt="Audio, images and low prices at Amazon"  width="150" height="150" /></a>
-				
-				<div class="buy"><a href="https://amzn.to/3UBLYaD" target="_blank" rel="nofollow sponsored noopener">Stream or download Enya songs</a></div>
-			
-			</div>
-			
+    </main>
 
-		</div>
+    <Sidebar />
+  </div>
 </Layout>

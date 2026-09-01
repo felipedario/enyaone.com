@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
 
 const title = "Enya songs, albums, biography, lyrics, and more!";
 const description = "Enya Lyrics is a tribute to singer Enya featuring all her song lyrics, downloads, Only Time info, albums information, videos, biography and more!";
@@ -16,11 +17,11 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-<div id="content">
+  <div id="content">
 
-			<main id="main">
 
-<div id="holidays2025">
+    <main id="main">
+      <div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
 <a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
 <p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
@@ -75,33 +76,8 @@ const schemaJson = {
 					<br /> <a href="/enya-biography"><strong>More about Enya &raquo;</strong></a></p>
 
 				<p>Artists like Enya: <a href="/new-age-music">Celtic Woman</a>, <a href="/new-age-music">Clannad</a> (Enya's family band), <a href="/new-age-music">Loreena McKennitt</a>, <a href="/new-age-music">Vangelis</a> and <a href="/new-age-music">Yanni</a>.</p>
+    </main>
 
-			</main>
-
-			<aside id="sidebar">
-
-				<h3>Featured albums</h3>
-
-				<h4><strong><a href="/a-day-without-rain">A Day Without Rain</a></em></strong>, 2000</h4>
-
-				<div><a href="/a-day-without-rain">
-					<img src="/enya-2023-adwr.jpg" alt="A Day Without Rain album picture"  width="150" height="150" /></a>
-
-					<p>Through extensive use in various forms of media, "Only Time" became an anthem of resilience and hope after  the tragic events of the September 11 attacks. </p>
-				</div>
-
-				<h4><strong><a href="/the-memory-of-trees">The Memory of Trees</a></em></strong>, 1995</h4>
-
-				<div><a href="/the-memory-of-trees">
-					<img src="/enya-2023-tmot.jpg" alt="A Day Without Rain album picture"  width="150" height="150" /></a>
-
-					<p>This album won Enya's first Grammy Award for Best New Age Album. “With the destruction of the world’s rainforests it may turn out to be that the memory of trees is nothing more than that for us—a memory.”</p>
-				</div>
-
-
-
-			</div>
-
-
-		</div>
+    <Sidebar />
+  </div>
 </Layout>

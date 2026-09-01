@@ -1,9 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
 
 const title = "The best and most beautiful Enya quotes, | Enya Lyrics, biography";
 const description = "Enya";
-const canonical = "";
+const canonical = "https://www.enyaone.com/enya-quotes";
 const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
 
@@ -16,11 +17,14 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-<div id="content">
+  <div id="content">
 
-<main id="main">
 
-<h1></h1><h2>KSCA interview (1996)</h3>
+    <main id="main">
+      <h1>Enya quotes</h1>
+
+
+<h2>KSCA interview (1996)</h3>
 
 <p style="font-size:.9em;"><a href="http://www.musicandmeaning.com/site/enya_ksca.html"><em>The
 Memory of Trees</em> promotional interview with Merilee Kelly</a>
@@ -314,20 +318,8 @@ Rob Dickins</p>
 
 
 <a href="#">Return to top</a>
+    </main>
 
-
-</main>
-
-
-
-<aside id="sidebar">
-
-
-	
-</div>
-
-
-
-
-</div>
+    <Sidebar />
+  </div>
 </Layout>

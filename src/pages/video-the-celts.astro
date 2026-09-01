@@ -1,24 +1,27 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
 
 const title = "Enya's The Celts music video | All Enya videos, live performances";
 const description = "Video for Enya song The Celts. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
-const canonical = "";
+const canonical = "https://www.enyaone.com/video-the-celts";
 const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
 
 const schemaJson = {
 	"@context": "https://schema.org",
-	"@type": "WebPage",
+	"@type": "VideoObject",
 	"name": title,
 	"description": description
 };
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-<div id="content">
-<div id="video-main">
-<h1>The Celts, 1993 <small>Directed by Michael Geoghegan</small></h1>
+  <div id="content">
+
+
+    <main id="main">
+      <h1>The Celts, 1993 <small>Directed by Michael Geoghegan</small></h1>
 
 <div class="ads-2016">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -58,4 +61,8 @@ When the album was re-issued in 1992 and re-titled The Celts, the title song was
 </div>
 
 </div>
+    </main>
+
+    <Sidebar />
+  </div>
 </Layout>

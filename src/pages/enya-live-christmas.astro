@@ -1,9 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
 
 const title = "Enya — Christmas Carols from Cork (December 2016) live performance video";
 const description = "Enya — Christmas Carols from Cork (December 2016). Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
-const canonical = "";
+const canonical = "https://www.enyaone.com/enya-live-christmas";
 const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
 
@@ -16,19 +17,11 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-<div id="content">
+  <div id="content">
 
-<a class="h20" href="https://amzn.to/36p9s8q" target="_blank" rel="nofollow sponsored noopener">
-	<img src="/h20.jpg" alt="Listen to songs by Enya for free"  width="150" height="150" />
 
-	<h2>Holidays <em>with</em> Enya</h2>
-
-	Listen to songs by Enya for free<br />with an Amazon Music trial.
-	</a>
-
-<div id="video-main">
-
-<h1>Enya — Christmas Carols from Cork <small>(December 2016)</small></h1>
+    <main id="main">
+      <h1>Enya — Christmas Carols from Cork <small>(December 2016)</small></h1>
 
 <div class="ads-2016">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -60,4 +53,8 @@ const schemaJson = {
 </div>
 
 </div>
+    </main>
+
+    <Sidebar />
+  </div>
 </Layout>

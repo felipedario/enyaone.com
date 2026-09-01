@@ -1,9 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
 
 const title = "Dark Sky Island, Enya's latest album (\"Echoes in Rain\", \"The Humming\" lyrics)";
 const description = "With lyrics for";
-const canonical = "";
+const canonical = "https://www.enyaone.com/enya-dark-sky-island";
 const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
 
@@ -16,9 +17,9 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-<div id="content">
-
-<nav aria-label="Breadcrumb"><ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
+  <div id="content">
+    <nav aria-label="Breadcrumb">
+      <ol id="breadcrumb" vocab="https://schema.org/" typeof="BreadcrumbList">
 	<li property="itemListElement" typeof="ListItem"><a href="/" property="item" typeof="WebPage">
 			<span property="name">Home</span></a> 
 		  <meta property="position" content="1">
@@ -30,9 +31,11 @@ const schemaJson = {
 	<li property="itemListElement" typeof="ListItem">
 		<strong property="name">Dark Sky Island</strong>
 		<meta property="position" content="3"></li>
-	</ol></nav><main id="main">
+	</ol>
+    </nav>
 
-	<div id="holidays2025">
+    <main id="main">
+      <div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
 <a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
 <p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
@@ -118,14 +121,18 @@ const schemaJson = {
 <li><a href="#Solace">Solace <em>(deluxe edition bonus track)</em></a></li>
 <li><a href="#Pale_Grass_Blue">Pale Grass Blue <em>(deluxe edition bonus track)</em></a></li>
 <li><a href="#Remember_Your_Smile">Remember Your Smile <em>(deluxe edition bonus track)</em></a></li>
-</ol></nav><h3 id="videos">Videos</h3>
+</ol>
+
+<h3 id="videos">Videos</h3>
 
 <ol>
 <li><a href="/video-echoes-rain">"Echoes In Rain"</a></li>
 <li><a href="/video-so-i-could-find-my-way">"So I Could Find My Way"</a></li>
 <li><a href="/video-the-humming">The Humming</a></li>
 <li><a href="/video-even-in-the-shadows">Even In The Shadows</a></li>
-</ol></nav><p><a href="/enya-video">More videos in <strong>EnyaTube</strong> &raquo;</a></p>
+</ol>
+
+<p><a href="/enya-video">More videos in <strong>EnyaTube</strong> &raquo;</a></p>
 
 <h3 id="complyrics">Lyrics</h3>
 
@@ -599,20 +606,8 @@ Ailish McKenna and Alan Lander.</p>
 <p>www.enya.com<br>
 www.romaryan.com<br>
 www.nickyryan.net</p>
+    </main>
 
-
-
-</main>
-
-<aside id="sidebar">
-
-<a id="albumcover" href="https://amzn.to/4bxE48s" target="_blank" rel="nofollow sponsored noopener"><img src="/dsi.jpg" alt="Audio, images and low prices at Amazon"  width="150" height="150" /></a>
-
-
-</div>
-
-
-</div>
-
-<div id="ad-topo"><a href="https://www.amazon.com/dp/B002RV01QI?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as4&creativeASIN=B002RV01QI&adid=18HACXWRC02P3LQLM"><img src="/banner-vbe.jpg" alt="The Very Best of Enya"  width="150" height="150" /></a></div>
+    <Sidebar />
+  </div>
 </Layout>

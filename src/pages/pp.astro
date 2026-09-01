@@ -1,9 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
 
 const title = "Enya One Privacy Policy";
 const description = "Privacy Policy. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
-const canonical = "";
+const canonical = "https://www.enyaone.com/pp";
 const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
 
@@ -16,10 +17,11 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-<div id="content">
-<main id="main">
+  <div id="content">
 
-<h2>Our Privacy Policy</h2>
+
+    <main id="main">
+      <h2>Our Privacy Policy</h2>
 <p>This <strong>privacy policy</strong> tells you how we use personal information collected in Enya Lyrics, Enya aStore and EnyaTube. Please read this before using the site or submitting any personal information. By using the sites, you accept the practices described here.</p>
 
 <p><strong><a href="http://astore.amazon.com/enylyrallenys-20">Enya aStore</a> doesn't sell any product</strong>, it just links to Amazon.com product pages. Please see <a href="https://www.amazon.com/gp/help/customer/display.html?ie=UTF8&nodeId=508510">Amazon's help department</a> if you have any problem in you order or need more information. Also check their <a href="http://rcm.amazon.com/e/cm/privacy-policy.html?o=1">privacy policy</a>.</p>
@@ -58,23 +60,8 @@ const schemaJson = {
 <p><em>We may change this policy from time to time by updating this page. You should always check this page to ensure that you are happy with any changes.</em></p>
 
 <p>Last update: March 18 2009</p>
+    </main>
 
-</main>
-
-<aside id="sidebar">
-</div>
-
-</div>
-
-
-
-<div id="footer">
-
-  <p><strong><a href="/">Enya One</a></strong>, 2007-2023 &middot; <a href="/sitemap#aboutus">About us</a> &middot; <a href="/pp">Privacy Policy</a> &middot; <a href="/sitemap#contact">Contact us</a> &middot; <a href="http://felipedario.com/">Design and web development by Felipe Dário</a>.</p>
-
-  <p>Lyrics, videos, images and the Enya logo ™ &amp; © Enya/Warner Music. </p>
-
-      <p>As an Amazon Associate, we earn a small comission from qualifying purchases.</p>
-
-</div>
+    <Sidebar />
+  </div>
 </Layout>

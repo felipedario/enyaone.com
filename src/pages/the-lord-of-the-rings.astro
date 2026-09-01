@@ -1,9 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
 
 const title = "The Lord of the Rings and Enya (\"May It Be\", \"Aníron\") | Enya Lyrics";
 const description = "More on The Lord of the Rings and Enya songs. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, discography, news, videos, quotes, biography and more!";
-const canonical = "";
+const canonical = "https://www.enyaone.com/the-lord-of-the-rings";
 const ogImage = "https://www.enyaone.com/enya-promo.jpg";
 const bodyClass = "";
 
@@ -16,11 +17,11 @@ const schemaJson = {
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-<div id="content">
+  <div id="content">
 
-<main id="main">
 
-<h1>The Lord of the Rings</h1>
+    <main id="main">
+      <h1>The Lord of the Rings</h1>
 
 <p><strong><em>The Lord of the Rings</em></strong> is an epic fantasy novel written by the English academic J. R. R. Tolkien. It is one of the most popular works in 20th-century literature and Enya's favourite book.</p>
 
@@ -64,25 +65,8 @@ of the Ring</em>, <a href="/enya-other#May_It_Be">"May It Be"</a> and
 
 
 <a href="#">Return to top</a>
+    </main>
 
-
-</main>
-
-
-
-<aside id="sidebar">
-
-
-<p>Amazon.com has images, more information and great discounts for <strong><em>The Lord Of The Rings</em> <a href="https://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fbestsellers%2Fdvd%2F10337131%2F&tag=enylyrallenys-20&linkCode=ur2&camp=1789&creative=9325" rel="nofollow" target="_blank">movies</a> and <a href="https://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fbestsellers%2Fbooks%2F408708%2F&tag=enylyrallenys-20&linkCode=ur2&camp=1789&creative=9325" rel="nofollow" target="_blank">books</a></strong>.</p>
-
-
-
-
-
-</div>
-
-
-
-
-</div>
+    <Sidebar />
+  </div>
 </Layout>

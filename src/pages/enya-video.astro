@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Sidebar from "../components/Sidebar.astro";
 
 const title = "Enya music videos, live performances | Enya Lyrics, MP3 downloads";
 const description = "EnyaTube is your Enya videos resource. Watch her official music videos collection and live performances!";
@@ -9,20 +10,22 @@ const bodyClass = "video-home";
 
 const schemaJson = {
 	"@context": "https://schema.org",
-	"@type": "WebPage",
+	"@type": "VideoObject",
 	"name": title,
 	"description": description
 };
 ---
 
 <Layout {title} {description} {canonical} {ogImage} {bodyClass} {schemaJson}>
-<div id="content">
+  <div id="content">
 
-<main id="main">
 
-<h1></h1><h2>Enya live performances</h3>
+    <main id="main">
+      <h1>Enya Videos</h1>
 
-<table class="entry" >
+<h2>Enya live performances</h3>
+
+<table class="entry" cellspacing="0">
 <tbody>
 <tr>
 <td class="shot">
@@ -44,7 +47,7 @@ const schemaJson = {
 
 <h3 id="music_videos">Music videos</h3>
 
-<table class="entry" >
+<table class="entry" cellspacing="0">
 <tbody>
 
 <tr>
@@ -350,38 +353,8 @@ const schemaJson = {
 
 </tbody>
 </table>
+    </main>
 
-
-
-</main>
-
-<aside id="sidebar">
-
-	<p><strong>Looking for downloads?</strong> <a href="https://amzn.to/1N3fScO" rel="nofollow sponsored noopener" target="_blank">Get all Enya MP3 downloads</a> on Amazon now!</p>
-
-	<h3>Featured Album</h3>
-
-				<div><a href="/and-winter-came">
-					<img src="/awc.jpg" alt="And Winter Came... album cover"  width="150" height="150" /></a>
-
-					<p><strong><em><a href="/and-winter-came">And Winter Came...</a></em></strong>
-
-					<br />Released in 2008, this album primarily have a Christmas or winter theme. It  charted in the UK at #6 on November 16 of that year.</p>
-				</div>
-
-				<h3>Featured Video</h3>
-
-				<div><a  href="/video-orinoco-flow-sail-away">
-					<img src="/vof2.jpg" alt="Orinoco Flow music video still"  width="150" height="150" /></a>
-
-					<p><strong><em><a href="/video-orinoco-flow-sail-away">"Orinoco Flow (Sail Away)", remastered in 4K</a></em></strong>
-
-						<br />Released in October 1988, this is the promo video for Enya <a href="/watermark#Orinoco_Flow">"Orinoco Flow"</a>, from the album <a href="/watermark"><em>Watermark</em></a>.
-					</p>
-				</div>
-</div>
-
-
-
-</div>
+    <Sidebar />
+  </div>
 </Layout>
