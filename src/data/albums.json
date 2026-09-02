@@ -14,7 +14,7 @@
     "type": "studio",
     "cover": "/dsi.jpg",
     "link": "/enya-dark-sky-island",
-    "description": "Download or stream album, Lyrics",
+    "description": "",
     "buyLink": "http://amzn.to/1gqSdan",
     "billboardPeak": "#8"
   },
@@ -24,7 +24,7 @@
     "type": "compilation",
     "cover": "/vbe.jpg",
     "link": "/very-best-enya",
-    "description": "Download or stream album, Lyrics",
+    "description": "",
     "buyLink": "https://www.amazon.com/dp/B002RV01QI?tag=enylyrallenys-20",
     "billboardPeak": "#55"
   },
@@ -34,7 +34,7 @@
     "type": "studio",
     "cover": "/awc.jpg",
     "link": "/and-winter-came",
-    "description": "Download or stream album, Charts, Lyrics, Videos",
+    "description": "",
     "buyLink": "http://www.amazon.com/2008-Release-Enya/dp/B001EI5CA0?tag=enylyrallenys-20",
     "billboardPeak": "#8",
     "featuredSongs": [
@@ -48,7 +48,7 @@
     "type": "studio",
     "cover": "/am.jpg",
     "link": "/enya-amarantine",
-    "description": "Download or stream album, Charts, Lyrics, Videos",
+    "description": "",
     "buyLink": "http://www.amazon.com/dp/B000B8QEYC?tag=enylyrallenys-20",
     "billboardPeak": "#6",
     "featuredSongs": [
@@ -62,7 +62,7 @@
     "type": "studio",
     "cover": "/adwr.jpg",
     "link": "/a-day-without-rain",
-    "description": "Download or stream album, Charts, Lyrics, Videos",
+    "description": "",
     "buyLink": "http://www.amazon.com/dp/B000050XEI?tag=enylyrallenys-20",
     "billboardPeak": "#2",
     "featuredSongs": [
@@ -76,7 +76,7 @@
     "type": "compilation",
     "cover": "/ptsws.jpg",
     "link": "/paint-the-sky-with-stars",
-    "description": "Download or stream album, Lyrics, Videos",
+    "description": "",
     "buyLink": "http://www.amazon.com/dp/B000002NJH?tag=enylyrallenys-20",
     "billboardPeak": "#30",
     "featuredSongs": [
@@ -89,7 +89,7 @@
     "type": "studio",
     "cover": "/tmot.jpg",
     "link": "/the-memory-of-trees",
-    "description": "Download or stream album, Charts, Lyrics, Videos",
+    "description": "",
     "buyLink": "http://www.amazon.com/dp/B000002N3N?tag=enylyrallenys-20",
     "billboardPeak": "#9",
     "featuredSongs": [
@@ -102,7 +102,7 @@
     "type": "studio",
     "cover": "/tc.jpg",
     "link": "/the-celts",
-    "description": "Re-released version of Enya, 1987. Download or stream album, Charts, Lyrics, Videos",
+    "description": "Re-released version of Enya, 1987. ",
     "buyLink": "http://www.amazon.com/dp/B000002MSM?tag=enylyrallenys-20",
     "featuredSongs": [
       { "title": "The Celts", "link": "/the-celts#The_Celts" },
@@ -115,7 +115,7 @@
     "type": "studio",
     "cover": "/sm.jpg",
     "link": "/shepherd-moons",
-    "description": "Download or stream album, Charts, Lyrics, Videos",
+    "description": "",
     "buyLink": "http://www.amazon.com/dp/B000002LRT?tag=enylyrallenys-20",
     "billboardPeak": "#17",
     "featuredSongs": [
@@ -128,7 +128,7 @@
     "type": "studio",
     "cover": "/wm.jpg",
     "link": "/watermark",
-    "description": "Download or stream album, Lyrics, Videos",
+    "description": "",
     "buyLink": "http://www.amazon.com/dp/B000002LRR?tag=enylyrallenys-20",
     "billboardPeak": "#25",
     "featuredSongs": [

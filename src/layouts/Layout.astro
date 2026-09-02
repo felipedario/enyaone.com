@@ -4,6 +4,9 @@ import '@fontsource/lato';
 import '../styles/style-enya-lyrics.css';
 import { Image } from 'astro:assets';
 
+import alegreya400 from '@fontsource/alegreya/files/alegreya-latin-400-normal.woff2?url';
+import lato400 from '@fontsource/lato/files/lato-latin-400-normal.woff2?url';
+
 interface Props {
 	title?: string;
 	description?: string;
@@ -47,13 +50,40 @@ const schemasToRender = schemaJson ? (Array.isArray(schemaJson) ? schemaJson : [
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Google Tag Manager -->
-	<script is:inline type="text/partytown">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-K7NW25M');</script>
-	<!-- End Google Tag Manager -->
+	<script
+  type="text/partytown"
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6820018585261081"
+  crossorigin="anonymous">
+</script>
+<script type="text/partytown">
+  window.amzn_assoc_ad_type = "link_enhancement_widget";
+  window.amzn_assoc_tracking_id = "enylyrallenys-20";
+  window.amzn_assoc_linkid = "37185a8c74e87935464f4661e194da1c";
+  window.amzn_assoc_placement = "";
+  window.amzn_assoc_marketplace = "amazon";
+  window.amzn_assoc_region = "US";
+</script>
+<script
+  type="text/partytown"
+  src="https://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US">
+</script>
+<script
+  type="text/partytown"
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-DGJ1308PT5">
+</script>
+<script type="text/partytown">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){window.dataLayer.push(arguments);}
+  window.gtag = gtag;
+  gtag('js', new Date());
+  gtag('config', 'G-DGJ1308PT5');
+</script>
+
+<link rel="preload" href={alegreya400} as="font" type="font/woff2" crossorigin />
+<link rel="preload" href={lato400} as="font" type="font/woff2" crossorigin />
+<link rel="preconnect" href="https://fundingchoicesmessages.google.com">
 
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -88,11 +118,6 @@ const schemasToRender = schemaJson ? (Array.isArray(schemaJson) ? schemaJson : [
 	))}
 </head>
 <body class={bodyClass}>
-	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K7NW25M"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
-
 	<a href="#main" class="sr">Jump to content</a>
 
 	<div id="wrap">

@@ -106,8 +106,15 @@ h3 {
   font-size: 1.3em;
 }
 
+h4 {
+	padding-left: 1em;
+	font-weight: normal;
+	margin: .5em 0;
+	font-size: 1.1em;
+}
+
 p {
-  margin: 0.5em 0 1em 0;
+  margin: 0 0 1.5em 0;
 }
 
 a:link { color: var(--link-color); }
@@ -176,8 +183,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: end;
-  gap: 10px;
+  gap: 5px;
   list-style: none;
 }
 
@@ -201,6 +207,10 @@ header {
 
 #menu a:visited {
   color: var(--link-color);
+}
+
+#menu a:visited:hover {
+  color: var(--link-hover);
 }
 
 /* Main Content Area */
@@ -263,12 +273,6 @@ header {
 
 .new-amazon-album-link img {
   border-radius: var(--radius-lg);
-}
-
-/* Tables (Discography) */
-table {
-  width: 100%;
-  border-collapse: collapse;
 }
 
 .discography td {
@@ -348,6 +352,87 @@ footer {
 .hid { display: none; }
 .c { clear: both; } /* Kept for legacy HTML compatibility */
 
+main div{
+  max-width: 100% !important;
+}
+
+.popular-songs-list {
+    margin-left: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  .album-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+  }
+  .album-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+    background: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .album-cover img {
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  .album-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    padding: 0 1rem;
+  }
+  .album-details h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  .billboard-peak, .featured-songs {
+    margin: 0 0 .5rem;
+  }
+  .buy-btn {
+    display: inline-block;
+    padding: 0.35rem 0.75rem;
+    background-color: var(--link-color);
+    border-radius: 50px;
+    color: var(--bg-color-alt) !important;
+    text-decoration: none;
+    margin: .5rem 0 .5rem;
+  }
+  .buy-btn:hover {
+    background-color: var(--brand-primary);
+  }
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid var(--border-color);
+    margin: 1rem 0 2rem;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+th, td {
+    padding: 0.75rem;
+    border-bottom: 1px solid var(--border-color);
+    text-align: left;
+  }
+
+  tr:last-of-type  td{
+    border-bottom: none;
+  }
+
+ th {
+    background-color: var(--bg-color);
+  }
+
 /* =========================================
    5. DESKTOP OVERRIDES (MIN-WIDTH: 800px)
    ========================================= */
@@ -355,10 +440,6 @@ footer {
   
   .mobile { display: none; }
   .desktop { display: block; }
-
-  body {
-    font-size: 18px; /* Original desktop size */
-  }
 
   h1 {
     font-size: 1.75em;
@@ -399,10 +480,14 @@ footer {
     flex-grow: 1;
     margin-top: 0;
     margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
   }
 
   #menu ul {
     justify-content: flex-end;
+    gap: 20px;
   }
 
   #menu li {
@@ -469,9 +554,8 @@ footer {
 	justify-content: space-between;
   }
 
-
   #breadcrumb {
-    margin: 0 0 25px 50px;
+    margin: 0 0 25px 0;
   }
 
   #main {
@@ -504,22 +588,15 @@ footer {
     font-size: 1em;
   }
 
-  /* Discography Table Desktop */
-  .discography td {
-    display: table-cell;
-    text-align: left;
-    padding: 10px;
-    vertical-align: top;
-  }
-  
-  .discography td.cover {
-    width: 180px;
+.album-card {
+    flex-direction: row;
   }
 
-  .buy-amazon, .buy-apple {
-    display: inline-block;
-    float: left;
-    margin: 0 0.5em 0.5em 0;
+  .album-details{
+    align-items: start;
+    justify-content: center;
+    text-align: left;
+    padding: 0;
   }
 
   /* Secondary Navigation Grid */

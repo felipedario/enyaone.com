@@ -98,10 +98,10 @@ const schemaJson = {
         <div class="album-cover">
           {album.link ? (
             <a href={album.link}>
-              <Image src={album.cover} alt={`${album.title} album cover`} width="150" height="150" />
+              <Image src={album.cover} alt={`${album.title} album cover`} width="300" height="300" />
             </a>
           ) : (
-            <Image src={album.cover} alt={`${album.title} album cover`} width="150" height="150" />
+            <Image src={album.cover} alt={`${album.title} album cover`} width="300" height="300" />
           )}
         </div>
         <div class="album-details">
@@ -112,12 +112,12 @@ const schemaJson = {
               <span><strong>{album.title}</strong>{album.year ? `, ${album.year}` : ''}</span>
             )}
           </h3>
-          <p>{album.description}</p>
+          {album.description && <p>{album.description}</p> }
           {album.billboardPeak && (
-            <p className="billboard-peak">Peak position on Billboard 200: <strong>{album.billboardPeak}</strong></p>
+            <p class="billboard-peak">Peak position on Billboard 200: <strong>{album.billboardPeak}</strong></p>
           )}
           {album.featuredSongs && album.featuredSongs.length > 0 && (
-            <p className="featured-songs">
+            <p class="featured-songs">
               Featured songs:{' '}
               {album.featuredSongs.map((song, idx) => (
                 <>
@@ -147,10 +147,10 @@ const schemaJson = {
         <div class="album-cover">
           {album.link ? (
             <a href={album.link}>
-              <Image src={album.cover} alt={`${album.title} cover`} width="150" height="150" />
+              <Image src={album.cover} alt={`${album.title} cover`} width="300" height="300" />
             </a>
           ) : (
-            <Image src={album.cover} alt={`${album.title} cover`} width="150" height="150" />
+            <Image src={album.cover} alt={`${album.title} cover`} width="300" height="300" />
           )}
         </div>
         <div class="album-details">
@@ -161,7 +161,7 @@ const schemaJson = {
               <span><strong>{album.title}</strong>{album.year ? `, ${album.year}` : ''}</span>
             )}
           </h3>
-          <p>{album.description}</p>
+          {album.description && <p>{album.description}</p> }
           {album.buyLink && (
             <p>
               <a href={album.buyLink} target="_blank" rel="nofollow sponsored noopener" class="buy-btn">
@@ -197,51 +197,3 @@ const schemaJson = {
     <li><strong>1996: <em>Celtic Folk Festival</em> album by various artists</strong> — Includes unreleased Clannad tracks "Horo Gheallaid" and "Dúlamán".</li>
   </ul>
 </Layout>
-
-<style>
-  .popular-songs-list {
-    margin-left: 1.25rem;
-    margin-bottom: 2rem;
-  }
-  .album-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-    margin: 1.5rem 0;
-  }
-  .album-card {
-    display: flex;
-    gap: 1.25rem;
-    align-items: flex-start;
-    padding: 1rem;
-    border: 1px solid #eaeaea;
-    border-radius: 8px;
-    background: #fff;
-  }
-  .album-cover img {
-    border-radius: 4px;
-    object-fit: cover;
-  }
-  .album-details h3 {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-  }
-  .billboard-peak, .featured-songs {
-    font-size: 0.9rem;
-    margin: 0.35rem 0;
-  }
-  .buy-btn {
-    display: inline-block;
-    padding: 0.35rem 0.75rem;
-    font-size: 0.85rem;
-    background-color: #f0c14b;
-    border: 1px solid #a88734;
-    border-radius: 3px;
-    color: #111;
-    text-decoration: none;
-    margin-top: 0.35rem;
-  }
-  .buy-btn:hover {
-    background-color: #ddb347;
-  }
-</style>
