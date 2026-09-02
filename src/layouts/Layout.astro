@@ -1,4 +1,7 @@
 ---
+import enya2023Adwr from '../assets/enya-2023-adwr.jpg';
+import enya2023Tmot from '../assets/enya-2023-tmot.jpg';
+
 import '@fontsource/alegreya';
 import '@fontsource/lato';
 import '../styles/style-enya-lyrics.css';
@@ -167,7 +170,7 @@ const schemasToRender = schemaJson ? (Array.isArray(schemaJson) ? schemaJson : [
 				<h3><em><a href="/a-day-without-rain">A Day Without Rain</a></em>, 2000</h3>
 				
 				<div><a href="/a-day-without-rain">
-					<Image src="/enya-2023-adwr.jpg" alt="A Day Without Rain album picture"  width="300" height="300" /></a>
+					<Image src={enya2023Adwr} alt="A Day Without Rain album picture"  width="300" height="300" /></a>
 					
 					<p>Through extensive use in various forms of media, "Only Time" became an anthem of resilience and hope after  the tragic events of the September 11 attacks. </p>
 				</div>
@@ -175,7 +178,7 @@ const schemasToRender = schemaJson ? (Array.isArray(schemaJson) ? schemaJson : [
 				<h3><em><a href="/the-memory-of-trees">The Memory of Trees</a></em>, 1995</h3>
 				
 				<div><a href="/the-memory-of-trees">
-					<Image src="/enya-2023-tmot.jpg" alt="The Memory of Trees album picture" width="300" height="300" /></a>
+					<Image src={enya2023Tmot} alt="The Memory of Trees album picture" width="300" height="300" /></a>
 					
 					<p>This album won Enya's first Grammy Award for Best New Age Album. &ldquo;With the destruction of the world&rsquo;s rainforests it may turn out to be that the memory of trees is nothing more than that for us&mdash;a memory.&rdquo;</p>
 				</div>

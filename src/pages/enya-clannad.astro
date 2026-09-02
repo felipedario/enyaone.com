@@ -1,4 +1,11 @@
 ---
+import { Image } from 'astro:assets';
+import img250pxLeostavern from '../assets/250px-Leostavern.jpg';
+import img300pxClannad334 from '../assets/300px-Clannad334.jpg';
+import awc from '../assets/awc.jpg';
+import ecs from '../assets/ecs.jpg';
+import vbe from '../assets/vbe.jpg';
+
 import Layout from "../layouts/Layout.astro";
 import Sidebar from "../components/Sidebar.astro";
 
@@ -20,13 +27,13 @@ const schemaJson = {
 
       <div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
-<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
+<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><Image src={ecs} alt="Christmas Secrets album cover" />
 <p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
 
-<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><img src="/awc.jpg" alt="And Winter Came album cover">
+<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><Image src={awc} alt="And Winter Came album cover" />
 <p><em><strong>And Winter Came...</strong></em><br /> A winter-themed album</p></a>
 
-<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><img src="/vbe.jpg" alt="The Very Best of Enya album cover">
+<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><Image src={vbe} alt="The Very Best of Enya album cover" />
 <p><em><strong>The Very Best of Enya</strong></em><br /> The perfect gift</p></a>
 </div>
 
@@ -34,13 +41,13 @@ const schemaJson = {
 				<h1>Clannad, the Enya's family band</h1>
 
 				<a class="new-amazon-album-link" href="https://amzn.to/3SU09Xt" rel="nofollow sponsored noopener" target="_blank">
-					<img  src="/vbe.jpg" alt="All Enya songs: Complete list for listening and download"  width="150" height="150" /></a>
+					<Image  src={vbe} alt="All Enya songs: Complete list for listening and download"  width="150" height="150" /></a>
 
 				<p><a href="https://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2FClannad%2Fartist%2FB000APWCWO%2F&tag=enylyrallenys-20&linkCode=ur2&camp=1789&creative=9325"><strong>Clannad</strong></a> is a Grammy Award-winning Irish musical group, formed by several siblings of <strong><a href="/enya-biography">Enya</a></strong>. They have adopted various musical styles throughout their history, including folk, folk rock, traditional Irish, Celtic and <a href="/new-age-music">New Age music</a>, often incorporating elements of smooth jazz and Gregorian chant. They are known for performing in various languages, including English,
 					Latin, Gàidhlig, Mohican and most of all in their native tongue,
 					Irish.</p>
 
-					<a href="https://amzn.to/2ZIw9PC/104-2752662-1547131?%5Fencoding=UTF8&amp;node=11" target="_blank" rel="nofollow sponsored noopener"><img src="/300px-Clannad334.jpg" alt=""  width="150" height="150" /></a>
+					<a href="https://amzn.to/2ZIw9PC/104-2752662-1547131?%5Fencoding=UTF8&amp;node=11" target="_blank" rel="nofollow sponsored noopener"><Image src={img300pxClannad334} alt=""  width="150" height="150" /></a>
 
 					<p style="font-size: 0.9em; margin-bottom: 0pt;"><em>Clannad at the Ireland Music Awards.</em></p>
 
@@ -99,7 +106,7 @@ const schemaJson = {
 				<p>In 2019, Clannad embarked on their In a Lifetime farewell tour, but it was postponed in March 2020 due to the COVID-19 pandemic. A new compilation album entitled, In a Lifetime which included two new tracks, was released.</p>
 
 				<div style="margin: 0 0 1em 30px; float: right; width: 250px;"><a href="Leostavern.jpg" rel="nofollow" target="_blank">
-					<img src="/250px-Leostavern.jpg" alt=""  width="150" height="150" /></a>
+					<Image src={img250pxLeostavern} alt=""  width="150" height="150" /></a>
 
 					<p style="font-size: 0.9em; margin-bottom: 0;">Leo's Tavern<em> (or</em> T&#225;bhairne Leo<em>), the family's pub where Clannad developed their talent, as can be seen in 2007.</em> (<a href="Leostavern.jpg" rel="nofollow" target="_blank">Show bigger image</a>)</p>
 				</div>

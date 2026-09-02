@@ -1,4 +1,8 @@
 ---
+import { Image } from 'astro:assets';
+import img250pxThecelts from '../assets/250px-TheCelts.JPG';
+import tcdvd from '../assets/tcdvd.jpg';
+
 import Layout from "../layouts/Layout.astro";
 
 const title = "\"The Celts\" documentary and the first album | Enya Lyrics, downloads";
@@ -28,7 +32,7 @@ const schemaJson = {
 <p>The six episodes:</p>
 
 <div style="float:right; width:120px; margin-left:30px;">
-<a href="https://www.amazon.com/dp/B0000WN10E?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B0000WN10E&adid=0SZED06FETQ0ZM78A5FX&"><img src="/tcdvd.jpg" alt=""  width="150" height="150" /></a>
+<a href="https://www.amazon.com/dp/B0000WN10E?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B0000WN10E&adid=0SZED06FETQ0ZM78A5FX&"><Image src={tcdvd} alt=""  width="150" height="150" /></a>
 <p style="font-size:.9em; margin-bottom:0;"><a href="https://www.amazon.com/dp/B0000WN10E?tag=enylyrallenys-20&camp=0&creative=0&linkCode=as1&creativeASIN=B0000WN10E&adid=0SZED06FETQ0ZM78A5FX&">The Celts <em>DVD box</em></a>.</p>
 </div>
 
@@ -56,7 +60,7 @@ Celtic-inspired practices like military discipline and warfare and modern Irish 
 <h3><em>The Celts</em> and Enya</h3>
 
 <div style="float:left; width:250px; margin:10px 30px 20px 0;">
-<a href="/video-i-want-tomorrow"><img src="/250px-TheCelts.JPG" alt=""  width="150" height="150" /></a>
+<a href="/video-i-want-tomorrow"><Image src={img250pxThecelts} alt=""  width="150" height="150" /></a>
 <p style="font-size:.9em; margin-bottom:0;"><em>Enya performs <a href="/video-i-want-tomorrow">"I Want Tomorrow"</a> during a musical interlude in</em> The Celts<em>.</em></p>
 </div>
 

@@ -1,4 +1,9 @@
 ---
+import { Image } from 'astro:assets';
+import awc from '../assets/awc.jpg';
+import ecs from '../assets/ecs.jpg';
+import vbe from '../assets/vbe.jpg';
+
 import Layout from "../layouts/Layout.astro";
 
 const title = "The Very Best of Enya, 2009 compilation album | Enya Lyrics";
@@ -36,13 +41,13 @@ const schemaJson = {
 
       <div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
-<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
+<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><Image src={ecs} alt="Christmas Secrets album cover" />
 <p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
 
-<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><img src="/awc.jpg" alt="And Winter Came album cover">
+<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><Image src={awc} alt="And Winter Came album cover" />
 <p><em><strong>And Winter Came...</strong></em><br /> A winter-themed album</p></a>
 
-<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><img src="/vbe.jpg" alt="The Very Best of Enya album cover">
+<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><Image src={vbe} alt="The Very Best of Enya album cover" />
 <p><em><strong>The Very Best of Enya</strong></em><br /> The perfect gift</p></a>
 </div>
 
@@ -50,7 +55,7 @@ const schemaJson = {
 <h1>The Very Best of Enya (2009)</h1>
 
 <a class="new-amazon-album-link" href="https://amzn.to/3SU09Xt" rel="nofollow sponsored noopener" target="_blank">
-	<img  src="/vbe.jpg" alt="The Very Best of Enya (2009)"  width="300" height="300" /></a>
+	<Image  src={vbe} alt="The Very Best of Enya (2009)"  width="300" height="300" /></a>
 
 <p>Enya's latest greatest hits album, <strong><em>The Very Best of Enya</em></strong>, graced the music scene on <a href="#dates">November 20th 2009</a>, capturing the essence of her illustrious career in one extraordinary collection. This remarkable album offers a comprehensive journey through Enya's expansive discography, meticulously curated by the artist herself, alongside the creative input of Nicky Ryan and Roma Ryan. Spanning across Enya's diverse albums, this collection showcases her most cherished and iconic songs, carefully selected to provide a captivating musical experience for both devoted fans and newcomers alike.</p>
 

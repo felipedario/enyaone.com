@@ -1,4 +1,8 @@
 ---
+import { Image } from 'astro:assets';
+import am from '../assets/am.jpg';
+import iitr from '../assets/iitr.jpg';
+
 import Layout from "../layouts/Layout.astro";
 import Sidebar from "../components/Sidebar.astro";
 
@@ -38,7 +42,7 @@ const schemaJson = {
       <h1>Amarantine (2005)</h1>
 
 <a class="new-amazon-album-link" href="https://amzn.to/3SUVkgw" rel="nofollow sponsored noopener" target="_blank">
-	<img  src="/am.jpg" alt="Amarantine (2005)"  width="300" height="300" /></a>
+	<Image  src={am} alt="Amarantine (2005)"  width="300" height="300" /></a>
 
 <p>Enya's mesmerizing seventh album, <strong><em>Amarantine</em></strong>, made its debut on November 22, 2005. Recognizing its outstanding artistry, the album was honored with the prestigious Grammy Award for Best New Age Album in 2007, solidifying Enya's musical prowess. Within the enchanting tapestry of <em>Amarantine</em> a unique linguistic journey unfolds. While Irish Gaelic takes a backseat in this particular album, Enya and Roma Ryan ventured into uncharted territory, weaving three songs with an invented language known as Loxian. Described by Enya and Roma Ryan to <em>The Times</em> as "a futuristic language from a distant planet," Loxian adds an ethereal touch to the album's lyrical landscape. This creative endeavor was born out of their previous experiences crafting songs in Tolkien's Elvish languages, such as "May it Be" and "Aníron."</p>
 	
@@ -62,7 +66,7 @@ during two days in June 2005 at <a href="http://www.knebworthhouse.com/">Knebwor
 <p>The album was launched on November 27 in the Castle of Vaux Le Vicomte, France. Record company Warner gave Enya, who wore a stunning red gown by Maria Grachvogel, an impressive banquet starting with fireworks set to the new music.</p>
 
 <div style="margin: 0 0 1em 30px; float: right; width: 348px;">
-<img src="/iitr.jpg" alt=""></a>
+<Image src={iitr} alt="" /></a>
 <p style="font-size: 0.9em; margin-bottom: 0;text-align:right;">
 <em>Enya in <a href="/video-its-in-the-rain">"It's In The Rain" music video</a>.</em></p>
 </div>

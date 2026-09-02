@@ -1,4 +1,9 @@
 ---
+import awc from '../assets/awc.jpg';
+import ea from '../assets/ea.jpg';
+import ecs from '../assets/ecs.jpg';
+import vbe from '../assets/vbe.jpg';
+
 import Layout from "../layouts/Layout.astro";
 import { Image } from 'astro:assets';
 
@@ -37,13 +42,13 @@ const schemaJson = {
    
       <div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
-<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><Image src="/ecs.jpg" alt="Christmas Secrets album cover" width="150" height="150" />
+<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><Image src={ecs} alt="Christmas Secrets album cover" width="150" height="150" />
 <p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
 
-<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><Image src="/awc.jpg" alt="And Winter Came album cover" width="150" height="150" />
+<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><Image src={awc} alt="And Winter Came album cover" width="150" height="150" />
 <p><em><strong>And Winter Came...</strong></em><br /> A winter-themed album</p></a>
 
-<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><Image src="/vbe.jpg" alt="The Very Best of Enya album cover" width="150" height="150" />
+<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><Image src={vbe} alt="The Very Best of Enya album cover" width="150" height="150" />
 <p><em><strong>The Very Best of Enya</strong></em><br /> The perfect gift</p></a>
 </div>
 
@@ -51,7 +56,7 @@ const schemaJson = {
 <h1>Enya (1987)</h1>
 
 <a class="new-amazon-album-link" href="https://amzn.to/3UBLYaD" rel="nofollow sponsored noopener" target="_blank">
-	<Image  src="/ea.jpg" alt="The Celts (1992)"  width="300" height="300" /></a>
+	<Image  src={ea} alt="The Celts (1992)"  width="300" height="300" /></a>
 
 <p><strong><em>Enya</em></strong> is the first album by Enya, released in 1987. It features music
 written and recorded for the soundtrack of the 1986 documentary

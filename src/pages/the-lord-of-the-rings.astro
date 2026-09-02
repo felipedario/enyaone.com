@@ -1,4 +1,8 @@
 ---
+import { Image } from 'astro:assets';
+import img180pxCoverLotrGreenGandalf from '../assets/180px-Cover_lotr_green_gandalf.jpg';
+import img250pxRingstrilogyposter from '../assets/250px-Ringstrilogyposter.jpg';
+
 import Layout from "../layouts/Layout.astro";
 
 const title = "The Lord of the Rings and Enya (\"May It Be\", \"Aníron\") | Enya Lyrics";
@@ -22,7 +26,7 @@ const schemaJson = {
 <p><strong><em>The Lord of the Rings</em></strong> is an epic fantasy novel written by the English academic J. R. R. Tolkien. It is one of the most popular works in 20th-century literature and Enya's favourite book.</p>
 
 <div style="margin: 0 30px 1em 0; float: left; width: 180px;">
-<img src="/180px-Cover_lotr_green_gandalf.jpg" alt=""></a>
+<Image src={img180pxCoverLotrGreenGandalf} alt="" /></a>
 <p style="font-size: 0.9em; margin-bottom: 0pt;">
 <em>Cover of</em>  The Lord Of The Rings<em> book trilogy.</em></p>
 </div>
@@ -43,7 +47,7 @@ television, video games, and subsequent literature. Adaptations of <em>The
 Lord of the Rings</em> have been made for radio, theatre, and film.</p>
 
 <div style="margin:0  1em 0 30px; float: right; width: 250px;">
-<img src="/250px-Ringstrilogyposter.jpg" alt=""></a>
+<Image src={img250pxRingstrilogyposter} alt="" /></a>
 <p style="font-size: 0.9em; margin-bottom: 0;">
 LotR <em> movie trilogy poster.</em></p>
 </div>

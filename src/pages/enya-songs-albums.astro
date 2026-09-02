@@ -1,7 +1,12 @@
 ---
+import { Image } from 'astro:assets';
+import ecs from '../assets/ecs.jpg';
+import awc from '../assets/awc.jpg';
+import vbe from '../assets/vbe.jpg';
 import Layout from "../layouts/Layout.astro";
 import albumsData from "../data/albums.json";
-import { Image } from 'astro:assets';
+
+const images = import.meta.glob<{ default: ImageMetadata }>('../assets/*', { eager: true });
 
 const title = "Enya's full album list in order, movie soundtracks | Enya One";
 const description = "All information on Enya's songs, albums and more. Enya Lyrics is a tribute to the New Age singer Enya featuring all her song lyrics, MP3 downloads, Only Time info, albums, news, videos, quotes, biography and more!";
@@ -61,13 +66,13 @@ const schemaJson = {
 
       <div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
-<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><Image src="/ecs.jpg" alt="Christmas Secrets album cover" width="150" height="150" >
+<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><Image src={ecs} alt="Christmas Secrets album cover" width="150" height="150" />
 <p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
 
-<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><Image src="/awc.jpg" alt="And Winter Came album cover" width="150" height="150" >
+<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><Image src={awc} alt="And Winter Came album cover" width="150" height="150" />
 <p><em><strong>And Winter Came...</strong></em><br /> A winter-themed album</p></a>
 
-<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><Image src="/vbe.jpg" alt="The Very Best of Enya album cover" width="150" height="150" >
+<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><Image src={vbe} alt="The Very Best of Enya album cover" width="150" height="150" />
 <p><em><strong>The Very Best of Enya</strong></em><br /> The perfect gift</p></a>
 </div>
 
@@ -98,10 +103,10 @@ const schemaJson = {
         <div class="album-cover">
           {album.link ? (
             <a href={album.link}>
-              <Image src={album.cover} alt={`${album.title} album cover`} width="300" height="300" />
+              <Image src={images['../assets/' + album.cover.replace(/^\//, '')].default} alt={`${album.title} album cover`} width="300" height="300" />
             </a>
           ) : (
-            <Image src={album.cover} alt={`${album.title} album cover`} width="300" height="300" />
+            <Image src={images['../assets/' + album.cover.replace(/^\//, '')].default} alt={`${album.title} album cover`} width="300" height="300" />
           )}
         </div>
         <div class="album-details">
@@ -147,10 +152,10 @@ const schemaJson = {
         <div class="album-cover">
           {album.link ? (
             <a href={album.link}>
-              <Image src={album.cover} alt={`${album.title} cover`} width="300" height="300" />
+              <Image src={images['../assets/' + album.cover.replace(/^\//, '')].default} alt={`${album.title} cover`} width="300" height="300" />
             </a>
           ) : (
-            <Image src={album.cover} alt={`${album.title} cover`} width="300" height="300" />
+            <Image src={images['../assets/' + album.cover.replace(/^\//, '')].default} alt={`${album.title} cover`} width="300" height="300" />
           )}
         </div>
         <div class="album-details">

@@ -1,4 +1,10 @@
 ---
+import { Image } from 'astro:assets';
+import awc from '../assets/awc.jpg';
+import ecs from '../assets/ecs.jpg';
+import sm from '../assets/sm.jpg';
+import vbe from '../assets/vbe.jpg';
+
 import Layout from "../layouts/Layout.astro";
 
 const title = "Enya's Shepherd Moons album (\"Book of Days\", \"Caribbean Blue\" lyrics)";
@@ -36,13 +42,13 @@ const schemaJson = {
    
       <div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
-<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
+<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><Image src={ecs} alt="Christmas Secrets album cover" />
 <p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
 
-<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><img src="/awc.jpg" alt="And Winter Came album cover">
+<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><Image src={awc} alt="And Winter Came album cover" />
 <p><em><strong>And Winter Came...</strong></em><br /> A winter-themed album</p></a>
 
-<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><img src="/vbe.jpg" alt="The Very Best of Enya album cover">
+<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><Image src={vbe} alt="The Very Best of Enya album cover" />
 <p><em><strong>The Very Best of Enya</strong></em><br /> The perfect gift</p></a>
 </div>
 
@@ -50,7 +56,7 @@ const schemaJson = {
 <h1>Shepherd Moons (1991)</h1>
 
 <a class="new-amazon-album-link" href="https://amzn.to/3OCCMyY" rel="nofollow sponsored noopener" target="_blank">
-	<img  src="/sm.jpg" alt="Shepherd Moons (1991)"  width="300" height="300" /></a>
+	<Image  src={sm} alt="Shepherd Moons (1991)"  width="300" height="300" /></a>
 
 <p>Enya's timeless masterpiece, <strong><em>Shepherd Moons</em></strong>, made a resounding impact upon its release in November 1991, securing the coveted Grammy Award for "Best New Age Album" in 1993. This celebrated album exists in multiple versions, each offering its own unique allure. The initial 1991 release showcased a Gaelic language-only rendition of the captivating track <a href="#Book_Of_Days">"Book of Days"</a>. However, Enya's musical journey took an intriguing turn when an English and Gaelic adaptation of the same song found its way into the evocative soundtrack of the film  <a href="/enya-songs-albums#farandaway"><em>Far And Away</em></a>. Subsequent pressings of the album featured a re-recording of this dual-language rendition, replacing the original Gaelic-only version.</p>
 	 

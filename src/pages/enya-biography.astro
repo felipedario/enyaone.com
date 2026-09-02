@@ -1,4 +1,13 @@
 ---
+import amarantine12 from '../assets/amarantine12.jpg';
+import awc from '../assets/awc.jpg';
+import ecs from '../assets/ecs.jpg';
+import elEnya from '../assets/el-enya.jpg';
+import enyaBio from '../assets/enya-bio.jpg';
+import grammy200705 from '../assets/grammy2007_05.jpg';
+import iwt from '../assets/iwt.jpg';
+import vbe from '../assets/vbe.jpg';
+
 import Layout from "../layouts/Layout.astro";
 import { Image } from 'astro:assets';
 
@@ -20,13 +29,13 @@ const schemaJson = {
 
       <div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
-<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><Image src="/ecs.jpg" alt="Christmas Secrets album cover" width="150" height="150" >
+<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><Image src={ecs} alt="Christmas Secrets album cover" width="150" height="150" />
 <p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
 
-<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><Image src="/awc.jpg" alt="And Winter Came album cover" width="150" height="150" >
+<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><Image src={awc} alt="And Winter Came album cover" width="150" height="150" />
 <p><em><strong>And Winter Came...</strong></em><br /> A winter-themed album</p></a>
 
-<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><Image src="/vbe.jpg" alt="The Very Best of Enya album cover" width="150" height="150" >
+<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><Image src={vbe} alt="The Very Best of Enya album cover" width="150" height="150" />
 <p><em><strong>The Very Best of Enya</strong></em><br /> The perfect gift</p></a>
 </div>
 
@@ -36,7 +45,7 @@ const schemaJson = {
 <p><strong>Eithne Pádraigín Ní Bhraonáin</strong> (anglicised as <strong>Enya Patricia Brennan</strong>; born 17 May 1961), known professionally as Enya, is an Irish singer, songwriter, record producer and musician.</p>
 
 <a class="new-amazon-album-link right-amazon-album-link" href="https://amzn.to/3SU09Xt" rel="nofollow sponsored noopener" target="_blank">
-	<Image  title="Audio, images and low prices at Amazon" src="/enya-bio.jpg" alt="The Very Best of Enya album"  width="300" height="300" /> </a>
+	<Image  title="Audio, images and low prices at Amazon" src={enyaBio} alt="The Very Best of Enya album"  width="300" height="300" /> </a>
 
 
 
@@ -227,7 +236,7 @@ although she was never officially a member of the group. Enya struck out on her 
 <h3 id="Solo_career">Solo career</h2>
 
 <div style="float: left; width: 345px; margin:10px 30px 1em 0;">
-<a href="/1390.jpg"><Image src="/iwt.jpg" alt=""   width="150" height="150" /></a>
+<a href="/1390.jpg"><Image src={iwt} alt=""   width="150" height="150" /></a>
 <p style="font-size: 0.9em; margin-bottom: 0;">
 <em>Enya in <a href="/video-i-want-tomorrow">music video for "I Want Tomorrow"</a>, from the soundtrack of</em>  <a href="/the-celts-documentary">The Celts <em>documentary</a>.</em></p>
 </div>
@@ -400,7 +409,7 @@ or an EP entitled
 new songs.</p>
 
 <div style="float: right; width: 187px; margin:0 0 1em 30px;">
-<Image src="/grammy2007_05.jpg" alt=""  width="150" height="150" />
+<Image src={grammy200705} alt=""  width="150" height="150" />
 <p style="font-size: 0.9em; margin-bottom: 0;">
 <em>Enya in 2007 Grammy Awards</em>.</p>
 </div>
@@ -419,7 +428,7 @@ new songs.</p>
 <h3 id="Recent_Releases">Recent Releases</h2>
 
 <div style="float: right; width: 279px; margin:10px 0 0 30px;">
-	<a href="/amarantine04.jpg"  rel="nofollow" target="_blank"><Image src="/el-enya.jpg" alt="" title="Show bigger image"  width="150" height="150" /></a>
+	<a href="/amarantine04.jpg"  rel="nofollow" target="_blank"><Image src={elEnya} alt="" title="Show bigger image"  width="150" height="150" /></a>
 	<p style="font-size: 0.9em; margin-bottom: 0;">
 	<em>Enya in a promotional photo for the</em> <a href="/enya-amarantine">Amarantine</a> <em>album</em> (<a href="amarantine04.jpg" rel="nofollow" target="_blank">Show bigger image</a>).</p>
 	</div>
@@ -537,7 +546,7 @@ artwork, reading, painting.</li>
 <h3 id="faq2">More Frequently Asked Question</h2>
 
 <div style="float: right; width: 320px; margin: 10px 0 20px 30px;">
-<a href="/video-amarantine"><Image src="/amarantine12.jpg" alt=""  width="150" height="150" /></a>
+<a href="/video-amarantine"><Image src={amarantine12} alt=""  width="150" height="150" /></a>
 <p style="font-size: 0.9em; margin-bottom: 0;">
 <em>Enya in her 2005 <a href="/video-amarantine">music video "Amarantine"</a></em>.</p>
 </div>

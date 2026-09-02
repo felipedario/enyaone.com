@@ -1,4 +1,30 @@
 ---
+import { Image } from 'astro:assets';
+import eitsthumb from '../assets/eitsthumb.jpg';
+import enyaLiveXmas from '../assets/enya-live-xmas.jpg';
+import enyaLive from '../assets/enya-live.jpg';
+import mqdefault from '../assets/mqdefault.jpg';
+import sicfmwthumb from '../assets/sicfmwthumb.jpg';
+import ththumb from '../assets/ththumb.jpg';
+import vai from '../assets/vai.jpg';
+import vald from '../assets/vald.jpg';
+import vamarantine from '../assets/vamarantine.jpg';
+import vbod from '../assets/vbod.jpg';
+import vcb from '../assets/vcb.jpg';
+import ve from '../assets/ve.jpg';
+import vef from '../assets/vef.jpg';
+import vhcikfs from '../assets/vhcikfs.jpg';
+import viwt from '../assets/viwt.jpg';
+import vmib from '../assets/vmib.jpg';
+import vof from '../assets/vof.jpg';
+import voi from '../assets/voi.jpg';
+import vomwh from '../assets/vomwh.jpg';
+import vot from '../assets/vot.jpg';
+import vrain from '../assets/vrain.jpg';
+import vsia from '../assets/vsia.jpg';
+import vtc from '../assets/vtc.jpg';
+import vwch from '../assets/vwch.jpg';
+
 import Layout from "../layouts/Layout.astro";
 import Sidebar from "../components/Sidebar.astro";
 
@@ -26,7 +52,7 @@ const schemaJson = {
 <tbody>
 <tr>
 <td class="shot">
-<a href="/enya-live-christmas"><img style="width: 150px; height: 100px;" alt=""src="/enya-live-xmas.jpg"  width="150" height="150" /></a>
+<a href="/enya-live-christmas"><Image style="width: 150px; height: 100px;" alt=""src={enyaLiveXmas}  width="150" height="150" /></a>
 </td>
 <td class="desc">
 <p class="vtitle"><a href="/enya-live-christmas">Christmas Carols from Cork (December 2016)</a></p>
@@ -34,7 +60,7 @@ const schemaJson = {
 </tr>
 <tr>
 <td class="shot">
-<a href="/enya-live-video"><img style="width: 150px; height: 100px;" alt=""src="/enya-live.jpg"  width="150" height="150" /></a>
+<a href="/enya-live-video"><Image style="width: 150px; height: 100px;" alt=""src={enyaLive}  width="150" height="150" /></a>
 </td>
 <td class="desc">
 <p class="vtitle"><a href="/enya-live-video">All Enya live performances</a></p>
@@ -55,7 +81,7 @@ const schemaJson = {
 
 <tr>
 <td class="shot">
-<a href="/video-the-humming"><img style="width: 150px; height: 100px;" alt=""src="/ththumb.jpg"  width="150" height="150" /></a>
+<a href="/video-the-humming"><Image style="width: 150px; height: 100px;" alt=""src={ththumb}  width="150" height="150" /></a>
 </td>
 <td class="desc">
 <p class="vtitle"><a href="/video-the-humming">The Humming (Lyric Video), 2015</a></p>
@@ -66,7 +92,7 @@ const schemaJson = {
 
 <tr>
 <td class="shot">
-<a href="/video-even-in-the-shadows"><img style="width: 150px; height: 100px;" alt=""src="/eitsthumb.jpg"  width="150" height="150" /></a>
+<a href="/video-even-in-the-shadows"><Image style="width: 150px; height: 100px;" alt=""src={eitsthumb}  width="150" height="150" /></a>
 </td>
 <td class="desc">
 <p class="vtitle"><a href="/video-even-in-the-shadows">Even In The Shadows, 2015</a></p>
@@ -77,7 +103,7 @@ const schemaJson = {
 
 <tr>
 <td class="shot">
-<a href="/video-so-i-could-find-my-way"><img style="width: 150px; height: 100px;" alt=""src="/sicfmwthumb.jpg"  width="150" height="150" /></a>
+<a href="/video-so-i-could-find-my-way"><Image style="width: 150px; height: 100px;" alt=""src={sicfmwthumb}  width="150" height="150" /></a>
 </td>
 <td class="desc">
 <p class="vtitle"><a href="/video-so-i-could-find-my-way">So I Could Find My Way, 2015</a></p>
@@ -88,7 +114,7 @@ const schemaJson = {
 
 <tr>
 <td class="shot">
-<a href="/video-echoes-rain"><img style="width: 150px; height: 100px;" alt=""src="/mqdefault.jpg"  width="150" height="150" /></a>
+<a href="/video-echoes-rain"><Image style="width: 150px; height: 100px;" alt=""src={mqdefault}  width="150" height="150" /></a>
 </td>
 <td class="desc">
 <p class="vtitle"><a href="/video-echoes-rain">Echoes In Rain (Lyric Video), 2015</a></p>
@@ -105,7 +131,7 @@ const schemaJson = {
 
 <tr>
 <td class="shot">
-<a href="/video-its-in-the-rain"><img style="width: 150px; height: 100px;" alt=""src="/vrain.jpg"  width="150" height="150" /></a>
+<a href="/video-its-in-the-rain"><Image style="width: 150px; height: 100px;" alt=""src={vrain}  width="150" height="150" /></a>
 </td>
 <td class="desc">
 <p class="vtitle"><a href="/video-its-in-the-rain">It's In The Rain, 2006</a></p>
@@ -116,7 +142,7 @@ const schemaJson = {
 
 <tr>
 <td class="shot">
-<a href="/video-amarantine"><img style="border: 0px solid ; width: 150px; height: 100px;" alt=""src="/vamarantine.jpg"  width="150" height="150" /></a>
+<a href="/video-amarantine"><Image style="border: 0px solid ; width: 150px; height: 100px;" alt=""src={vamarantine}  width="150" height="150" /></a>
 </td>
 <td class="desc">
 <p class="vtitle"><a href="/video-amarantine">Amarantine, 2005</a></p>
@@ -132,7 +158,7 @@ const schemaJson = {
 </tr>
 <tr>
 <td class="shot">
-<a href="/video-may-it-be"><img style="width: 150px; height: 100px;" alt=""src="/vmib.jpg"  width="150" height="150" /></a>
+<a href="/video-may-it-be"><Image style="width: 150px; height: 100px;" alt=""src={vmib}  width="150" height="150" /></a>
 </td>
 <td class="desc">
 <p class="vtitle"><a href="/video-may-it-be">May It Be, 2002</a></p>
@@ -148,7 +174,7 @@ const schemaJson = {
 
 <tr>
 <td class="shot">
-<a href="/video-wild-child"><img style="border: 0px solid ; width: 150px; height: 100px;" alt=""src="/vwch.jpg"  width="150" height="150" /></a>
+<a href="/video-wild-child"><Image style="border: 0px solid ; width: 150px; height: 100px;" alt=""src={vwch}  width="150" height="150" /></a>
 </td>
 <td class="desc">
 <p class="vtitle"><a href="/video-wild-child">Wild Child, 2001</a></p>
@@ -158,7 +184,7 @@ const schemaJson = {
 </tr>
 <tr>
 <td class="shot">
-<a href="/video-only-time"><img style="width: 150px; height: 100px;" alt=""src="/vot.jpg"  width="150" height="150" /></a>
+<a href="/video-only-time"><Image style="width: 150px; height: 100px;" alt=""src={vot}  width="150" height="150" /></a>
 </td>
 <td class="desc">
 <p class="vtitle"><a href="/video-only-time">Only Time, 2000</a></p>
@@ -175,7 +201,7 @@ const schemaJson = {
 
 <tr>
 <td class="shot">
-<a href="/video-only-if"><img style="width: 150px; height: 100px;" alt=""src="/voi.jpg"  width="150" height="150" /></a>
+<a href="/video-only-if"><Image style="width: 150px; height: 100px;" alt=""src={voi}  width="150" height="150" /></a>
 </td>
 <td class="desc">
 <p class="vtitle"><a href="/video-only-if">Only If..., 1997</a></p>
@@ -192,7 +218,7 @@ const schemaJson = {
 
 <tr>
 <td class="shot">
-<a href="/video-on-my-way-home"><img style="border: 0px solid ; width: 150px; height: 100px;" alt=""src="/vomwh.jpg"  width="150" height="150" /></a>
+<a href="/video-on-my-way-home"><Image style="border: 0px solid ; width: 150px; height: 100px;" alt=""src={vomwh}  width="150" height="150" /></a>
 </td>
 <td class="desc">
 <p class="vtitle"><a href="/video-on-my-way-home">On My Way Home,  1996</a></p>
@@ -203,7 +229,7 @@ const schemaJson = {
 
 <tr>
 <td class="shot">
-<a href="/video-anywhere-is"><img style="border: 0px solid ; width: 150px; height: 100px;" alt=""src="/vai.jpg"  width="150" height="150" /></a>
+<a href="/video-anywhere-is"><Image style="border: 0px solid ; width: 150px; height: 100px;" alt=""src={vai}  width="150" height="150" /></a>
 </td>
 <td class="desc">
 <p class="vtitle"><a href="/video-anywhere-is">Anywhere Is, 1995</a></p>
@@ -220,7 +246,7 @@ const schemaJson = {
 
 <tr>
 <td class="shot">
-<a href="/video-the-celts"><img style="width: 150px; height: 100px;" alt=""src="/vtc.jpg"  width="150" height="150" /></a>
+<a href="/video-the-celts"><Image style="width: 150px; height: 100px;" alt=""src={vtc}  width="150" height="150" /></a>
 </td>
 <td class="desc">
 <p class="vtitle"><a href="/video-the-celts">The Celts, 1993</a></p>
@@ -237,7 +263,7 @@ const schemaJson = {
 
 <tr>
 <td class="shot">
-<a href="/video-book-of-days"><img style="border: 0px solid ; width: 150px; height: 100px;" alt=""src="/vbod.jpg"  width="150" height="150" /></a>
+<a href="/video-book-of-days"><Image style="border: 0px solid ; width: 150px; height: 100px;" alt=""src={vbod}  width="150" height="150" /></a>
 </td>
 <td class="desc">
 <p class="vtitle"><a href="/video-book-of-days">Book Of Days, 1992</a></p>
@@ -249,7 +275,7 @@ const schemaJson = {
 <tr>
 
 <td class="shot">
-<a href="/video-how-can-i-keep-from-singing"><img src="/vhcikfs.jpg" alt="" style="width: 150px; height: 100px;" width="150" height="100" /></a>
+<a href="/video-how-can-i-keep-from-singing"><Image src={vhcikfs} alt="" style="width: 150px; height: 100px;" width="150" height="100" /></a>
 </td>
 <td class="desc">
 <p class="vtitle"><a href="/video-how-can-i-keep-from-singing">How Can I Keep From Singing?, 1991</a></p>
@@ -260,7 +286,7 @@ const schemaJson = {
 <tr>
 
 <td class="shot">
-<a href="/video-caribbean-blue"><img style="border: 0px solid ; width: 150px; height: 100px;" alt=""src="/vcb.jpg"  width="150" height="150" /></a>
+<a href="/video-caribbean-blue"><Image style="border: 0px solid ; width: 150px; height: 100px;" alt=""src={vcb}  width="150" height="150" /></a>
 </td>
 <td class="desc">
 <p class="vtitle"><a href="/video-caribbean-blue">Caribbean Blue, 1991</a></p>
@@ -277,7 +303,7 @@ const schemaJson = {
 <tr>
 
 <td class="shot">
-<a href="/video-exile"><img style="width: 150px; height: 100px;" alt=""src="/ve.jpg"  width="150" height="150" /></a>
+<a href="/video-exile"><Image style="width: 150px; height: 100px;" alt=""src={ve}  width="150" height="150" /></a>
 </td>
 
 <td class="desc">
@@ -289,7 +315,7 @@ const schemaJson = {
 
 <tr>
 <td class="shot">
-<a href="/video-storms-in-africa-english"><img style="width: 150px; height: 100px;" alt=""src="/vsia.jpg"  width="150" height="150" /></a>
+<a href="/video-storms-in-africa-english"><Image style="width: 150px; height: 100px;" alt=""src={vsia}  width="150" height="150" /></a>
 </td>
 <td class="desc">
 <p class="vtitle"><a href="/video-storms-in-africa-english">Storms In Africa, 1989</a></p>
@@ -300,7 +326,7 @@ const schemaJson = {
 
 <tr>
 <td class="shot">
-<a href="/video-evening-falls"><img style="border: 0px solid ; width: 150px; height: 100px;" alt=""src="/vef.jpg"  width="150" height="150" /></a>
+<a href="/video-evening-falls"><Image style="border: 0px solid ; width: 150px; height: 100px;" alt=""src={vef}  width="150" height="150" /></a>
 </td>
 <td class="desc">
 <p class="vtitle"><a href="/video-evening-falls">Evening Falls..., 1988</a></p>
@@ -311,7 +337,7 @@ const schemaJson = {
 
 <tr>
 <td class="shot">
-<a href="/video-orinoco-flow-sail-away"><img style="width: 150px; height: 100px;" alt=""src="/vof.jpg"  width="150" height="150" /></a>
+<a href="/video-orinoco-flow-sail-away"><Image style="width: 150px; height: 100px;" alt=""src={vof}  width="150" height="150" /></a>
 </td>
 <td class="desc">
 <p class="vtitle"><a href="/video-orinoco-flow-sail-away">Orinoco Flow (Sail Away), 1988</a></p>
@@ -328,7 +354,7 @@ const schemaJson = {
 
 <tr>
 <td class="shot">
-<a href="/video-i-want-tomorrow"><img style="border: 0px solid ; width: 150px; height: 100px;" alt=""src="/viwt.jpg"  width="150" height="150" /></a>
+<a href="/video-i-want-tomorrow"><Image style="border: 0px solid ; width: 150px; height: 100px;" alt=""src={viwt}  width="150" height="150" /></a>
 </td>
 <td class="desc">
 <p class="vtitle"><a href="/video-i-want-tomorrow">I Want Tomorrow, 1987</a></p>
@@ -339,7 +365,7 @@ const schemaJson = {
 
 <tr>
 <td class="shot">
-<a href="/video-aldebaran"><img style="width: 150px; height: 100px;" alt=""src="/vald.jpg"  width="150" height="150" /></a>
+<a href="/video-aldebaran"><Image style="width: 150px; height: 100px;" alt=""src={vald}  width="150" height="150" /></a>
 </td>
 <td class="desc">
 <p class="vtitle"><a href="/video-aldebaran">Aldebaran, 1987</a></p>

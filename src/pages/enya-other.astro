@@ -1,4 +1,11 @@
 ---
+import { Image } from 'astro:assets';
+import awc from '../assets/awc.jpg';
+import ecs from '../assets/ecs.jpg';
+import frogprince from '../assets/frogprince.jpg';
+import tt from '../assets/tt.jpg';
+import vbe from '../assets/vbe.jpg';
+
 import Layout from "../layouts/Layout.astro";
 
 const title = "Movie soundtracks by Enya and more (\"May It Be\", \"Aníron\")";
@@ -36,13 +43,13 @@ const schemaJson = {
     
       <div id="holidays2025">
 <h2><em>Holidays with Enya</em></h2>
-<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><img src="/ecs.jpg" alt="Christmas Secrets album cover">
+<a href="https://amzn.to/4okO9eR" target="_blank" rel="nofollow sponsored noopener"><Image src={ecs} alt="Christmas Secrets album cover" />
 <p><em><strong>Christmas Secrets</strong></em><br /> The ultimate compilation</p></a>
 
-<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><img src="/awc.jpg" alt="And Winter Came album cover">
+<a href="https://amzn.to/43aGdVb" target="_blank" rel="nofollow sponsored noopener"><Image src={awc} alt="And Winter Came album cover" />
 <p><em><strong>And Winter Came...</strong></em><br /> A winter-themed album</p></a>
 
-<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><img src="/vbe.jpg" alt="The Very Best of Enya album cover">
+<a href="https://amzn.to/4hEQ7nG" target="_blank" rel="nofollow sponsored noopener"><Image src={vbe} alt="The Very Best of Enya album cover" />
 <p><em><strong>The Very Best of Enya</strong></em><br /> The perfect gift</p></a>
 </div>
 
@@ -50,7 +57,7 @@ const schemaJson = {
 <h1>Other songs by Enya</h1>
 
 <a class="new-amazon-album-link" href="https://amzn.to/3SU09Xt" rel="nofollow sponsored noopener" target="_blank">
-	<img  src="/vbe.jpg" alt="All Enya songs: Complete list for listening and download"  width="300" height="300" /></a>
+	<Image  src={vbe} alt="All Enya songs: Complete list for listening and download"  width="300" height="300" /></a>
 
 <p>Here are all <strong>songs released by Enya that are not included in her albums</strong>, such as singles b-sides, soundtracks or EPs. They  have never appeared on a <em>standard</em> Enya album, except in a few cases as bonus tracks.</p>
 
@@ -59,7 +66,7 @@ Chiúin"</a> ("Silent Night" in Gaelic), that have been a b-side from the <a hre
 
 </p>In other countries, the album was included in a special box set with Enya's <a href="/enya-amarantine"><em>Amarantine</em></a> album under the name <em>Amarantine: Special Christmas Edition</em>. It only includes the first four tracks of <em>Sounds of the Season</em>.</p>
 
-<a class="h19" href="https://amzn.to/2LtIUcC" style="float: left;" rel="nofollow sponsored noopener" target="_blank"><img src="/ecs.jpg" alt="Christmas Secrets album cover"  width="150" height="150" /></a>
+<a class="h19" href="https://amzn.to/2LtIUcC" style="float: left;" rel="nofollow sponsored noopener" target="_blank"><Image src={ecs} alt="Christmas Secrets album cover"  width="150" height="150" /></a>
 
 <p>In 2019, this album was re-released with additional tracks as the <a href="https://amzn.to/2LtIUcC" rel="nofollow sponsored noopener" target="_blank"><em>Christmas Secrets</em> compilation</a>.</p>
 
@@ -75,13 +82,13 @@ Africa II"</a>.</p>
 
 <h4><em>Touch Travel,</em> 1984</h4>
 
-<img src="/tt.jpg" alt="Touch Travel compilation cover" style="float: left; margin: 0 20px 10px 0;"  width="150" height="150" />
+<Image src={tt} alt="Touch Travel compilation cover" style="float: left; margin: 0 20px 10px 0;"  width="150" height="150" />
 
 <p><strong>Touch Travel</strong>  is a compilation (released only in the cassette format)  which contains music by different artists. It has two instrumental pieces by Enya, still using her real name Eithne N� Bhraon�in: "An Ghaoth �n Ghrian" (The Solar Wind, 2:04, piano and synthesizer) and  "Miss Clare Remembers"  (2:02); the latter would be modified and includend in the album  <a href="/watermark"><em>Watermark</em>  (1988)</a>.</p><p> Both tracks were produced by  Nicky Ryan  and recorded in  Windmill Lane Studios  in  Dublin  in 1983. About 5,000 copies of this compilation were printed. </p>
 
 <h4 id="frogprince"><em>The Frog Prince</em> soundtrack, 1975</h4>
 
-<img src="/frogprince.jpg" alt="The Frog Prince soundtrack cover" style="float: left; margin: 0 20px 10px 0; max-width: 33%;"  width="150" height="150" />
+<Image src={frogprince} alt="The Frog Prince soundtrack cover" style="float: left; margin: 0 20px 10px 0; max-width: 33%;"  width="150" height="150" />
 
 <p>The commission for <strong><em>The Frog Prince</em> soundtrack</strong> was obtained thanks to  Roma Ryan: director  David Puttnam  was looking for a composer;  Ryan  sent some demos to the British director who, after listening to them, decided to entrust this task to Enya.</p> 
 <p>It has songs composed and performed by the Irish singer and other artists. These are mostly instrumental pieces with the exception of  "The Frog Prince",  "Dreams"  (performed by  Enya  and produced by  Nicky Ryan), and  "Les Flon-Flons Du Bal"  by  Edith Piaf.</p>

@@ -1,4 +1,7 @@
 ---
+import { Image } from 'astro:assets';
+import ptsws from '../assets/ptsws.jpg';
+
 import Layout from "../layouts/Layout.astro";
 
 const title = "Paint The Sky With Stars | The Best of Enya (\"Orinoco Flow\" lyrics)";
@@ -36,7 +39,7 @@ const schemaJson = {
       <h1>Paint The Sky With Stars (1997)</h1>
 				
 				<a class="new-amazon-album-link" href="https://amzn.to/49vcwPf" rel="nofollow sponsored noopener" target="_blank">
-					<img  src="/ptsws.jpg" alt="Paint The Sky With Stars (1997)"  width="300" height="300" /></a>
+					<Image  src={ptsws} alt="Paint The Sky With Stars (1997)"  width="300" height="300" /></a>
 				
 				
 				<p>Enya's captivating compilation album, <strong><em>Paint the Sky with Stars</em></strong>, takes listeners on a nostalgic journey through her illustrious career. Spanning from her <a href="/enya-album">self-titled debut album</a> in 1987 to the enchanting melodies of <a href="/the-memory-of-trees"><em>The
