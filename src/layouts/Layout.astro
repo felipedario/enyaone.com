@@ -2,13 +2,28 @@
 import enya2023Adwr from '../assets/enya-2023-adwr.jpg';
 import enya2023Tmot from '../assets/enya-2023-tmot.jpg';
 
-import '@fontsource/alegreya';
-import '@fontsource/lato';
-import '../styles/style-enya-lyrics.css';
-import { Image } from 'astro:assets';
+import '@fontsource/alegreya/400.css';
+import '@fontsource/alegreya/400-italic.css';
+import '@fontsource/alegreya/700.css';
+import '@fontsource/alegreya/700-italic.css';
+
+import '@fontsource/lato/400.css';
+import '@fontsource/lato/400-italic.css';
+import '@fontsource/lato/700.css';
+import '@fontsource/lato/700-italic.css';
 
 import alegreya400 from '@fontsource/alegreya/files/alegreya-latin-400-normal.woff2?url';
+import alegreya400Italic from '@fontsource/alegreya/files/alegreya-latin-400-italic.woff2?url';
+import alegreya700 from '@fontsource/alegreya/files/alegreya-latin-700-normal.woff2?url';
+import alegreya700Italic from '@fontsource/alegreya/files/alegreya-latin-700-italic.woff2?url';
+
 import lato400 from '@fontsource/lato/files/lato-latin-400-normal.woff2?url';
+import lato400Italic from '@fontsource/lato/files/lato-latin-400-italic.woff2?url';
+import lato700 from '@fontsource/lato/files/lato-latin-700-normal.woff2?url';
+import lato700Italic from '@fontsource/lato/files/lato-latin-700-italic.woff2?url';
+
+import '../styles/style-enya-lyrics.css';
+import { Image } from 'astro:assets';
 
 interface Props {
 	title?: string;
@@ -74,6 +89,7 @@ const schemasToRender = schemaJson ? (Array.isArray(schemaJson) ? schemaJson : [
 </script>
 
 <link rel="preload" href={alegreya400} as="font" type="font/woff2" crossorigin />
+<link rel="preload" href={alegreya700} as="font" type="font/woff2" crossorigin />
 <link rel="preload" href={lato400} as="font" type="font/woff2" crossorigin />
 <link rel="preconnect" href="https://fundingchoicesmessages.google.com">
 
