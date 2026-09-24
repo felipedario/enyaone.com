@@ -1,0 +1,28 @@
+# Cloudflare Workers static-assets custom headers.
+# Reference: https://developers.cloudflare.com/workers/static-assets/headers/
+#
+# Hashed build assets (CSS/JS/fonts/images emitted by Astro under /_astro/)
+# are content-addressed: the filename changes whenever the content changes,
+# so it's safe to cache them "forever" in the browser.
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Static images served from /public are NOT hashed, so avoid "immutable".
+# A one-week cache with revalidation keeps updates from getting stuck
+# while still avoiding a full re-fetch on every page view.
+/*.jpg
+  Cache-Control: public, max-age=604800
+/*.JPG
+  Cache-Control: public, max-age=604800
+/*.jpeg
+  Cache-Control: public, max-age=604800
+/*.png
+  Cache-Control: public, max-age=604800
+/*.webp
+  Cache-Control: public, max-age=604800
+/*.gif
+  Cache-Control: public, max-age=604800
+/*.svg
+  Cache-Control: public, max-age=604800
+/favicon.ico
+  Cache-Control: public, max-age=604800

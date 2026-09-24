@@ -69,28 +69,52 @@ const schemasToRender = schemaJson ? (Array.isArray(schemaJson) ? schemaJson : [
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<script
-  type="text/partytown"
-  async
-  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6820018585261081"
-  crossorigin="anonymous">
-</script>
-<script
-  type="text/partytown"
-  async
-  src="https://www.googletagmanager.com/gtag/js?id=G-DGJ1308PT5">
-</script>
-<script type="text/partytown">
+	<script type="text/partytown">
   window.dataLayer = window.dataLayer || [];
   function gtag(){window.dataLayer.push(arguments);}
   window.gtag = gtag;
   gtag('js', new Date());
   gtag('config', 'G-DGJ1308PT5');
 </script>
+<script>
+  // Defer fetching AdSense and GTM until the browser is idle, so their
+  // network requests (including any ad creatives, which can be several
+  // hundred KB to a few MB for video ads) don't compete for bandwidth
+  // with the page's critical-path resources (CSS, fonts, hero image)
+  // on slow connections. Partytown detects scripts added to the DOM
+  // after the initial load, so this is safe to defer.
+  function loadDeferredThirdParties() {
+    var adsense = document.createElement('script');
+    adsense.type = 'text/partytown';
+    adsense.async = true;
+    adsense.crossOrigin = 'anonymous';
+    adsense.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6820018585261081';
+    document.head.appendChild(adsense);
+
+    var gtm = document.createElement('script');
+    gtm.type = 'text/partytown';
+    gtm.async = true;
+    gtm.src = 'https://www.googletagmanager.com/gtag/js?id=G-DGJ1308PT5';
+    document.head.appendChild(gtm);
+  }
+
+  if (document.readyState === 'complete') {
+    loadDeferredThirdParties();
+  } else {
+    window.addEventListener('load', function () {
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(loadDeferredThirdParties, { timeout: 4000 });
+      } else {
+        setTimeout(loadDeferredThirdParties, 1000);
+      }
+    });
+  }
+</script>
 
 <link rel="preload" href={alegreya400} as="font" type="font/woff2" crossorigin />
 <link rel="preload" href={alegreya700} as="font" type="font/woff2" crossorigin />
 <link rel="preload" href={lato400} as="font" type="font/woff2" crossorigin />
+<link rel="preload" href={lato700} as="font" type="font/woff2" crossorigin />
 <link rel="preconnect" href="https://fundingchoicesmessages.google.com">
 
 	<meta http-equiv="x-ua-compatible" content="ie=edge">

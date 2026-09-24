@@ -321,6 +321,9 @@ header {
 }
 .width-33 {
   width: 33%;
+  /* Preserve the image's intrinsic 150x243 ratio so the browser can
+     reserve the correct height before it loads, avoiding CLS. */
+  aspect-ratio: 150 / 243;
 }
 .float-left {
   float: left;

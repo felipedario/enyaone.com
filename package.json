@@ -19,6 +19,10 @@
     "astro": "^4.16.19"
   },
   "devDependencies": {
+    "astro-critters": "^2.2.1",
     "wrangler": "^4.127.1"
+  },
+  "overrides": {
+    "deepmerge-ts": "^8.0.2"
   }
 }
