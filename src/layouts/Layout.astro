@@ -25,6 +25,8 @@ import lato700Italic from '@fontsource/lato/files/lato-latin-700-italic.woff2?ur
 import '../styles/style-enya-lyrics.css';
 import { Image } from 'astro:assets';
 
+import HolidaysAd from '../components/HolidaysAd.astro';
+
 interface Props {
 	title?: string;
 	description?: string;
@@ -182,6 +184,8 @@ const schemasToRender = schemaJson ? (Array.isArray(schemaJson) ? schemaJson : [
 			</nav>
 
 		</header>
+
+		<HolidaysAd />
 
 		<section id="content">
 

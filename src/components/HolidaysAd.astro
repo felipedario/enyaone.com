@@ -1,0 +1,190 @@
+---
+import asce_ad from '../assets/asce_ad.jpg';
+import awc_ad from '../assets/awc_ad.jpeg';
+import dsy_ad from '../assets/dsy_ad.jpeg';
+import tvboe_ad from '../assets/tvboe_ad.jpeg';
+
+// 1. Extraímos a propriedade .src que contém a URL final gerada pelo Astro
+const imgAsce = asce_ad.src;
+const imgAwc = awc_ad.src;
+const imgDsy = dsy_ad.src;
+const imgTvboe = tvboe_ad.src;
+---
+
+<div id="holidays-ad-wrapper" class="holidays-ad-wrapper">
+  <h2 id="ad-main-title">Spend the holidays wrapped in the magic of Enya.</h2>
+  
+  <div id="ad-albums-container" class="ad-grid">
+    <!-- Álbuns injetados dinamicamente via JS -->
+  </div>
+</div>
+
+<style>
+  /* Mantenha todo o seu CSS exatamente como estava */
+  .holidays-ad-wrapper {
+    display: none;
+    margin: 2rem 0;
+    text-align: center;
+  }
+  
+  .holidays-ad-wrapper h2 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 1.5em;
+    color: var(--brand-primary);
+  }
+
+  .ad-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  
+  @media screen and (min-width: 800px) {
+    .ad-grid {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2rem;
+    }
+  }
+
+  .ad-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none !important;
+  }
+
+  .ad-item img {
+    border-radius: var(--radius-sm);
+    margin-bottom: 15px;
+    width: 100% !important;
+    height: 100% !important;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  .ad-item h3 {
+    font-size: 1em;
+    margin: 0 0 0.5em 0;
+    color: var(--text-primary);
+  }
+
+  .ad-item p {
+    font-size: 0.9em;
+    line-height: 1.2;
+    color: var(--text-muted);
+    margin: 0;
+  }
+</style>
+
+<!-- 2. Passamos as variáveis geradas no frontmatter para o script cliente -->
+<script define:vars={{ imgAsce, imgAwc, imgDsy, imgTvboe }}>
+  const mainTitles = [
+    "Spend the holidays wrapped in the magic of Enya",
+    "Experience the magic of the holidays with Enya",
+    "Let Enya's magic embrace your winter season"
+  ];
+
+  const albums = [
+    {
+      title: "Amarantine (Christmas Edition)",
+      url: "https://link.amazon/B0h576hdG", 
+      image: imgAsce, 
+      phrases: [
+        "Ethereal winter magic featuring exclusive seasonal classics",
+        "Discover the festive charm of this expanded masterpiece",
+        "Let the holiday spirit surround you with celestial vocals"
+      ]
+    },
+    {
+      title: "And Winter Came...",
+      url: "https://link.amazon/B0i0Jhtk9",
+      image: imgAwc,
+      phrases: [
+        "A mesmerizing soundtrack for cold and cozy winter nights.",
+        "Embark on a magical winter journey with enchanting melodies.",
+        "Warm your heart with the soundscapes of the coldest season."
+      ]
+    },
+    {
+      title: "Dark Sky Island (Deluxe)",
+      url: "https://link.amazon/B067haxXx",
+      image: imgDsy,
+      phrases: [
+        "A breathtaking celestial journey complete with exclusive bonus tracks",
+        "Explore the winter night sky with this stunning deluxe edition",
+        "An ethereal voyage through stars and winter shadows"
+      ]
+    },
+    {
+      title: "The Very Best of Enya",
+      url: "https://link.amazon/B06Z50EO3",
+      image: imgTvboe,
+      phrases: [
+        "The ultimate holiday gift packed with timeless masterpieces",
+        "Share the gift of ethereal music spanning over two decades",
+        "The perfect present featuring her most unforgettable hits"
+      ]
+    }
+  ];
+
+  const themeColors = {
+    titleColors: ['var(--brand-primary)', 'var(--link-color)', 'var(--text-primary)'],
+    radiuses: ['var(--radius-sm)', 'var(--radius-md)', 'var(--radius-lg)']
+  };
+
+  function getRandomItem(array) {
+    return array[Math.floor(Math.random() * array.length)];
+  }
+
+  function shuffleArray(array) {
+    const newArray = [...array];
+    for (let i = newArray.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+    }
+    return newArray;
+  }
+
+  function renderHolidaysAd() {
+    const wrapper = document.getElementById('holidays-ad-wrapper');
+    const titleEl = document.getElementById('ad-main-title');
+    const containerEl = document.getElementById('ad-albums-container');
+    
+    if (!wrapper || !titleEl || !containerEl) return;
+
+    // Verificação de data UTC (Novembro = 10, Dezembro = 11)
+    const now = new Date();
+    const currentMonth = now.getUTCMonth();
+    
+    // Verifica se o site está a correr no localhost ou IP local
+    const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+    
+    // Se NÃO for localhost e o mês NÃO for novembro (10) ou dezembro (11), interrompe
+    if (!isLocalhost && currentMonth !== 10 && currentMonth !== 11) {
+      return; 
+    }
+
+    // Liberta a exibição do anúncio
+    wrapper.style.display = 'block';
+
+    const randomRadius = getRandomItem(themeColors.radiuses);
+    wrapper.style.borderRadius = randomRadius;
+    titleEl.style.color = getRandomItem(themeColors.titleColors);
+    
+    titleEl.textContent = getRandomItem(mainTitles);
+
+    const shuffledAlbums = shuffleArray(albums);
+
+    containerEl.innerHTML = shuffledAlbums.map(album => `
+      <a href="${album.url}" class="ad-item" target="_blank" rel="noopener noreferrer">
+        <img src="${album.image}" alt="${album.title}" style="border-radius: ${randomRadius};" />
+        <h3>${album.title}</h3>
+        <p>${getRandomItem(album.phrases)}</p>
+      </a>
+    `).join('');
+  }
+
+  renderHolidaysAd();
+  document.addEventListener('astro:page-load', renderHolidaysAd);
+</script>
