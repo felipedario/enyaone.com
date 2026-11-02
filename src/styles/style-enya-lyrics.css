@@ -534,8 +534,9 @@ th {
 }
 
 .feature-cards a{
+  display: block;
   text-decoration: none !important;
-  color: #333 !important;
+  color: #000 !important;
 }
 
 .feature-cards li {
@@ -546,6 +547,9 @@ th {
   border-left: 4px solid var(--brand-primary); /* Detalhe em vermelho da marca */
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   margin: 0 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .feature-cards li:hover {

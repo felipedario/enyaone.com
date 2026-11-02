@@ -23,13 +23,13 @@ const imgTvboe = tvboe_ad.src;
   /* Mantenha todo o seu CSS exatamente como estava */
   .holidays-ad-wrapper {
     display: none;
-    margin: 2rem 1rem 1rem;
+    margin: 2rem 1rem 2rem;
     text-align: center;
   }
   
   .holidays-ad-wrapper h2 {
     margin-top: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     font-size: 1.5em;
     color: var(--brand-primary);
   }
@@ -39,19 +39,8 @@ const imgTvboe = tvboe_ad.src;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
   }
-  
-  @media screen and (min-width: 800px) {
 
-    .holidays-ad-wrapper {
-    margin: 2rem 0;
-  }
-    .ad-grid {
-      grid-template-columns: repeat(4, 1fr);
-      gap: 2rem;
-    }
-  }
-
-  .ad-item {
+  :global(.ad-item) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,7 +48,7 @@ const imgTvboe = tvboe_ad.src;
     text-decoration: none !important;
   }
 
-  .ad-item img {
+  :global(.ad-item img) {
     border-radius: var(--radius-sm);
     margin-bottom: 15px;
     width: 100% !important;
@@ -67,31 +56,67 @@ const imgTvboe = tvboe_ad.src;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   }
 
-  .ad-item h3 {
-    font-size: 1em;
-    margin: 0 0 0.5em 0;
+  :global(.ad-item h3) {
+    font-size: 1.2em;
+    margin: .25rem 0 .5rem;
     color: var(--text-primary);
   }
 
-  .ad-item p {
+  :global(.ad-item p) {
     font-size: 0.9em;
-    line-height: 1.2;
+    line-height: 1.5;
     color: var(--text-muted);
     margin: 0;
   }
+
+  @media screen and (min-width: 800px) {
+    .holidays-ad-wrapper {
+    margin: 2rem 0 3rem;
+  }
+    .ad-grid {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 4rem;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+
+    .holidays-ad-wrapper h2 {
+    margin-bottom: 1rem;
+    font-size: 1.25em;
+    color: var(--brand-primary);
+  }
+
+    :global(.ad-item h3) {
+    font-size: 1em;
+    margin: 0 0 .5rem;
+  }
+ :global(.ad-item p) {
+    display: none;
+  }
+  }
+
 </style>
 
 <!-- 2. Passamos as variáveis geradas no frontmatter para o script cliente -->
 <script define:vars={{ imgAsce, imgAwc, imgDsy, imgTvboe }}>
   const mainTitles = [
-    "Spend the holidays wrapped in the magic of Enya",
     "Experience the magic of the holidays with Enya",
-    "Let Enya's magic embrace your winter season"
+    "Let Enya's magic embrace your winter season",
+    "Celebrate Christmas enveloped in the magic of Enya",
+    "Let Enya's magic warm your Thanksgiving season",
+    "Enjoy your Thanksgiving and Christmas wrapped in Enya's magic",
+    "Immerse yourself in Enya's magic this holiday season",
+    "Surround yourself with the magic of Enya this winter",
+    "Gather for Thanksgiving embraced by Enya's magic",
+    "Fill your Christmas with the enchanting magic of Enya",
+    "From Thanksgiving to Christmas, let Enya's magic fill your home",
+    "Drift through the festive season wrapped in the magic of Enya"
   ];
 
   const albums = [
     {
-      title: "Amarantine (Christmas Edition)",
+      title: "Amarantine Christmas",
       url: "https://link.amazon/B0h576hdG", 
       image: imgAsce, 
       phrases: [
@@ -111,7 +136,7 @@ const imgTvboe = tvboe_ad.src;
       ]
     },
     {
-      title: "Dark Sky Island (Deluxe)",
+      title: "Dark Sky Island",
       url: "https://link.amazon/B067haxXx",
       image: imgDsy,
       phrases: [
