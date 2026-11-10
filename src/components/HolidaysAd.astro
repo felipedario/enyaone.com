@@ -36,7 +36,7 @@ const imgTvboe = tvboe_ad.src;
 
   .ad-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
   }
 
@@ -91,9 +91,12 @@ const imgTvboe = tvboe_ad.src;
     font-size: 1em;
     margin: 0 0 .5rem;
   }
- :global(.ad-item p) {
+
+ :global(.ad-item p),
+ :global(.ad-item):nth-of-type(4) {
     display: none;
   }
+
   }
 
 </style>
